@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: f219911806b144c4f98de58e9c633b74
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 336410
+  packageName: 2D Fantasy Tileset
+  packageVersion: 1.1.0
+  assetPath: Assets/SmallScaleInt/Fantasy kingdom Tileset/Example scene/Scripts/Inventory/UIHoverListener.cs
+  uploadId: 853508

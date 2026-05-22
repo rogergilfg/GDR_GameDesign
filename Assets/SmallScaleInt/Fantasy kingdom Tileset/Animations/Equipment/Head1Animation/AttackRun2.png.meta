@@ -1,0 +1,3724 @@
+fileFormatVersion: 2
+guid: 2d2d547a8f062354798e0d714e09644f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5370873062660627963
+    second: AttackRun2_0
+  - first:
+      213: 2826614510368119689
+    second: AttackRun2_1
+  - first:
+      213: 6974522650362359262
+    second: AttackRun2_2
+  - first:
+      213: -3013840806864911707
+    second: AttackRun2_3
+  - first:
+      213: -606496657415156452
+    second: AttackRun2_4
+  - first:
+      213: -864238655735092184
+    second: AttackRun2_5
+  - first:
+      213: -8619142155396898334
+    second: AttackRun2_6
+  - first:
+      213: 3329196503289522127
+    second: AttackRun2_7
+  - first:
+      213: 6705319700030863170
+    second: AttackRun2_8
+  - first:
+      213: 4604299763322412776
+    second: AttackRun2_9
+  - first:
+      213: -2080725627612012256
+    second: AttackRun2_10
+  - first:
+      213: 8940263424395283539
+    second: AttackRun2_11
+  - first:
+      213: -273464133697317846
+    second: AttackRun2_12
+  - first:
+      213: 8689330024080376669
+    second: AttackRun2_13
+  - first:
+      213: 2205735260392456254
+    second: AttackRun2_14
+  - first:
+      213: 9064776283324449568
+    second: AttackRun2_15
+  - first:
+      213: -134541821620545838
+    second: AttackRun2_16
+  - first:
+      213: 7122533229956280063
+    second: AttackRun2_17
+  - first:
+      213: 8746220468000842981
+    second: AttackRun2_18
+  - first:
+      213: 4763072457414671231
+    second: AttackRun2_19
+  - first:
+      213: 5563125001761041262
+    second: AttackRun2_20
+  - first:
+      213: -7004635392281714990
+    second: AttackRun2_21
+  - first:
+      213: -3536913673436401650
+    second: AttackRun2_22
+  - first:
+      213: 3810921819069526264
+    second: AttackRun2_23
+  - first:
+      213: -8450017667559065651
+    second: AttackRun2_24
+  - first:
+      213: -5850834080328943832
+    second: AttackRun2_25
+  - first:
+      213: -2824617852468819949
+    second: AttackRun2_26
+  - first:
+      213: 5800478291177261449
+    second: AttackRun2_27
+  - first:
+      213: 2810704917179323175
+    second: AttackRun2_28
+  - first:
+      213: 198413619781980779
+    second: AttackRun2_29
+  - first:
+      213: 1717065959975462347
+    second: AttackRun2_30
+  - first:
+      213: -5536128985967365767
+    second: AttackRun2_31
+  - first:
+      213: -7769043061131019551
+    second: AttackRun2_32
+  - first:
+      213: -7263885830324331365
+    second: AttackRun2_33
+  - first:
+      213: -2585322681451984347
+    second: AttackRun2_34
+  - first:
+      213: -2683365745957919914
+    second: AttackRun2_35
+  - first:
+      213: 8647745010997669912
+    second: AttackRun2_36
+  - first:
+      213: -1318988061746627461
+    second: AttackRun2_37
+  - first:
+      213: 5014686501303108183
+    second: AttackRun2_38
+  - first:
+      213: -3899631341082672243
+    second: AttackRun2_39
+  - first:
+      213: -1696197119136553229
+    second: AttackRun2_40
+  - first:
+      213: 2370234121849030841
+    second: AttackRun2_41
+  - first:
+      213: 5594900058088498464
+    second: AttackRun2_42
+  - first:
+      213: -3051092796680912621
+    second: AttackRun2_43
+  - first:
+      213: -6928073244162941116
+    second: AttackRun2_44
+  - first:
+      213: 3823494030129892371
+    second: AttackRun2_45
+  - first:
+      213: -6203916931990040686
+    second: AttackRun2_46
+  - first:
+      213: 2804825634827404480
+    second: AttackRun2_47
+  - first:
+      213: 6455839367349322820
+    second: AttackRun2_48
+  - first:
+      213: -1697717453969562119
+    second: AttackRun2_49
+  - first:
+      213: 6261115755163051474
+    second: AttackRun2_50
+  - first:
+      213: -8355095310467017136
+    second: AttackRun2_51
+  - first:
+      213: -6486460998075880378
+    second: AttackRun2_52
+  - first:
+      213: -1975687389293885353
+    second: AttackRun2_53
+  - first:
+      213: 4338943737244447564
+    second: AttackRun2_54
+  - first:
+      213: 7617837547388605454
+    second: AttackRun2_55
+  - first:
+      213: 2495030318074775941
+    second: AttackRun2_56
+  - first:
+      213: -144292059174184069
+    second: AttackRun2_57
+  - first:
+      213: 7445211833613461937
+    second: AttackRun2_58
+  - first:
+      213: 5920957402952910503
+    second: AttackRun2_59
+  - first:
+      213: 3134205202118387072
+    second: AttackRun2_60
+  - first:
+      213: -8555516460208306272
+    second: AttackRun2_61
+  - first:
+      213: 2936058313185121851
+    second: AttackRun2_62
+  - first:
+      213: 8628706786308804007
+    second: AttackRun2_63
+  - first:
+      213: 1655313891937590684
+    second: AttackRun2_64
+  - first:
+      213: -2016905929451612800
+    second: AttackRun2_65
+  - first:
+      213: -5335327486293031910
+    second: AttackRun2_66
+  - first:
+      213: 6935275920520864569
+    second: AttackRun2_67
+  - first:
+      213: 7677977516495898689
+    second: AttackRun2_68
+  - first:
+      213: 2344350559965089295
+    second: AttackRun2_69
+  - first:
+      213: 1875900298397004307
+    second: AttackRun2_70
+  - first:
+      213: 994666495192004054
+    second: AttackRun2_71
+  - first:
+      213: 2520799670615098418
+    second: AttackRun2_72
+  - first:
+      213: 1745555767637818899
+    second: AttackRun2_73
+  - first:
+      213: 4763632009938194729
+    second: AttackRun2_74
+  - first:
+      213: 2536943324631647419
+    second: AttackRun2_75
+  - first:
+      213: 2174672621290082479
+    second: AttackRun2_76
+  - first:
+      213: -2019573889220092588
+    second: AttackRun2_77
+  - first:
+      213: -3436933036862421799
+    second: AttackRun2_78
+  - first:
+      213: 2845649456445185098
+    second: AttackRun2_79
+  - first:
+      213: -5749993987457838589
+    second: AttackRun2_80
+  - first:
+      213: -6033778246264832743
+    second: AttackRun2_81
+  - first:
+      213: -824517103582915117
+    second: AttackRun2_82
+  - first:
+      213: -3927406330602536052
+    second: AttackRun2_83
+  - first:
+      213: 1022417810412027684
+    second: AttackRun2_84
+  - first:
+      213: -2957700545129573103
+    second: AttackRun2_85
+  - first:
+      213: -3088846125251642983
+    second: AttackRun2_86
+  - first:
+      213: -910702740928416807
+    second: AttackRun2_87
+  - first:
+      213: -7478512625736037018
+    second: AttackRun2_88
+  - first:
+      213: -5963379106495870821
+    second: AttackRun2_89
+  - first:
+      213: -4762727504748922864
+    second: AttackRun2_90
+  - first:
+      213: 6854763482733144209
+    second: AttackRun2_91
+  - first:
+      213: -5127190690450000574
+    second: AttackRun2_92
+  - first:
+      213: -6205046944075694626
+    second: AttackRun2_93
+  - first:
+      213: 6332985452302283103
+    second: AttackRun2_94
+  - first:
+      213: 3623415364986611336
+    second: AttackRun2_95
+  - first:
+      213: -8016715877253753979
+    second: AttackRun2_96
+  - first:
+      213: -5079507547872415389
+    second: AttackRun2_97
+  - first:
+      213: -5854469853276834647
+    second: AttackRun2_98
+  - first:
+      213: -8972118438587495833
+    second: AttackRun2_99
+  - first:
+      213: 1845657355680665726
+    second: AttackRun2_100
+  - first:
+      213: 9014055452014299551
+    second: AttackRun2_101
+  - first:
+      213: -5212147041607483253
+    second: AttackRun2_102
+  - first:
+      213: 7752585473580311786
+    second: AttackRun2_103
+  - first:
+      213: 7863470557538499142
+    second: AttackRun2_104
+  - first:
+      213: -3869539831398177720
+    second: AttackRun2_105
+  - first:
+      213: -3810212633061149065
+    second: AttackRun2_106
+  - first:
+      213: -5637466544466226698
+    second: AttackRun2_107
+  - first:
+      213: 2055133737415620077
+    second: AttackRun2_108
+  - first:
+      213: 3101787688414723680
+    second: AttackRun2_109
+  - first:
+      213: 3237024866842569297
+    second: AttackRun2_110
+  - first:
+      213: -2545528344875774943
+    second: AttackRun2_111
+  - first:
+      213: 6723825309691612892
+    second: AttackRun2_112
+  - first:
+      213: 9173642921739622522
+    second: AttackRun2_113
+  - first:
+      213: 3148016921331409871
+    second: AttackRun2_114
+  - first:
+      213: -7927407750872563102
+    second: AttackRun2_115
+  - first:
+      213: -4587204435556054592
+    second: AttackRun2_116
+  - first:
+      213: 1141300657013461010
+    second: AttackRun2_117
+  - first:
+      213: -9156455647793071857
+    second: AttackRun2_118
+  - first:
+      213: -6503481396128334989
+    second: AttackRun2_119
+  - first:
+      213: 1144261552436495224
+    second: AttackRun2_0_0
+  - first:
+      213: 156509328256918059
+    second: AttackRun2_0_1
+  - first:
+      213: 1859770637815219324
+    second: AttackRun2_0_2
+  - first:
+      213: 8379342488086716746
+    second: AttackRun2_0_3
+  - first:
+      213: -8482708912148932941
+    second: AttackRun2_0_4
+  - first:
+      213: 4197960852839277897
+    second: AttackRun2_0_5
+  - first:
+      213: 6488740681031641011
+    second: AttackRun2_0_6
+  - first:
+      213: -5693293424759354616
+    second: AttackRun2_0_7
+  - first:
+      213: -3870493609221988654
+    second: AttackRun2_0_8
+  - first:
+      213: 1495617981656559967
+    second: AttackRun2_0_9
+  - first:
+      213: -4708193107910455204
+    second: AttackRun2_0_10
+  - first:
+      213: -3038503835798408816
+    second: AttackRun2_0_11
+  - first:
+      213: -8484988851802309172
+    second: AttackRun2_0_12
+  - first:
+      213: -7832865580513414964
+    second: AttackRun2_0_13
+  - first:
+      213: -7978648414033757816
+    second: AttackRun2_0_14
+  - first:
+      213: -1325117696087527138
+    second: AttackRun2_1_0
+  - first:
+      213: -4589135167169839727
+    second: AttackRun2_1_1
+  - first:
+      213: -8928199215544107833
+    second: AttackRun2_1_2
+  - first:
+      213: 2864410951384911388
+    second: AttackRun2_1_3
+  - first:
+      213: -1755677694054160498
+    second: AttackRun2_1_4
+  - first:
+      213: 155887517084716741
+    second: AttackRun2_1_5
+  - first:
+      213: -6072368204219389204
+    second: AttackRun2_1_6
+  - first:
+      213: 6392802823692717743
+    second: AttackRun2_1_7
+  - first:
+      213: 321034823109962804
+    second: AttackRun2_1_8
+  - first:
+      213: 1642840442019370087
+    second: AttackRun2_1_9
+  - first:
+      213: 3351452821409771184
+    second: AttackRun2_1_10
+  - first:
+      213: 4770865309385619497
+    second: AttackRun2_1_11
+  - first:
+      213: -1302914519697948139
+    second: AttackRun2_1_12
+  - first:
+      213: -1417689665347789013
+    second: AttackRun2_1_13
+  - first:
+      213: 4951459781720036239
+    second: AttackRun2_1_14
+  - first:
+      213: 2145591304646783681
+    second: AttackRun2_2_0
+  - first:
+      213: 4076653465067258332
+    second: AttackRun2_2_1
+  - first:
+      213: -3973640501618926586
+    second: AttackRun2_2_2
+  - first:
+      213: 2246003377882283987
+    second: AttackRun2_2_3
+  - first:
+      213: -6168927898072407770
+    second: AttackRun2_2_4
+  - first:
+      213: 5883916145331842397
+    second: AttackRun2_2_5
+  - first:
+      213: -3341234310463415137
+    second: AttackRun2_2_6
+  - first:
+      213: 1550909730751370955
+    second: AttackRun2_2_7
+  - first:
+      213: -2875088452390522390
+    second: AttackRun2_2_8
+  - first:
+      213: -3277282502933362437
+    second: AttackRun2_2_9
+  - first:
+      213: 6345168792566092651
+    second: AttackRun2_2_10
+  - first:
+      213: 3498730009111159268
+    second: AttackRun2_2_11
+  - first:
+      213: 4069037034338237919
+    second: AttackRun2_2_12
+  - first:
+      213: 7126659738896838293
+    second: AttackRun2_2_13
+  - first:
+      213: 4624925588778218997
+    second: AttackRun2_2_14
+  - first:
+      213: -123383309984155401
+    second: AttackRun2_3_0
+  - first:
+      213: 5131617509297964215
+    second: AttackRun2_3_1
+  - first:
+      213: 3897006232936128719
+    second: AttackRun2_3_2
+  - first:
+      213: 1129199045559401330
+    second: AttackRun2_3_3
+  - first:
+      213: -2183901498503584957
+    second: AttackRun2_3_4
+  - first:
+      213: 3894857768414999106
+    second: AttackRun2_3_5
+  - first:
+      213: 816594358443096985
+    second: AttackRun2_3_6
+  - first:
+      213: 4531662415966700879
+    second: AttackRun2_3_7
+  - first:
+      213: 8509758185432773421
+    second: AttackRun2_3_8
+  - first:
+      213: 4033977325836115048
+    second: AttackRun2_3_9
+  - first:
+      213: -8974288347723822794
+    second: AttackRun2_3_10
+  - first:
+      213: -6873160995440732347
+    second: AttackRun2_3_11
+  - first:
+      213: 2825125867807319860
+    second: AttackRun2_3_12
+  - first:
+      213: 744022219614767522
+    second: AttackRun2_3_13
+  - first:
+      213: 6729542060812626407
+    second: AttackRun2_3_14
+  - first:
+      213: -2191806631618216889
+    second: AttackRun2_4_0
+  - first:
+      213: 2793653832300980704
+    second: AttackRun2_4_1
+  - first:
+      213: 1331398828610885058
+    second: AttackRun2_4_2
+  - first:
+      213: -6251253894227194592
+    second: AttackRun2_4_3
+  - first:
+      213: 4933118079091210315
+    second: AttackRun2_4_4
+  - first:
+      213: 5616907787010489295
+    second: AttackRun2_4_5
+  - first:
+      213: 2307878756907019296
+    second: AttackRun2_4_6
+  - first:
+      213: -655099020156705866
+    second: AttackRun2_4_7
+  - first:
+      213: 719928298541997827
+    second: AttackRun2_4_8
+  - first:
+      213: -7716164555405335420
+    second: AttackRun2_4_9
+  - first:
+      213: -2128440515750193826
+    second: AttackRun2_4_10
+  - first:
+      213: 7984039249987261219
+    second: AttackRun2_4_11
+  - first:
+      213: 263183270497955868
+    second: AttackRun2_4_12
+  - first:
+      213: 4256994658867701680
+    second: AttackRun2_4_13
+  - first:
+      213: -7487330193986499155
+    second: AttackRun2_4_14
+  - first:
+      213: 7120486507628953049
+    second: AttackRun2_5_0
+  - first:
+      213: 7283186792328308508
+    second: AttackRun2_5_1
+  - first:
+      213: 5753535786850751660
+    second: AttackRun2_5_2
+  - first:
+      213: -9200950500901045507
+    second: AttackRun2_5_3
+  - first:
+      213: 7113957167832595249
+    second: AttackRun2_5_4
+  - first:
+      213: -6239933604468314216
+    second: AttackRun2_5_5
+  - first:
+      213: -2531584108143229240
+    second: AttackRun2_5_6
+  - first:
+      213: -7163909017345545551
+    second: AttackRun2_5_7
+  - first:
+      213: 3573615313239188190
+    second: AttackRun2_5_8
+  - first:
+      213: 6628880553579657544
+    second: AttackRun2_5_9
+  - first:
+      213: 8563954668268934292
+    second: AttackRun2_5_10
+  - first:
+      213: 1442455641667427847
+    second: AttackRun2_5_11
+  - first:
+      213: 3738459308087544357
+    second: AttackRun2_5_12
+  - first:
+      213: 7370528940436094185
+    second: AttackRun2_5_13
+  - first:
+      213: 4046453093088712682
+    second: AttackRun2_5_14
+  - first:
+      213: 621066255982365837
+    second: AttackRun2_6_0
+  - first:
+      213: -541381035365395125
+    second: AttackRun2_6_1
+  - first:
+      213: 6610741286760387447
+    second: AttackRun2_6_2
+  - first:
+      213: 7526878440681998779
+    second: AttackRun2_6_3
+  - first:
+      213: -4122388241135175446
+    second: AttackRun2_6_4
+  - first:
+      213: 3897409849378554825
+    second: AttackRun2_6_5
+  - first:
+      213: 7227965849099136003
+    second: AttackRun2_6_6
+  - first:
+      213: -8932217837864348034
+    second: AttackRun2_6_7
+  - first:
+      213: -7481172715447038300
+    second: AttackRun2_6_8
+  - first:
+      213: -8135287834468639477
+    second: AttackRun2_6_9
+  - first:
+      213: -1759952587782572899
+    second: AttackRun2_6_10
+  - first:
+      213: 4937223803549389245
+    second: AttackRun2_6_11
+  - first:
+      213: 1165925136374054320
+    second: AttackRun2_6_12
+  - first:
+      213: 1583490242908691976
+    second: AttackRun2_6_13
+  - first:
+      213: -8498435785205809789
+    second: AttackRun2_6_14
+  - first:
+      213: -7899738222520547063
+    second: AttackRun2_7_0
+  - first:
+      213: 7962052666164748894
+    second: AttackRun2_7_1
+  - first:
+      213: -8361454444345831968
+    second: AttackRun2_7_2
+  - first:
+      213: -8525597324912726206
+    second: AttackRun2_7_3
+  - first:
+      213: 8025792185793089920
+    second: AttackRun2_7_4
+  - first:
+      213: -3082516246909736959
+    second: AttackRun2_7_5
+  - first:
+      213: -4662032782677906647
+    second: AttackRun2_7_6
+  - first:
+      213: 8128233563579238651
+    second: AttackRun2_7_7
+  - first:
+      213: -7481410517763565135
+    second: AttackRun2_7_8
+  - first:
+      213: -8233098459711219617
+    second: AttackRun2_7_9
+  - first:
+      213: 4107646308818338294
+    second: AttackRun2_7_10
+  - first:
+      213: -1565691946646588475
+    second: AttackRun2_7_11
+  - first:
+      213: -8275313844573519429
+    second: AttackRun2_7_12
+  - first:
+      213: 5890028726266927524
+    second: AttackRun2_7_13
+  - first:
+      213: -4774638665284818742
+    second: AttackRun2_7_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AttackRun2_0_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8734d13c1db31ef00800000000000000
+      internalID: 1144261552436495224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_0_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b22e9c2a7680c2200800000000000000
+      internalID: 156509328256918059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_0_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c748da6aa8b3fc910800000000000000
+      internalID: 1859770637815219324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_0_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a412fb5e897694470800000000000000
+      internalID: 8379342488086716746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_0_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b6925e003d574a80800000000000000
+      internalID: -8482708912148932941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_0_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9452b766727224a30800000000000000
+      internalID: 4197960852839277897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_0_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b764844543ac0a50800000000000000
+      internalID: 6488740681031641011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_0_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80bc6276bcb5df0b0800000000000000
+      internalID: -5693293424759354616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_0_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2de57e4b19e394ac0800000000000000
+      internalID: -3870493609221988654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_0_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f51735451a081c410800000000000000
+      internalID: 1495617981656559967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_0_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c501e0d305329aeb0800000000000000
+      internalID: -4708193107910455204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_0_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 091f29a2cd015d5d0800000000000000
+      internalID: -3038503835798408816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_0_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccd7c2d38934f3a80800000000000000
+      internalID: -8484988851802309172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_0_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc03d1c31421c4390800000000000000
+      internalID: -7832865580513414964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_0_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 889b8c54a85264190800000000000000
+      internalID: -7978648414033757816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e117e17e97c3c9de0800000000000000
+      internalID: -1325117696087527138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_1_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19db69631ed1050c0800000000000000
+      internalID: -4589135167169839727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_1_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cc7299fd1aa81480800000000000000
+      internalID: -8928199215544107833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_1_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1e4900859e60c720800000000000000
+      internalID: 2864410951384911388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_1_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8723d1707492a7e0800000000000000
+      internalID: -1755677694054160498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_1_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ce80c0fed2d92200800000000000000
+      internalID: 155887517084716741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_1_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea60228a4d9abba0800000000000000
+      internalID: -6072368204219389204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_1_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fae81513c4cc7b850800000000000000
+      internalID: 6392802823692717743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_1_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43cefff787b847400800000000000000
+      internalID: 321034823109962804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_1_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 764d5398daa8cc610800000000000000
+      internalID: 1642840442019370087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_1_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0be2c959590c28e20800000000000000
+      internalID: 3351452821409771184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_1_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 928f925c8b4853240800000000000000
+      internalID: 4770865309385619497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_1_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51284b0c52e1bede0800000000000000
+      internalID: -1302914519697948139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_1_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2fd337b2ca535ce0800000000000000
+      internalID: -1417689665347789013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_1_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f835e01007e17b440800000000000000
+      internalID: 4951459781720036239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c273aa7ceba6cd10800000000000000
+      internalID: 2145591304646783681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_2_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd103b93abe239830800000000000000
+      internalID: 4076653465067258332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_2_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60c16eb540bcad8c0800000000000000
+      internalID: -3973640501618926586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_2_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3df300f1c286b2f10800000000000000
+      internalID: 2246003377882283987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_2_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 621a566d2c0936aa0800000000000000
+      internalID: -6168927898072407770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_2_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5da0b25f8ed7a150800000000000000
+      internalID: 5883916145331842397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_2_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9c1b75e81d81a1d0800000000000000
+      internalID: -3341234310463415137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_2_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc6d12cde20f58510800000000000000
+      internalID: 1550909730751370955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_2_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae17f611942a918d0800000000000000
+      internalID: -2875088452390522390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_2_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf8cd086de0c482d0800000000000000
+      internalID: -3277282502933362437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_2_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b63dbc016619e0850800000000000000
+      internalID: 6345168792566092651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_2_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e1e11ef76cfd8030800000000000000
+      internalID: 3498730009111159268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_2_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fddb3a1cf9f187830800000000000000
+      internalID: 4069037034338237919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_2_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59e260c164bf6e260800000000000000
+      internalID: 7126659738896838293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_2_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f57dbfa1590f2040800000000000000
+      internalID: 4624925588778218997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f8be258887a94ef0800000000000000
+      internalID: -123383309984155401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_3_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b441ecafea273740800000000000000
+      internalID: 5131617509297964215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_3_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc024a98582f41630800000000000000
+      internalID: 3897006232936128719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_3_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27b37479c88bbaf00800000000000000
+      internalID: 1129199045559401330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_3_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 343204d682931b1e0800000000000000
+      internalID: -2183901498503584957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_3_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 242fb0921805d0630800000000000000
+      internalID: 3894857768414999106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_3_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99bb6941e30255b00800000000000000
+      internalID: 816594358443096985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_3_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f450fa125f2b3ee30800000000000000
+      internalID: 4531662415966700879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_3_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d237137abfbb81670800000000000000
+      internalID: 8509758185432773421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_3_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86c117241019bf730800000000000000
+      internalID: 4033977325836115048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_3_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6398ef9ab4ce47380800000000000000
+      internalID: -8974288347723822794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_3_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5475fae7d70ad90a0800000000000000
+      internalID: -6873160995440732347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_3_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4372c64320dd43720800000000000000
+      internalID: 2825125867807319860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_3_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a9c229444c435a00800000000000000
+      internalID: 744022219614767522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_3_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e969c389d2246d50800000000000000
+      internalID: 6729542060812626407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_4_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74cfc023b732591e0800000000000000
+      internalID: -2191806631618216889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_4_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e965bbeb5d05c620800000000000000
+      internalID: 2793653832300980704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_4_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c519b93e241a7210800000000000000
+      internalID: 1331398828610885058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_4_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02d8fc924b51f39a0800000000000000
+      internalID: -6251253894227194592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_4_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b48f94391c4f57440800000000000000
+      internalID: 4933118079091210315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_4_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcbb2e46fd343fd40800000000000000
+      internalID: 5616907787010489295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_4_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02cec12708b370020800000000000000
+      internalID: 2307878756907019296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_4_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b36ada79ee98e6f0800000000000000
+      internalID: -655099020156705866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_4_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30fd85229f2bdf900800000000000000
+      internalID: 719928298541997827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_4_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 484ea96083daae490800000000000000
+      internalID: -7716164555405335420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_4_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e55192db0a24672e0800000000000000
+      internalID: -2128440515750193826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_4_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 323544885610dce60800000000000000
+      internalID: 7984039249987261219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_4_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c103bd44ac307a300800000000000000
+      internalID: 263183270497955868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_4_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b76b847612e31b30800000000000000
+      internalID: 4256994658867701680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_4_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dadc06fabd8a71890800000000000000
+      internalID: -7487330193986499155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_5_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dd7f23b0cc01d260800000000000000
+      internalID: 7120486507628953049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_5_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c17ab85bcc3131560800000000000000
+      internalID: 7283186792328308508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_5_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca49cb9805aa8df40800000000000000
+      internalID: 5753535786850751660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_5_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfa37d5a448af4080800000000000000
+      internalID: -9200950500901045507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_5_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13b71005a5ad9b260800000000000000
+      internalID: 7113957167832595249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_5_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89fa4a3827d4769a0800000000000000
+      internalID: -6239933604468314216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_5_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c64913aaa10edcd0800000000000000
+      internalID: -2531584108143229240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_5_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1baa6e964bea49c90800000000000000
+      internalID: -7163909017345545551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_5_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed2a48d8138089130800000000000000
+      internalID: 3573615313239188190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_5_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8493c9efdb38efb50800000000000000
+      internalID: 6628880553579657544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_5_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 494d7b2a56749d670800000000000000
+      internalID: 8563954668268934292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_5_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70e58dd73c1a40410800000000000000
+      internalID: 1442455641667427847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_5_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52a8fc9feeca1e330800000000000000
+      internalID: 3738459308087544357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_5_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ecfd654501694660800000000000000
+      internalID: 7370528940436094185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_5_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae755dd26a3e72830800000000000000
+      internalID: 4046453093088712682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_6_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8c8fc128787e9800800000000000000
+      internalID: 621066255982365837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_6_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4599e211d0ac78f0800000000000000
+      internalID: -541381035365395125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_6_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7739c53dc221ebb50800000000000000
+      internalID: 6610741286760387447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_6_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb9856c0018d47860800000000000000
+      internalID: 7526878440681998779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_6_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae8f3ec6cb55ac6c0800000000000000
+      internalID: -4122388241135175446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_6_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c34150db91661630800000000000000
+      internalID: 3897409849378554825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_6_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30c6534f4a4ee4460800000000000000
+      internalID: 7227965849099136003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_6_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7610bd83336a0480800000000000000
+      internalID: -8932217837864348034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_6_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ae4f606d098d2890800000000000000
+      internalID: -7481172715447038300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_6_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0d90f031d6a91f80800000000000000
+      internalID: -8135287834468639477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_6_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d94b0bf22746397e0800000000000000
+      internalID: -1759952587782572899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_6_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db11a2b04ea848440800000000000000
+      internalID: 4937223803549389245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_6_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bd3644fbb23e2010800000000000000
+      internalID: 1165925136374054320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_6_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80e9ed97cffa9f510800000000000000
+      internalID: 1583490242908691976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_6_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38df6541ead7f0a80800000000000000
+      internalID: -8498435785205809789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_7_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9094614f0fd7e5290800000000000000
+      internalID: -7899738222520547063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_7_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e52a3b117b4ee7e60800000000000000
+      internalID: 7962052666164748894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_7_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0edc727db7526fb80800000000000000
+      internalID: -8361454444345831968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_7_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24f6e8e476efea980800000000000000
+      internalID: -8525597324912726206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_7_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0819d437877516f60800000000000000
+      internalID: 8025792185793089920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_7_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10823982ec3b835d0800000000000000
+      internalID: -3082516246909736959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_7_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92be14972e12d4fb0800000000000000
+      internalID: -4662032782677906647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_7_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf84c806c594dc070800000000000000
+      internalID: 8128233563579238651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_7_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b9d4d5b5c0bc2890800000000000000
+      internalID: -7481410517763565135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_7_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f58d81c52982ebd80800000000000000
+      internalID: -8233098459711219617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_7_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f1cf0cfd8a410930800000000000000
+      internalID: 4107646308818338294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_7_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c3b07c487b854ae0800000000000000
+      internalID: -1565691946646588475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_7_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb1c25127ed282d80800000000000000
+      internalID: -8275313844573519429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_7_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a99cf97be59db150800000000000000
+      internalID: 5890028726266927524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackRun2_7_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac86ad85e631dbdb0800000000000000
+      internalID: -4774638665284818742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      AttackRun2_0: -5370873062660627963
+      AttackRun2_0_0: 1144261552436495224
+      AttackRun2_0_1: 156509328256918059
+      AttackRun2_0_10: -4708193107910455204
+      AttackRun2_0_11: -3038503835798408816
+      AttackRun2_0_12: -8484988851802309172
+      AttackRun2_0_13: -7832865580513414964
+      AttackRun2_0_14: -7978648414033757816
+      AttackRun2_0_2: 1859770637815219324
+      AttackRun2_0_3: 8379342488086716746
+      AttackRun2_0_4: -8482708912148932941
+      AttackRun2_0_5: 4197960852839277897
+      AttackRun2_0_6: 6488740681031641011
+      AttackRun2_0_7: -5693293424759354616
+      AttackRun2_0_8: -3870493609221988654
+      AttackRun2_0_9: 1495617981656559967
+      AttackRun2_1: 2826614510368119689
+      AttackRun2_10: -2080725627612012256
+      AttackRun2_100: 1845657355680665726
+      AttackRun2_101: 9014055452014299551
+      AttackRun2_102: -5212147041607483253
+      AttackRun2_103: 7752585473580311786
+      AttackRun2_104: 7863470557538499142
+      AttackRun2_105: -3869539831398177720
+      AttackRun2_106: -3810212633061149065
+      AttackRun2_107: -5637466544466226698
+      AttackRun2_108: 2055133737415620077
+      AttackRun2_109: 3101787688414723680
+      AttackRun2_11: 8940263424395283539
+      AttackRun2_110: 3237024866842569297
+      AttackRun2_111: -2545528344875774943
+      AttackRun2_112: 6723825309691612892
+      AttackRun2_113: 9173642921739622522
+      AttackRun2_114: 3148016921331409871
+      AttackRun2_115: -7927407750872563102
+      AttackRun2_116: -4587204435556054592
+      AttackRun2_117: 1141300657013461010
+      AttackRun2_118: -9156455647793071857
+      AttackRun2_119: -6503481396128334989
+      AttackRun2_12: -273464133697317846
+      AttackRun2_13: 8689330024080376669
+      AttackRun2_14: 2205735260392456254
+      AttackRun2_15: 9064776283324449568
+      AttackRun2_16: -134541821620545838
+      AttackRun2_17: 7122533229956280063
+      AttackRun2_18: 8746220468000842981
+      AttackRun2_19: 4763072457414671231
+      AttackRun2_1_0: -1325117696087527138
+      AttackRun2_1_1: -4589135167169839727
+      AttackRun2_1_10: 3351452821409771184
+      AttackRun2_1_11: 4770865309385619497
+      AttackRun2_1_12: -1302914519697948139
+      AttackRun2_1_13: -1417689665347789013
+      AttackRun2_1_14: 4951459781720036239
+      AttackRun2_1_2: -8928199215544107833
+      AttackRun2_1_3: 2864410951384911388
+      AttackRun2_1_4: -1755677694054160498
+      AttackRun2_1_5: 155887517084716741
+      AttackRun2_1_6: -6072368204219389204
+      AttackRun2_1_7: 6392802823692717743
+      AttackRun2_1_8: 321034823109962804
+      AttackRun2_1_9: 1642840442019370087
+      AttackRun2_2: 6974522650362359262
+      AttackRun2_20: 5563125001761041262
+      AttackRun2_21: -7004635392281714990
+      AttackRun2_22: -3536913673436401650
+      AttackRun2_23: 3810921819069526264
+      AttackRun2_24: -8450017667559065651
+      AttackRun2_25: -5850834080328943832
+      AttackRun2_26: -2824617852468819949
+      AttackRun2_27: 5800478291177261449
+      AttackRun2_28: 2810704917179323175
+      AttackRun2_29: 198413619781980779
+      AttackRun2_2_0: 2145591304646783681
+      AttackRun2_2_1: 4076653465067258332
+      AttackRun2_2_10: 6345168792566092651
+      AttackRun2_2_11: 3498730009111159268
+      AttackRun2_2_12: 4069037034338237919
+      AttackRun2_2_13: 7126659738896838293
+      AttackRun2_2_14: 4624925588778218997
+      AttackRun2_2_2: -3973640501618926586
+      AttackRun2_2_3: 2246003377882283987
+      AttackRun2_2_4: -6168927898072407770
+      AttackRun2_2_5: 5883916145331842397
+      AttackRun2_2_6: -3341234310463415137
+      AttackRun2_2_7: 1550909730751370955
+      AttackRun2_2_8: -2875088452390522390
+      AttackRun2_2_9: -3277282502933362437
+      AttackRun2_3: -3013840806864911707
+      AttackRun2_30: 1717065959975462347
+      AttackRun2_31: -5536128985967365767
+      AttackRun2_32: -7769043061131019551
+      AttackRun2_33: -7263885830324331365
+      AttackRun2_34: -2585322681451984347
+      AttackRun2_35: -2683365745957919914
+      AttackRun2_36: 8647745010997669912
+      AttackRun2_37: -1318988061746627461
+      AttackRun2_38: 5014686501303108183
+      AttackRun2_39: -3899631341082672243
+      AttackRun2_3_0: -123383309984155401
+      AttackRun2_3_1: 5131617509297964215
+      AttackRun2_3_10: -8974288347723822794
+      AttackRun2_3_11: -6873160995440732347
+      AttackRun2_3_12: 2825125867807319860
+      AttackRun2_3_13: 744022219614767522
+      AttackRun2_3_14: 6729542060812626407
+      AttackRun2_3_2: 3897006232936128719
+      AttackRun2_3_3: 1129199045559401330
+      AttackRun2_3_4: -2183901498503584957
+      AttackRun2_3_5: 3894857768414999106
+      AttackRun2_3_6: 816594358443096985
+      AttackRun2_3_7: 4531662415966700879
+      AttackRun2_3_8: 8509758185432773421
+      AttackRun2_3_9: 4033977325836115048
+      AttackRun2_4: -606496657415156452
+      AttackRun2_40: -1696197119136553229
+      AttackRun2_41: 2370234121849030841
+      AttackRun2_42: 5594900058088498464
+      AttackRun2_43: -3051092796680912621
+      AttackRun2_44: -6928073244162941116
+      AttackRun2_45: 3823494030129892371
+      AttackRun2_46: -6203916931990040686
+      AttackRun2_47: 2804825634827404480
+      AttackRun2_48: 6455839367349322820
+      AttackRun2_49: -1697717453969562119
+      AttackRun2_4_0: -2191806631618216889
+      AttackRun2_4_1: 2793653832300980704
+      AttackRun2_4_10: -2128440515750193826
+      AttackRun2_4_11: 7984039249987261219
+      AttackRun2_4_12: 263183270497955868
+      AttackRun2_4_13: 4256994658867701680
+      AttackRun2_4_14: -7487330193986499155
+      AttackRun2_4_2: 1331398828610885058
+      AttackRun2_4_3: -6251253894227194592
+      AttackRun2_4_4: 4933118079091210315
+      AttackRun2_4_5: 5616907787010489295
+      AttackRun2_4_6: 2307878756907019296
+      AttackRun2_4_7: -655099020156705866
+      AttackRun2_4_8: 719928298541997827
+      AttackRun2_4_9: -7716164555405335420
+      AttackRun2_5: -864238655735092184
+      AttackRun2_50: 6261115755163051474
+      AttackRun2_51: -8355095310467017136
+      AttackRun2_52: -6486460998075880378
+      AttackRun2_53: -1975687389293885353
+      AttackRun2_54: 4338943737244447564
+      AttackRun2_55: 7617837547388605454
+      AttackRun2_56: 2495030318074775941
+      AttackRun2_57: -144292059174184069
+      AttackRun2_58: 7445211833613461937
+      AttackRun2_59: 5920957402952910503
+      AttackRun2_5_0: 7120486507628953049
+      AttackRun2_5_1: 7283186792328308508
+      AttackRun2_5_10: 8563954668268934292
+      AttackRun2_5_11: 1442455641667427847
+      AttackRun2_5_12: 3738459308087544357
+      AttackRun2_5_13: 7370528940436094185
+      AttackRun2_5_14: 4046453093088712682
+      AttackRun2_5_2: 5753535786850751660
+      AttackRun2_5_3: -9200950500901045507
+      AttackRun2_5_4: 7113957167832595249
+      AttackRun2_5_5: -6239933604468314216
+      AttackRun2_5_6: -2531584108143229240
+      AttackRun2_5_7: -7163909017345545551
+      AttackRun2_5_8: 3573615313239188190
+      AttackRun2_5_9: 6628880553579657544
+      AttackRun2_6: -8619142155396898334
+      AttackRun2_60: 3134205202118387072
+      AttackRun2_61: -8555516460208306272
+      AttackRun2_62: 2936058313185121851
+      AttackRun2_63: 8628706786308804007
+      AttackRun2_64: 1655313891937590684
+      AttackRun2_65: -2016905929451612800
+      AttackRun2_66: -5335327486293031910
+      AttackRun2_67: 6935275920520864569
+      AttackRun2_68: 7677977516495898689
+      AttackRun2_69: 2344350559965089295
+      AttackRun2_6_0: 621066255982365837
+      AttackRun2_6_1: -541381035365395125
+      AttackRun2_6_10: -1759952587782572899
+      AttackRun2_6_11: 4937223803549389245
+      AttackRun2_6_12: 1165925136374054320
+      AttackRun2_6_13: 1583490242908691976
+      AttackRun2_6_14: -8498435785205809789
+      AttackRun2_6_2: 6610741286760387447
+      AttackRun2_6_3: 7526878440681998779
+      AttackRun2_6_4: -4122388241135175446
+      AttackRun2_6_5: 3897409849378554825
+      AttackRun2_6_6: 7227965849099136003
+      AttackRun2_6_7: -8932217837864348034
+      AttackRun2_6_8: -7481172715447038300
+      AttackRun2_6_9: -8135287834468639477
+      AttackRun2_7: 3329196503289522127
+      AttackRun2_70: 1875900298397004307
+      AttackRun2_71: 994666495192004054
+      AttackRun2_72: 2520799670615098418
+      AttackRun2_73: 1745555767637818899
+      AttackRun2_74: 4763632009938194729
+      AttackRun2_75: 2536943324631647419
+      AttackRun2_76: 2174672621290082479
+      AttackRun2_77: -2019573889220092588
+      AttackRun2_78: -3436933036862421799
+      AttackRun2_79: 2845649456445185098
+      AttackRun2_7_0: -7899738222520547063
+      AttackRun2_7_1: 7962052666164748894
+      AttackRun2_7_10: 4107646308818338294
+      AttackRun2_7_11: -1565691946646588475
+      AttackRun2_7_12: -8275313844573519429
+      AttackRun2_7_13: 5890028726266927524
+      AttackRun2_7_14: -4774638665284818742
+      AttackRun2_7_2: -8361454444345831968
+      AttackRun2_7_3: -8525597324912726206
+      AttackRun2_7_4: 8025792185793089920
+      AttackRun2_7_5: -3082516246909736959
+      AttackRun2_7_6: -4662032782677906647
+      AttackRun2_7_7: 8128233563579238651
+      AttackRun2_7_8: -7481410517763565135
+      AttackRun2_7_9: -8233098459711219617
+      AttackRun2_8: 6705319700030863170
+      AttackRun2_80: -5749993987457838589
+      AttackRun2_81: -6033778246264832743
+      AttackRun2_82: -824517103582915117
+      AttackRun2_83: -3927406330602536052
+      AttackRun2_84: 1022417810412027684
+      AttackRun2_85: -2957700545129573103
+      AttackRun2_86: -3088846125251642983
+      AttackRun2_87: -910702740928416807
+      AttackRun2_88: -7478512625736037018
+      AttackRun2_89: -5963379106495870821
+      AttackRun2_9: 4604299763322412776
+      AttackRun2_90: -4762727504748922864
+      AttackRun2_91: 6854763482733144209
+      AttackRun2_92: -5127190690450000574
+      AttackRun2_93: -6205046944075694626
+      AttackRun2_94: 6332985452302283103
+      AttackRun2_95: 3623415364986611336
+      AttackRun2_96: -8016715877253753979
+      AttackRun2_97: -5079507547872415389
+      AttackRun2_98: -5854469853276834647
+      AttackRun2_99: -8972118438587495833
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 336410
+  packageName: 2D Fantasy Tileset
+  packageVersion: 1.1.0
+  assetPath: Assets/SmallScaleInt/Fantasy kingdom Tileset/Animations/Equipment/Head1Animation/AttackRun2.png
+  uploadId: 853508

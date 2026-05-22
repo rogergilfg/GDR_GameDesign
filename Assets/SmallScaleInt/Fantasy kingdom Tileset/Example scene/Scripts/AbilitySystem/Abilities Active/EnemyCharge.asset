@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 870381164fd2c1443a840a4f61002b48, type: 3}
+  m_Name: EnemyCharge
+  m_EditorClassIdentifier: 
+  abilityId: 13612694-66fe-4d2d-81e2-21cd356edd9b
+  displayName: Charge
+  description: Charges the target.
+  icon: {fileID: -1132068622, guid: 8b2279182b0282a458ef255246f6e8c7, type: 3}
+  manaCost: 0
+  cooldownSeconds: 10
+  maxCharges: 1
+  startingCharges: -1
+  requireIdleRunner: 1
+  activationRequirements:
+  - rid: 6567839355355529351
+  - rid: 6567839355355529352
+  - rid: 6567839355355529353
+  steps:
+  - rid: 522703806694948943
+  - rid: 522703806694948944
+  - rid: 522703806694948940
+  - rid: 6567839757846970444
+  isPassive: 0
+  isDebuff: 0
+  passiveModifiers: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 522703806694948940
+      type: {class: EnemyAIPauseStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 6
+        waitForCompletion: 1
+        pause: 1
+        duration: 1
+        resumeOnExit: 1
+    - rid: 522703806694948943
+      type: {class: AnimatorTriggerStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 6
+        waitForCompletion: 1
+        command: 0
+        parameterName: Attack5
+        movingParameterName: 
+        movementThresholdSqr: 0.01
+        postDelay: 0
+    - rid: 522703806694948944
+      type: {class: SpawnPrefabStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 6
+        waitForCompletion: 1
+        prefab: {fileID: 0}
+        anchor: 0
+        positionOffset: {x: 0, y: 0, z: 0}
+        parentToAnchor: 0
+        autoDestroyDelay: 2
+    - rid: 6567839355355529351
+      type: {class: DistanceRequirement, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 6
+        requireTarget: 1
+        minDistance: 0.3
+        maxDistance: 2.5
+        use2D: 1
+    - rid: 6567839355355529352
+      type: {class: EnemyEngagedRequirement, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 6
+        requireEnemyAi: 1
+        leashRadiusOverride: 0
+    - rid: 6567839355355529353
+      type: {class: LineOfSightRequirement, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 6
+        blockerMask:
+          serializedVersion: 2
+          m_Bits: 4352
+        maxDistance: 0
+        ownerOffset: {x: 0, y: 0, z: 0}
+        targetOffset: {x: 0, y: 0, z: 0}
+        usePhysics2D: 1
+    - rid: 6567839757846970444
+      type: {class: ChargeMovementStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 6
+        waitForCompletion: 1
+        lockDirectionAtStart: 1
+        chargeSpeed: 8
+        maxDistance: 6
+        maxDuration: 0.8
+        stopOnCollision: 1
+        collisionMask:
+          serializedVersion: 2
+          m_Bits: 2112
+        collisionRadius: 0.3
+        dealDamageOnHit: 1
+        hitDamage: 10
+        damageMask:
+          serializedVersion: 2
+          m_Bits: 2112
+        stopOnHit: 1
+        zeroVelocityEachFrame: 1
+        zeroVelocityOnEnd: 1

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 441f645049985284a9935d617e0c3d5b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 336410
+  packageName: 2D Fantasy Tileset
+  packageVersion: 1.1.0
+  assetPath: Assets/SmallScaleInt/Fantasy kingdom Tileset/Characters/player1/Animation
+    Clips/RideIdle/RideIdle_NW.anim
+  uploadId: 853508

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 5d1c2a4c300e08f49bff97be16154df1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 336410
+  packageName: 2D Fantasy Tileset
+  packageVersion: 1.1.0
+  assetPath: Assets/SmallScaleInt/Fantasy kingdom Tileset/Example scene/Scripts/Tiles/TileData/DT_Wall
+    E16_W.asset
+  uploadId: 853508

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e31f96ef394aa1645ba351c818aab612
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 336410
+  packageName: 2D Fantasy Tileset
+  packageVersion: 1.1.0
+  assetPath: Assets/SmallScaleInt/Fantasy kingdom Tileset/Example scene/Prefabs/Destructible
+    tiles/StoneDamage.prefab
+  uploadId: 853508

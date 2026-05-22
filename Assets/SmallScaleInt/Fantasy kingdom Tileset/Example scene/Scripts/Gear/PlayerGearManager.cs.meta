@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 2242ef02c63db5d4a912f4be7cfd981b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 336410
+  packageName: 2D Fantasy Tileset
+  packageVersion: 1.1.0
+  assetPath: Assets/SmallScaleInt/Fantasy kingdom Tileset/Example scene/Scripts/Gear/PlayerGearManager.cs
+  uploadId: 853508

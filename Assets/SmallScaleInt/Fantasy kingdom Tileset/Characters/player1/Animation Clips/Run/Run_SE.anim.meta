@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 10f85e5a5d617184cbb48df6f260a08c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 336410
+  packageName: 2D Fantasy Tileset
+  packageVersion: 1.1.0
+  assetPath: Assets/SmallScaleInt/Fantasy kingdom Tileset/Characters/player1/Animation
+    Clips/Run/Run_SE.anim
+  uploadId: 853508

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a179a79f87cbde4c97577f1ffd5be3b, type: 3}
+  m_Name: Axe1
+  m_EditorClassIdentifier: 
+  gearId: 368d3903-81b4-4f46-bf89-bfc9e93f61f7
+  displayName: Stone Axe
+  gearType: 2
+  animatorController: {fileID: 9100000, guid: cf4a63bed4fbcae4395c8046157a718c, type: 2}
+  icon: {fileID: -2256434700755907979, guid: 3003e395e54b44644b47acfddadd467d, type: 3}
+  worldIcon: {fileID: 0}
+  uiIconWorldScale: 0.15
+  canAppearInRandomDrops: 1
+  isCraftable: 1
+  requiredLevel: 0
+  spriteColor: {r: 0.7106918, g: 0.7106918, b: 0.7106918, a: 1}
+  rarity: 0
+  strength: 2
+  defense: 0
+  health: 0
+  knowledge: 0
+  intelligence: 0
+  tileDamageBonus: 1
+  damage: 2
+  info: 
+  defaultPlayerBuyPrice: 0
+  defaultPlayerSellPrice: 0
+  salvageResourcesSet:
+    amounts:
+    - type: {fileID: 0}
+      amount: 0
+    - type: {fileID: 11400000, guid: c81e490a0992b894aa571f11fcb20f97, type: 2}
+      amount: 5
+    - type: {fileID: 11400000, guid: 66ade32cf21dfb74d830522c8c94a0d4, type: 2}
+      amount: 5

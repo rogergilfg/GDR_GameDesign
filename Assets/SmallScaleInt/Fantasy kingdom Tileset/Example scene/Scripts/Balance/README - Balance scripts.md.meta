@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3c8335bf12058cb4b8b764a69a81f3f8
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 336410
+  packageName: 2D Fantasy Tileset
+  packageVersion: 1.1.0
+  assetPath: Assets/SmallScaleInt/Fantasy kingdom Tileset/Example scene/Scripts/Balance/README
+    - Balance scripts.md
+  uploadId: 853508

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 15d93b7ede81b344ba1ed6461781b30f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 336410
+  packageName: 2D Fantasy Tileset
+  packageVersion: 1.1.0
+  assetPath: Assets/SmallScaleInt/Fantasy kingdom Tileset/Animations/Equipment/Sword1Animation/Animation
+    Clips/TakeDamage/TakeDamage_SW.anim
+  uploadId: 853508

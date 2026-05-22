@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a179a79f87cbde4c97577f1ffd5be3b, type: 3}
+  m_Name: Axe4
+  m_EditorClassIdentifier: 
+  gearId: 368d3903-81b4-4f46-bf89-bfc9e93f61f7
+  displayName: Gold Axe
+  gearType: 2
+  animatorController: {fileID: 9100000, guid: cf4a63bed4fbcae4395c8046157a718c, type: 2}
+  icon: {fileID: -2256434700755907979, guid: 3003e395e54b44644b47acfddadd467d, type: 3}
+  worldIcon: {fileID: 0}
+  uiIconWorldScale: 0.15
+  canAppearInRandomDrops: 0
+  isCraftable: 1
+  requiredLevel: 0
+  spriteColor: {r: 1, g: 0.9271425, b: 0, a: 1}
+  rarity: 3
+  strength: 10
+  defense: 5
+  health: 5
+  knowledge: 4
+  intelligence: 4
+  tileDamageBonus: 6
+  damage: 10
+  info: 
+  defaultPlayerBuyPrice: 0
+  defaultPlayerSellPrice: 0
+  salvageResourcesSet:
+    amounts:
+    - type: {fileID: 0}
+      amount: 0
+    - type: {fileID: 11400000, guid: c81e490a0992b894aa571f11fcb20f97, type: 2}
+      amount: 5
+    - type: {fileID: 11400000, guid: 99f873a70a934bb4fb781d96b1d2dac5, type: 2}
+      amount: 10
+    - type: {fileID: 11400000, guid: fd324162f784b5e4aa4196c50f5f4e2e, type: 2}
+      amount: 50
+    - type: {fileID: 11400000, guid: f5de209bb0c5ce44e994b27a5f91cbfd, type: 2}
+      amount: 150
+    - type: {fileID: 11400000, guid: 2c06e95f87bd5b84fb1f469662aa5efe, type: 2}
+      amount: 10

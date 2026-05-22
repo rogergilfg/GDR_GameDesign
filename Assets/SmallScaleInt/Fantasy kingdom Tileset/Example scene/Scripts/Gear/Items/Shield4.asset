@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a179a79f87cbde4c97577f1ffd5be3b, type: 3}
+  m_Name: Shield4
+  m_EditorClassIdentifier: 
+  gearId: 59bbed51-ab4b-491f-bfd8-f5a44c2abe95
+  displayName: Copper Shield
+  gearType: 3
+  animatorController: {fileID: 9100000, guid: ff354852eb8829e428321421e11990a9, type: 2}
+  icon: {fileID: 5031754720859683297, guid: 3003e395e54b44644b47acfddadd467d, type: 3}
+  worldIcon: {fileID: 0}
+  uiIconWorldScale: 0.15
+  canAppearInRandomDrops: 1
+  isCraftable: 1
+  requiredLevel: 0
+  spriteColor: {r: 1, g: 0.9165294, b: 0, a: 1}
+  rarity: 3
+  strength: 8
+  defense: 35
+  health: 40
+  knowledge: 7
+  intelligence: 8
+  tileDamageBonus: 0
+  damage: 0
+  info: 
+  defaultPlayerBuyPrice: 0
+  defaultPlayerSellPrice: 0
+  salvageResourcesSet:
+    amounts:
+    - type: {fileID: 11400000, guid: c81e490a0992b894aa571f11fcb20f97, type: 2}
+      amount: 2
+    - type: {fileID: 11400000, guid: fd324162f784b5e4aa4196c50f5f4e2e, type: 2}
+      amount: 5
+    - type: {fileID: 11400000, guid: 99f873a70a934bb4fb781d96b1d2dac5, type: 2}
+      amount: 5
+    - type: {fileID: 11400000, guid: 2c06e95f87bd5b84fb1f469662aa5efe, type: 2}
+      amount: 8

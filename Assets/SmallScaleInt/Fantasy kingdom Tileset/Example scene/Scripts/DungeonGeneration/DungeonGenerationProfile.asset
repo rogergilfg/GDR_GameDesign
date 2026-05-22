@@ -1,0 +1,301 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16029a5f0eb6146419574cfd2d102e0a, type: 3}
+  m_Name: DungeonGenerationProfile
+  m_EditorClassIdentifier: 
+  layout:
+    gridSize: {x: 64, y: 64}
+    targetRoomCount: 10
+    minRoomSize: {x: 4, y: 4}
+    maxRoomSize: {x: 18, y: 18}
+    corridorWidth: 2
+    roomPadding: 3
+    extraConnectorChance: 0.2
+    maxExtraConnectors: 4
+    enableCorridorBreakRooms: 1
+    maxCorridorLength: 12
+    corridorBreakRoomMinSize: {x: 6, y: 5}
+    corridorBreakRoomMaxSize: {x: 10, y: 8}
+    useRandomSeed: 1
+    fixedSeed: 12345
+  placement:
+    horizontalPadding: 32
+    verticalOffset: 0
+    manualOffset: {x: 0, y: 0, z: 0}
+    useAbsoluteOrigin: 0
+    absoluteOrigin: {x: 256, y: 0, z: 0}
+  tilePalette:
+    floorTiles:
+      tiles:
+      - tile: {fileID: 11400000, guid: ecdcf239d2098fd40a046ae572e5dd78, type: 2}
+        weight: 0.01
+      - tile: {fileID: 11400000, guid: 47e4577acf7323d4b98239a5e47eb1f9, type: 2}
+        weight: 0.01
+      - tile: {fileID: 11400000, guid: 558d0c425a800274ba01dab05416e0d3, type: 2}
+        weight: 0.01
+      - tile: {fileID: 11400000, guid: a219d8327b5d03c47a08ccb7086a493f, type: 2}
+        weight: 0.01
+      - tile: {fileID: 11400000, guid: 13536080287a4844e95e96ede1191ce8, type: 2}
+        weight: 0.01
+      - tile: {fileID: 11400000, guid: 1b73ce5a9ffe7854584772a535589ec6, type: 2}
+        weight: 0.01
+      - tile: {fileID: 11400000, guid: 3d91c709992cb7640a3d2fd2a5e926f8, type: 2}
+        weight: 0.01
+      - tile: {fileID: 11400000, guid: c4a3b4b6cb778a94c9fd50b8b5b1f28b, type: 2}
+        weight: 0.01
+    floorAccentTiles:
+      tiles: []
+    straightWalls:
+      east: {fileID: 11400000, guid: d2153d08303c15e4ea65c5176828e467, type: 2}
+      south: {fileID: 11400000, guid: 8ff3d0d3f850147428eb5dd4498126ec, type: 2}
+      west: {fileID: 11400000, guid: ebe76d03eae56a54e8cfcc9a4eb20301, type: 2}
+      north: {fileID: 11400000, guid: 8830e60c0436d354da3c94767d0b7737, type: 2}
+    endCapWalls:
+      east: {fileID: 0}
+      south: {fileID: 0}
+      west: {fileID: 0}
+      north: {fileID: 0}
+    innerCorners:
+      northEast: {fileID: 11400000, guid: 8130287670d87de4aa6cec441b148f05, type: 2}
+      southEast: {fileID: 11400000, guid: f8d3f4c80753ba84a8cd8513ee8728f4, type: 2}
+      southWest: {fileID: 11400000, guid: 69a20df3114298443b0075de5d58c928, type: 2}
+      northWest: {fileID: 11400000, guid: 8e30391e12aacc940af8120cdddbf26d, type: 2}
+    outerCorners:
+      northEast: {fileID: 11400000, guid: 69a20df3114298443b0075de5d58c928, type: 2}
+      southEast: {fileID: 11400000, guid: 8e30391e12aacc940af8120cdddbf26d, type: 2}
+      southWest: {fileID: 11400000, guid: f8d3f4c80753ba84a8cd8513ee8728f4, type: 2}
+      northWest: {fileID: 11400000, guid: 8130287670d87de4aa6cec441b148f05, type: 2}
+  details:
+    detailChance: 0.35
+    detailDensityByDepth:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    detailTiles:
+      tiles:
+      - tile: {fileID: 11400000, guid: 225ef8d28e376aa488df089d0b27a0a0, type: 2}
+        weight: 0
+      - tile: {fileID: 11400000, guid: 5d8fde8c4c9ae8242aac1ebc575aa23e, type: 2}
+        weight: 0
+      - tile: {fileID: 11400000, guid: f24460e343af8594796a38426a39051d, type: 2}
+        weight: 0
+      - tile: {fileID: 11400000, guid: 76b96fe9a3a38b54c92c81f74e1208f7, type: 2}
+        weight: 0
+  objectTiles:
+    placementChance: 0.15
+    objectTiles:
+      tiles:
+      - tile: {fileID: 11400000, guid: c7ccd3101bafcae4db4ea6ca94cb1aa5, type: 2}
+        weight: 0.01
+      - tile: {fileID: 11400000, guid: 9fbf52e1057f67e48845f6d01b3bd67d, type: 2}
+        weight: 0.01
+      - tile: {fileID: 11400000, guid: b2fb60d892737a04b8e445b1065bc731, type: 2}
+        weight: 0.01
+      - tile: {fileID: 11400000, guid: 4ebe2afdd4906294c8c3537267522cf9, type: 2}
+        weight: 0.01
+      - tile: {fileID: 11400000, guid: 66a7c4e9cded78c49a09bc770f82b64f, type: 2}
+        weight: 0.01
+      - tile: {fileID: 11400000, guid: c8b52470796187f469a4013d5163d84a, type: 2}
+        weight: 0.01
+      - tile: {fileID: 11400000, guid: 4d8603b52d6bf334a8e66d1fc359a7bc, type: 2}
+        weight: 0.01
+      - tile: {fileID: 11400000, guid: 64d844a8f81ae834cb0bcf3893924e67, type: 2}
+        weight: 0.01
+      - tile: {fileID: 11400000, guid: 60e8f464ea9d0f249a810a5fe1e8a514, type: 2}
+        weight: 0.01
+      - tile: {fileID: 11400000, guid: 101596346b0222a48bfa590fda6fedac, type: 2}
+        weight: 0.01
+      - tile: {fileID: 11400000, guid: dcd283a8a95687141905bbea749784f7, type: 2}
+        weight: 0.01
+      - tile: {fileID: 11400000, guid: dcd283a8a95687141905bbea749784f7, type: 2}
+        weight: 0.01
+      - tile: {fileID: 11400000, guid: 9e1d5f67deda6334e97377fe37207f27, type: 2}
+        weight: 0.01
+      - tile: {fileID: 11400000, guid: 7b35bfaa5575b88459e8c1a06d37fb0a, type: 2}
+        weight: 0.01
+      - tile: {fileID: 11400000, guid: f11701f8343c29540ac541c2b463c3d3, type: 2}
+        weight: 0.01
+      - tile: {fileID: 11400000, guid: 9e1d5f67deda6334e97377fe37207f27, type: 2}
+        weight: 0.01
+      - tile: {fileID: 11400000, guid: ef77a1b179a110e41806e5a7d0103a2e, type: 2}
+        weight: 0.01
+      - tile: {fileID: 11400000, guid: b95fd467366638a49ad4be72c239f8f5, type: 2}
+        weight: 0.01
+      - tile: {fileID: 11400000, guid: 9e1d5f67deda6334e97377fe37207f27, type: 2}
+        weight: 0.01
+  spawns:
+    enemyRoomChance: 0.903
+    enemyPackSizeRange: {x: 2, y: 5}
+    enemyPrefabs:
+    - prefab: {fileID: 2155867190609425466, guid: 10b4c61401b36ba4a81a7b6dca9fbc9e, type: 3}
+      weight: 0.1
+      countRange: {x: 0, y: 5}
+      allowCorridors: 1
+    - prefab: {fileID: 4773013009227804395, guid: 96fcb7228df7c514595952cd1b426f5b, type: 3}
+      weight: 0.1
+      countRange: {x: 0, y: 2}
+      allowCorridors: 1
+    - prefab: {fileID: 7753215223607232690, guid: d29185c2f4083af4d8cd300504345b12, type: 3}
+      weight: 0.3
+      countRange: {x: 0, y: 5}
+      allowCorridors: 1
+    - prefab: {fileID: 2155867190609425466, guid: ae82ce1ff0876d04cbe0589fddd44adf, type: 3}
+      weight: 0.01
+      countRange: {x: 0, y: 1}
+      allowCorridors: 1
+    - prefab: {fileID: 4773013009227804395, guid: d2c0839eed2f8de4c8dc4ae6e0b7f806, type: 3}
+      weight: 0.01
+      countRange: {x: 0, y: 1}
+      allowCorridors: 1
+    - prefab: {fileID: 7753215223607232690, guid: c19303600e853b54da5d8bcf5d038c34, type: 3}
+      weight: 0.01
+      countRange: {x: 0, y: 1}
+      allowCorridors: 1
+    interactableChance: 0.4
+    interactableCountRange: {x: 0, y: 2}
+    interactablePrefabs: []
+    propChance: 1
+    propCountRange: {x: 0, y: 3}
+    propPrefabs: []
+  portals:
+    startPortalPrefab: {fileID: 9102527409604872686, guid: 5e4c43011b1b7c44b96051cf3480b35a, type: 3}
+    exitPortalPrefab: {fileID: 6886051799919587476, guid: 668451d965e797f469a5b83775e7282d, type: 3}
+    startPortalOffset: {x: 0, y: 0.25, z: 0}
+    exitPortalOffset: {x: 0, y: 0.25, z: 0}
+    spawnStartPortal: 1
+    spawnExitPortal: 1
+  templates:
+    enableTemplates: 1
+    templateChance: 1
+    allowStartRoom: 1
+    allowEndRoom: 1
+    forceTemplatesForAllRooms: 0
+    templates:
+    - template: {fileID: 11400000, guid: 4f224a9e33289904195bc3e1d1cd6b5b, type: 2}
+      weight: 100
+      minRoomSize: {x: 0, y: 0}
+      maxRoomSize: {x: 25, y: 25}
+    - template: {fileID: 11400000, guid: d5a337d275998d149ab8b92cebbc21aa, type: 2}
+      weight: 100
+      minRoomSize: {x: 0, y: 0}
+      maxRoomSize: {x: 25, y: 25}
+    - template: {fileID: 11400000, guid: 8331a1662a15b3e4089e714cee33c4f9, type: 2}
+      weight: 100
+      minRoomSize: {x: 0, y: 0}
+      maxRoomSize: {x: 25, y: 25}
+    - template: {fileID: 11400000, guid: a0749c800cc592b47b9e625c85cc0dee, type: 2}
+      weight: 100
+      minRoomSize: {x: 0, y: 0}
+      maxRoomSize: {x: 25, y: 5}
+  levels:
+    enableLevels: 1
+    totalLevels: 3
+    currentLevel: 1
+    defaultHealthMultiplierPerLevel: 1.15
+    defaultDamageMultiplierPerLevel: 1.1
+    levelDefinitions:
+    - level: 0
+      displayName: Level 1
+      overrideMultipliers: 0
+      healthMultiplierPerLevel: 0
+      damageMultiplierPerLevel: 0
+      spawnEndChest: 1
+      chestPrefab: {fileID: 5368554466447716654, guid: f0a1b3a3e0617e04c857b82f36caddd5, type: 3}
+      chestOffset: {x: 0, y: 0, z: 0}
+      loot:
+      - kind: 1
+        item: {fileID: 11400000, guid: 64f41c32883f9e443bb117d6f80a47f6, type: 2}
+        quantity: 1
+        resourceType: {fileID: 11400000, guid: 4b142209a1dbe58438df1965725b5dad, type: 2}
+        resourceAmount: 50
+      enemyPrefabs: []
+      guaranteedEnemies: []
+    - level: 1
+      displayName: Level 2
+      overrideMultipliers: 0
+      healthMultiplierPerLevel: 0
+      damageMultiplierPerLevel: 0
+      spawnEndChest: 1
+      chestPrefab: {fileID: 5368554466447716654, guid: f0a1b3a3e0617e04c857b82f36caddd5, type: 3}
+      chestOffset: {x: 0, y: 0, z: 0}
+      loot:
+      - kind: 1
+        item: {fileID: 11400000, guid: 03f392eef01f4164c9cde75bafdd1833, type: 2}
+        quantity: 1
+        resourceType: {fileID: 11400000, guid: 4b142209a1dbe58438df1965725b5dad, type: 2}
+        resourceAmount: 50
+      - kind: 1
+        item: {fileID: 0}
+        quantity: 0
+        resourceType: {fileID: 11400000, guid: f2141246a46bd5645a988a6aab309737, type: 2}
+        resourceAmount: 50
+      enemyPrefabs:
+      - prefab: {fileID: 4773013009227804395, guid: d2c0839eed2f8de4c8dc4ae6e0b7f806, type: 3}
+        weight: 0
+        countRange: {x: 0, y: 1}
+        allowCorridors: 0
+      guaranteedEnemies: []
+    - level: 1
+      displayName: Level 3
+      overrideMultipliers: 0
+      healthMultiplierPerLevel: 0
+      damageMultiplierPerLevel: 0
+      spawnEndChest: 1
+      chestPrefab: {fileID: 5368554466447716654, guid: f0a1b3a3e0617e04c857b82f36caddd5, type: 3}
+      chestOffset: {x: 0, y: 0, z: 0}
+      loot:
+      - kind: 1
+        item: {fileID: 0}
+        quantity: 0
+        resourceType: {fileID: 11400000, guid: 4b142209a1dbe58438df1965725b5dad, type: 2}
+        resourceAmount: 50
+      - kind: 1
+        item: {fileID: 0}
+        quantity: 0
+        resourceType: {fileID: 11400000, guid: f2141246a46bd5645a988a6aab309737, type: 2}
+        resourceAmount: 50
+      - kind: 1
+        item: {fileID: 0}
+        quantity: 0
+        resourceType: {fileID: 11400000, guid: fd324162f784b5e4aa4196c50f5f4e2e, type: 2}
+        resourceAmount: 50
+      enemyPrefabs: []
+      guaranteedEnemies:
+      - prefab: {fileID: 6276981232951555473, guid: 714326ac43e417b499c0e71601833d61, type: 3}
+        count: 1
+        allowCorridors: 1
+        applyStatModifiers: 1
+        healthMultiplier: 10
+        damageMultiplier: 10
+        fillScaledEnemiesToMaxHealth: 1
+  progression:
+    forwardOnly: 1

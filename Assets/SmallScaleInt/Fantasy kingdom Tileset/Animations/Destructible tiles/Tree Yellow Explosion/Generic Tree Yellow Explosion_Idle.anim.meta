@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 574f61a9c3bd9a64182799b0f44ea7a7
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 336410
+  packageName: 2D Fantasy Tileset
+  packageVersion: 1.1.0
+  assetPath: Assets/SmallScaleInt/Fantasy kingdom Tileset/Animations/Destructible
+    tiles/Tree Yellow Explosion/Generic Tree Yellow Explosion_Idle.anim
+  uploadId: 853508

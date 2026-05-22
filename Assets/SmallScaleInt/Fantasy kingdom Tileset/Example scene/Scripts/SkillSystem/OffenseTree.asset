@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39017fc8f91b73f40b61a9e80aeefb22, type: 3}
+  m_Name: OffenseTree
+  m_EditorClassIdentifier: 
+  treeId: 3dacc560-5264-458c-aca1-8c607ee96d4d
+  displayName: Offense
+  skillTreeDescription: A master of melee combat and defense. Excels at controlling
+    the battlefield with powerful AoE attacks, charging into enemies to close gaps,
+    and absorbing heavy damage. The premier tank class.
+  icon: {fileID: -1459168578, guid: 8b2279182b0282a458ef255246f6e8c7, type: 3}
+  overrideLayout: 1
+  layoutCellSize: {x: 120, y: 120}
+  layoutSpacing: {x: 4.24, y: 5.5}
+  layoutPadding: {x: 35, y: 16, z: 35, w: 16}
+  requirePointsInTree: 1
+  pointsPerRow: 3
+  nodes:
+  - nodeId: 386d29bf-c5c7-4025-bc39-0638af23884e
+    displayName: 
+    grantedAbility: {fileID: 11400000, guid: f8a9480f3661aca4ea32199ea1569812, type: 2}
+    additionalRankAbilities:
+    - {fileID: 11400000, guid: 88b70906e13654c4683d858be09e5543, type: 2}
+    requiredLevel: 1
+    requiredPointsInTree: 0
+    prerequisiteNodeIds: []
+    editorPosition: {x: 1, y: 0}
+    consumesSkillPoint: 1
+  - nodeId: 4c6b1bed-8170-4141-a797-0cfd12b366ee
+    displayName: 
+    grantedAbility: {fileID: 11400000, guid: 0148cf7b3eaae7349839cab0f0817140, type: 2}
+    additionalRankAbilities: []
+    requiredLevel: 5
+    requiredPointsInTree: 0
+    prerequisiteNodeIds: []
+    editorPosition: {x: 1, y: 3}
+    consumesSkillPoint: 1
+  - nodeId: 8b0752b6-3746-4b82-8907-a87c5bf7918c
+    displayName: 
+    grantedAbility: {fileID: 11400000, guid: 6badc9cc144ea944b9a7c845d2593885, type: 2}
+    additionalRankAbilities: []
+    requiredLevel: 10
+    requiredPointsInTree: 0
+    prerequisiteNodeIds: []
+    editorPosition: {x: 1, y: 4}
+    consumesSkillPoint: 1
+  - nodeId: 7bd37e67-b36a-4db2-8133-d7c8c9297d31
+    displayName: New Skill
+    grantedAbility: {fileID: 11400000, guid: eb7a48de80c6d74479bd95c455355c78, type: 2}
+    additionalRankAbilities: []
+    requiredLevel: 1
+    requiredPointsInTree: 5
+    prerequisiteNodeIds: []
+    editorPosition: {x: 2, y: 1}
+    consumesSkillPoint: 1
+  - nodeId: 5987b9e9-a303-4299-a087-e91c4adda9fe
+    displayName: Frenzy
+    grantedAbility: {fileID: 11400000, guid: 035cfabc2542d294ca98289c3c63c49d, type: 2}
+    additionalRankAbilities: []
+    requiredLevel: 1
+    requiredPointsInTree: 5
+    prerequisiteNodeIds: []
+    editorPosition: {x: 1, y: 2}
+    consumesSkillPoint: 1
+  - nodeId: 48e74e7d-000d-4c04-a28e-f9beefca2f9f
+    displayName: Bleeding strike
+    grantedAbility: {fileID: 11400000, guid: 1029f2b32df5387418607e3cf4ccb77f, type: 2}
+    additionalRankAbilities: []
+    requiredLevel: 1
+    requiredPointsInTree: 0
+    prerequisiteNodeIds: []
+    editorPosition: {x: 0, y: 2}
+    consumesSkillPoint: 1
+  - nodeId: bfed5395-b989-4ad9-b7b9-a45ff317e9e7
+    displayName: Absorb
+    grantedAbility: {fileID: 11400000, guid: 6e8288fb782b4d84ea67970d7df6d02e, type: 2}
+    additionalRankAbilities: []
+    requiredLevel: 1
+    requiredPointsInTree: 0
+    prerequisiteNodeIds: []
+    editorPosition: {x: 2, y: 0}
+    consumesSkillPoint: 1
+  - nodeId: c4ee75b4-9564-4826-81a6-647f11a757b7
+    displayName: Lifesteal I
+    grantedAbility: {fileID: 11400000, guid: 6115287703eaf5847b32e957d9a4cf7f, type: 2}
+    additionalRankAbilities: []
+    requiredLevel: 1
+    requiredPointsInTree: 0
+    prerequisiteNodeIds: []
+    editorPosition: {x: 1, y: 1}
+    consumesSkillPoint: 1
+  - nodeId: d0754a2d-5f65-4842-91d0-9d29b68ae4d1
+    displayName: Health Points I
+    grantedAbility: {fileID: 11400000, guid: b77f2559dc604d0458756f6c5dabe164, type: 2}
+    additionalRankAbilities:
+    - {fileID: 11400000, guid: 6f919d14313488f418a2d976444b6484, type: 2}
+    - {fileID: 11400000, guid: 9ac93e693a59bc146a014a4532b3c65a, type: 2}
+    - {fileID: 11400000, guid: 065d979360739704683585baa6648a84, type: 2}
+    - {fileID: 11400000, guid: e8ef10046657970419c103d50148a436, type: 2}
+    requiredLevel: 1
+    requiredPointsInTree: 0
+    prerequisiteNodeIds: []
+    editorPosition: {x: 0, y: 0}
+    consumesSkillPoint: 1

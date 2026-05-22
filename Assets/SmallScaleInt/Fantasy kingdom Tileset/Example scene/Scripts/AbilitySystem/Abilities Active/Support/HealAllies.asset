@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 870381164fd2c1443a840a4f61002b48, type: 3}
+  m_Name: HealAllies
+  m_EditorClassIdentifier: 
+  abilityId: ae3e02c6-07cc-4db9-a8f3-7662b51d4b63
+  displayName: Heal Allies
+  description: 'You heal an ally (or yourself) for 50% of your total health. '
+  icon: {fileID: -696209473, guid: 8b2279182b0282a458ef255246f6e8c7, type: 3}
+  manaCost: 10
+  cooldownSeconds: 0
+  maxCharges: 0
+  startingCharges: -1
+  requireIdleRunner: 1
+  activationRequirements:
+  - rid: 6567839355355529361
+  - rid: 6567839355355529362
+  steps:
+  - rid: 6567839780720345397
+  - rid: 522703806694948950
+  - rid: 522703806694948951
+  - rid: 522703806694948947
+  - rid: 522703850577330261
+  isPassive: 0
+  isDebuff: 0
+  passiveModifiers: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 522703806694948947
+      type: {class: HealAlliesStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 2
+        waitForCompletion: 0
+        allyMask:
+          serializedVersion: 2
+          m_Bits: 128
+        radius: 4.5
+        healthThreshold: 0.614
+        includeSelf: 1
+        minAllies: 1
+        maxAllies: 3
+        flatHeal: 10
+        percentHeal: 0
+        clampAmount: {x: 1, y: 999}
+        healVfxPrefab: {fileID: 228510626905215035, guid: 28fdc5cb05208a4409165e9b12eb0f1d, type: 3}
+        vfxCleanupDelay: 2
+        showCombatText: 1
+    - rid: 522703806694948950
+      type: {class: AnimatorTriggerStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 15
+        waitForCompletion: 0
+        command: 0
+        parameterName: Special1
+        movingParameterName: 
+        movementThresholdSqr: 0.01
+        postDelay: 0.5
+    - rid: 522703806694948951
+      type: {class: WaitStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 6
+        waitForCompletion: 1
+        duration: 0.5
+        randomVariance: {x: 0, y: 0}
+    - rid: 522703850577330261
+      type: {class: HealAlliesStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 5
+        waitForCompletion: 0
+        allyMask:
+          serializedVersion: 2
+          m_Bits: 2112
+        radius: 4.5
+        healthThreshold: 1
+        includeSelf: 0
+        minAllies: 1
+        maxAllies: 5
+        flatHeal: 10
+        percentHeal: 0.4
+        clampAmount: {x: 1, y: 999}
+        healVfxPrefab: {fileID: 1866324480882511929, guid: cec4f864d5e609345b8e07c0c712d646, type: 3}
+        vfxCleanupDelay: 2
+        showCombatText: 1
+    - rid: 6567839355355529361
+      type: {class: EnemyEngagedRequirement, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 6
+        requireEnemyAi: 1
+        leashRadiusOverride: 0
+    - rid: 6567839355355529362
+      type: {class: DistanceRequirement, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 6
+        requireTarget: 1
+        minDistance: 0
+        maxDistance: 3
+        use2D: 1
+    - rid: 6567839780720345397
+      type: {class: CastTimeStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 1
+        waitForCompletion: 1
+        castDuration: 1.5
+        durationVariance: {x: 0, y: 0}
+        canCastWhileMoving: 0
+        interruptOnDamage: 1
+        cancelAbilityOnInterrupt: 1
+        showCastBar: 1
+        barSize: {x: 35, y: 5}
+        barOffset: {x: 0, y: 0.3}
+        barBackColor: {r: 0, g: 0, b: 0, a: 0.8}
+        barFillColor: {r: 1, g: 0.6223522, b: 0, a: 0.95}
+        castEffectPrefab: {fileID: 5870659064488253120, guid: 706b9ec88c0f4254ab79d60ad1e8bb1c, type: 3}
+        castEffectOffset: {x: 0, y: 0, z: 0}
+        parentCastEffectToOwner: 1
+        castEffectCleanupDelay: 0
+        castTriggerName: Special1
+        exitTriggerName: 
+        repeatCastTrigger: 1
+        castTriggerRefreshInterval: 0.4
+        castStateName: 
+        loopStartNormalizedTime: 0.3
+        loopEndNormalizedTime: 0.5
+        useLoopWindow: 0

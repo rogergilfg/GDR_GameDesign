@@ -1,0 +1,2886 @@
+fileFormatVersion: 2
+guid: 3003e395e54b44644b47acfddadd467d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8480073793970490829
+    second: LootIcons_0
+  - first:
+      213: 5853590689611265921
+    second: LootIcons_1
+  - first:
+      213: -7397415062317645380
+    second: LootIcons_2
+  - first:
+      213: -8150069047024195656
+    second: LootIcons_3
+  - first:
+      213: 5720142631038467146
+    second: LootIcons_4
+  - first:
+      213: 7396695672520530613
+    second: LootIcons_5
+  - first:
+      213: 6450398257268718404
+    second: LootIcons_6
+  - first:
+      213: 1938533570773468768
+    second: LootIcons_7
+  - first:
+      213: 4678059959327580316
+    second: LootIcons_8
+  - first:
+      213: 604312325634756094
+    second: LootIcons_9
+  - first:
+      213: -5397681009988130525
+    second: LootIcons_10
+  - first:
+      213: 8739429988640820741
+    second: LootIcons_11
+  - first:
+      213: -8248994217673953189
+    second: LootIcons_12
+  - first:
+      213: -8007537381409648202
+    second: LootIcons_13
+  - first:
+      213: 6464500583254673498
+    second: LootIcons_14
+  - first:
+      213: -9023169675791814893
+    second: LootIcons_15
+  - first:
+      213: 877309557086224150
+    second: LootIcons_16
+  - first:
+      213: -7551631008683400150
+    second: LootIcons_17
+  - first:
+      213: -9211819585455057460
+    second: LootIcons_18
+  - first:
+      213: -1105339626357972904
+    second: LootIcons_19
+  - first:
+      213: -9044771615090154822
+    second: LootIcons_20
+  - first:
+      213: -981264012838860926
+    second: LootIcons_21
+  - first:
+      213: 7590273087707873053
+    second: LootIcons_22
+  - first:
+      213: 5796915607482829357
+    second: LootIcons_23
+  - first:
+      213: 4099788222091998954
+    second: LootIcons_24
+  - first:
+      213: 1877237512409978266
+    second: LootIcons_25
+  - first:
+      213: 2682119560565881163
+    second: LootIcons_26
+  - first:
+      213: -4933936903651820937
+    second: LootIcons_27
+  - first:
+      213: -8515920959195408668
+    second: LootIcons_28
+  - first:
+      213: -7271023108141098624
+    second: LootIcons_29
+  - first:
+      213: 4886432539214448105
+    second: LootIcons_30
+  - first:
+      213: -8459934818041840097
+    second: LootIcons_31
+  - first:
+      213: 3898421927398449389
+    second: LootIcons_32
+  - first:
+      213: -5583472715925407065
+    second: LootIcons_33
+  - first:
+      213: -8338588318650510368
+    second: LootIcons_34
+  - first:
+      213: -4122313291487787695
+    second: LootIcons_35
+  - first:
+      213: 5895912689531899564
+    second: LootIcons_36
+  - first:
+      213: 470221257942268717
+    second: LootIcons_37
+  - first:
+      213: -4064749885242344625
+    second: LootIcons_38
+  - first:
+      213: -4870042790250985231
+    second: LootIcons_39
+  - first:
+      213: 6223825896341156068
+    second: LootIcons_40
+  - first:
+      213: -4386463871516053886
+    second: LootIcons_41
+  - first:
+      213: 14729447219312329
+    second: LootIcons_42
+  - first:
+      213: 6583298574583246697
+    second: LootIcons_43
+  - first:
+      213: -9056966102339686747
+    second: LootIcons_44
+  - first:
+      213: -6465902380402917334
+    second: LootIcons_45
+  - first:
+      213: -6384548117320552786
+    second: LootIcons_46
+  - first:
+      213: -9091158410601871133
+    second: LootIcons_47
+  - first:
+      213: -7721203160709756827
+    second: LootIcons_48
+  - first:
+      213: 9186425983365229237
+    second: LootIcons_49
+  - first:
+      213: -1694002560087896948
+    second: LootIcons_50
+  - first:
+      213: -4705970944328100546
+    second: LootIcons_51
+  - first:
+      213: -3942160026585036492
+    second: LootIcons_52
+  - first:
+      213: 6557120742042754914
+    second: LootIcons_53
+  - first:
+      213: 1457413013308110
+    second: LootIcons_54
+  - first:
+      213: -9005233549888392940
+    second: LootIcons_55
+  - first:
+      213: 7014477510938804417
+    second: LootIcons_56
+  - first:
+      213: -648851526427138216
+    second: LootIcons_57
+  - first:
+      213: 5927349330349191191
+    second: LootIcons_58
+  - first:
+      213: -2468826724152255888
+    second: LootIcons_59
+  - first:
+      213: -7051707335189007908
+    second: LootIcons_60
+  - first:
+      213: -3242408231857466289
+    second: LootIcons_61
+  - first:
+      213: -4037325604974245419
+    second: LootIcons_62
+  - first:
+      213: -8970231616082047287
+    second: LootIcons_63
+  - first:
+      213: 7835100233464233142
+    second: LootIcons_64
+  - first:
+      213: -2941495851273341257
+    second: LootIcons_65
+  - first:
+      213: 4603271878325839208
+    second: LootIcons_66
+  - first:
+      213: 224019824541615626
+    second: LootIcons_67
+  - first:
+      213: 6235121887505528796
+    second: LootIcons_68
+  - first:
+      213: -1803572138256488453
+    second: LootIcons_69
+  - first:
+      213: -7200967810048025326
+    second: LootIcons_70
+  - first:
+      213: 7725140988397935872
+    second: LootIcons_71
+  - first:
+      213: 7410756869964311434
+    second: LootIcons_72
+  - first:
+      213: 8362989573931579403
+    second: LootIcons_73
+  - first:
+      213: -5345663298361505602
+    second: LootIcons_74
+  - first:
+      213: -6048274974406780678
+    second: LootIcons_75
+  - first:
+      213: 6610696303159105295
+    second: LootIcons_76
+  - first:
+      213: -7782797154873573971
+    second: LootIcons_77
+  - first:
+      213: -4021236378780138009
+    second: LootIcons_78
+  - first:
+      213: 9209615158803437524
+    second: LootIcons_79
+  - first:
+      213: 3360471230366974953
+    second: LootIcons_80
+  - first:
+      213: -2310055391745189353
+    second: LootIcons_81
+  - first:
+      213: 2314736062216856331
+    second: LootIcons_82
+  - first:
+      213: -4146009962214330460
+    second: LootIcons_83
+  - first:
+      213: -5869945270328669020
+    second: LootIcons_84
+  - first:
+      213: 3460877565523891136
+    second: LootIcons_85
+  - first:
+      213: -8877610093440620629
+    second: LootIcons_86
+  - first:
+      213: 7508045228407993414
+    second: LootIcons_87
+  - first:
+      213: 5031754720859683297
+    second: LootIcons_88
+  - first:
+      213: 5271549026558221499
+    second: LootIcons_89
+  - first:
+      213: -985016794497603826
+    second: LootIcons_90
+  - first:
+      213: -6141430005364288659
+    second: LootIcons_91
+  - first:
+      213: -6963983278250564712
+    second: LootIcons_92
+  - first:
+      213: -3795293456382662737
+    second: LootIcons_93
+  - first:
+      213: -4363218903504728482
+    second: LootIcons_94
+  - first:
+      213: -2340506572356310961
+    second: LootIcons_95
+  - first:
+      213: -7381610703100009080
+    second: LootIcons_96
+  - first:
+      213: -8028486867170346740
+    second: LootIcons_97
+  - first:
+      213: 91861600448089671
+    second: LootIcons_98
+  - first:
+      213: -4082568589485304211
+    second: LootIcons_99
+  - first:
+      213: -2256434700755907979
+    second: LootIcons_100
+  - first:
+      213: -181327791239174939
+    second: LootIcons_101
+  - first:
+      213: 3395873717835522277
+    second: LootIcons_102
+  - first:
+      213: 6882474977254762417
+    second: LootIcons_103
+  - first:
+      213: -1807414562662595257
+    second: LootIcons_104
+  - first:
+      213: 6068070095384702609
+    second: LootIcons_105
+  - first:
+      213: 4943426925122736653
+    second: LootIcons_106
+  - first:
+      213: 4159695550304018245
+    second: LootIcons_107
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 300
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LootIcons_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 835
+        width: 27
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcdc5beaf264fa570800000000000000
+      internalID: 8480073793970490829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_1
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 837
+        width: 46
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18730d2f7b12c3150800000000000000
+      internalID: 5853590689611265921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_2
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 837
+        width: 69
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb1ce6aa13a175990800000000000000
+      internalID: -7397415062317645380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_3
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 837
+        width: 57
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b76735f16325ee80800000000000000
+      internalID: -8150069047024195656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_4
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 834
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4cbd939a67026f40800000000000000
+      internalID: 5720142631038467146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_5
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 833
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ba5148568756a660800000000000000
+      internalID: 7396695672520530613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_6
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 835
+        width: 67
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44bfc401a0b648950800000000000000
+      internalID: 6450398257268718404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_7
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 833
+        width: 60
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0664f17030e07ea10800000000000000
+      internalID: 1938533570773468768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_8
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 836
+        width: 58
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c90e2b16fbecbe040800000000000000
+      internalID: 4678059959327580316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_9
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 836
+        width: 51
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efd89debbd2f26800800000000000000
+      internalID: 604312325634756094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_10
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 836
+        width: 56
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32929c438b59715b0800000000000000
+      internalID: -5397681009988130525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_11
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 835
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50e055c6541b84970800000000000000
+      internalID: 8739429988640820741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_12
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 827
+        width: 37
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b50fa4dc67fa58d80800000000000000
+      internalID: -8248994217673953189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_13
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 769
+        width: 55
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b19a676d238fd090800000000000000
+      internalID: -8007537381409648202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_14
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 772
+        width: 58
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a584333b70586b950800000000000000
+      internalID: 6464500583254673498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_15
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 768
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31f2a569cf247c280800000000000000
+      internalID: -9023169675791814893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_16
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 769
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61ffd2cd464dc2c00800000000000000
+      internalID: 877309557086224150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_17
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 773
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a24e99c9b97333790800000000000000
+      internalID: -7551631008683400150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_18
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 771
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc517f1b4ea092080800000000000000
+      internalID: -9211819585455057460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_19
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 772
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85025c6577b09a0f0800000000000000
+      internalID: -1105339626357972904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_20
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 770
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab2e30823248a7280800000000000000
+      internalID: -9044771615090154822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_21
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 773
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2878ddb4499d162f0800000000000000
+      internalID: -981264012838860926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_22
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 772
+        width: 55
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1ff8058821165960800000000000000
+      internalID: 7590273087707873053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_23
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 769
+        width: 53
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2a8ee81808c27050800000000000000
+      internalID: 5796915607482829357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_24
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 771
+        width: 61
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae6bf189aaf55e830800000000000000
+      internalID: 4099788222091998954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_25
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 763
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a951c3e42994d0a10800000000000000
+      internalID: 1877237512409978266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_26
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 762
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b49f7a4a78dc83520800000000000000
+      internalID: 2682119560565881163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_27
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 705
+        width: 58
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77a74a9f682278bb0800000000000000
+      internalID: -4933936903651820937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_28
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 705
+        width: 57
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e69ad3c10f51d980800000000000000
+      internalID: -8515920959195408668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_29
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 705
+        width: 54
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 089d795b103281b90800000000000000
+      internalID: -7271023108141098624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_30
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 705
+        width: 64
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e589c6418810d340800000000000000
+      internalID: 4886432539214448105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_31
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 705
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1e38ab0b16489a80800000000000000
+      internalID: -8459934818041840097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_32
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 705
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de0ad27961af91630800000000000000
+      internalID: 3898421927398449389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_33
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 701
+        width: 41
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aa3e2ab5258382b0800000000000000
+      internalID: -5583472715925407065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_34
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 703
+        width: 62
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e35d9a9a12674c80800000000000000
+      internalID: -8338588318650510368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_35
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 705
+        width: 57
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 155cffff6e99ac6c0800000000000000
+      internalID: -4122313291487787695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_36
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 702
+        width: 53
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cae444e6a5d72d150800000000000000
+      internalID: 5895912689531899564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_37
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 702
+        width: 52
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2b7c752ebf868600800000000000000
+      internalID: 470221257942268717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_38
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 701
+        width: 68
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4bf15de38b1797c0800000000000000
+      internalID: -4064749885242344625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_39
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 700
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f8432682e12a6cb0800000000000000
+      internalID: -4870042790250985231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_40
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 700
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e0ba4f6da87f5650800000000000000
+      internalID: 6223825896341156068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_41
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 627
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28e633e69562023c0800000000000000
+      internalID: -4386463871516053886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_42
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 629
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c6be3daa54543000800000000000000
+      internalID: 14729447219312329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_43
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 629
+        width: 69
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96fae5c7c239c5b50800000000000000
+      internalID: 6583298574583246697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_44
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 629
+        width: 57
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aee947d0513f4280800000000000000
+      internalID: -9056966102339686747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_45
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 625
+        width: 26
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a204bb7fa008446a0800000000000000
+      internalID: -6465902380402917334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_46
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 625
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eae28b760578567a0800000000000000
+      internalID: -6384548117320552786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_47
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 626
+        width: 67
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e84543b797b5d180800000000000000
+      internalID: -9091158410601871133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_48
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 625
+        width: 60
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 568854f42a6c8d490800000000000000
+      internalID: -7721203160709756827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_49
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 628
+        width: 58
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ba27e592cdbc7f70800000000000000
+      internalID: 9186425983365229237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_50
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 627
+        width: 51
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8ccb5595a1bd78e0800000000000000
+      internalID: -1694002560087896948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_51
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 628
+        width: 56
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3593040c5801beb0800000000000000
+      internalID: -4705970944328100546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_52
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 627
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43987af9752aa49c0800000000000000
+      internalID: -3942160026585036492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_53
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 560
+        width: 55
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26fddc2e2929ffa50800000000000000
+      internalID: 6557120742042754914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_54
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 563
+        width: 58
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec203f8628d250000800000000000000
+      internalID: 1457413013308110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_55
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 560
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 411f8735ccbf60380800000000000000
+      internalID: -9005233549888392940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_56
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 561
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c04974c12e685160800000000000000
+      internalID: 7014477510938804417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_57
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 564
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 857275779f0def6f0800000000000000
+      internalID: -648851526427138216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_58
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 562
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 710fc1fbfcc224250800000000000000
+      internalID: 5927349330349191191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_59
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 563
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07ad9eebc27fcbdd0800000000000000
+      internalID: -2468826724152255888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_60
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 561
+        width: 51
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd1fa0a4a8d432e90800000000000000
+      internalID: -7051707335189007908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_61
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 565
+        width: 55
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f44555364e6a003d0800000000000000
+      internalID: -3242408231857466289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_62
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 563
+        width: 55
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d9cbe0c0c988f7c0800000000000000
+      internalID: -4037325604974245419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_63
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 561
+        width: 53
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ce837a1fd5538380800000000000000
+      internalID: -8970231616082047287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_64
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 563
+        width: 61
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bc3733762edbbc60800000000000000
+      internalID: 7835100233464233142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_65
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 497
+        width: 58
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b63194ab15bd27d0800000000000000
+      internalID: -2941495851273341257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_66
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 496
+        width: 57
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8652828526b12ef30800000000000000
+      internalID: 4603271878325839208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_67
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 497
+        width: 54
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a06c270f7d0eb1300800000000000000
+      internalID: 224019824541615626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_68
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 496
+        width: 64
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd7b704525a978650800000000000000
+      internalID: 6235121887505528796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_69
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 497
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf72e6c22bc68f6e0800000000000000
+      internalID: -1803572138256488453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_70
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 497
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21d901bdde5011c90800000000000000
+      internalID: -7200967810048025326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_71
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 492
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00dd445acc6353b60800000000000000
+      internalID: 7725140988397935872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_72
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 494
+        width: 62
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8b220ffb1c48d660800000000000000
+      internalID: 7410756869964311434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_73
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 497
+        width: 57
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b08bc7e55be4f0470800000000000000
+      internalID: 8362989573931579403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_74
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 494
+        width: 53
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb8c15c7d8360d5b0800000000000000
+      internalID: -5345663298361505602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_75
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 494
+        width: 52
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af85996b4f5301ca0800000000000000
+      internalID: -6048274974406780678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_76
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 493
+        width: 68
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0759c34349edbb50800000000000000
+      internalID: 6610696303159105295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_77
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 357
+        width: 69
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dadf6d00933fdf390800000000000000
+      internalID: -7782797154873573971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_78
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 367
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e58ee4a1d2b138c0800000000000000
+      internalID: -4021236378780138009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_79
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 353
+        width: 49
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d7188a31302fcf70800000000000000
+      internalID: 9209615158803437524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_80
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 354
+        width: 50
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e381fb87cac2ae20800000000000000
+      internalID: 3360471230366974953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_81
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 358
+        width: 44
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71a5d834cd801ffd0800000000000000
+      internalID: -2310055391745189353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_82
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 358
+        width: 53
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b03e8314f289f1020800000000000000
+      internalID: 2314736062216856331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_83
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 356
+        width: 71
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4afebf6e7e96676c0800000000000000
+      internalID: -4146009962214330460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_84
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 365
+        width: 47
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ac431f70e3c98ea0800000000000000
+      internalID: -5869945270328669020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_85
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 353
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c39b203fc1870030800000000000000
+      internalID: 3460877565523891136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_86
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 350
+        width: 59
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba7ac06d7a46cc480800000000000000
+      internalID: -8877610093440620629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_87
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 360
+        width: 43
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64433dc1b5fe13860800000000000000
+      internalID: 7508045228407993414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_88
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 359
+        width: 53
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e97cbd524264d540800000000000000
+      internalID: 5031754720859683297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_89
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 352
+        width: 67
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbc1f08e8ed482940800000000000000
+      internalID: 5271549026558221499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_90
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 352
+        width: 67
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e072d2ab1748452f0800000000000000
+      internalID: -985016794497603826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_91
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 257
+        width: 68
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d631655e2f145caa0800000000000000
+      internalID: -6141430005364288659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_92
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 265
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8936d1eea16fa5f90800000000000000
+      internalID: -6963983278250564712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_93
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 253
+        width: 53
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa762f1b5b8645bc0800000000000000
+      internalID: -3795293456382662737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_94
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 250
+        width: 50
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5ec45b468bb273c0800000000000000
+      internalID: -4363218903504728482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_95
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 257
+        width: 44
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f482c384ca9d48fd0800000000000000
+      internalID: -2340506572356310961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_96
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 258
+        width: 53
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 885a08bcc204f8990800000000000000
+      internalID: -7381610703100009080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_97
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 257
+        width: 41
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c093c662bb5159090800000000000000
+      internalID: -8028486867170346740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_98
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 261
+        width: 63
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74e053f83ab564100800000000000000
+      internalID: 91861600448089671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_99
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 257
+        width: 52
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d669f8c8f7dc757c0800000000000000
+      internalID: -4082568589485304211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_100
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 261
+        width: 49
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57a449248988fa0e0800000000000000
+      internalID: -2256434700755907979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_101
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 243
+        width: 53
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e46847a55bcb7df0800000000000000
+      internalID: -181327791239174939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_102
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 244
+        width: 50
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e0ebad7721902f20800000000000000
+      internalID: 3395873717835522277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_103
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 251
+        width: 53
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b7e8c2e686738f50800000000000000
+      internalID: 6882474977254762417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_104
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 160
+        width: 61
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 745c0a60806cae6e0800000000000000
+      internalID: -1807414562662595257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LootIcons_105
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 168
+        width: 58
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19e639b0a9d163450800000000000000
+      internalID: 6068070095384702609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6d6f380e272db114898db83999baa510
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LootIcons_0: 8480073793970490829
+      LootIcons_1: 5853590689611265921
+      LootIcons_10: -5397681009988130525
+      LootIcons_100: -2256434700755907979
+      LootIcons_101: -181327791239174939
+      LootIcons_102: 3395873717835522277
+      LootIcons_103: 6882474977254762417
+      LootIcons_104: -1807414562662595257
+      LootIcons_105: 6068070095384702609
+      LootIcons_11: 8739429988640820741
+      LootIcons_12: -8248994217673953189
+      LootIcons_13: -8007537381409648202
+      LootIcons_14: 6464500583254673498
+      LootIcons_15: -9023169675791814893
+      LootIcons_16: 877309557086224150
+      LootIcons_17: -7551631008683400150
+      LootIcons_18: -9211819585455057460
+      LootIcons_19: -1105339626357972904
+      LootIcons_2: -7397415062317645380
+      LootIcons_20: -9044771615090154822
+      LootIcons_21: -981264012838860926
+      LootIcons_22: 7590273087707873053
+      LootIcons_23: 5796915607482829357
+      LootIcons_24: 4099788222091998954
+      LootIcons_25: 1877237512409978266
+      LootIcons_26: 2682119560565881163
+      LootIcons_27: -4933936903651820937
+      LootIcons_28: -8515920959195408668
+      LootIcons_29: -7271023108141098624
+      LootIcons_3: -8150069047024195656
+      LootIcons_30: 4886432539214448105
+      LootIcons_31: -8459934818041840097
+      LootIcons_32: 3898421927398449389
+      LootIcons_33: -5583472715925407065
+      LootIcons_34: -8338588318650510368
+      LootIcons_35: -4122313291487787695
+      LootIcons_36: 5895912689531899564
+      LootIcons_37: 470221257942268717
+      LootIcons_38: -4064749885242344625
+      LootIcons_39: -4870042790250985231
+      LootIcons_4: 5720142631038467146
+      LootIcons_40: 6223825896341156068
+      LootIcons_41: -4386463871516053886
+      LootIcons_42: 14729447219312329
+      LootIcons_43: 6583298574583246697
+      LootIcons_44: -9056966102339686747
+      LootIcons_45: -6465902380402917334
+      LootIcons_46: -6384548117320552786
+      LootIcons_47: -9091158410601871133
+      LootIcons_48: -7721203160709756827
+      LootIcons_49: 9186425983365229237
+      LootIcons_5: 7396695672520530613
+      LootIcons_50: -1694002560087896948
+      LootIcons_51: -4705970944328100546
+      LootIcons_52: -3942160026585036492
+      LootIcons_53: 6557120742042754914
+      LootIcons_54: 1457413013308110
+      LootIcons_55: -9005233549888392940
+      LootIcons_56: 7014477510938804417
+      LootIcons_57: -648851526427138216
+      LootIcons_58: 5927349330349191191
+      LootIcons_59: -2468826724152255888
+      LootIcons_6: 6450398257268718404
+      LootIcons_60: -7051707335189007908
+      LootIcons_61: -3242408231857466289
+      LootIcons_62: -4037325604974245419
+      LootIcons_63: -8970231616082047287
+      LootIcons_64: 7835100233464233142
+      LootIcons_65: -2941495851273341257
+      LootIcons_66: 4603271878325839208
+      LootIcons_67: 224019824541615626
+      LootIcons_68: 6235121887505528796
+      LootIcons_69: -1803572138256488453
+      LootIcons_7: 1938533570773468768
+      LootIcons_70: -7200967810048025326
+      LootIcons_71: 7725140988397935872
+      LootIcons_72: 7410756869964311434
+      LootIcons_73: 8362989573931579403
+      LootIcons_74: -5345663298361505602
+      LootIcons_75: -6048274974406780678
+      LootIcons_76: 6610696303159105295
+      LootIcons_77: -7782797154873573971
+      LootIcons_78: -4021236378780138009
+      LootIcons_79: 9209615158803437524
+      LootIcons_8: 4678059959327580316
+      LootIcons_80: 3360471230366974953
+      LootIcons_81: -2310055391745189353
+      LootIcons_82: 2314736062216856331
+      LootIcons_83: -4146009962214330460
+      LootIcons_84: -5869945270328669020
+      LootIcons_85: 3460877565523891136
+      LootIcons_86: -8877610093440620629
+      LootIcons_87: 7508045228407993414
+      LootIcons_88: 5031754720859683297
+      LootIcons_89: 5271549026558221499
+      LootIcons_9: 604312325634756094
+      LootIcons_90: -985016794497603826
+      LootIcons_91: -6141430005364288659
+      LootIcons_92: -6963983278250564712
+      LootIcons_93: -3795293456382662737
+      LootIcons_94: -4363218903504728482
+      LootIcons_95: -2340506572356310961
+      LootIcons_96: -7381610703100009080
+      LootIcons_97: -8028486867170346740
+      LootIcons_98: 91861600448089671
+      LootIcons_99: -4082568589485304211
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 336410
+  packageName: 2D Fantasy Tileset
+  packageVersion: 1.1.0
+  assetPath: Assets/SmallScaleInt/Fantasy kingdom Tileset/Example scene/UI/LootIcons.png
+  uploadId: 853508

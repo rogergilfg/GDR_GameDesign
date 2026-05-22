@@ -1,0 +1,262 @@
+fileFormatVersion: 2
+guid: 4b841f046c239b944bf86a3fcfb5c382
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2407195833089805127
+    second: 0013_0
+  - first:
+      213: -3115754125679488289
+    second: 0013_1
+  - first:
+      213: -5595225673222258154
+    second: 0013_2
+  - first:
+      213: 2596414642377849572
+    second: 0013_3
+  - first:
+      213: -2142782293790348800
+    second: 0013_4
+  - first:
+      213: 4651382049539940119
+    second: 0013_5
+  - first:
+      213: -3620458240455383371
+    second: 0013_6
+  - first:
+      213: 17907201988784251
+    second: 0013_7
+  - first:
+      213: -6260681575225537651
+    second: 0013_8
+  - first:
+      213: 3528407462960516513
+    second: 0013_9
+  - first:
+      213: 1088498869517637901
+    second: 0013_10
+  - first:
+      213: -1946468348434467434
+    second: 0013_11
+  - first:
+      213: 2425611956204296603
+    second: 0013_12
+  - first:
+      213: -3344086727186392347
+    second: 0013_13
+  - first:
+      213: -7487461012107899754
+    second: 0013_14
+  - first:
+      213: -4303550447899697210
+    second: 0013_15
+  - first:
+      213: -6015387137391218864
+    second: 0013_16
+  - first:
+      213: 9114574004199487157
+    second: 0013_17
+  - first:
+      213: -6532552408620698386
+    second: 0013_18
+  - first:
+      213: 603087037307668774
+    second: 0013_19
+  - first:
+      213: -8182341400545772723
+    second: 0013_20
+  - first:
+      213: 8744044753542395497
+    second: 0013_21
+  - first:
+      213: 5784268215069434169
+    second: 0013_22
+  - first:
+      213: -569879287544052283
+    second: 0013_23
+  - first:
+      213: 9208638581469578213
+    second: 0013_24
+  - first:
+      213: 5836114739527611288
+    second: 0013_25
+  - first:
+      213: -9153162758872697312
+    second: 0013_26
+  - first:
+      213: 3534685648857366407
+    second: 0013_27
+  - first:
+      213: -5770229327940235580
+    second: 0013_28
+  - first:
+      213: 7315862384136544674
+    second: 0013_29
+  - first:
+      213: 506663453044663569
+    second: 0013_30
+  - first:
+      213: 1898233175931033221
+    second: 0013_31
+  - first:
+      213: 2921471643515396484
+    second: 0013_32
+  - first:
+      213: 3305492635138797360
+    second: 0013_33
+  - first:
+      213: 7672661817860752887
+    second: 0013_34
+  - first:
+      213: -524701350039627908
+    second: 0013_35
+  - first:
+      213: 4451542325456310726
+    second: 0013_36
+  - first:
+      213: -456384635182044724
+    second: 0013_37
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 0001_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.49729878, y: 0.19115788}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e02c84b33dcf495c0800000000000000
+      internalID: -4209461767521648114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 9790771820676c749ac90c54b751be4a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      0001_0: -4209461767521648114
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 336410
+  packageName: 2D Fantasy Tileset
+  packageVersion: 1.1.0
+  assetPath: Assets/SmallScaleInt/Fantasy kingdom Tileset/Animations/Destructible
+    tiles/Grass explosion small/0013.png
+  uploadId: 853508

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 11ba9b4a32a59c14e91c00ff4610d800
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 336410
+  packageName: 2D Fantasy Tileset
+  packageVersion: 1.1.0
+  assetPath: Assets/SmallScaleInt/Fantasy kingdom Tileset/Example scene/Scripts/Spawning/README
+    - Spawning scripts.md
+  uploadId: 853508

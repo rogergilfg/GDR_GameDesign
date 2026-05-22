@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 870381164fd2c1443a840a4f61002b48, type: 3}
+  m_Name: Reflect 5
+  m_EditorClassIdentifier: 
+  abilityId: ba6ee458-da01-4ac4-8461-c13155b3dccf
+  displayName: Reflect V
+  description: Reflect 15% of any incoming damage back against the attacker.
+  icon: {fileID: -112074930, guid: 8b2279182b0282a458ef255246f6e8c7, type: 3}
+  manaCost: 0
+  cooldownSeconds: 1
+  maxCharges: 0
+  startingCharges: -1
+  requireIdleRunner: 1
+  activationRequirements: []
+  steps: []
+  isPassive: 1
+  isDebuff: 0
+  passiveModifiers:
+  - rid: 6567839355355529319
+  references:
+    version: 2
+    RefIds:
+    - rid: 6567839355355529319
+      type: {class: ThornsDamageModifier, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        enabled: 1
+        thornDamagePercent: 0.15
+        thornDamageFlat: 0

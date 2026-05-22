@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 870381164fd2c1443a840a4f61002b48, type: 3}
+  m_Name: ProjectileBurst
+  m_EditorClassIdentifier: 
+  abilityId: 234bf6de-8d62-45d5-aa78-5279c98fdf97
+  displayName: New Ability
+  description: Projectiles burst out in every direction, damaging anyting in the
+    way.
+  icon: {fileID: 1801226262, guid: 8b2279182b0282a458ef255246f6e8c7, type: 3}
+  manaCost: 25
+  cooldownSeconds: 10
+  maxCharges: 1
+  startingCharges: -1
+  requireIdleRunner: 1
+  activationRequirements:
+  - rid: 6567839355355529368
+  - rid: 6567839355355529369
+  steps:
+  - rid: 522703806694948965
+  - rid: 522703806694948964
+  - rid: 522703806694948997
+  isPassive: 0
+  isDebuff: 0
+  passiveModifiers: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 522703806694948964
+      type: {class: ProjectileBurstStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 6
+        waitForCompletion: 1
+        projectile:
+          prefabOverride: {fileID: 7143579645276881264, guid: 8ddc9900e27a92c4a9ac080f140b1dc1, type: 3}
+          spawnOverride: {fileID: 0}
+          speedOverride: -1
+          damageOverride: -1
+          lifeOverride: -1
+          useCustomHitMask: 0
+          hitMaskOverride:
+            serializedVersion: 2
+            m_Bits: 2112
+          spriteOverrideColor: {r: 1, g: 1, b: 1, a: 1}
+          overrideSpriteColor: 0
+        projectileCount: 6
+        angleOffset: 0
+        alignToTargetDirection: 1
+        fireSequentially: 1
+        sequentialDelay: 0.2
+    - rid: 522703806694948965
+      type: {class: AnimatorTriggerStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 15
+        waitForCompletion: 1
+        command: 0
+        parameterName: Special1
+        movingParameterName: 
+        movementThresholdSqr: 0.01
+        postDelay: 0.5
+    - rid: 522703806694948997
+      type: {class: ProjectileBurstStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 1
+        waitForCompletion: 1
+        projectile:
+          prefabOverride: {fileID: 7143579645276881264, guid: 8ddc9900e27a92c4a9ac080f140b1dc1, type: 3}
+          spawnOverride: {fileID: 0}
+          speedOverride: 4
+          damageOverride: 25
+          lifeOverride: 3
+          useCustomHitMask: 1
+          hitMaskOverride:
+            serializedVersion: 2
+            m_Bits: 128
+          spriteOverrideColor: {r: 1, g: 1, b: 1, a: 1}
+          overrideSpriteColor: 0
+        projectileCount: 6
+        angleOffset: 0
+        alignToTargetDirection: 1
+        fireSequentially: 0
+        sequentialDelay: 0.1
+    - rid: 6567839355355529368
+      type: {class: EnemyEngagedRequirement, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 6
+        requireEnemyAi: 1
+        leashRadiusOverride: 0
+    - rid: 6567839355355529369
+      type: {class: DistanceRequirement, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 6
+        requireTarget: 1
+        minDistance: 0
+        maxDistance: 4
+        use2D: 1

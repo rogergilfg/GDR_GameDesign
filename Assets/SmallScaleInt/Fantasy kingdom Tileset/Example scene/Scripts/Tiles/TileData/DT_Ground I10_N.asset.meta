@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: e31c6f9e7b247604ba562ee88248da3b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 336410
+  packageName: 2D Fantasy Tileset
+  packageVersion: 1.1.0
+  assetPath: Assets/SmallScaleInt/Fantasy kingdom Tileset/Example scene/Scripts/Tiles/TileData/DT_Ground
+    I10_N.asset
+  uploadId: 853508

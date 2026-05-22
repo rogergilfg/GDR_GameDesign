@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 870381164fd2c1443a840a4f61002b48, type: 3}
+  m_Name: Dodge R2
+  m_EditorClassIdentifier: 
+  abilityId: ae6c0798-16b8-4ee5-bcb1-e83cb1d4abf4
+  displayName: Dodge II
+  description: You dash forward at blazing speed, damaging the targets infront of
+    you.
+  icon: {fileID: -64407622, guid: 8b2279182b0282a458ef255246f6e8c7, type: 3}
+  manaCost: 5
+  cooldownSeconds: 2
+  maxCharges: 1
+  startingCharges: -1
+  requireIdleRunner: 1
+  activationRequirements: []
+  steps:
+  - rid: 522703806694949006
+  - rid: 522703806694949009
+  - rid: 522703987029049417
+  - rid: 522703987029049418
+  - rid: 522704072800993352
+  isPassive: 0
+  isDebuff: 0
+  passiveModifiers: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 522703806694949006
+      type: {class: ScaleOverTimeStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 1
+        waitForCompletion: 0
+        targetMode: 0
+        customTarget: {fileID: 0}
+        scaleMultiplier: {x: 0.2, y: 0.2, z: 1}
+        growDuration: 0.06
+        holdDuration: 0.2
+        shrinkDuration: 0.05
+        useSmoothStep: 1
+    - rid: 522703806694949009
+      type: {class: DashMovementStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 1
+        waitForCompletion: 0
+        enableOwnerSpecificDirection: 1
+        playerDirectionMode: 0
+        useLegacyPlayerDirection: 1
+        legacyPlayerDodgeMode: 1
+        useMouseAimWhenPlayer: 1
+        playerFallbackDirection: {x: 0, y: 0}
+        aiDirection:
+          allowSideways: 0
+          allowBackward: 0
+          allowForward: 0
+          backwardBias: 0.25
+        directionSource: 2
+        customDirection: {x: 0, y: 0}
+        distance: 1.5
+        duration: 0.2
+        speedCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        useRigidbodyMove: 1
+        zeroVelocityAtEnd: 1
+        pauseControllerDuringDash: 1
+        flattenZAxis: 1
+        enableTrail: 1
+        trailPrefab: {fileID: 6826292416116594088, guid: 3329393b8bbc2b648a078a942f23a167, type: 3}
+        trailTime: 0.2
+        trailStartWidth: 0.25
+        trailEndWidth: 0
+        directionalVfxPrefab: {fileID: 7174829341943817658, guid: 4c9da21441b055540b23c7c1cb290a81, type: 3}
+        directionalVfxOffset: {x: 0, y: 0, z: 0}
+        directionalVfxLifetime: 2
+        spawnDirectionalVfxAtStart: 1
+        spawnDirectionalVfxAtEnd: 0
+        directionalVfxScale: 1
+        stopOnCollision: 1
+        collisionMask:
+          serializedVersion: 2
+          m_Bits: 384
+        collisionRadius: 0.01
+    - rid: 522703987029049417
+      type: {class: AnimatorTriggerStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 1
+        waitForCompletion: 1
+        command: 0
+        parameterName: Attack2
+        movingParameterName: 
+        movementThresholdSqr: 0.01
+        postDelay: 0.5
+    - rid: 522703987029049418
+      type: {class: DamageTargetStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 15
+        waitForCompletion: 1
+        targetingMode: 2
+        damage: 20
+        scaleWithOwnerDamage: 1
+        ownerDamageScale: 1
+        damageOwnerIfNoTarget: 0
+        useRelativeDirection: 1
+    - rid: 522704072800993352
+      type: {class: DamageAreaStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 15
+        waitForCompletion: 1
+        anchor: 0
+        customAnchor: {fileID: 0}
+        radius: 1
+        targetMask:
+          serializedVersion: 2
+          m_Bits: 128
+        offset: {x: 0, y: 0}
+        damage: 20
+        scaleWithOwnerDamage: 1
+        ownerDamageScale: 1
+        maxTargets: 0
+        sequentialDamage: 0
+        growDuration: 0.25
+        ringThickness: 0.35
+        samplesPerSecond: 90
+        allowMultipleHitsPerTarget: 0
+        damageTiles: 1
+        tileDamage: 1

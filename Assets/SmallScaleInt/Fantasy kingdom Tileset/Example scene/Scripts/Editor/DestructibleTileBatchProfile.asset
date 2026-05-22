@@ -1,0 +1,2450 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03a948ae377a5c34ba1016fdb985897c, type: 3}
+  m_Name: DestructibleTileBatchProfile
+  m_EditorClassIdentifier: 
+  sourceFolder: {fileID: 102900000, guid: 1164e72d688c02e44b01f43b56a23437, type: 3}
+  outputFolder: {fileID: 102900000, guid: 05a4a773477d4094caf8285725e5c26c, type: 3}
+  database: {fileID: 11400000, guid: 5940d2cc3e7ca5c4aa90c11eec1e7c15, type: 2}
+  resourceDatabase: {fileID: 11400000, guid: 9d537018e4c91654698f87613daf714c, type: 2}
+  defaultLootPickupPrefab: {fileID: 7850679640750038245, guid: f3e6401d3f66d8c4b80e4c71873483f2, type: 3}
+  defaultGearDatabase: {fileID: 11400000, guid: df31f232dbe3e1f439b4d8fec2c36278, type: 2}
+  overwriteExisting: 1
+  dryRun: 0
+  rules:
+  - prefix: Tree A
+    enabled: 1
+    maxHP: 10
+    clearTile: 0
+    destroyedTile: {fileID: 11400000, guid: 2d2fee8bef8f81e489a6304e72bf4b6d, type: 2}
+    destroyVfxPrefab: {fileID: 5764715879847798484, guid: 451b8b62f47cbbb408dd5d7a79cb3882, type: 3}
+    destroyVfxCleanup: 1.3
+    swapDelay: 1.2
+    placeDestroyedOnBrokenMap: 1
+    flashOnHit: 1
+    flashColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
+    flashHold: 0.05
+    flashFade: 0.1
+    stagedVfxPrefab: {fileID: 0}
+    stagedVfxCleanup: 0
+    impactVfxPrefab: {fileID: 8172498448298082060, guid: facb36d6ddd297e448ef502dc5ac4aba, type: 3}
+    impactVfxCleanup: 1.2
+    enableGearDrops: 1
+    gearDropChance: 0.01
+    gearDropChainMultiplier: 0.35
+    gearDropMaxCount: 1
+    useLocalGearPool: 0
+    lootScatter: {x: 0.25, y: 0.25}
+    guaranteedGearDrops: []
+    localRandomGearDrops: []
+    aliasTileNames: []
+    resourceDrops:
+      amounts:
+      - type: {fileID: 11400000, guid: c81e490a0992b894aa571f11fcb20f97, type: 2}
+        amount: 2
+    buildCategory: 3
+    isBuildable: 0
+    partIdPrefix: 
+    displayNameOverride: 
+    buildIcon: {fileID: 0}
+    buildInfoText: 
+    unlockResource: {fileID: 0}
+    isCraftingStation: 0
+    stationType: 0
+  - prefix: Tree B
+    enabled: 1
+    maxHP: 10
+    clearTile: 0
+    destroyedTile: {fileID: 11400000, guid: 0ae05f17707fd4642804e0d2f715d358, type: 2}
+    destroyVfxPrefab: {fileID: 9151467766727837983, guid: 991ba87e7ad6ac24da67a14e1969a764, type: 3}
+    destroyVfxCleanup: 1.3
+    swapDelay: 1.2
+    placeDestroyedOnBrokenMap: 1
+    flashOnHit: 1
+    flashColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
+    flashHold: 0.05
+    flashFade: 0.1
+    stagedVfxPrefab: {fileID: 0}
+    stagedVfxCleanup: 0
+    impactVfxPrefab: {fileID: 8172498448298082060, guid: facb36d6ddd297e448ef502dc5ac4aba, type: 3}
+    impactVfxCleanup: 0
+    enableGearDrops: 1
+    gearDropChance: 0.01
+    gearDropChainMultiplier: 0.35
+    gearDropMaxCount: 1
+    useLocalGearPool: 0
+    lootScatter: {x: 0.25, y: 0.25}
+    guaranteedGearDrops: []
+    localRandomGearDrops: []
+    aliasTileNames: []
+    resourceDrops:
+      amounts:
+      - type: {fileID: 11400000, guid: c81e490a0992b894aa571f11fcb20f97, type: 2}
+        amount: 2
+    buildCategory: 3
+    isBuildable: 0
+    partIdPrefix: 
+    displayNameOverride: 
+    buildIcon: {fileID: 0}
+    buildInfoText: 
+    unlockResource: {fileID: 0}
+    isCraftingStation: 0
+    stationType: 0
+  - prefix: Tree C
+    enabled: 1
+    maxHP: 12
+    clearTile: 0
+    destroyedTile: {fileID: 11400000, guid: ccded8fcd53c80a4dab95fefcacd36c5, type: 2}
+    destroyVfxPrefab: {fileID: 8151091359727401254, guid: 1ef2cc896e1b8c742ba119989d879198, type: 3}
+    destroyVfxCleanup: 1.3
+    swapDelay: 1.2
+    placeDestroyedOnBrokenMap: 1
+    flashOnHit: 1
+    flashColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
+    flashHold: 0.05
+    flashFade: 0.1
+    stagedVfxPrefab: {fileID: 0}
+    stagedVfxCleanup: 0
+    impactVfxPrefab: {fileID: 8172498448298082060, guid: facb36d6ddd297e448ef502dc5ac4aba, type: 3}
+    impactVfxCleanup: 1.2
+    enableGearDrops: 1
+    gearDropChance: 0.019
+    gearDropChainMultiplier: 0.35
+    gearDropMaxCount: 1
+    useLocalGearPool: 0
+    lootScatter: {x: 0.25, y: 0.25}
+    guaranteedGearDrops: []
+    localRandomGearDrops: []
+    aliasTileNames: []
+    resourceDrops:
+      amounts:
+      - type: {fileID: 11400000, guid: c81e490a0992b894aa571f11fcb20f97, type: 2}
+        amount: 2
+    buildCategory: 3
+    isBuildable: 0
+    partIdPrefix: 
+    displayNameOverride: 
+    buildIcon: {fileID: 0}
+    buildInfoText: 
+    unlockResource: {fileID: 0}
+    isCraftingStation: 0
+    stationType: 0
+  - prefix: Tree D
+    enabled: 1
+    maxHP: 10
+    clearTile: 0
+    destroyedTile: {fileID: 11400000, guid: 2d2fee8bef8f81e489a6304e72bf4b6d, type: 2}
+    destroyVfxPrefab: {fileID: 5764715879847798484, guid: 451b8b62f47cbbb408dd5d7a79cb3882, type: 3}
+    destroyVfxCleanup: 1.3
+    swapDelay: 1.2
+    placeDestroyedOnBrokenMap: 1
+    flashOnHit: 1
+    flashColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
+    flashHold: 0.05
+    flashFade: 0.1
+    stagedVfxPrefab: {fileID: 0}
+    stagedVfxCleanup: 0
+    impactVfxPrefab: {fileID: 8172498448298082060, guid: facb36d6ddd297e448ef502dc5ac4aba, type: 3}
+    impactVfxCleanup: 1.2
+    enableGearDrops: 1
+    gearDropChance: 0.015
+    gearDropChainMultiplier: 0.35
+    gearDropMaxCount: 1
+    useLocalGearPool: 0
+    lootScatter: {x: 0.25, y: 0.25}
+    guaranteedGearDrops: []
+    localRandomGearDrops: []
+    aliasTileNames: []
+    resourceDrops:
+      amounts:
+      - type: {fileID: 11400000, guid: c81e490a0992b894aa571f11fcb20f97, type: 2}
+        amount: 2
+    buildCategory: 3
+    isBuildable: 0
+    partIdPrefix: 
+    displayNameOverride: 
+    buildIcon: {fileID: 0}
+    buildInfoText: 
+    unlockResource: {fileID: 0}
+    isCraftingStation: 0
+    stationType: 0
+  - prefix: Tree E
+    enabled: 1
+    maxHP: 10
+    clearTile: 0
+    destroyedTile: {fileID: 11400000, guid: 6cf1616302fda7b458266e35d3db762e, type: 2}
+    destroyVfxPrefab: {fileID: 2488147013794407780, guid: 1a0d399a773999d43982809b74223283, type: 3}
+    destroyVfxCleanup: 1.3
+    swapDelay: 1.2
+    placeDestroyedOnBrokenMap: 1
+    flashOnHit: 1
+    flashColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
+    flashHold: 0.05
+    flashFade: 0.1
+    stagedVfxPrefab: {fileID: 0}
+    stagedVfxCleanup: 0
+    impactVfxPrefab: {fileID: 8172498448298082060, guid: facb36d6ddd297e448ef502dc5ac4aba, type: 3}
+    impactVfxCleanup: 1.2
+    enableGearDrops: 0
+    gearDropChance: 0
+    gearDropChainMultiplier: 0.35
+    gearDropMaxCount: 1
+    useLocalGearPool: 0
+    lootScatter: {x: 0.25, y: 0.25}
+    guaranteedGearDrops: []
+    localRandomGearDrops: []
+    aliasTileNames: []
+    resourceDrops:
+      amounts:
+      - type: {fileID: 11400000, guid: c81e490a0992b894aa571f11fcb20f97, type: 2}
+        amount: 2
+    buildCategory: 3
+    isBuildable: 0
+    partIdPrefix: 
+    displayNameOverride: 
+    buildIcon: {fileID: 0}
+    buildInfoText: 
+    unlockResource: {fileID: 0}
+    isCraftingStation: 0
+    stationType: 0
+  - prefix: Roof
+    enabled: 1
+    maxHP: 1
+    clearTile: 0
+    destroyedTile: {fileID: 11400000, guid: fbfb967c3b87daf4a9128df55b557387, type: 2}
+    destroyVfxPrefab: {fileID: 9029002198817001026, guid: 591f3da5bd83b814f8afd56ee11b0e67, type: 3}
+    destroyVfxCleanup: 1.3
+    swapDelay: 1.2
+    placeDestroyedOnBrokenMap: 1
+    flashOnHit: 1
+    flashColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
+    flashHold: 0.05
+    flashFade: 0.1
+    stagedVfxPrefab: {fileID: 0}
+    stagedVfxCleanup: 0
+    impactVfxPrefab: {fileID: 0}
+    impactVfxCleanup: 0
+    enableGearDrops: 0
+    gearDropChance: 0
+    gearDropChainMultiplier: 0.35
+    gearDropMaxCount: 1
+    useLocalGearPool: 0
+    lootScatter: {x: 0.25, y: 0.25}
+    guaranteedGearDrops: []
+    localRandomGearDrops: []
+    aliasTileNames: []
+    resourceDrops:
+      amounts:
+      - type: {fileID: 11400000, guid: 329488d6ae2f167419afae66d5d4af03, type: 2}
+        amount: 2
+    buildCategory: 2
+    isBuildable: 1
+    partIdPrefix: 
+    displayNameOverride: 
+    buildIcon: {fileID: 0}
+    buildInfoText: 
+    unlockResource: {fileID: 11400000, guid: 4b142209a1dbe58438df1965725b5dad, type: 2}
+    isCraftingStation: 0
+    stationType: 0
+  - prefix: Roof A
+    enabled: 1
+    maxHP: 1
+    clearTile: 0
+    destroyedTile: {fileID: 11400000, guid: fbfb967c3b87daf4a9128df55b557387, type: 2}
+    destroyVfxPrefab: {fileID: 9029002198817001026, guid: 591f3da5bd83b814f8afd56ee11b0e67, type: 3}
+    destroyVfxCleanup: 1.3
+    swapDelay: 1.2
+    placeDestroyedOnBrokenMap: 1
+    flashOnHit: 1
+    flashColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
+    flashHold: 0.05
+    flashFade: 0.1
+    stagedVfxPrefab: {fileID: 0}
+    stagedVfxCleanup: 0
+    impactVfxPrefab: {fileID: 0}
+    impactVfxCleanup: 0
+    enableGearDrops: 0
+    gearDropChance: 0
+    gearDropChainMultiplier: 0.35
+    gearDropMaxCount: 1
+    useLocalGearPool: 0
+    lootScatter: {x: 0.25, y: 0.25}
+    guaranteedGearDrops: []
+    localRandomGearDrops: []
+    aliasTileNames: []
+    resourceDrops:
+      amounts:
+      - type: {fileID: 11400000, guid: 329488d6ae2f167419afae66d5d4af03, type: 2}
+        amount: 2
+    buildCategory: 2
+    isBuildable: 1
+    partIdPrefix: 
+    displayNameOverride: 
+    buildIcon: {fileID: 0}
+    buildInfoText: 
+    unlockResource: {fileID: 11400000, guid: 329488d6ae2f167419afae66d5d4af03, type: 2}
+    isCraftingStation: 0
+    stationType: 0
+  - prefix: Roof B
+    enabled: 1
+    maxHP: 2
+    clearTile: 0
+    destroyedTile: {fileID: 11400000, guid: fbfb967c3b87daf4a9128df55b557387, type: 2}
+    destroyVfxPrefab: {fileID: 8305217458672877177, guid: 93e831d20d29c594d9032570bf457745, type: 3}
+    destroyVfxCleanup: 1.3
+    swapDelay: 1.2
+    placeDestroyedOnBrokenMap: 1
+    flashOnHit: 1
+    flashColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
+    flashHold: 0.05
+    flashFade: 0.1
+    stagedVfxPrefab: {fileID: 0}
+    stagedVfxCleanup: 0
+    impactVfxPrefab: {fileID: 0}
+    impactVfxCleanup: 0
+    enableGearDrops: 0
+    gearDropChance: 0
+    gearDropChainMultiplier: 0.35
+    gearDropMaxCount: 1
+    useLocalGearPool: 0
+    lootScatter: {x: 0.25, y: 0.25}
+    guaranteedGearDrops: []
+    localRandomGearDrops: []
+    aliasTileNames: []
+    resourceDrops:
+      amounts:
+      - type: {fileID: 11400000, guid: 329488d6ae2f167419afae66d5d4af03, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: c81e490a0992b894aa571f11fcb20f97, type: 2}
+        amount: 2
+    buildCategory: 2
+    isBuildable: 1
+    partIdPrefix: 
+    displayNameOverride: 
+    buildIcon: {fileID: 0}
+    buildInfoText: 
+    unlockResource: {fileID: 11400000, guid: c81e490a0992b894aa571f11fcb20f97, type: 2}
+    isCraftingStation: 0
+    stationType: 0
+  - prefix: Door
+    enabled: 1
+    maxHP: 10
+    clearTile: 0
+    destroyedTile: {fileID: 11400000, guid: a6e4358bdd5dc8f46964d64f9f0703ce, type: 2}
+    destroyVfxPrefab: {fileID: 198760254976036344, guid: 57ee00bbdcf47e7479815c7c98cf4114, type: 3}
+    destroyVfxCleanup: 1.3
+    swapDelay: 1.2
+    placeDestroyedOnBrokenMap: 1
+    flashOnHit: 1
+    flashColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
+    flashHold: 0.05
+    flashFade: 0.1
+    stagedVfxPrefab: {fileID: 0}
+    stagedVfxCleanup: 0
+    impactVfxPrefab: {fileID: 0}
+    impactVfxCleanup: 0
+    enableGearDrops: 0
+    gearDropChance: 0
+    gearDropChainMultiplier: 0.35
+    gearDropMaxCount: 1
+    useLocalGearPool: 0
+    lootScatter: {x: 0.25, y: 0.25}
+    guaranteedGearDrops: []
+    localRandomGearDrops: []
+    aliasTileNames:
+    - Door B
+    - Door C
+    - Door E
+    resourceDrops:
+      amounts:
+      - type: {fileID: 11400000, guid: f2141246a46bd5645a988a6aab309737, type: 2}
+        amount: 2
+      - type: {fileID: 11400000, guid: c81e490a0992b894aa571f11fcb20f97, type: 2}
+        amount: 2
+    buildCategory: 1
+    isBuildable: 1
+    partIdPrefix: 
+    displayNameOverride: 
+    buildIcon: {fileID: 0}
+    buildInfoText: 
+    unlockResource: {fileID: 11400000, guid: f2141246a46bd5645a988a6aab309737, type: 2}
+    isCraftingStation: 0
+    stationType: 0
+  - prefix: Torch
+    enabled: 1
+    maxHP: 1
+    clearTile: 0
+    destroyedTile: {fileID: 11400000, guid: 41ecfa42ab20b754196d039a935df733, type: 2}
+    destroyVfxPrefab: {fileID: 8172498448298082060, guid: facb36d6ddd297e448ef502dc5ac4aba, type: 3}
+    destroyVfxCleanup: 1.3
+    swapDelay: 1.2
+    placeDestroyedOnBrokenMap: 1
+    flashOnHit: 1
+    flashColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
+    flashHold: 0.05
+    flashFade: 0.1
+    stagedVfxPrefab: {fileID: 0}
+    stagedVfxCleanup: 0
+    impactVfxPrefab: {fileID: 0}
+    impactVfxCleanup: 0
+    enableGearDrops: 0
+    gearDropChance: 0
+    gearDropChainMultiplier: 0.35
+    gearDropMaxCount: 1
+    useLocalGearPool: 0
+    lootScatter: {x: 0.25, y: 0.25}
+    guaranteedGearDrops: []
+    localRandomGearDrops: []
+    aliasTileNames: []
+    resourceDrops:
+      amounts: []
+    buildCategory: 3
+    isBuildable: 1
+    partIdPrefix: 
+    displayNameOverride: 
+    buildIcon: {fileID: 0}
+    buildInfoText: 
+    unlockResource: {fileID: 0}
+    isCraftingStation: 0
+    stationType: 0
+  - prefix: Door A
+    enabled: 1
+    maxHP: 10
+    clearTile: 0
+    destroyedTile: {fileID: 11400000, guid: a6e4358bdd5dc8f46964d64f9f0703ce, type: 2}
+    destroyVfxPrefab: {fileID: 198760254976036344, guid: 57ee00bbdcf47e7479815c7c98cf4114, type: 3}
+    destroyVfxCleanup: 1.3
+    swapDelay: 1.2
+    placeDestroyedOnBrokenMap: 1
+    flashOnHit: 1
+    flashColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
+    flashHold: 0.05
+    flashFade: 0.1
+    stagedVfxPrefab: {fileID: 0}
+    stagedVfxCleanup: 0
+    impactVfxPrefab: {fileID: 0}
+    impactVfxCleanup: 0
+    enableGearDrops: 0
+    gearDropChance: 0
+    gearDropChainMultiplier: 0.35
+    gearDropMaxCount: 1
+    useLocalGearPool: 0
+    lootScatter: {x: 0.25, y: 0.25}
+    guaranteedGearDrops: []
+    localRandomGearDrops: []
+    aliasTileNames:
+    - Door B
+    - Door C
+    - Door E
+    resourceDrops:
+      amounts:
+      - type: {fileID: 11400000, guid: f2141246a46bd5645a988a6aab309737, type: 2}
+        amount: 2
+      - type: {fileID: 11400000, guid: c81e490a0992b894aa571f11fcb20f97, type: 2}
+        amount: 2
+    buildCategory: 1
+    isBuildable: 1
+    partIdPrefix: 
+    displayNameOverride: 
+    buildIcon: {fileID: 0}
+    buildInfoText: 
+    unlockResource: {fileID: 11400000, guid: f2141246a46bd5645a988a6aab309737, type: 2}
+    isCraftingStation: 0
+    stationType: 0
+  - prefix: Wall A
+    enabled: 1
+    maxHP: 12
+    clearTile: 0
+    destroyedTile: {fileID: 11400000, guid: 0ecf2e641cc41bc449ec951eede9d183, type: 2}
+    destroyVfxPrefab: {fileID: 445072638508670575, guid: d54af7d484ee9bb4eaed37e877bf1d04, type: 3}
+    destroyVfxCleanup: 1.3
+    swapDelay: 1.2
+    placeDestroyedOnBrokenMap: 1
+    flashOnHit: 1
+    flashColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
+    flashHold: 0.05
+    flashFade: 0.1
+    stagedVfxPrefab: {fileID: 0}
+    stagedVfxCleanup: 0
+    impactVfxPrefab: {fileID: 4398004784927620470, guid: e31f96ef394aa1645ba351c818aab612, type: 3}
+    impactVfxCleanup: 0
+    enableGearDrops: 0
+    gearDropChance: 0
+    gearDropChainMultiplier: 0.35
+    gearDropMaxCount: 1
+    useLocalGearPool: 0
+    lootScatter: {x: 0.25, y: 0.25}
+    guaranteedGearDrops: []
+    localRandomGearDrops: []
+    aliasTileNames: []
+    resourceDrops:
+      amounts:
+      - type: {fileID: 11400000, guid: 66ade32cf21dfb74d830522c8c94a0d4, type: 2}
+        amount: 5
+    buildCategory: 1
+    isBuildable: 1
+    partIdPrefix: 
+    displayNameOverride: 
+    buildIcon: {fileID: 0}
+    buildInfoText: 
+    unlockResource: {fileID: 11400000, guid: 66ade32cf21dfb74d830522c8c94a0d4, type: 2}
+    isCraftingStation: 0
+    stationType: 0
+  - prefix: Wall B
+    enabled: 1
+    maxHP: 10
+    clearTile: 0
+    destroyedTile: {fileID: 11400000, guid: 6cf1616302fda7b458266e35d3db762e, type: 2}
+    destroyVfxPrefab: {fileID: 2488147013794407780, guid: 1a0d399a773999d43982809b74223283, type: 3}
+    destroyVfxCleanup: 1.3
+    swapDelay: 1.2
+    placeDestroyedOnBrokenMap: 1
+    flashOnHit: 1
+    flashColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
+    flashHold: 0.05
+    flashFade: 0.1
+    stagedVfxPrefab: {fileID: 0}
+    stagedVfxCleanup: 0
+    impactVfxPrefab: {fileID: 8172498448298082060, guid: facb36d6ddd297e448ef502dc5ac4aba, type: 3}
+    impactVfxCleanup: 1.2
+    enableGearDrops: 0
+    gearDropChance: 0
+    gearDropChainMultiplier: 0.35
+    gearDropMaxCount: 1
+    useLocalGearPool: 0
+    lootScatter: {x: 0.25, y: 0.25}
+    guaranteedGearDrops: []
+    localRandomGearDrops: []
+    aliasTileNames: []
+    resourceDrops:
+      amounts:
+      - type: {fileID: 11400000, guid: c81e490a0992b894aa571f11fcb20f97, type: 2}
+        amount: 5
+    buildCategory: 1
+    isBuildable: 1
+    partIdPrefix: 
+    displayNameOverride: 
+    buildIcon: {fileID: 0}
+    buildInfoText: 
+    unlockResource: {fileID: 11400000, guid: c81e490a0992b894aa571f11fcb20f97, type: 2}
+    isCraftingStation: 0
+    stationType: 0
+  - prefix: Wall C
+    enabled: 1
+    maxHP: 15
+    clearTile: 0
+    destroyedTile: {fileID: 11400000, guid: 7b626872d6ee93049b480fb6fa62e60f, type: 2}
+    destroyVfxPrefab: {fileID: 3181678487908693522, guid: 798e2d6c13e5ddf4c8fcd9cc2fa28820, type: 3}
+    destroyVfxCleanup: 1.3
+    swapDelay: 1.2
+    placeDestroyedOnBrokenMap: 1
+    flashOnHit: 1
+    flashColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
+    flashHold: 0.05
+    flashFade: 0.1
+    stagedVfxPrefab: {fileID: 0}
+    stagedVfxCleanup: 0
+    impactVfxPrefab: {fileID: 0}
+    impactVfxCleanup: 0
+    enableGearDrops: 0
+    gearDropChance: 0
+    gearDropChainMultiplier: 0.35
+    gearDropMaxCount: 1
+    useLocalGearPool: 0
+    lootScatter: {x: 0.25, y: 0.25}
+    guaranteedGearDrops: []
+    localRandomGearDrops: []
+    aliasTileNames: []
+    resourceDrops:
+      amounts:
+      - type: {fileID: 11400000, guid: 66ade32cf21dfb74d830522c8c94a0d4, type: 2}
+        amount: 5
+      - type: {fileID: 11400000, guid: c81e490a0992b894aa571f11fcb20f97, type: 2}
+        amount: 5
+    buildCategory: 1
+    isBuildable: 1
+    partIdPrefix: 
+    displayNameOverride: 
+    buildIcon: {fileID: 0}
+    buildInfoText: 
+    unlockResource: {fileID: 11400000, guid: f2141246a46bd5645a988a6aab309737, type: 2}
+    isCraftingStation: 0
+    stationType: 0
+  - prefix: Wall D
+    enabled: 1
+    maxHP: 20
+    clearTile: 0
+    destroyedTile: {fileID: 11400000, guid: f7e7d073711e6cd42b54711d9ab78170, type: 2}
+    destroyVfxPrefab: {fileID: 2416822397284460442, guid: ed3f2d8cdf51ffb4cae770d092e804d0, type: 3}
+    destroyVfxCleanup: 1.3
+    swapDelay: 1.2
+    placeDestroyedOnBrokenMap: 1
+    flashOnHit: 1
+    flashColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
+    flashHold: 0.05
+    flashFade: 0.1
+    stagedVfxPrefab: {fileID: 0}
+    stagedVfxCleanup: 0
+    impactVfxPrefab: {fileID: 0}
+    impactVfxCleanup: 0
+    enableGearDrops: 0
+    gearDropChance: 0
+    gearDropChainMultiplier: 0.35
+    gearDropMaxCount: 1
+    useLocalGearPool: 0
+    lootScatter: {x: 0.25, y: 0.25}
+    guaranteedGearDrops: []
+    localRandomGearDrops: []
+    aliasTileNames: []
+    resourceDrops:
+      amounts:
+      - type: {fileID: 11400000, guid: 66ade32cf21dfb74d830522c8c94a0d4, type: 2}
+        amount: 5
+      - type: {fileID: 11400000, guid: c81e490a0992b894aa571f11fcb20f97, type: 2}
+        amount: 5
+    buildCategory: 1
+    isBuildable: 1
+    partIdPrefix: 
+    displayNameOverride: 
+    buildIcon: {fileID: 0}
+    buildInfoText: 
+    unlockResource: {fileID: 11400000, guid: fd324162f784b5e4aa4196c50f5f4e2e, type: 2}
+    isCraftingStation: 0
+    stationType: 0
+  - prefix: Wall E
+    enabled: 1
+    maxHP: 12
+    clearTile: 0
+    destroyedTile: {fileID: 11400000, guid: 6cf1616302fda7b458266e35d3db762e, type: 2}
+    destroyVfxPrefab: {fileID: 2488147013794407780, guid: 1a0d399a773999d43982809b74223283, type: 3}
+    destroyVfxCleanup: 1.3
+    swapDelay: 1.2
+    placeDestroyedOnBrokenMap: 1
+    flashOnHit: 1
+    flashColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
+    flashHold: 0.05
+    flashFade: 0.1
+    stagedVfxPrefab: {fileID: 0}
+    stagedVfxCleanup: 0
+    impactVfxPrefab: {fileID: 8172498448298082060, guid: facb36d6ddd297e448ef502dc5ac4aba, type: 3}
+    impactVfxCleanup: 1.2
+    enableGearDrops: 0
+    gearDropChance: 0
+    gearDropChainMultiplier: 0.35
+    gearDropMaxCount: 1
+    useLocalGearPool: 0
+    lootScatter: {x: 0.25, y: 0.25}
+    guaranteedGearDrops: []
+    localRandomGearDrops: []
+    aliasTileNames: []
+    resourceDrops:
+      amounts:
+      - type: {fileID: 11400000, guid: c81e490a0992b894aa571f11fcb20f97, type: 2}
+        amount: 10
+    buildCategory: 1
+    isBuildable: 1
+    partIdPrefix: 
+    displayNameOverride: 
+    buildIcon: {fileID: 0}
+    buildInfoText: 
+    unlockResource: {fileID: 11400000, guid: c81e490a0992b894aa571f11fcb20f97, type: 2}
+    isCraftingStation: 0
+    stationType: 0
+  - prefix: Wall F
+    enabled: 1
+    maxHP: 20
+    clearTile: 0
+    destroyedTile: {fileID: 11400000, guid: 6cf1616302fda7b458266e35d3db762e, type: 2}
+    destroyVfxPrefab: {fileID: 2488147013794407780, guid: 1a0d399a773999d43982809b74223283, type: 3}
+    destroyVfxCleanup: 1.3
+    swapDelay: 1.2
+    placeDestroyedOnBrokenMap: 1
+    flashOnHit: 1
+    flashColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
+    flashHold: 0.05
+    flashFade: 0.1
+    stagedVfxPrefab: {fileID: 0}
+    stagedVfxCleanup: 0
+    impactVfxPrefab: {fileID: 8172498448298082060, guid: facb36d6ddd297e448ef502dc5ac4aba, type: 3}
+    impactVfxCleanup: 1.2
+    enableGearDrops: 0
+    gearDropChance: 0
+    gearDropChainMultiplier: 0.35
+    gearDropMaxCount: 1
+    useLocalGearPool: 0
+    lootScatter: {x: 0.25, y: 0.25}
+    guaranteedGearDrops: []
+    localRandomGearDrops: []
+    aliasTileNames: []
+    resourceDrops:
+      amounts:
+      - type: {fileID: 11400000, guid: c81e490a0992b894aa571f11fcb20f97, type: 2}
+        amount: 10
+      - type: {fileID: 11400000, guid: 66ade32cf21dfb74d830522c8c94a0d4, type: 2}
+        amount: 10
+    buildCategory: 1
+    isBuildable: 1
+    partIdPrefix: 
+    displayNameOverride: 
+    buildIcon: {fileID: 0}
+    buildInfoText: 
+    unlockResource: {fileID: 11400000, guid: c81e490a0992b894aa571f11fcb20f97, type: 2}
+    isCraftingStation: 0
+    stationType: 0
+  - prefix: Wall G
+    enabled: 1
+    maxHP: 15
+    clearTile: 0
+    destroyedTile: {fileID: 11400000, guid: 6cf1616302fda7b458266e35d3db762e, type: 2}
+    destroyVfxPrefab: {fileID: 2488147013794407780, guid: 1a0d399a773999d43982809b74223283, type: 3}
+    destroyVfxCleanup: 1.3
+    swapDelay: 1.2
+    placeDestroyedOnBrokenMap: 1
+    flashOnHit: 1
+    flashColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
+    flashHold: 0.05
+    flashFade: 0.1
+    stagedVfxPrefab: {fileID: 0}
+    stagedVfxCleanup: 0
+    impactVfxPrefab: {fileID: 8172498448298082060, guid: facb36d6ddd297e448ef502dc5ac4aba, type: 3}
+    impactVfxCleanup: 1.2
+    enableGearDrops: 0
+    gearDropChance: 0
+    gearDropChainMultiplier: 0.35
+    gearDropMaxCount: 1
+    useLocalGearPool: 0
+    lootScatter: {x: 0.25, y: 0.25}
+    guaranteedGearDrops: []
+    localRandomGearDrops: []
+    aliasTileNames: []
+    resourceDrops:
+      amounts:
+      - type: {fileID: 11400000, guid: c81e490a0992b894aa571f11fcb20f97, type: 2}
+        amount: 10
+    buildCategory: 1
+    isBuildable: 1
+    partIdPrefix: 
+    displayNameOverride: 
+    buildIcon: {fileID: 0}
+    buildInfoText: 
+    unlockResource: {fileID: 11400000, guid: c81e490a0992b894aa571f11fcb20f97, type: 2}
+    isCraftingStation: 0
+    stationType: 0
+  - prefix: Flora
+    enabled: 1
+    maxHP: 1
+    clearTile: 0
+    destroyedTile: {fileID: 11400000, guid: d826abe8cd97124459f3e2265be77243, type: 2}
+    destroyVfxPrefab: {fileID: 9151467766727837983, guid: 991ba87e7ad6ac24da67a14e1969a764, type: 3}
+    destroyVfxCleanup: 1.3
+    swapDelay: 1.2
+    placeDestroyedOnBrokenMap: 1
+    flashOnHit: 1
+    flashColor: {r: 0.6289307, g: 0.6289307, b: 0.6289307, a: 1}
+    flashHold: 0.05
+    flashFade: 0.1
+    stagedVfxPrefab: {fileID: 0}
+    stagedVfxCleanup: 0
+    impactVfxPrefab: {fileID: 0}
+    impactVfxCleanup: 0
+    enableGearDrops: 0
+    gearDropChance: 0
+    gearDropChainMultiplier: 0.35
+    gearDropMaxCount: 1
+    useLocalGearPool: 0
+    lootScatter: {x: 0.25, y: 0.25}
+    guaranteedGearDrops: []
+    localRandomGearDrops: []
+    aliasTileNames: []
+    resourceDrops:
+      amounts:
+      - type: {fileID: 11400000, guid: 329488d6ae2f167419afae66d5d4af03, type: 2}
+        amount: 2
+    buildCategory: 3
+    isBuildable: 0
+    partIdPrefix: 
+    displayNameOverride: 
+    buildIcon: {fileID: 0}
+    buildInfoText: 
+    unlockResource: {fileID: 0}
+    isCraftingStation: 0
+    stationType: 0
+  - prefix: WallFlora A
+    enabled: 1
+    maxHP: 1
+    clearTile: 0
+    destroyedTile: {fileID: 11400000, guid: d826abe8cd97124459f3e2265be77243, type: 2}
+    destroyVfxPrefab: {fileID: 9151467766727837983, guid: 991ba87e7ad6ac24da67a14e1969a764, type: 3}
+    destroyVfxCleanup: 1.3
+    swapDelay: 1.2
+    placeDestroyedOnBrokenMap: 1
+    flashOnHit: 1
+    flashColor: {r: 0.6289307, g: 0.6289307, b: 0.6289307, a: 1}
+    flashHold: 0.05
+    flashFade: 0.1
+    stagedVfxPrefab: {fileID: 0}
+    stagedVfxCleanup: 0
+    impactVfxPrefab: {fileID: 0}
+    impactVfxCleanup: 0
+    enableGearDrops: 0
+    gearDropChance: 0
+    gearDropChainMultiplier: 0.35
+    gearDropMaxCount: 1
+    useLocalGearPool: 0
+    lootScatter: {x: 0.25, y: 0.25}
+    guaranteedGearDrops: []
+    localRandomGearDrops: []
+    aliasTileNames: []
+    resourceDrops:
+      amounts:
+      - type: {fileID: 11400000, guid: 329488d6ae2f167419afae66d5d4af03, type: 2}
+        amount: 2
+    buildCategory: 3
+    isBuildable: 0
+    partIdPrefix: 
+    displayNameOverride: 
+    buildIcon: {fileID: 0}
+    buildInfoText: 
+    unlockResource: {fileID: 0}
+    isCraftingStation: 0
+    stationType: 0
+  - prefix: Misc A
+    enabled: 1
+    maxHP: 10
+    clearTile: 0
+    destroyedTile: {fileID: 11400000, guid: 472afb8f101f5a74d9ad162e58adedbd, type: 2}
+    destroyVfxPrefab: {fileID: 3864110130891574913, guid: 97b4d0a1a30e8574297fedfb74dfbc2b, type: 3}
+    destroyVfxCleanup: 1.3
+    swapDelay: 1.2
+    placeDestroyedOnBrokenMap: 1
+    flashOnHit: 1
+    flashColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
+    flashHold: 0.05
+    flashFade: 0.1
+    stagedVfxPrefab: {fileID: 0}
+    stagedVfxCleanup: 0
+    impactVfxPrefab: {fileID: 0}
+    impactVfxCleanup: 0
+    enableGearDrops: 0
+    gearDropChance: 0
+    gearDropChainMultiplier: 0.35
+    gearDropMaxCount: 1
+    useLocalGearPool: 0
+    lootScatter: {x: 0.25, y: 0.25}
+    guaranteedGearDrops: []
+    localRandomGearDrops: []
+    aliasTileNames: []
+    resourceDrops:
+      amounts:
+      - type: {fileID: 11400000, guid: c81e490a0992b894aa571f11fcb20f97, type: 2}
+        amount: 2
+    buildCategory: 3
+    isBuildable: 1
+    partIdPrefix: 
+    displayNameOverride: 
+    buildIcon: {fileID: 0}
+    buildInfoText: '"Decorative object"'
+    unlockResource: {fileID: 11400000, guid: 4b142209a1dbe58438df1965725b5dad, type: 2}
+    isCraftingStation: 0
+    stationType: 0
+  - prefix: Misc B
+    enabled: 1
+    maxHP: 15
+    clearTile: 0
+    destroyedTile: {fileID: 11400000, guid: 2a690bf58b2170246a5a6d5fe2568c5a, type: 2}
+    destroyVfxPrefab: {fileID: 198760254976036344, guid: 57ee00bbdcf47e7479815c7c98cf4114, type: 3}
+    destroyVfxCleanup: 1.3
+    swapDelay: 1.2
+    placeDestroyedOnBrokenMap: 1
+    flashOnHit: 1
+    flashColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
+    flashHold: 0.05
+    flashFade: 0.1
+    stagedVfxPrefab: {fileID: 0}
+    stagedVfxCleanup: 0
+    impactVfxPrefab: {fileID: 8172498448298082060, guid: facb36d6ddd297e448ef502dc5ac4aba, type: 3}
+    impactVfxCleanup: 1.2
+    enableGearDrops: 1
+    gearDropChance: 0.02
+    gearDropChainMultiplier: 0.35
+    gearDropMaxCount: 3
+    useLocalGearPool: 0
+    lootScatter: {x: 0.25, y: 0.25}
+    guaranteedGearDrops: []
+    localRandomGearDrops: []
+    aliasTileNames: []
+    resourceDrops:
+      amounts:
+      - type: {fileID: 11400000, guid: 66ade32cf21dfb74d830522c8c94a0d4, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: c81e490a0992b894aa571f11fcb20f97, type: 2}
+        amount: 5
+    buildCategory: 3
+    isBuildable: 1
+    partIdPrefix: 
+    displayNameOverride: 
+    buildIcon: {fileID: 0}
+    buildInfoText: '"Decorative object"'
+    unlockResource: {fileID: 11400000, guid: c81e490a0992b894aa571f11fcb20f97, type: 2}
+    isCraftingStation: 0
+    stationType: 0
+  - prefix: Misc C
+    enabled: 1
+    maxHP: 15
+    clearTile: 0
+    destroyedTile: {fileID: 11400000, guid: 994dc3df822e9264bb6a3b708b23c739, type: 2}
+    destroyVfxPrefab: {fileID: 3732476918520062199, guid: cd151ffa59628944f805ece4dfa3354f, type: 3}
+    destroyVfxCleanup: 1.3
+    swapDelay: 1.2
+    placeDestroyedOnBrokenMap: 1
+    flashOnHit: 1
+    flashColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
+    flashHold: 0.05
+    flashFade: 0.1
+    stagedVfxPrefab: {fileID: 0}
+    stagedVfxCleanup: 0
+    impactVfxPrefab: {fileID: 0}
+    impactVfxCleanup: 0
+    enableGearDrops: 0
+    gearDropChance: 0
+    gearDropChainMultiplier: 0.35
+    gearDropMaxCount: 1
+    useLocalGearPool: 0
+    lootScatter: {x: 0.25, y: 0.25}
+    guaranteedGearDrops: []
+    localRandomGearDrops: []
+    aliasTileNames: []
+    resourceDrops:
+      amounts:
+      - type: {fileID: 11400000, guid: 66ade32cf21dfb74d830522c8c94a0d4, type: 2}
+        amount: 5
+      - type: {fileID: 11400000, guid: f2141246a46bd5645a988a6aab309737, type: 2}
+        amount: 0
+    buildCategory: 3
+    isBuildable: 1
+    partIdPrefix: 
+    displayNameOverride: 
+    buildIcon: {fileID: 0}
+    buildInfoText: '"Decorative object"'
+    unlockResource: {fileID: 11400000, guid: 66ade32cf21dfb74d830522c8c94a0d4, type: 2}
+    isCraftingStation: 0
+    stationType: 0
+  - prefix: Misc E
+    enabled: 1
+    maxHP: 1
+    clearTile: 0
+    destroyedTile: {fileID: 11400000, guid: fbfb967c3b87daf4a9128df55b557387, type: 2}
+    destroyVfxPrefab: {fileID: 9029002198817001026, guid: 591f3da5bd83b814f8afd56ee11b0e67, type: 3}
+    destroyVfxCleanup: 1.3
+    swapDelay: 1.2
+    placeDestroyedOnBrokenMap: 1
+    flashOnHit: 1
+    flashColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
+    flashHold: 0.05
+    flashFade: 0.1
+    stagedVfxPrefab: {fileID: 0}
+    stagedVfxCleanup: 0
+    impactVfxPrefab: {fileID: 0}
+    impactVfxCleanup: 0
+    enableGearDrops: 0
+    gearDropChance: 0
+    gearDropChainMultiplier: 0.35
+    gearDropMaxCount: 1
+    useLocalGearPool: 0
+    lootScatter: {x: 0.25, y: 0.25}
+    guaranteedGearDrops: []
+    localRandomGearDrops: []
+    aliasTileNames: []
+    resourceDrops:
+      amounts:
+      - type: {fileID: 11400000, guid: 329488d6ae2f167419afae66d5d4af03, type: 2}
+        amount: 2
+      - type: {fileID: 11400000, guid: 66ade32cf21dfb74d830522c8c94a0d4, type: 2}
+        amount: 0
+    buildCategory: 3
+    isBuildable: 1
+    partIdPrefix: 
+    displayNameOverride: 
+    buildIcon: {fileID: 0}
+    buildInfoText: '"Decorative object"'
+    unlockResource: {fileID: 11400000, guid: 329488d6ae2f167419afae66d5d4af03, type: 2}
+    isCraftingStation: 0
+    stationType: 0
+  - prefix: Misc D
+    enabled: 1
+    maxHP: 15
+    clearTile: 0
+    destroyedTile: {fileID: 11400000, guid: 994dc3df822e9264bb6a3b708b23c739, type: 2}
+    destroyVfxPrefab: {fileID: 3732476918520062199, guid: cd151ffa59628944f805ece4dfa3354f, type: 3}
+    destroyVfxCleanup: 1.3
+    swapDelay: 1.2
+    placeDestroyedOnBrokenMap: 1
+    flashOnHit: 1
+    flashColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
+    flashHold: 0.05
+    flashFade: 0.1
+    stagedVfxPrefab: {fileID: 0}
+    stagedVfxCleanup: 0
+    impactVfxPrefab: {fileID: 0}
+    impactVfxCleanup: 0
+    enableGearDrops: 0
+    gearDropChance: 0
+    gearDropChainMultiplier: 0.35
+    gearDropMaxCount: 1
+    useLocalGearPool: 0
+    lootScatter: {x: 0.25, y: 0.25}
+    guaranteedGearDrops: []
+    localRandomGearDrops: []
+    aliasTileNames: []
+    resourceDrops:
+      amounts:
+      - type: {fileID: 11400000, guid: 66ade32cf21dfb74d830522c8c94a0d4, type: 2}
+        amount: 5
+      - type: {fileID: 11400000, guid: f2141246a46bd5645a988a6aab309737, type: 2}
+        amount: 0
+    buildCategory: 3
+    isBuildable: 1
+    partIdPrefix: 
+    displayNameOverride: 
+    buildIcon: {fileID: 0}
+    buildInfoText: '"Decorative object"'
+    unlockResource: {fileID: 11400000, guid: 66ade32cf21dfb74d830522c8c94a0d4, type: 2}
+    isCraftingStation: 0
+    stationType: 0
+  - prefix: Misc C1_
+    enabled: 1
+    maxHP: 50
+    clearTile: 0
+    destroyedTile: {fileID: 11400000, guid: 994dc3df822e9264bb6a3b708b23c739, type: 2}
+    destroyVfxPrefab: {fileID: 3732476918520062199, guid: cd151ffa59628944f805ece4dfa3354f, type: 3}
+    destroyVfxCleanup: 1.3
+    swapDelay: 1.2
+    placeDestroyedOnBrokenMap: 1
+    flashOnHit: 1
+    flashColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
+    flashHold: 0.05
+    flashFade: 0.1
+    stagedVfxPrefab: {fileID: 0}
+    stagedVfxCleanup: 0
+    impactVfxPrefab: {fileID: 0}
+    impactVfxCleanup: 0
+    enableGearDrops: 0
+    gearDropChance: 0
+    gearDropChainMultiplier: 0.35
+    gearDropMaxCount: 1
+    useLocalGearPool: 0
+    lootScatter: {x: 0.25, y: 0.25}
+    guaranteedGearDrops: []
+    localRandomGearDrops: []
+    aliasTileNames: []
+    resourceDrops:
+      amounts:
+      - type: {fileID: 11400000, guid: 66ade32cf21dfb74d830522c8c94a0d4, type: 2}
+        amount: 20
+      - type: {fileID: 11400000, guid: f2141246a46bd5645a988a6aab309737, type: 2}
+        amount: 0
+    buildCategory: 4
+    isBuildable: 1
+    partIdPrefix: 
+    displayNameOverride: 
+    buildIcon: {fileID: 0}
+    buildInfoText: '"A blacksmith station that allows you to create armor."'
+    unlockResource: {fileID: 11400000, guid: 66ade32cf21dfb74d830522c8c94a0d4, type: 2}
+    isCraftingStation: 1
+    stationType: 2
+  - prefix: Misc C2_
+    enabled: 1
+    maxHP: 50
+    clearTile: 0
+    destroyedTile: {fileID: 11400000, guid: 994dc3df822e9264bb6a3b708b23c739, type: 2}
+    destroyVfxPrefab: {fileID: 3732476918520062199, guid: cd151ffa59628944f805ece4dfa3354f, type: 3}
+    destroyVfxCleanup: 1.3
+    swapDelay: 1.2
+    placeDestroyedOnBrokenMap: 1
+    flashOnHit: 1
+    flashColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
+    flashHold: 0.05
+    flashFade: 0.1
+    stagedVfxPrefab: {fileID: 0}
+    stagedVfxCleanup: 0
+    impactVfxPrefab: {fileID: 0}
+    impactVfxCleanup: 0
+    enableGearDrops: 0
+    gearDropChance: 0
+    gearDropChainMultiplier: 0.35
+    gearDropMaxCount: 1
+    useLocalGearPool: 0
+    lootScatter: {x: 0.25, y: 0.25}
+    guaranteedGearDrops: []
+    localRandomGearDrops: []
+    aliasTileNames: []
+    resourceDrops:
+      amounts:
+      - type: {fileID: 11400000, guid: 66ade32cf21dfb74d830522c8c94a0d4, type: 2}
+        amount: 15
+      - type: {fileID: 11400000, guid: f2141246a46bd5645a988a6aab309737, type: 2}
+        amount: 15
+      - type: {fileID: 11400000, guid: 0e295362f76c96a47974d210aed58f15, type: 2}
+        amount: 0
+    buildCategory: 4
+    isBuildable: 1
+    partIdPrefix: 
+    displayNameOverride: 
+    buildIcon: {fileID: 0}
+    buildInfoText: '"A anvil that allows you to create weapons."'
+    unlockResource: {fileID: 11400000, guid: c81e490a0992b894aa571f11fcb20f97, type: 2}
+    isCraftingStation: 1
+    stationType: 5
+  - prefix: Misc B17
+    enabled: 1
+    maxHP: 20
+    clearTile: 0
+    destroyedTile: {fileID: 11400000, guid: 2a690bf58b2170246a5a6d5fe2568c5a, type: 2}
+    destroyVfxPrefab: {fileID: 198760254976036344, guid: 57ee00bbdcf47e7479815c7c98cf4114, type: 3}
+    destroyVfxCleanup: 1.3
+    swapDelay: 1.2
+    placeDestroyedOnBrokenMap: 1
+    flashOnHit: 1
+    flashColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
+    flashHold: 0.05
+    flashFade: 0.1
+    stagedVfxPrefab: {fileID: 0}
+    stagedVfxCleanup: 0
+    impactVfxPrefab: {fileID: 0}
+    impactVfxCleanup: 0
+    enableGearDrops: 0
+    gearDropChance: 0
+    gearDropChainMultiplier: 0.35
+    gearDropMaxCount: 1
+    useLocalGearPool: 0
+    lootScatter: {x: 0.25, y: 0.25}
+    guaranteedGearDrops: []
+    localRandomGearDrops: []
+    aliasTileNames: []
+    resourceDrops:
+      amounts:
+      - type: {fileID: 11400000, guid: 66ade32cf21dfb74d830522c8c94a0d4, type: 2}
+        amount: 2
+      - type: {fileID: 11400000, guid: f2141246a46bd5645a988a6aab309737, type: 2}
+        amount: 2
+      - type: {fileID: 11400000, guid: c81e490a0992b894aa571f11fcb20f97, type: 2}
+        amount: 10
+    buildCategory: 4
+    isBuildable: 1
+    partIdPrefix: 
+    displayNameOverride: 
+    buildIcon: {fileID: 0}
+    buildInfoText: '"A trading post that allows you to trade in general goods."'
+    unlockResource: {fileID: 11400000, guid: 99f873a70a934bb4fb781d96b1d2dac5, type: 2}
+    isCraftingStation: 1
+    stationType: 13
+  - prefix: Misc B19
+    enabled: 1
+    maxHP: 20
+    clearTile: 0
+    destroyedTile: {fileID: 11400000, guid: 2a690bf58b2170246a5a6d5fe2568c5a, type: 2}
+    destroyVfxPrefab: {fileID: 198760254976036344, guid: 57ee00bbdcf47e7479815c7c98cf4114, type: 3}
+    destroyVfxCleanup: 1.3
+    swapDelay: 1.2
+    placeDestroyedOnBrokenMap: 1
+    flashOnHit: 1
+    flashColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
+    flashHold: 0.05
+    flashFade: 0.1
+    stagedVfxPrefab: {fileID: 0}
+    stagedVfxCleanup: 0
+    impactVfxPrefab: {fileID: 0}
+    impactVfxCleanup: 0
+    enableGearDrops: 0
+    gearDropChance: 0
+    gearDropChainMultiplier: 0.35
+    gearDropMaxCount: 1
+    useLocalGearPool: 0
+    lootScatter: {x: 0.25, y: 0.25}
+    guaranteedGearDrops: []
+    localRandomGearDrops: []
+    aliasTileNames: []
+    resourceDrops:
+      amounts:
+      - type: {fileID: 11400000, guid: 66ade32cf21dfb74d830522c8c94a0d4, type: 2}
+        amount: 2
+      - type: {fileID: 11400000, guid: f2141246a46bd5645a988a6aab309737, type: 2}
+        amount: 2
+      - type: {fileID: 11400000, guid: c81e490a0992b894aa571f11fcb20f97, type: 2}
+        amount: 10
+    buildCategory: 4
+    isBuildable: 1
+    partIdPrefix: 
+    displayNameOverride: 
+    buildIcon: {fileID: 0}
+    buildInfoText: '"A trading post that allows you to trade in general goods."'
+    unlockResource: {fileID: 11400000, guid: 4ed861a77b6464b48bdce4aee7d6f897, type: 2}
+    isCraftingStation: 1
+    stationType: 13
+  - prefix: Misc B18
+    enabled: 1
+    maxHP: 20
+    clearTile: 0
+    destroyedTile: {fileID: 11400000, guid: 2a690bf58b2170246a5a6d5fe2568c5a, type: 2}
+    destroyVfxPrefab: {fileID: 198760254976036344, guid: 57ee00bbdcf47e7479815c7c98cf4114, type: 3}
+    destroyVfxCleanup: 1.3
+    swapDelay: 1.2
+    placeDestroyedOnBrokenMap: 1
+    flashOnHit: 1
+    flashColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
+    flashHold: 0.05
+    flashFade: 0.1
+    stagedVfxPrefab: {fileID: 0}
+    stagedVfxCleanup: 0
+    impactVfxPrefab: {fileID: 0}
+    impactVfxCleanup: 0
+    enableGearDrops: 0
+    gearDropChance: 0
+    gearDropChainMultiplier: 0.35
+    gearDropMaxCount: 1
+    useLocalGearPool: 0
+    lootScatter: {x: 0.25, y: 0.25}
+    guaranteedGearDrops: []
+    localRandomGearDrops: []
+    aliasTileNames: []
+    resourceDrops:
+      amounts:
+      - type: {fileID: 11400000, guid: 66ade32cf21dfb74d830522c8c94a0d4, type: 2}
+        amount: 2
+      - type: {fileID: 11400000, guid: f2141246a46bd5645a988a6aab309737, type: 2}
+        amount: 2
+      - type: {fileID: 11400000, guid: c81e490a0992b894aa571f11fcb20f97, type: 2}
+        amount: 10
+    buildCategory: 4
+    isBuildable: 1
+    partIdPrefix: 
+    displayNameOverride: 
+    buildIcon: {fileID: 0}
+    buildInfoText: '"A trading post that allows you to trade in general goods."'
+    unlockResource: {fileID: 11400000, guid: 3a7330196a00fa446a07cc4e7d7c4284, type: 2}
+    isCraftingStation: 1
+    stationType: 13
+  - prefix: Misc B21
+    enabled: 1
+    maxHP: 20
+    clearTile: 0
+    destroyedTile: {fileID: 11400000, guid: 2a690bf58b2170246a5a6d5fe2568c5a, type: 2}
+    destroyVfxPrefab: {fileID: 198760254976036344, guid: 57ee00bbdcf47e7479815c7c98cf4114, type: 3}
+    destroyVfxCleanup: 1.3
+    swapDelay: 1.2
+    placeDestroyedOnBrokenMap: 1
+    flashOnHit: 1
+    flashColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
+    flashHold: 0.05
+    flashFade: 0.1
+    stagedVfxPrefab: {fileID: 0}
+    stagedVfxCleanup: 0
+    impactVfxPrefab: {fileID: 0}
+    impactVfxCleanup: 0
+    enableGearDrops: 0
+    gearDropChance: 0
+    gearDropChainMultiplier: 0.35
+    gearDropMaxCount: 1
+    useLocalGearPool: 0
+    lootScatter: {x: 0.25, y: 0.25}
+    guaranteedGearDrops: []
+    localRandomGearDrops: []
+    aliasTileNames: []
+    resourceDrops:
+      amounts:
+      - type: {fileID: 11400000, guid: 66ade32cf21dfb74d830522c8c94a0d4, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: f2141246a46bd5645a988a6aab309737, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: c81e490a0992b894aa571f11fcb20f97, type: 2}
+        amount: 10
+    buildCategory: 4
+    isBuildable: 1
+    partIdPrefix: 
+    displayNameOverride: 
+    buildIcon: {fileID: 0}
+    buildInfoText: '"Allows you to create leather from scraps."'
+    unlockResource: {fileID: 11400000, guid: 55ce64cfa96acad4a87da93be09f5a5e, type: 2}
+    isCraftingStation: 1
+    stationType: 3
+  - prefix: Misc B16
+    enabled: 1
+    maxHP: 20
+    clearTile: 0
+    destroyedTile: {fileID: 11400000, guid: fbfb967c3b87daf4a9128df55b557387, type: 2}
+    destroyVfxPrefab: {fileID: 8231740230392700396, guid: 7bb57536180625848a6c13e6a25fae5c, type: 3}
+    destroyVfxCleanup: 1.3
+    swapDelay: 1.2
+    placeDestroyedOnBrokenMap: 1
+    flashOnHit: 1
+    flashColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
+    flashHold: 0.05
+    flashFade: 0.1
+    stagedVfxPrefab: {fileID: 0}
+    stagedVfxCleanup: 0
+    impactVfxPrefab: {fileID: 0}
+    impactVfxCleanup: 0
+    enableGearDrops: 0
+    gearDropChance: 0
+    gearDropChainMultiplier: 0.35
+    gearDropMaxCount: 1
+    useLocalGearPool: 0
+    lootScatter: {x: 0.25, y: 0.25}
+    guaranteedGearDrops: []
+    localRandomGearDrops: []
+    aliasTileNames: []
+    resourceDrops:
+      amounts:
+      - type: {fileID: 11400000, guid: 66ade32cf21dfb74d830522c8c94a0d4, type: 2}
+        amount: 20
+      - type: {fileID: 11400000, guid: f2141246a46bd5645a988a6aab309737, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: c81e490a0992b894aa571f11fcb20f97, type: 2}
+        amount: 10
+    buildCategory: 4
+    isBuildable: 1
+    partIdPrefix: 
+    displayNameOverride: 
+    buildIcon: {fileID: 0}
+    buildInfoText: '"Allows you to grind down and shape stone."'
+    unlockResource: {fileID: 11400000, guid: 66ade32cf21dfb74d830522c8c94a0d4, type: 2}
+    isCraftingStation: 1
+    stationType: 4
+  - prefix: Misc A6
+    enabled: 1
+    maxHP: 20
+    clearTile: 0
+    destroyedTile: {fileID: 11400000, guid: 2a690bf58b2170246a5a6d5fe2568c5a, type: 2}
+    destroyVfxPrefab: {fileID: 198760254976036344, guid: 57ee00bbdcf47e7479815c7c98cf4114, type: 3}
+    destroyVfxCleanup: 1.3
+    swapDelay: 1.2
+    placeDestroyedOnBrokenMap: 1
+    flashOnHit: 1
+    flashColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
+    flashHold: 0.05
+    flashFade: 0.1
+    stagedVfxPrefab: {fileID: 0}
+    stagedVfxCleanup: 0
+    impactVfxPrefab: {fileID: 0}
+    impactVfxCleanup: 0
+    enableGearDrops: 0
+    gearDropChance: 0
+    gearDropChainMultiplier: 0.35
+    gearDropMaxCount: 1
+    useLocalGearPool: 0
+    lootScatter: {x: 0.25, y: 0.25}
+    guaranteedGearDrops: []
+    localRandomGearDrops: []
+    aliasTileNames: []
+    resourceDrops:
+      amounts:
+      - type: {fileID: 11400000, guid: 66ade32cf21dfb74d830522c8c94a0d4, type: 2}
+        amount: 20
+      - type: {fileID: 11400000, guid: f2141246a46bd5645a988a6aab309737, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: c81e490a0992b894aa571f11fcb20f97, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: f70e718f0c53eaf4c90a0a4fd187e89f, type: 2}
+        amount: 20
+    buildCategory: 4
+    isBuildable: 1
+    partIdPrefix: 
+    displayNameOverride: 
+    buildIcon: {fileID: 0}
+    buildInfoText: '"Allows you to melt different minerals and ore into bars."'
+    unlockResource: {fileID: 11400000, guid: c1e6ba2c63f86824eb93692c480b08f7, type: 2}
+    isCraftingStation: 1
+    stationType: 1
+  - prefix: Misc A5
+    enabled: 1
+    maxHP: 20
+    clearTile: 0
+    destroyedTile: {fileID: 11400000, guid: 2a690bf58b2170246a5a6d5fe2568c5a, type: 2}
+    destroyVfxPrefab: {fileID: 198760254976036344, guid: 57ee00bbdcf47e7479815c7c98cf4114, type: 3}
+    destroyVfxCleanup: 1.3
+    swapDelay: 1.2
+    placeDestroyedOnBrokenMap: 1
+    flashOnHit: 1
+    flashColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
+    flashHold: 0.05
+    flashFade: 0.1
+    stagedVfxPrefab: {fileID: 0}
+    stagedVfxCleanup: 0
+    impactVfxPrefab: {fileID: 0}
+    impactVfxCleanup: 0
+    enableGearDrops: 0
+    gearDropChance: 0
+    gearDropChainMultiplier: 0.35
+    gearDropMaxCount: 1
+    useLocalGearPool: 0
+    lootScatter: {x: 0.25, y: 0.25}
+    guaranteedGearDrops: []
+    localRandomGearDrops: []
+    aliasTileNames: []
+    resourceDrops:
+      amounts:
+      - type: {fileID: 11400000, guid: 66ade32cf21dfb74d830522c8c94a0d4, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: f2141246a46bd5645a988a6aab309737, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: c81e490a0992b894aa571f11fcb20f97, type: 2}
+        amount: 20
+      - type: {fileID: 11400000, guid: f70e718f0c53eaf4c90a0a4fd187e89f, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: fd324162f784b5e4aa4196c50f5f4e2e, type: 2}
+        amount: 10
+    buildCategory: 4
+    isBuildable: 1
+    partIdPrefix: 
+    displayNameOverride: 
+    buildIcon: {fileID: 0}
+    buildInfoText: '"Allows you to refine and infuse wood."'
+    unlockResource: {fileID: 11400000, guid: f2141246a46bd5645a988a6aab309737, type: 2}
+    isCraftingStation: 1
+    stationType: 7
+  - prefix: Ground
+    enabled: 1
+    maxHP: 2
+    clearTile: 0
+    destroyedTile: {fileID: 11400000, guid: fbfb967c3b87daf4a9128df55b557387, type: 2}
+    destroyVfxPrefab: {fileID: 9151467766727837983, guid: 991ba87e7ad6ac24da67a14e1969a764, type: 3}
+    destroyVfxCleanup: 1.3
+    swapDelay: 1.2
+    placeDestroyedOnBrokenMap: 1
+    flashOnHit: 1
+    flashColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
+    flashHold: 0.05
+    flashFade: 0.1
+    stagedVfxPrefab: {fileID: 0}
+    stagedVfxCleanup: 0
+    impactVfxPrefab: {fileID: 0}
+    impactVfxCleanup: 0
+    enableGearDrops: 0
+    gearDropChance: 0
+    gearDropChainMultiplier: 0.35
+    gearDropMaxCount: 1
+    useLocalGearPool: 0
+    lootScatter: {x: 0.25, y: 0.25}
+    guaranteedGearDrops: []
+    localRandomGearDrops: []
+    aliasTileNames: []
+    resourceDrops:
+      amounts:
+      - type: {fileID: 11400000, guid: 66ade32cf21dfb74d830522c8c94a0d4, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: f2141246a46bd5645a988a6aab309737, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: c81e490a0992b894aa571f11fcb20f97, type: 2}
+        amount: 2
+    buildCategory: 0
+    isBuildable: 0
+    partIdPrefix: 
+    displayNameOverride: 
+    buildIcon: {fileID: 0}
+    buildInfoText: 
+    unlockResource: {fileID: 11400000, guid: 66ade32cf21dfb74d830522c8c94a0d4, type: 2}
+    isCraftingStation: 0
+    stationType: 4
+  - prefix: Ground A
+    enabled: 1
+    maxHP: 2
+    clearTile: 0
+    destroyedTile: {fileID: 11400000, guid: fbfb967c3b87daf4a9128df55b557387, type: 2}
+    destroyVfxPrefab: {fileID: 9151467766727837983, guid: 991ba87e7ad6ac24da67a14e1969a764, type: 3}
+    destroyVfxCleanup: 1.3
+    swapDelay: 1.2
+    placeDestroyedOnBrokenMap: 1
+    flashOnHit: 1
+    flashColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
+    flashHold: 0.05
+    flashFade: 0.1
+    stagedVfxPrefab: {fileID: 0}
+    stagedVfxCleanup: 0
+    impactVfxPrefab: {fileID: 0}
+    impactVfxCleanup: 0
+    enableGearDrops: 0
+    gearDropChance: 0
+    gearDropChainMultiplier: 0.35
+    gearDropMaxCount: 1
+    useLocalGearPool: 0
+    lootScatter: {x: 0.25, y: 0.25}
+    guaranteedGearDrops: []
+    localRandomGearDrops: []
+    aliasTileNames: []
+    resourceDrops:
+      amounts:
+      - type: {fileID: 11400000, guid: 66ade32cf21dfb74d830522c8c94a0d4, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: f2141246a46bd5645a988a6aab309737, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: c81e490a0992b894aa571f11fcb20f97, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: 329488d6ae2f167419afae66d5d4af03, type: 2}
+        amount: 2
+    buildCategory: 0
+    isBuildable: 0
+    partIdPrefix: 
+    displayNameOverride: 
+    buildIcon: {fileID: 0}
+    buildInfoText: 
+    unlockResource: {fileID: 0}
+    isCraftingStation: 0
+    stationType: 4
+  - prefix: Ground B
+    enabled: 1
+    maxHP: 2
+    clearTile: 0
+    destroyedTile: {fileID: 11400000, guid: fbfb967c3b87daf4a9128df55b557387, type: 2}
+    destroyVfxPrefab: {fileID: 3732476918520062199, guid: cd151ffa59628944f805ece4dfa3354f, type: 3}
+    destroyVfxCleanup: 1.3
+    swapDelay: 1.2
+    placeDestroyedOnBrokenMap: 1
+    flashOnHit: 1
+    flashColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
+    flashHold: 0.05
+    flashFade: 0.1
+    stagedVfxPrefab: {fileID: 0}
+    stagedVfxCleanup: 0
+    impactVfxPrefab: {fileID: 0}
+    impactVfxCleanup: 0
+    enableGearDrops: 0
+    gearDropChance: 0
+    gearDropChainMultiplier: 0.35
+    gearDropMaxCount: 1
+    useLocalGearPool: 0
+    lootScatter: {x: 0.25, y: 0.25}
+    guaranteedGearDrops: []
+    localRandomGearDrops: []
+    aliasTileNames:
+    - Ground C
+    resourceDrops:
+      amounts:
+      - type: {fileID: 11400000, guid: 66ade32cf21dfb74d830522c8c94a0d4, type: 2}
+        amount: 2
+      - type: {fileID: 11400000, guid: f2141246a46bd5645a988a6aab309737, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: c81e490a0992b894aa571f11fcb20f97, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: 329488d6ae2f167419afae66d5d4af03, type: 2}
+        amount: 0
+    buildCategory: 0
+    isBuildable: 1
+    partIdPrefix: 
+    displayNameOverride: 
+    buildIcon: {fileID: 0}
+    buildInfoText: 
+    unlockResource: {fileID: 11400000, guid: 66ade32cf21dfb74d830522c8c94a0d4, type: 2}
+    isCraftingStation: 0
+    stationType: 4
+  - prefix: Ground D
+    enabled: 1
+    maxHP: 2
+    clearTile: 0
+    destroyedTile: {fileID: 11400000, guid: fbfb967c3b87daf4a9128df55b557387, type: 2}
+    destroyVfxPrefab: {fileID: 3732476918520062199, guid: cd151ffa59628944f805ece4dfa3354f, type: 3}
+    destroyVfxCleanup: 1.3
+    swapDelay: 1.2
+    placeDestroyedOnBrokenMap: 1
+    flashOnHit: 1
+    flashColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
+    flashHold: 0.05
+    flashFade: 0.1
+    stagedVfxPrefab: {fileID: 0}
+    stagedVfxCleanup: 0
+    impactVfxPrefab: {fileID: 0}
+    impactVfxCleanup: 0
+    enableGearDrops: 0
+    gearDropChance: 0
+    gearDropChainMultiplier: 0.35
+    gearDropMaxCount: 1
+    useLocalGearPool: 0
+    lootScatter: {x: 0.25, y: 0.25}
+    guaranteedGearDrops: []
+    localRandomGearDrops: []
+    aliasTileNames:
+    - Ground E
+    resourceDrops:
+      amounts:
+      - type: {fileID: 11400000, guid: 66ade32cf21dfb74d830522c8c94a0d4, type: 2}
+        amount: 3
+      - type: {fileID: 11400000, guid: f2141246a46bd5645a988a6aab309737, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: c81e490a0992b894aa571f11fcb20f97, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: 329488d6ae2f167419afae66d5d4af03, type: 2}
+        amount: 0
+    buildCategory: 0
+    isBuildable: 1
+    partIdPrefix: 
+    displayNameOverride: 
+    buildIcon: {fileID: 0}
+    buildInfoText: 
+    unlockResource: {fileID: 11400000, guid: c81e490a0992b894aa571f11fcb20f97, type: 2}
+    isCraftingStation: 0
+    stationType: 4
+  - prefix: Ground F
+    enabled: 1
+    maxHP: 2
+    clearTile: 0
+    destroyedTile: {fileID: 11400000, guid: fbfb967c3b87daf4a9128df55b557387, type: 2}
+    destroyVfxPrefab: {fileID: 3732476918520062199, guid: cd151ffa59628944f805ece4dfa3354f, type: 3}
+    destroyVfxCleanup: 1.3
+    swapDelay: 1.2
+    placeDestroyedOnBrokenMap: 1
+    flashOnHit: 1
+    flashColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
+    flashHold: 0.05
+    flashFade: 0.1
+    stagedVfxPrefab: {fileID: 0}
+    stagedVfxCleanup: 0
+    impactVfxPrefab: {fileID: 0}
+    impactVfxCleanup: 0
+    enableGearDrops: 0
+    gearDropChance: 0
+    gearDropChainMultiplier: 0.35
+    gearDropMaxCount: 1
+    useLocalGearPool: 0
+    lootScatter: {x: 0.25, y: 0.25}
+    guaranteedGearDrops: []
+    localRandomGearDrops: []
+    aliasTileNames: []
+    resourceDrops:
+      amounts:
+      - type: {fileID: 11400000, guid: 66ade32cf21dfb74d830522c8c94a0d4, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: f2141246a46bd5645a988a6aab309737, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: c81e490a0992b894aa571f11fcb20f97, type: 2}
+        amount: 2
+      - type: {fileID: 11400000, guid: 329488d6ae2f167419afae66d5d4af03, type: 2}
+        amount: 0
+    buildCategory: 0
+    isBuildable: 1
+    partIdPrefix: 
+    displayNameOverride: 
+    buildIcon: {fileID: 0}
+    buildInfoText: 
+    unlockResource: {fileID: 11400000, guid: f2141246a46bd5645a988a6aab309737, type: 2}
+    isCraftingStation: 0
+    stationType: 4
+  - prefix: Ground F5
+    enabled: 1
+    maxHP: 2
+    clearTile: 0
+    destroyedTile: {fileID: 11400000, guid: fbfb967c3b87daf4a9128df55b557387, type: 2}
+    destroyVfxPrefab: {fileID: 3732476918520062199, guid: cd151ffa59628944f805ece4dfa3354f, type: 3}
+    destroyVfxCleanup: 1.3
+    swapDelay: 1.2
+    placeDestroyedOnBrokenMap: 1
+    flashOnHit: 1
+    flashColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
+    flashHold: 0.05
+    flashFade: 0.1
+    stagedVfxPrefab: {fileID: 0}
+    stagedVfxCleanup: 0
+    impactVfxPrefab: {fileID: 0}
+    impactVfxCleanup: 0
+    enableGearDrops: 0
+    gearDropChance: 0
+    gearDropChainMultiplier: 0.35
+    gearDropMaxCount: 1
+    useLocalGearPool: 0
+    lootScatter: {x: 0.25, y: 0.25}
+    guaranteedGearDrops: []
+    localRandomGearDrops: []
+    aliasTileNames: []
+    resourceDrops:
+      amounts:
+      - type: {fileID: 11400000, guid: 66ade32cf21dfb74d830522c8c94a0d4, type: 2}
+        amount: 4
+      - type: {fileID: 11400000, guid: f2141246a46bd5645a988a6aab309737, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: c81e490a0992b894aa571f11fcb20f97, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: 329488d6ae2f167419afae66d5d4af03, type: 2}
+        amount: 0
+    buildCategory: 0
+    isBuildable: 0
+    partIdPrefix: 
+    displayNameOverride: 
+    buildIcon: {fileID: 0}
+    buildInfoText: 
+    unlockResource: {fileID: 0}
+    isCraftingStation: 0
+    stationType: 4
+  - prefix: Ground F6
+    enabled: 1
+    maxHP: 2
+    clearTile: 0
+    destroyedTile: {fileID: 11400000, guid: fbfb967c3b87daf4a9128df55b557387, type: 2}
+    destroyVfxPrefab: {fileID: 3732476918520062199, guid: cd151ffa59628944f805ece4dfa3354f, type: 3}
+    destroyVfxCleanup: 1.3
+    swapDelay: 1.2
+    placeDestroyedOnBrokenMap: 1
+    flashOnHit: 1
+    flashColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
+    flashHold: 0.05
+    flashFade: 0.1
+    stagedVfxPrefab: {fileID: 0}
+    stagedVfxCleanup: 0
+    impactVfxPrefab: {fileID: 0}
+    impactVfxCleanup: 0
+    enableGearDrops: 0
+    gearDropChance: 0
+    gearDropChainMultiplier: 0.35
+    gearDropMaxCount: 1
+    useLocalGearPool: 0
+    lootScatter: {x: 0.25, y: 0.25}
+    guaranteedGearDrops: []
+    localRandomGearDrops: []
+    aliasTileNames: []
+    resourceDrops:
+      amounts:
+      - type: {fileID: 11400000, guid: 66ade32cf21dfb74d830522c8c94a0d4, type: 2}
+        amount: 4
+      - type: {fileID: 11400000, guid: f2141246a46bd5645a988a6aab309737, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: c81e490a0992b894aa571f11fcb20f97, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: 329488d6ae2f167419afae66d5d4af03, type: 2}
+        amount: 0
+    buildCategory: 0
+    isBuildable: 0
+    partIdPrefix: 
+    displayNameOverride: 
+    buildIcon: {fileID: 0}
+    buildInfoText: 
+    unlockResource: {fileID: 0}
+    isCraftingStation: 0
+    stationType: 4
+  - prefix: Ground H
+    enabled: 1
+    maxHP: 2
+    clearTile: 0
+    destroyedTile: {fileID: 11400000, guid: fbfb967c3b87daf4a9128df55b557387, type: 2}
+    destroyVfxPrefab: {fileID: 3732476918520062199, guid: cd151ffa59628944f805ece4dfa3354f, type: 3}
+    destroyVfxCleanup: 1.3
+    swapDelay: 1.2
+    placeDestroyedOnBrokenMap: 1
+    flashOnHit: 1
+    flashColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
+    flashHold: 0.05
+    flashFade: 0.1
+    stagedVfxPrefab: {fileID: 0}
+    stagedVfxCleanup: 0
+    impactVfxPrefab: {fileID: 0}
+    impactVfxCleanup: 0
+    enableGearDrops: 0
+    gearDropChance: 0
+    gearDropChainMultiplier: 0.35
+    gearDropMaxCount: 1
+    useLocalGearPool: 0
+    lootScatter: {x: 0.25, y: 0.25}
+    guaranteedGearDrops: []
+    localRandomGearDrops: []
+    aliasTileNames: []
+    resourceDrops:
+      amounts:
+      - type: {fileID: 11400000, guid: 66ade32cf21dfb74d830522c8c94a0d4, type: 2}
+        amount: 4
+      - type: {fileID: 11400000, guid: f2141246a46bd5645a988a6aab309737, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: c81e490a0992b894aa571f11fcb20f97, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: 329488d6ae2f167419afae66d5d4af03, type: 2}
+        amount: 0
+    buildCategory: 0
+    isBuildable: 1
+    partIdPrefix: 
+    displayNameOverride: 
+    buildIcon: {fileID: 0}
+    buildInfoText: 
+    unlockResource: {fileID: 11400000, guid: 06c7c07063c945c46b7d66d0ce7b1911, type: 2}
+    isCraftingStation: 0
+    stationType: 4
+  - prefix: FirePlace
+    enabled: 1
+    maxHP: 10
+    clearTile: 0
+    destroyedTile: {fileID: 11400000, guid: fbfb967c3b87daf4a9128df55b557387, type: 2}
+    destroyVfxPrefab: {fileID: 3732476918520062199, guid: cd151ffa59628944f805ece4dfa3354f, type: 3}
+    destroyVfxCleanup: 1.3
+    swapDelay: 1.2
+    placeDestroyedOnBrokenMap: 1
+    flashOnHit: 1
+    flashColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
+    flashHold: 0.05
+    flashFade: 0.1
+    stagedVfxPrefab: {fileID: 0}
+    stagedVfxCleanup: 0
+    impactVfxPrefab: {fileID: 0}
+    impactVfxCleanup: 0
+    enableGearDrops: 0
+    gearDropChance: 0
+    gearDropChainMultiplier: 0.35
+    gearDropMaxCount: 1
+    useLocalGearPool: 0
+    lootScatter: {x: 0.25, y: 0.25}
+    guaranteedGearDrops: []
+    localRandomGearDrops: []
+    aliasTileNames: []
+    resourceDrops:
+      amounts:
+      - type: {fileID: 11400000, guid: 66ade32cf21dfb74d830522c8c94a0d4, type: 2}
+        amount: 5
+      - type: {fileID: 11400000, guid: f2141246a46bd5645a988a6aab309737, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: c81e490a0992b894aa571f11fcb20f97, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: 329488d6ae2f167419afae66d5d4af03, type: 2}
+        amount: 0
+    buildCategory: 4
+    isBuildable: 1
+    partIdPrefix: 
+    displayNameOverride: 
+    buildIcon: {fileID: 0}
+    buildInfoText: '"When activated, is set as the spawnpoint of the player. "'
+    unlockResource: {fileID: 11400000, guid: 66ade32cf21dfb74d830522c8c94a0d4, type: 2}
+    isCraftingStation: 1
+    stationType: 14
+  - prefix: Shadow
+    enabled: 1
+    maxHP: 10
+    clearTile: 0
+    destroyedTile: {fileID: 11400000, guid: fbfb967c3b87daf4a9128df55b557387, type: 2}
+    destroyVfxPrefab: {fileID: 3732476918520062199, guid: cd151ffa59628944f805ece4dfa3354f, type: 3}
+    destroyVfxCleanup: 1.3
+    swapDelay: 1.2
+    placeDestroyedOnBrokenMap: 1
+    flashOnHit: 1
+    flashColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
+    flashHold: 0.05
+    flashFade: 0.1
+    stagedVfxPrefab: {fileID: 0}
+    stagedVfxCleanup: 0
+    impactVfxPrefab: {fileID: 0}
+    impactVfxCleanup: 0
+    enableGearDrops: 0
+    gearDropChance: 0
+    gearDropChainMultiplier: 0.35
+    gearDropMaxCount: 1
+    useLocalGearPool: 0
+    lootScatter: {x: 0.25, y: 0.25}
+    guaranteedGearDrops: []
+    localRandomGearDrops: []
+    aliasTileNames:
+    - Chest A
+    - Door C
+    - Misc D
+    - Shadow
+    - Chest
+    - DT_
+    resourceDrops:
+      amounts:
+      - type: {fileID: 11400000, guid: 66ade32cf21dfb74d830522c8c94a0d4, type: 2}
+        amount: 5
+      - type: {fileID: 11400000, guid: f2141246a46bd5645a988a6aab309737, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: c81e490a0992b894aa571f11fcb20f97, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: 329488d6ae2f167419afae66d5d4af03, type: 2}
+        amount: 0
+    buildCategory: 3
+    isBuildable: 0
+    partIdPrefix: 
+    displayNameOverride: 
+    buildIcon: {fileID: 0}
+    buildInfoText: '"When activated, is set as the spawnpoint of the player. "'
+    unlockResource: {fileID: 11400000, guid: 66ade32cf21dfb74d830522c8c94a0d4, type: 2}
+    isCraftingStation: 0
+    stationType: 13
+  - prefix: Stone
+    enabled: 1
+    maxHP: 10
+    clearTile: 0
+    destroyedTile: {fileID: 11400000, guid: 994dc3df822e9264bb6a3b708b23c739, type: 2}
+    destroyVfxPrefab: {fileID: 763991201670197844, guid: efbd570120af3eb4f90cf8e6c9275fea, type: 3}
+    destroyVfxCleanup: 1.3
+    swapDelay: 1.2
+    placeDestroyedOnBrokenMap: 1
+    flashOnHit: 1
+    flashColor: {r: 0.61635214, g: 0.61635214, b: 0.61635214, a: 1}
+    flashHold: 0.05
+    flashFade: 0.1
+    stagedVfxPrefab: {fileID: 0}
+    stagedVfxCleanup: 0
+    impactVfxPrefab: {fileID: 4398004784927620470, guid: e31f96ef394aa1645ba351c818aab612, type: 3}
+    impactVfxCleanup: 0
+    enableGearDrops: 0
+    gearDropChance: 0
+    gearDropChainMultiplier: 0.35
+    gearDropMaxCount: 1
+    useLocalGearPool: 0
+    lootScatter: {x: 0.25, y: 0.25}
+    guaranteedGearDrops: []
+    localRandomGearDrops: []
+    aliasTileNames: []
+    resourceDrops:
+      amounts:
+      - type: {fileID: 0}
+        amount: 0
+      - type: {fileID: 11400000, guid: 66ade32cf21dfb74d830522c8c94a0d4, type: 2}
+        amount: 2
+    buildCategory: 3
+    isBuildable: 0
+    partIdPrefix: 
+    displayNameOverride: 
+    buildIcon: {fileID: 0}
+    buildInfoText: 
+    unlockResource: {fileID: 0}
+    isCraftingStation: 0
+    stationType: 0
+  - prefix: Stone A16
+    enabled: 1
+    maxHP: 40
+    clearTile: 0
+    destroyedTile: {fileID: 11400000, guid: 994dc3df822e9264bb6a3b708b23c739, type: 2}
+    destroyVfxPrefab: {fileID: 763991201670197844, guid: efbd570120af3eb4f90cf8e6c9275fea, type: 3}
+    destroyVfxCleanup: 1.3
+    swapDelay: 1.2
+    placeDestroyedOnBrokenMap: 1
+    flashOnHit: 1
+    flashColor: {r: 0.61635214, g: 0.61635214, b: 0.61635214, a: 1}
+    flashHold: 0.05
+    flashFade: 0.1
+    stagedVfxPrefab: {fileID: 0}
+    stagedVfxCleanup: 0
+    impactVfxPrefab: {fileID: 4398004784927620470, guid: e31f96ef394aa1645ba351c818aab612, type: 3}
+    impactVfxCleanup: 0
+    enableGearDrops: 0
+    gearDropChance: 0
+    gearDropChainMultiplier: 0.35
+    gearDropMaxCount: 1
+    useLocalGearPool: 0
+    lootScatter: {x: 0.25, y: 0.25}
+    guaranteedGearDrops: []
+    localRandomGearDrops: []
+    aliasTileNames: []
+    resourceDrops:
+      amounts:
+      - type: {fileID: 0}
+        amount: 0
+      - type: {fileID: 11400000, guid: 66ade32cf21dfb74d830522c8c94a0d4, type: 2}
+        amount: 2
+      - type: {fileID: 11400000, guid: 4ed861a77b6464b48bdce4aee7d6f897, type: 2}
+        amount: 3
+    buildCategory: 3
+    isBuildable: 0
+    partIdPrefix: 
+    displayNameOverride: 
+    buildIcon: {fileID: 0}
+    buildInfoText: 
+    unlockResource: {fileID: 0}
+    isCraftingStation: 0
+    stationType: 0
+  - prefix: Stone A21
+    enabled: 1
+    maxHP: 40
+    clearTile: 0
+    destroyedTile: {fileID: 11400000, guid: 994dc3df822e9264bb6a3b708b23c739, type: 2}
+    destroyVfxPrefab: {fileID: 763991201670197844, guid: efbd570120af3eb4f90cf8e6c9275fea, type: 3}
+    destroyVfxCleanup: 1.3
+    swapDelay: 1.2
+    placeDestroyedOnBrokenMap: 1
+    flashOnHit: 1
+    flashColor: {r: 0.61635214, g: 0.61635214, b: 0.61635214, a: 1}
+    flashHold: 0.05
+    flashFade: 0.1
+    stagedVfxPrefab: {fileID: 0}
+    stagedVfxCleanup: 0
+    impactVfxPrefab: {fileID: 4398004784927620470, guid: e31f96ef394aa1645ba351c818aab612, type: 3}
+    impactVfxCleanup: 0
+    enableGearDrops: 0
+    gearDropChance: 0
+    gearDropChainMultiplier: 0.35
+    gearDropMaxCount: 1
+    useLocalGearPool: 0
+    lootScatter: {x: 0.25, y: 0.25}
+    guaranteedGearDrops: []
+    localRandomGearDrops: []
+    aliasTileNames: []
+    resourceDrops:
+      amounts:
+      - type: {fileID: 0}
+        amount: 0
+      - type: {fileID: 11400000, guid: 66ade32cf21dfb74d830522c8c94a0d4, type: 2}
+        amount: 2
+      - type: {fileID: 11400000, guid: 4ed861a77b6464b48bdce4aee7d6f897, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: 99f873a70a934bb4fb781d96b1d2dac5, type: 2}
+        amount: 3
+    buildCategory: 3
+    isBuildable: 0
+    partIdPrefix: 
+    displayNameOverride: 
+    buildIcon: {fileID: 0}
+    buildInfoText: 
+    unlockResource: {fileID: 0}
+    isCraftingStation: 0
+    stationType: 0
+  - prefix: Stone A22
+    enabled: 1
+    maxHP: 40
+    clearTile: 0
+    destroyedTile: {fileID: 11400000, guid: 994dc3df822e9264bb6a3b708b23c739, type: 2}
+    destroyVfxPrefab: {fileID: 763991201670197844, guid: efbd570120af3eb4f90cf8e6c9275fea, type: 3}
+    destroyVfxCleanup: 1.3
+    swapDelay: 1.2
+    placeDestroyedOnBrokenMap: 1
+    flashOnHit: 1
+    flashColor: {r: 0.61635214, g: 0.61635214, b: 0.61635214, a: 1}
+    flashHold: 0.05
+    flashFade: 0.1
+    stagedVfxPrefab: {fileID: 0}
+    stagedVfxCleanup: 0
+    impactVfxPrefab: {fileID: 4398004784927620470, guid: e31f96ef394aa1645ba351c818aab612, type: 3}
+    impactVfxCleanup: 0
+    enableGearDrops: 0
+    gearDropChance: 0
+    gearDropChainMultiplier: 0.35
+    gearDropMaxCount: 1
+    useLocalGearPool: 0
+    lootScatter: {x: 0.25, y: 0.25}
+    guaranteedGearDrops: []
+    localRandomGearDrops: []
+    aliasTileNames: []
+    resourceDrops:
+      amounts:
+      - type: {fileID: 0}
+        amount: 0
+      - type: {fileID: 11400000, guid: 66ade32cf21dfb74d830522c8c94a0d4, type: 2}
+        amount: 2
+      - type: {fileID: 11400000, guid: 4ed861a77b6464b48bdce4aee7d6f897, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: 3a7330196a00fa446a07cc4e7d7c4284, type: 2}
+        amount: 3
+    buildCategory: 3
+    isBuildable: 0
+    partIdPrefix: 
+    displayNameOverride: 
+    buildIcon: {fileID: 0}
+    buildInfoText: 
+    unlockResource: {fileID: 0}
+    isCraftingStation: 0
+    stationType: 0
+  - prefix: Stone A17
+    enabled: 1
+    maxHP: 25
+    clearTile: 0
+    destroyedTile: {fileID: 11400000, guid: 994dc3df822e9264bb6a3b708b23c739, type: 2}
+    destroyVfxPrefab: {fileID: 763991201670197844, guid: efbd570120af3eb4f90cf8e6c9275fea, type: 3}
+    destroyVfxCleanup: 1.3
+    swapDelay: 1.2
+    placeDestroyedOnBrokenMap: 1
+    flashOnHit: 1
+    flashColor: {r: 0.61635214, g: 0.61635214, b: 0.61635214, a: 1}
+    flashHold: 0.05
+    flashFade: 0.1
+    stagedVfxPrefab: {fileID: 0}
+    stagedVfxCleanup: 0
+    impactVfxPrefab: {fileID: 4398004784927620470, guid: e31f96ef394aa1645ba351c818aab612, type: 3}
+    impactVfxCleanup: 0
+    enableGearDrops: 0
+    gearDropChance: 0
+    gearDropChainMultiplier: 0.35
+    gearDropMaxCount: 1
+    useLocalGearPool: 0
+    lootScatter: {x: 0.25, y: 0.25}
+    guaranteedGearDrops: []
+    localRandomGearDrops: []
+    aliasTileNames: []
+    resourceDrops:
+      amounts:
+      - type: {fileID: 0}
+        amount: 0
+      - type: {fileID: 11400000, guid: 66ade32cf21dfb74d830522c8c94a0d4, type: 2}
+        amount: 2
+      - type: {fileID: 11400000, guid: 4ed861a77b6464b48bdce4aee7d6f897, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: 3a7330196a00fa446a07cc4e7d7c4284, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: c1e6ba2c63f86824eb93692c480b08f7, type: 2}
+        amount: 5
+      - type: {fileID: 11400000, guid: f70e718f0c53eaf4c90a0a4fd187e89f, type: 2}
+        amount: 0
+    buildCategory: 3
+    isBuildable: 0
+    partIdPrefix: 
+    displayNameOverride: 
+    buildIcon: {fileID: 0}
+    buildInfoText: 
+    unlockResource: {fileID: 0}
+    isCraftingStation: 0
+    stationType: 0
+  - prefix: Stone A18
+    enabled: 1
+    maxHP: 40
+    clearTile: 0
+    destroyedTile: {fileID: 11400000, guid: 994dc3df822e9264bb6a3b708b23c739, type: 2}
+    destroyVfxPrefab: {fileID: 763991201670197844, guid: efbd570120af3eb4f90cf8e6c9275fea, type: 3}
+    destroyVfxCleanup: 1.3
+    swapDelay: 1.2
+    placeDestroyedOnBrokenMap: 1
+    flashOnHit: 1
+    flashColor: {r: 0.61635214, g: 0.61635214, b: 0.61635214, a: 1}
+    flashHold: 0.05
+    flashFade: 0.1
+    stagedVfxPrefab: {fileID: 0}
+    stagedVfxCleanup: 0
+    impactVfxPrefab: {fileID: 4398004784927620470, guid: e31f96ef394aa1645ba351c818aab612, type: 3}
+    impactVfxCleanup: 0
+    enableGearDrops: 0
+    gearDropChance: 0
+    gearDropChainMultiplier: 0.35
+    gearDropMaxCount: 1
+    useLocalGearPool: 0
+    lootScatter: {x: 0.25, y: 0.25}
+    guaranteedGearDrops: []
+    localRandomGearDrops: []
+    aliasTileNames: []
+    resourceDrops:
+      amounts:
+      - type: {fileID: 0}
+        amount: 0
+      - type: {fileID: 11400000, guid: 66ade32cf21dfb74d830522c8c94a0d4, type: 2}
+        amount: 2
+      - type: {fileID: 11400000, guid: 4ed861a77b6464b48bdce4aee7d6f897, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: 3a7330196a00fa446a07cc4e7d7c4284, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: c1e6ba2c63f86824eb93692c480b08f7, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: f70e718f0c53eaf4c90a0a4fd187e89f, type: 2}
+        amount: 5
+    buildCategory: 3
+    isBuildable: 0
+    partIdPrefix: 
+    displayNameOverride: 
+    buildIcon: {fileID: 0}
+    buildInfoText: 
+    unlockResource: {fileID: 0}
+    isCraftingStation: 0
+    stationType: 0
+  - prefix: Stone A19
+    enabled: 1
+    maxHP: 30
+    clearTile: 0
+    destroyedTile: {fileID: 11400000, guid: 994dc3df822e9264bb6a3b708b23c739, type: 2}
+    destroyVfxPrefab: {fileID: 763991201670197844, guid: efbd570120af3eb4f90cf8e6c9275fea, type: 3}
+    destroyVfxCleanup: 1.3
+    swapDelay: 1.2
+    placeDestroyedOnBrokenMap: 1
+    flashOnHit: 1
+    flashColor: {r: 0.61635214, g: 0.61635214, b: 0.61635214, a: 1}
+    flashHold: 0.05
+    flashFade: 0.1
+    stagedVfxPrefab: {fileID: 0}
+    stagedVfxCleanup: 0
+    impactVfxPrefab: {fileID: 4398004784927620470, guid: e31f96ef394aa1645ba351c818aab612, type: 3}
+    impactVfxCleanup: 0
+    enableGearDrops: 0
+    gearDropChance: 0
+    gearDropChainMultiplier: 0.35
+    gearDropMaxCount: 1
+    useLocalGearPool: 0
+    lootScatter: {x: 0.25, y: 0.25}
+    guaranteedGearDrops: []
+    localRandomGearDrops: []
+    aliasTileNames: []
+    resourceDrops:
+      amounts:
+      - type: {fileID: 0}
+        amount: 0
+      - type: {fileID: 11400000, guid: 66ade32cf21dfb74d830522c8c94a0d4, type: 2}
+        amount: 2
+      - type: {fileID: 11400000, guid: 4ed861a77b6464b48bdce4aee7d6f897, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: 3a7330196a00fa446a07cc4e7d7c4284, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: c1e6ba2c63f86824eb93692c480b08f7, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: 0e295362f76c96a47974d210aed58f15, type: 2}
+        amount: 5
+      - type: {fileID: 11400000, guid: f70e718f0c53eaf4c90a0a4fd187e89f, type: 2}
+        amount: 5
+    buildCategory: 3
+    isBuildable: 0
+    partIdPrefix: 
+    displayNameOverride: 
+    buildIcon: {fileID: 0}
+    buildInfoText: 
+    unlockResource: {fileID: 0}
+    isCraftingStation: 0
+    stationType: 0
+  - prefix: Stone A20
+    enabled: 1
+    maxHP: 35
+    clearTile: 0
+    destroyedTile: {fileID: 11400000, guid: 994dc3df822e9264bb6a3b708b23c739, type: 2}
+    destroyVfxPrefab: {fileID: 763991201670197844, guid: efbd570120af3eb4f90cf8e6c9275fea, type: 3}
+    destroyVfxCleanup: 1.3
+    swapDelay: 1.2
+    placeDestroyedOnBrokenMap: 1
+    flashOnHit: 1
+    flashColor: {r: 0.61635214, g: 0.61635214, b: 0.61635214, a: 1}
+    flashHold: 0.05
+    flashFade: 0.1
+    stagedVfxPrefab: {fileID: 0}
+    stagedVfxCleanup: 0
+    impactVfxPrefab: {fileID: 4398004784927620470, guid: e31f96ef394aa1645ba351c818aab612, type: 3}
+    impactVfxCleanup: 0
+    enableGearDrops: 0
+    gearDropChance: 0
+    gearDropChainMultiplier: 0.35
+    gearDropMaxCount: 1
+    useLocalGearPool: 0
+    lootScatter: {x: 0.25, y: 0.25}
+    guaranteedGearDrops: []
+    localRandomGearDrops: []
+    aliasTileNames: []
+    resourceDrops:
+      amounts:
+      - type: {fileID: 0}
+        amount: 0
+      - type: {fileID: 11400000, guid: 66ade32cf21dfb74d830522c8c94a0d4, type: 2}
+        amount: 2
+      - type: {fileID: 11400000, guid: 4ed861a77b6464b48bdce4aee7d6f897, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: 3a7330196a00fa446a07cc4e7d7c4284, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: c1e6ba2c63f86824eb93692c480b08f7, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: 0e295362f76c96a47974d210aed58f15, type: 2}
+        amount: 5
+      - type: {fileID: 11400000, guid: f70e718f0c53eaf4c90a0a4fd187e89f, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: d9edebdbc65bd7e48b60a72b5972a473, type: 2}
+        amount: 5
+    buildCategory: 3
+    isBuildable: 0
+    partIdPrefix: 
+    displayNameOverride: 
+    buildIcon: {fileID: 0}
+    buildInfoText: 
+    unlockResource: {fileID: 0}
+    isCraftingStation: 0
+    stationType: 0
+  - prefix: Barrel A1
+    enabled: 1
+    maxHP: 1
+    clearTile: 0
+    destroyedTile: {fileID: 11400000, guid: 25fe71bf7fa384241a1abc51721d13de, type: 2}
+    destroyVfxPrefab: {fileID: 3120662003815435109, guid: 213ff5d0b77f4804c8032b7bd58738a8, type: 3}
+    destroyVfxCleanup: 1.3
+    swapDelay: 1.2
+    placeDestroyedOnBrokenMap: 1
+    flashOnHit: 1
+    flashColor: {r: 0.61635214, g: 0.61635214, b: 0.61635214, a: 1}
+    flashHold: 0.05
+    flashFade: 0.1
+    stagedVfxPrefab: {fileID: 0}
+    stagedVfxCleanup: 0
+    impactVfxPrefab: {fileID: 0}
+    impactVfxCleanup: 0
+    enableGearDrops: 0
+    gearDropChance: 0
+    gearDropChainMultiplier: 0.35
+    gearDropMaxCount: 1
+    useLocalGearPool: 0
+    lootScatter: {x: 0.25, y: 0.25}
+    guaranteedGearDrops: []
+    localRandomGearDrops: []
+    aliasTileNames: []
+    resourceDrops:
+      amounts:
+      - type: {fileID: 0}
+        amount: 0
+      - type: {fileID: 11400000, guid: 66ade32cf21dfb74d830522c8c94a0d4, type: 2}
+        amount: 2
+      - type: {fileID: 11400000, guid: 4ed861a77b6464b48bdce4aee7d6f897, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: 3a7330196a00fa446a07cc4e7d7c4284, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: c1e6ba2c63f86824eb93692c480b08f7, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: 0e295362f76c96a47974d210aed58f15, type: 2}
+        amount: 5
+      - type: {fileID: 11400000, guid: f70e718f0c53eaf4c90a0a4fd187e89f, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: d9edebdbc65bd7e48b60a72b5972a473, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: c81e490a0992b894aa571f11fcb20f97, type: 2}
+        amount: 10
+    buildCategory: 3
+    isBuildable: 0
+    partIdPrefix: 
+    displayNameOverride: 
+    buildIcon: {fileID: 0}
+    buildInfoText: 
+    unlockResource: {fileID: 0}
+    isCraftingStation: 0
+    stationType: 0
+  - prefix: Barrel A2
+    enabled: 1
+    maxHP: 1
+    clearTile: 0
+    destroyedTile: {fileID: 11400000, guid: 55d6843abd18e354a87f84e4fb5579fc, type: 2}
+    destroyVfxPrefab: {fileID: 165464757238138391, guid: ccf17c4edce6e2847963aee90686d68a, type: 3}
+    destroyVfxCleanup: 1.3
+    swapDelay: 1.2
+    placeDestroyedOnBrokenMap: 1
+    flashOnHit: 1
+    flashColor: {r: 0.61635214, g: 0.61635214, b: 0.61635214, a: 1}
+    flashHold: 0.05
+    flashFade: 0.1
+    stagedVfxPrefab: {fileID: 0}
+    stagedVfxCleanup: 0
+    impactVfxPrefab: {fileID: 0}
+    impactVfxCleanup: 0
+    enableGearDrops: 0
+    gearDropChance: 0
+    gearDropChainMultiplier: 0.35
+    gearDropMaxCount: 1
+    useLocalGearPool: 0
+    lootScatter: {x: 0.25, y: 0.25}
+    guaranteedGearDrops: []
+    localRandomGearDrops: []
+    aliasTileNames: []
+    resourceDrops:
+      amounts:
+      - type: {fileID: 0}
+        amount: 0
+      - type: {fileID: 11400000, guid: 66ade32cf21dfb74d830522c8c94a0d4, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: 4ed861a77b6464b48bdce4aee7d6f897, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: 3a7330196a00fa446a07cc4e7d7c4284, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: c1e6ba2c63f86824eb93692c480b08f7, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: 0e295362f76c96a47974d210aed58f15, type: 2}
+        amount: 5
+      - type: {fileID: 11400000, guid: f70e718f0c53eaf4c90a0a4fd187e89f, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: d9edebdbc65bd7e48b60a72b5972a473, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: c81e490a0992b894aa571f11fcb20f97, type: 2}
+        amount: 10
+    buildCategory: 3
+    isBuildable: 0
+    partIdPrefix: 
+    displayNameOverride: 
+    buildIcon: {fileID: 0}
+    buildInfoText: 
+    unlockResource: {fileID: 0}
+    isCraftingStation: 0
+    stationType: 0
+  - prefix: Barrel A3
+    enabled: 1
+    maxHP: 1
+    clearTile: 0
+    destroyedTile: {fileID: 11400000, guid: 2f2cd6c4d55a6574bbd729be814a49c9, type: 2}
+    destroyVfxPrefab: {fileID: 4635660495344194234, guid: b32b5b6b775ccfe40810c40e32e38e70, type: 3}
+    destroyVfxCleanup: 1.3
+    swapDelay: 1.2
+    placeDestroyedOnBrokenMap: 1
+    flashOnHit: 1
+    flashColor: {r: 0.61635214, g: 0.61635214, b: 0.61635214, a: 1}
+    flashHold: 0.05
+    flashFade: 0.1
+    stagedVfxPrefab: {fileID: 0}
+    stagedVfxCleanup: 0
+    impactVfxPrefab: {fileID: 0}
+    impactVfxCleanup: 0
+    enableGearDrops: 0
+    gearDropChance: 0
+    gearDropChainMultiplier: 0.35
+    gearDropMaxCount: 1
+    useLocalGearPool: 0
+    lootScatter: {x: 0.25, y: 0.25}
+    guaranteedGearDrops: []
+    localRandomGearDrops: []
+    aliasTileNames: []
+    resourceDrops:
+      amounts:
+      - type: {fileID: 0}
+        amount: 0
+      - type: {fileID: 11400000, guid: 66ade32cf21dfb74d830522c8c94a0d4, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: 4ed861a77b6464b48bdce4aee7d6f897, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: 3a7330196a00fa446a07cc4e7d7c4284, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: c1e6ba2c63f86824eb93692c480b08f7, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: 0e295362f76c96a47974d210aed58f15, type: 2}
+        amount: 5
+      - type: {fileID: 11400000, guid: f70e718f0c53eaf4c90a0a4fd187e89f, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: d9edebdbc65bd7e48b60a72b5972a473, type: 2}
+        amount: 0
+      - type: {fileID: 11400000, guid: c81e490a0992b894aa571f11fcb20f97, type: 2}
+        amount: 15
+    buildCategory: 3
+    isBuildable: 0
+    partIdPrefix: 
+    displayNameOverride: 
+    buildIcon: {fileID: 0}
+    buildInfoText: 
+    unlockResource: {fileID: 0}
+    isCraftingStation: 0
+    stationType: 0
+  defaultRule:
+    prefix: <DEFAULT>
+    enabled: 1
+    maxHP: 10
+    clearTile: 1
+    destroyedTile: {fileID: 0}
+    destroyVfxPrefab: {fileID: 8305217458672877177, guid: 93e831d20d29c594d9032570bf457745, type: 3}
+    destroyVfxCleanup: 1.3
+    swapDelay: 1.2
+    placeDestroyedOnBrokenMap: 1
+    flashOnHit: 1
+    flashColor: {r: 1, g: 0.25, b: 0.25, a: 1}
+    flashHold: 0.05
+    flashFade: 0.1
+    stagedVfxPrefab: {fileID: 0}
+    stagedVfxCleanup: 0
+    impactVfxPrefab: {fileID: 0}
+    impactVfxCleanup: 0
+    enableGearDrops: 0
+    gearDropChance: 0
+    gearDropChainMultiplier: 0.35
+    gearDropMaxCount: 1
+    useLocalGearPool: 0
+    lootScatter: {x: 0.25, y: 0.25}
+    guaranteedGearDrops: []
+    localRandomGearDrops: []
+    aliasTileNames: []
+    resourceDrops:
+      amounts:
+      - type: {fileID: 11400000, guid: c81e490a0992b894aa571f11fcb20f97, type: 2}
+        amount: 1
+    buildCategory: 2
+    isBuildable: 1
+    partIdPrefix: 
+    displayNameOverride: 
+    buildIcon: {fileID: 0}
+    buildInfoText: 
+    unlockResource: {fileID: 0}
+    isCraftingStation: 0
+    stationType: 0

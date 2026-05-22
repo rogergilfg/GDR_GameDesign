@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 870381164fd2c1443a840a4f61002b48, type: 3}
+  m_Name: Enrage
+  m_EditorClassIdentifier: 
+  abilityId: e2a73a5a-4034-4b50-806e-851aab271efe
+  displayName: Enraged
+  description: You become enraged for 10 seconds, dealing increased damaged and turning
+    red.
+  icon: {fileID: 2084251073510830269, guid: 8b2279182b0282a458ef255246f6e8c7, type: 3}
+  manaCost: 20
+  cooldownSeconds: 20
+  maxCharges: 1
+  startingCharges: -1
+  requireIdleRunner: 1
+  activationRequirements:
+  - rid: 6567839355355529355
+  - rid: 6567839355355529356
+  steps:
+  - rid: 522703806694949000
+  - rid: 522703806694948999
+  - rid: 522703806694949002
+  - rid: 522703806694949001
+  - rid: 522703806694948998
+  isPassive: 0
+  isDebuff: 0
+  passiveModifiers: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 522703806694948998
+      type: {class: ModifyEnemyStatsStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 6
+        waitForCompletion: 0
+        duration: 10
+        applyDamageMultiplier: 1
+        damageMultiplier: 2
+        suppressKnockback: 1
+    - rid: 522703806694948999
+      type: {class: ScaleOverTimeStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 15
+        waitForCompletion: 0
+        targetMode: 0
+        customTarget: {fileID: 0}
+        scaleMultiplier: {x: 1.2, y: 1.2, z: 1.2}
+        growDuration: 0.2
+        holdDuration: 10
+        shrinkDuration: 0.2
+        useSmoothStep: 1
+    - rid: 522703806694949000
+      type: {class: AnimatorTriggerStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 15
+        waitForCompletion: 1
+        command: 0
+        parameterName: Special1
+        movingParameterName: 
+        movementThresholdSqr: 0.01
+        postDelay: 0
+    - rid: 522703806694949001
+      type: {class: ModifyPlayerStatsStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 1
+        waitForCompletion: 0
+        duration: 10
+        strength:
+          enabled: 1
+          mode: 0
+          value: 50
+          fallbackFlatValue: 45
+          minimumAbsolute: 5
+        defense:
+          enabled: 0
+          mode: 0
+          value: 0
+          fallbackFlatValue: 0
+          minimumAbsolute: 0
+        health:
+          enabled: 1
+          mode: 0
+          value: 50
+          fallbackFlatValue: 37
+          minimumAbsolute: 7
+        intelligence:
+          enabled: 0
+          mode: 0
+          value: 0
+          fallbackFlatValue: 0
+          minimumAbsolute: 0
+        knowledge:
+          enabled: 0
+          mode: 0
+          value: 0
+          fallbackFlatValue: 0
+          minimumAbsolute: 0
+        weaponDamage:
+          enabled: 1
+          mode: 1
+          value: 100
+          fallbackFlatValue: 56
+          minimumAbsolute: 56
+    - rid: 522703806694949002
+      type: {class: SpriteFlashStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 15
+        waitForCompletion: 0
+        targetMode: 0
+        customTarget: {fileID: 0}
+        includeInactiveChildren: 1
+        duration: 10
+        flashColor: {r: 1, g: 0.2, b: 0.2, a: 1}
+        flashMin: 0.2
+        flashMax: 0.85
+        flashFrequency: 6
+    - rid: 6567839355355529355
+      type: {class: EnemyEngagedRequirement, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 6
+        requireEnemyAi: 1
+        leashRadiusOverride: 0
+    - rid: 6567839355355529356
+      type: {class: OwnerHealthRequirement, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 6
+        minHealthPercent: 0.1
+        maxHealthPercent: 0.6
+        requireHealthComponent: 1

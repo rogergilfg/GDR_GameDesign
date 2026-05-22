@@ -1,0 +1,238 @@
+fileFormatVersion: 2
+guid: a4024ea96c5fe6c489dcdcba0ef8b7b7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4503273711507481636
+    second: Ground E10_N_0
+  - first:
+      213: 536274110410337505
+    second: Ground E10_N_1
+  - first:
+      213: 687493140492752445
+    second: Ground E10_N_2
+  - first:
+      213: 2765337541592357026
+    second: Ground E10_N_3
+  - first:
+      213: -9070550133798486698
+    second: Ground E10_N_4
+  - first:
+      213: 7409220676695103544
+    second: Ground E10_N_5
+  - first:
+      213: 5658684752630254588
+    second: Ground E10_N_6
+  - first:
+      213: 4848360590110380509
+    second: Ground E10_N_7
+  - first:
+      213: 6489198442306227312
+    second: Ground E10_N_8
+  - first:
+      213: -9003765245418934028
+    second: Ground E10_N_9
+  - first:
+      213: 5593920712923633245
+    second: Ground E10_N_10
+  - first:
+      213: 1776501672549830199
+    second: Ground E10_N_11
+  - first:
+      213: -8578598796716640616
+    second: Ground E10_N_12
+  - first:
+      213: 3468719304762301919
+    second: Ground E10_N_13
+  - first:
+      213: 4541967971658172626
+    second: Ground E10_N_14
+  - first:
+      213: -253161895517762611
+    second: Ground E10_N_15
+  - first:
+      213: -8764589563603222218
+    second: Ground E10_N_16
+  - first:
+      213: 9158357362666762381
+    second: Ground E10_N_17
+  - first:
+      213: -4248763852645926931
+    second: Ground E10_N_18
+  - first:
+      213: -5489879490999826537
+    second: Ground E10_N_19
+  - first:
+      213: -960118929647179314
+    second: Ground E10_N_20
+  - first:
+      213: -4189077754496756138
+    second: Ground E10_N_21
+  - first:
+      213: 2293291741747044571
+    second: Ground E10_N_22
+  - first:
+      213: -8471467223935491878
+    second: Ground E10_N_23
+  - first:
+      213: 2875618877742736984
+    second: Ground E10_N_24
+  - first:
+      213: 8152165621891594252
+    second: Ground E10_N_25
+  - first:
+      213: 5739594991714284679
+    second: Ground E10_N_26
+  - first:
+      213: 1371402517273410717
+    second: Ground E10_N_27
+  - first:
+      213: -2771562677718550079
+    second: Ground E10_N_28
+  - first:
+      213: -5422421050096334687
+    second: Ground E10_N_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: 0.5, y: 0.19}
+  spritePixelsToUnits: 127
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ground A1_S_0
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 0
+        width: 136
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a3f405137fce0840800000000000000
+      internalID: 5192315513585595302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ground A1_S_0: 5192315513585595302
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 336410
+  packageName: 2D Fantasy Tileset
+  packageVersion: 1.1.0
+  assetPath: Assets/SmallScaleInt/Fantasy kingdom Tileset/Environment/Sprites/Ground
+    E10_N.png
+  uploadId: 853508

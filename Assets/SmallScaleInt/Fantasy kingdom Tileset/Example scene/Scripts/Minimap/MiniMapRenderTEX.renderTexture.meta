@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8b290711268d9ce409ec447961178da4
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 8400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 336410
+  packageName: 2D Fantasy Tileset
+  packageVersion: 1.1.0
+  assetPath: Assets/SmallScaleInt/Fantasy kingdom Tileset/Example scene/Scripts/Minimap/MiniMapRenderTEX.renderTexture
+  uploadId: 853508

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8331a1662a15b3e4089e714cee33c4f9
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 336410
+  packageName: 2D Fantasy Tileset
+  packageVersion: 1.1.0
+  assetPath: Assets/SmallScaleInt/Fantasy kingdom Tileset/Example scene/Scripts/DungeonGeneration/RoomTempletes/RoomPrefab_8x6_Template.asset
+  uploadId: 853508

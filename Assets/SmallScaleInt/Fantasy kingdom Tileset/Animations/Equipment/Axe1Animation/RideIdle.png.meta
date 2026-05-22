@@ -1,0 +1,3692 @@
+fileFormatVersion: 2
+guid: aff3721fbb945a141a326cf0ff41a0b3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9165842833448930240
+    second: RideIdle_0
+  - first:
+      213: -7275304954432966522
+    second: RideIdle_1
+  - first:
+      213: -7865505525790137456
+    second: RideIdle_2
+  - first:
+      213: 657661231450762691
+    second: RideIdle_3
+  - first:
+      213: -725912025451481809
+    second: RideIdle_4
+  - first:
+      213: -7521435330466232100
+    second: RideIdle_5
+  - first:
+      213: 2266722003102797931
+    second: RideIdle_6
+  - first:
+      213: 1765535909701982088
+    second: RideIdle_7
+  - first:
+      213: 8921612180817877108
+    second: RideIdle_8
+  - first:
+      213: -7805541499483413587
+    second: RideIdle_9
+  - first:
+      213: -8130849377278990894
+    second: RideIdle_10
+  - first:
+      213: -8499216655643351536
+    second: RideIdle_11
+  - first:
+      213: 211003381240636722
+    second: RideIdle_12
+  - first:
+      213: 6070846463413544238
+    second: RideIdle_13
+  - first:
+      213: 5741318015523204898
+    second: RideIdle_14
+  - first:
+      213: 7600797802170697675
+    second: RideIdle_15
+  - first:
+      213: 1569051091092922059
+    second: RideIdle_16
+  - first:
+      213: 8514315675499940783
+    second: RideIdle_17
+  - first:
+      213: 3948697946629843325
+    second: RideIdle_18
+  - first:
+      213: -6559744662206079308
+    second: RideIdle_19
+  - first:
+      213: 7046172968668048155
+    second: RideIdle_20
+  - first:
+      213: -1435360870240534406
+    second: RideIdle_21
+  - first:
+      213: -855059665653965580
+    second: RideIdle_22
+  - first:
+      213: 4237590852533009777
+    second: RideIdle_23
+  - first:
+      213: -933412346905271722
+    second: RideIdle_24
+  - first:
+      213: -1521976719437483325
+    second: RideIdle_25
+  - first:
+      213: -396399840339106838
+    second: RideIdle_26
+  - first:
+      213: 3756027990068344198
+    second: RideIdle_27
+  - first:
+      213: -4272016473096850292
+    second: RideIdle_28
+  - first:
+      213: -7902656539516927364
+    second: RideIdle_29
+  - first:
+      213: -4808705357867713920
+    second: RideIdle_30
+  - first:
+      213: -3877158424010381271
+    second: RideIdle_31
+  - first:
+      213: -1221506623759895017
+    second: RideIdle_32
+  - first:
+      213: -3675545562213816246
+    second: RideIdle_33
+  - first:
+      213: -3506559890066002694
+    second: RideIdle_34
+  - first:
+      213: 3050598746238682716
+    second: RideIdle_35
+  - first:
+      213: 221838752818708393
+    second: RideIdle_36
+  - first:
+      213: 3989257554053847542
+    second: RideIdle_37
+  - first:
+      213: 2602990555621650908
+    second: RideIdle_38
+  - first:
+      213: -8429546862147143113
+    second: RideIdle_39
+  - first:
+      213: 348659877915015230
+    second: RideIdle_40
+  - first:
+      213: 5102831825964538686
+    second: RideIdle_41
+  - first:
+      213: 8304191662568905038
+    second: RideIdle_42
+  - first:
+      213: -7617082098492727087
+    second: RideIdle_43
+  - first:
+      213: -4765370785402320140
+    second: RideIdle_44
+  - first:
+      213: 4363530899191953672
+    second: RideIdle_45
+  - first:
+      213: -294835661475853174
+    second: RideIdle_46
+  - first:
+      213: 1802189708050317857
+    second: RideIdle_47
+  - first:
+      213: 4393709533149340341
+    second: RideIdle_48
+  - first:
+      213: -6759337162710220573
+    second: RideIdle_49
+  - first:
+      213: 8545964423089231072
+    second: RideIdle_50
+  - first:
+      213: 4827009471883078170
+    second: RideIdle_51
+  - first:
+      213: 5345646790076428357
+    second: RideIdle_52
+  - first:
+      213: 6881948024721770944
+    second: RideIdle_53
+  - first:
+      213: 7402644575142840543
+    second: RideIdle_54
+  - first:
+      213: 2120618939869375671
+    second: RideIdle_55
+  - first:
+      213: 2113136246130428134
+    second: RideIdle_56
+  - first:
+      213: -4016878329858859413
+    second: RideIdle_57
+  - first:
+      213: -180244428315562851
+    second: RideIdle_58
+  - first:
+      213: -6985560527188708799
+    second: RideIdle_59
+  - first:
+      213: -3980879538728810023
+    second: RideIdle_60
+  - first:
+      213: 2077831404795486589
+    second: RideIdle_61
+  - first:
+      213: -2821091482867446600
+    second: RideIdle_62
+  - first:
+      213: 6740003664278673939
+    second: RideIdle_63
+  - first:
+      213: -7198892794182936819
+    second: RideIdle_64
+  - first:
+      213: -5227743404717089252
+    second: RideIdle_65
+  - first:
+      213: 7934110657120481317
+    second: RideIdle_66
+  - first:
+      213: -9066388343026573815
+    second: RideIdle_67
+  - first:
+      213: 7574821934451229591
+    second: RideIdle_68
+  - first:
+      213: 9024807751407203713
+    second: RideIdle_69
+  - first:
+      213: -6331842820474849299
+    second: RideIdle_70
+  - first:
+      213: 3953767279452935682
+    second: RideIdle_71
+  - first:
+      213: 7522694839726042827
+    second: RideIdle_72
+  - first:
+      213: -8515540052159060353
+    second: RideIdle_73
+  - first:
+      213: 7171438461782085988
+    second: RideIdle_74
+  - first:
+      213: -186765662285978832
+    second: RideIdle_75
+  - first:
+      213: 1244121003055238423
+    second: RideIdle_76
+  - first:
+      213: -2721767055588380475
+    second: RideIdle_77
+  - first:
+      213: 1385863023725701115
+    second: RideIdle_78
+  - first:
+      213: 6417260879967293439
+    second: RideIdle_79
+  - first:
+      213: 1616045677440195816
+    second: RideIdle_80
+  - first:
+      213: -2275859486058666749
+    second: RideIdle_81
+  - first:
+      213: -8615995934957238900
+    second: RideIdle_82
+  - first:
+      213: -2677017857042024060
+    second: RideIdle_83
+  - first:
+      213: 6779936202734686439
+    second: RideIdle_84
+  - first:
+      213: -8928286532051338583
+    second: RideIdle_85
+  - first:
+      213: -5618921427656688914
+    second: RideIdle_86
+  - first:
+      213: -5846221622252330050
+    second: RideIdle_87
+  - first:
+      213: 2181579899661247097
+    second: RideIdle_88
+  - first:
+      213: -496424056140122491
+    second: RideIdle_89
+  - first:
+      213: -1673385215430155384
+    second: RideIdle_90
+  - first:
+      213: -4945343392547391406
+    second: RideIdle_91
+  - first:
+      213: 1181295742225299588
+    second: RideIdle_92
+  - first:
+      213: -7877262459958176930
+    second: RideIdle_93
+  - first:
+      213: 1971447615367645476
+    second: RideIdle_94
+  - first:
+      213: 7836551476519521482
+    second: RideIdle_95
+  - first:
+      213: -7548514282175266938
+    second: RideIdle_96
+  - first:
+      213: 8409905365114605582
+    second: RideIdle_97
+  - first:
+      213: 7299159754338886454
+    second: RideIdle_98
+  - first:
+      213: -8210774950701943578
+    second: RideIdle_99
+  - first:
+      213: -8779808924606736263
+    second: RideIdle_100
+  - first:
+      213: 8230766194173759506
+    second: RideIdle_101
+  - first:
+      213: -5064511840510948821
+    second: RideIdle_102
+  - first:
+      213: 200859016472839380
+    second: RideIdle_103
+  - first:
+      213: 4426870088401570745
+    second: RideIdle_104
+  - first:
+      213: -3106738629840989205
+    second: RideIdle_105
+  - first:
+      213: 5485750232678810984
+    second: RideIdle_106
+  - first:
+      213: -8587617761067422229
+    second: RideIdle_107
+  - first:
+      213: 3384160693713830404
+    second: RideIdle_108
+  - first:
+      213: 2818815333761093809
+    second: RideIdle_109
+  - first:
+      213: -7739335234645843178
+    second: RideIdle_110
+  - first:
+      213: -6916114875088850848
+    second: RideIdle_111
+  - first:
+      213: -714224049555324896
+    second: RideIdle_0_0
+  - first:
+      213: 2784814125988989704
+    second: RideIdle_0_1
+  - first:
+      213: 7730699377532345135
+    second: RideIdle_0_2
+  - first:
+      213: -389291820281874934
+    second: RideIdle_0_3
+  - first:
+      213: -7532538758528206604
+    second: RideIdle_0_4
+  - first:
+      213: -8690618298389000573
+    second: RideIdle_0_5
+  - first:
+      213: 4657951643032853215
+    second: RideIdle_0_6
+  - first:
+      213: -2484827661005125133
+    second: RideIdle_0_7
+  - first:
+      213: -519196770764194553
+    second: RideIdle_0_8
+  - first:
+      213: -69311239065940686
+    second: RideIdle_0_9
+  - first:
+      213: -5612089986184973448
+    second: RideIdle_0_10
+  - first:
+      213: 1553257243207479184
+    second: RideIdle_0_11
+  - first:
+      213: 5002650094386236157
+    second: RideIdle_0_12
+  - first:
+      213: -4154873991619796587
+    second: RideIdle_0_13
+  - first:
+      213: 581248724655788425
+    second: RideIdle_0_14
+  - first:
+      213: 3511390285233648931
+    second: RideIdle_1_0
+  - first:
+      213: -6843798433432489781
+    second: RideIdle_1_1
+  - first:
+      213: 3630389144595434472
+    second: RideIdle_1_2
+  - first:
+      213: -4518633438049197865
+    second: RideIdle_1_3
+  - first:
+      213: -3383857806156832603
+    second: RideIdle_1_4
+  - first:
+      213: -2275304205008702334
+    second: RideIdle_1_5
+  - first:
+      213: 7098539045000310796
+    second: RideIdle_1_6
+  - first:
+      213: -2934830746606407535
+    second: RideIdle_1_7
+  - first:
+      213: 2336660843176293933
+    second: RideIdle_1_8
+  - first:
+      213: -8613912120558772166
+    second: RideIdle_1_9
+  - first:
+      213: 547758011379078097
+    second: RideIdle_1_10
+  - first:
+      213: -3062638929769976647
+    second: RideIdle_1_11
+  - first:
+      213: 7468123277741180661
+    second: RideIdle_1_12
+  - first:
+      213: 4956963075956288937
+    second: RideIdle_1_13
+  - first:
+      213: -8805955890208508592
+    second: RideIdle_1_14
+  - first:
+      213: -4196714759632295072
+    second: RideIdle_2_0
+  - first:
+      213: -573280869393210444
+    second: RideIdle_2_1
+  - first:
+      213: 989267008982964362
+    second: RideIdle_2_2
+  - first:
+      213: 276768657764567938
+    second: RideIdle_2_3
+  - first:
+      213: 3260835464879129728
+    second: RideIdle_2_4
+  - first:
+      213: 5784410306140492199
+    second: RideIdle_2_5
+  - first:
+      213: 3885232908250952658
+    second: RideIdle_2_6
+  - first:
+      213: 3573546072661936465
+    second: RideIdle_2_7
+  - first:
+      213: 323576902626341570
+    second: RideIdle_2_8
+  - first:
+      213: 3682918896361478582
+    second: RideIdle_2_9
+  - first:
+      213: 7105704135280598810
+    second: RideIdle_2_10
+  - first:
+      213: 4831997344376359933
+    second: RideIdle_2_11
+  - first:
+      213: -7431849183188536139
+    second: RideIdle_2_12
+  - first:
+      213: 4139583989154869119
+    second: RideIdle_2_13
+  - first:
+      213: 594835688241690466
+    second: RideIdle_2_14
+  - first:
+      213: -172546302128624646
+    second: RideIdle_3_0
+  - first:
+      213: 1752615834316114558
+    second: RideIdle_3_1
+  - first:
+      213: -1806665753399330599
+    second: RideIdle_3_2
+  - first:
+      213: 1930144230636939438
+    second: RideIdle_3_3
+  - first:
+      213: -1443689679501326629
+    second: RideIdle_3_4
+  - first:
+      213: 5634102112358497422
+    second: RideIdle_3_5
+  - first:
+      213: 2701650383407680860
+    second: RideIdle_3_6
+  - first:
+      213: 890902467498383281
+    second: RideIdle_3_7
+  - first:
+      213: -4962379024506680050
+    second: RideIdle_3_8
+  - first:
+      213: -4263285831796878255
+    second: RideIdle_3_9
+  - first:
+      213: 7442132492009409265
+    second: RideIdle_3_10
+  - first:
+      213: 5519030685281976765
+    second: RideIdle_3_11
+  - first:
+      213: 4109013332831193008
+    second: RideIdle_3_12
+  - first:
+      213: 2978610056495095244
+    second: RideIdle_3_13
+  - first:
+      213: 527407543911786475
+    second: RideIdle_3_14
+  - first:
+      213: 1770627219413559888
+    second: RideIdle_4_0
+  - first:
+      213: 1490588038128830514
+    second: RideIdle_4_1
+  - first:
+      213: -4737743627758426608
+    second: RideIdle_4_2
+  - first:
+      213: 4383620437420201017
+    second: RideIdle_4_3
+  - first:
+      213: 6392939019833582081
+    second: RideIdle_4_4
+  - first:
+      213: -372995445157587969
+    second: RideIdle_4_5
+  - first:
+      213: 7781116661740139774
+    second: RideIdle_4_6
+  - first:
+      213: 6502906150357472886
+    second: RideIdle_4_7
+  - first:
+      213: 7376892799159950875
+    second: RideIdle_4_8
+  - first:
+      213: -6274663259852896345
+    second: RideIdle_4_9
+  - first:
+      213: 8500743505281495311
+    second: RideIdle_4_10
+  - first:
+      213: 846778320519534151
+    second: RideIdle_4_11
+  - first:
+      213: -6642296261982134761
+    second: RideIdle_4_12
+  - first:
+      213: -5043885624092925980
+    second: RideIdle_4_13
+  - first:
+      213: 5878698881500380933
+    second: RideIdle_4_14
+  - first:
+      213: 8356658249349880067
+    second: RideIdle_5_0
+  - first:
+      213: 1198470374911863681
+    second: RideIdle_5_1
+  - first:
+      213: -8333568380070281750
+    second: RideIdle_5_2
+  - first:
+      213: 1748154747625609585
+    second: RideIdle_5_3
+  - first:
+      213: 3422959173280823099
+    second: RideIdle_5_4
+  - first:
+      213: 4024048394202834421
+    second: RideIdle_5_5
+  - first:
+      213: -5658037044564865434
+    second: RideIdle_5_6
+  - first:
+      213: -5496242093484404547
+    second: RideIdle_5_7
+  - first:
+      213: -5097595109809702569
+    second: RideIdle_5_8
+  - first:
+      213: -8176083472301832270
+    second: RideIdle_5_9
+  - first:
+      213: 4707773443919094677
+    second: RideIdle_5_10
+  - first:
+      213: 6363835992040159928
+    second: RideIdle_5_11
+  - first:
+      213: -6152743676135669939
+    second: RideIdle_5_12
+  - first:
+      213: -7281290609971185825
+    second: RideIdle_5_13
+  - first:
+      213: -8173742129185190384
+    second: RideIdle_5_14
+  - first:
+      213: -8585800895756812820
+    second: RideIdle_6_0
+  - first:
+      213: 4473474477470926507
+    second: RideIdle_6_1
+  - first:
+      213: 3016238856635164773
+    second: RideIdle_6_2
+  - first:
+      213: -5041128265151597430
+    second: RideIdle_6_3
+  - first:
+      213: -4298355082390308956
+    second: RideIdle_6_4
+  - first:
+      213: -7608879357422476076
+    second: RideIdle_6_5
+  - first:
+      213: -8065049003620731618
+    second: RideIdle_6_6
+  - first:
+      213: 3571558728413591937
+    second: RideIdle_6_7
+  - first:
+      213: 502561093622188198
+    second: RideIdle_6_8
+  - first:
+      213: 6002921461838196603
+    second: RideIdle_6_9
+  - first:
+      213: 6926860152404167367
+    second: RideIdle_6_10
+  - first:
+      213: -1506514428337123876
+    second: RideIdle_6_11
+  - first:
+      213: -4855314421072246619
+    second: RideIdle_6_12
+  - first:
+      213: 6098410157222490577
+    second: RideIdle_6_13
+  - first:
+      213: -4154205847897392974
+    second: RideIdle_6_14
+  - first:
+      213: 2816394856046263602
+    second: RideIdle_7_0
+  - first:
+      213: 4239853844696687478
+    second: RideIdle_7_1
+  - first:
+      213: -1074677737279287178
+    second: RideIdle_7_2
+  - first:
+      213: -5521909509472861732
+    second: RideIdle_7_3
+  - first:
+      213: 647966880247056717
+    second: RideIdle_7_4
+  - first:
+      213: 6714451068287864703
+    second: RideIdle_7_5
+  - first:
+      213: -6769066556581817024
+    second: RideIdle_7_6
+  - first:
+      213: 3632193316613655713
+    second: RideIdle_7_7
+  - first:
+      213: -6757672603122221938
+    second: RideIdle_7_8
+  - first:
+      213: 2528198986042802267
+    second: RideIdle_7_9
+  - first:
+      213: -2534122515681639184
+    second: RideIdle_7_10
+  - first:
+      213: -4118440681117426294
+    second: RideIdle_7_11
+  - first:
+      213: -8125736266309104514
+    second: RideIdle_7_12
+  - first:
+      213: -2641280835679082583
+    second: RideIdle_7_13
+  - first:
+      213: 6716632521787150894
+    second: RideIdle_7_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RideIdle_0_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 020c634d2019616f0800000000000000
+      internalID: -714224049555324896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_0_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80b401961b5a5a620800000000000000
+      internalID: 2784814125988989704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_0_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2b1627ff16f84b60800000000000000
+      internalID: 7730699377532345135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_0_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a06322ae625f89af0800000000000000
+      internalID: -389291820281874934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_0_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f8701188eb077790800000000000000
+      internalID: -7532538758528206604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_0_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38e8306d3b8b46780800000000000000
+      internalID: -8690618298389000573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_0_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fda9be7275e54a040800000000000000
+      internalID: 4657951643032853215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_0_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f989b1586e148dd0800000000000000
+      internalID: -2484827661005125133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_0_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70df11ea9417bc8f0800000000000000
+      internalID: -519196770764194553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_0_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23d48889bc1c90ff0800000000000000
+      internalID: -69311239065940686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_0_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 873fae544e9dd12b0800000000000000
+      internalID: -5612089986184973448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_0_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09f2f22bb374e8510800000000000000
+      internalID: 1553257243207479184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_0_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfa477371cbfc6540800000000000000
+      internalID: 5002650094386236157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_0_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5912efa3e1ce656c0800000000000000
+      internalID: -4154873991619796587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_0_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 981d14fa2a2011800800000000000000
+      internalID: 581248724655788425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 325fb1b3cd6fab030800000000000000
+      internalID: 3511390285233648931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_1_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc0b1e4b591f501a0800000000000000
+      internalID: -6843798433432489781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_1_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eb8b0041bbb16230800000000000000
+      internalID: 3630389144595434472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_1_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d020ee24d69a41c0800000000000000
+      internalID: -4518633438049197865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_1_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a0e695f04f1a01d0800000000000000
+      internalID: -3383857806156832603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_1_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 284f08071ee7c60e0800000000000000
+      internalID: -2275304205008702334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_1_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c00fb79d6a3138260800000000000000
+      internalID: 7098539045000310796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_1_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19071a04cf26547d0800000000000000
+      internalID: -2934830746606407535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_1_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d26761e18ac7d6020800000000000000
+      internalID: 2336660843176293933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_1_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a30a9a7909c357880800000000000000
+      internalID: -8613912120558772166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_1_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d3df1b52070a9700800000000000000
+      internalID: 547758011379078097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_1_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bc27c3be125f75d0800000000000000
+      internalID: -3062638929769976647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_1_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f6c694ad8a14a760800000000000000
+      internalID: 7468123277741180661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_1_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ad2a1b87abaac440800000000000000
+      internalID: 4956963075956288937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_1_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 055fc5816c5fac580800000000000000
+      internalID: -8805955890208508592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06b6a78492642c5c0800000000000000
+      internalID: -4196714759632295072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_2_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b36a4f261c4b08f0800000000000000
+      internalID: -573280869393210444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_2_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8851727a159abd00800000000000000
+      internalID: 989267008982964362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_2_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28bc40bb0a747d300800000000000000
+      internalID: 276768657764567938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_2_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 084cd132490d04d20800000000000000
+      internalID: 3260835464879129728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_2_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a1dc9cb68a564050800000000000000
+      internalID: 5784410306140492199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_2_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d3b4f5cebe1be530800000000000000
+      internalID: 3885232908250952658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_2_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 159c1893839c79130800000000000000
+      internalID: 3573546072661936465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_2_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c270928a739d7400800000000000000
+      internalID: 323576902626341570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_2_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b9133a293b5c1330800000000000000
+      internalID: 3682918896361478582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_2_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1f9c6e63488c9260800000000000000
+      internalID: 7105704135280598810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_2_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfb0f23dbf3be0340800000000000000
+      internalID: 4831997344376359933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_2_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b435c32b84ccd890800000000000000
+      internalID: -7431849183188536139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_2_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7f6877a4b1c27930800000000000000
+      internalID: 4139583989154869119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_2_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 267fe5928e7414800800000000000000
+      internalID: 594835688241690466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afbe05a6d0efa9df0800000000000000
+      internalID: -172546302128624646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_3_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7a0328c0da825810800000000000000
+      internalID: 1752615834316114558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_3_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d8f4c4c11f6de6e0800000000000000
+      internalID: -1806665753399330599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_3_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea8626093ff39ca10800000000000000
+      internalID: 1930144230636939438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_3_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd60d6fa2ebf6fbe0800000000000000
+      internalID: -1443689679501326629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_3_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8cf76b350a503e40800000000000000
+      internalID: 5634102112358497422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_3_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5d0052b5b03e7520800000000000000
+      internalID: 2701650383407680860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_3_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b792c0f21f1d5c00800000000000000
+      internalID: 890902467498383281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_3_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0d0e6ba196122bb0800000000000000
+      internalID: -4962379024506680050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_3_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1549ac3bf14c5d4c0800000000000000
+      internalID: -4263285831796878255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_3_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fa0d954214c74760800000000000000
+      internalID: 7442132492009409265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_3_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db186bcca29879c40800000000000000
+      internalID: 5519030685281976765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_3_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b74fb01bd5260930800000000000000
+      internalID: 4109013332831193008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_3_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccddbc5a016265920800000000000000
+      internalID: 2978610056495095244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_3_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be729baed5ab15700800000000000000
+      internalID: 527407543911786475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_4_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05a68ca2318829810800000000000000
+      internalID: 1770627219413559888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_4_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2388d175ce1afa410800000000000000
+      internalID: 1490588038128830514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_4_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 016a69ea547204eb0800000000000000
+      internalID: -4737743627758426608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_4_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 934d29aff8fb5dc30800000000000000
+      internalID: 4383620437420201017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_4_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1022ae3da2848b850800000000000000
+      internalID: 6392939019833582081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_4_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff31b8c6e9ad2daf0800000000000000
+      internalID: -372995445157587969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_4_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef4f4e2b0641cfb60800000000000000
+      internalID: 7781116661740139774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_4_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67692cb90b6fe3a50800000000000000
+      internalID: 6502906150357472886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_4_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1ed0189aecff5660800000000000000
+      internalID: 7376892799159950875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_4_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a7064f720bebe8a0800000000000000
+      internalID: -6274663259852896345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_4_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f01330fdd25b8f570800000000000000
+      internalID: 8500743505281495311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_4_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7469116656c50cb00800000000000000
+      internalID: 846778320519534151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_4_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71e56abfdb2d1d3a0800000000000000
+      internalID: -6642296261982134761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_4_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4efdd30afb4800ab0800000000000000
+      internalID: -5043885624092925980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_4_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50ff05d6c75559150800000000000000
+      internalID: 5878698881500380933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_5_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30956ddf660d8f370800000000000000
+      internalID: 8356658249349880067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_5_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18b637ac472d1a010800000000000000
+      internalID: 1198470374911863681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_5_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aedbb7226b7395c80800000000000000
+      internalID: -8333568380070281750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_5_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17913a81b71b24810800000000000000
+      internalID: 1748154747625609585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_5_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3771148b3bc08f20800000000000000
+      internalID: 3422959173280823099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_5_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f5e077b1ba48d730800000000000000
+      internalID: 4024048394202834421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_5_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66ec5b8194d9a71b0800000000000000
+      internalID: -5658037044564865434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_5_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db01052bfec69b3b0800000000000000
+      internalID: -5496242093484404547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_5_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 759360f7144b149b0800000000000000
+      internalID: -5097595109809702569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_5_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b7c1839667b88e80800000000000000
+      internalID: -8176083472301832270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_5_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 593a0df110f555140800000000000000
+      internalID: 4707773443919094677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_5_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ba36622e13e05850800000000000000
+      internalID: 6363835992040159928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_5_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4ff6e5a9301d9aa0800000000000000
+      internalID: -6152743676135669939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_5_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f57b746a4c8a3fa90800000000000000
+      internalID: -7281290609971185825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_5_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01e854007d8019e80800000000000000
+      internalID: -8173742129185190384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_6_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ced3f28239b19d880800000000000000
+      internalID: -8585800895756812820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_6_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba64e65f559f41e30800000000000000
+      internalID: 4473474477470926507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_6_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56828776245dbd920800000000000000
+      internalID: 3016238856635164773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_6_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8435784d805a0ab0800000000000000
+      internalID: -5041128265151597430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_6_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a771a383dc2954c0800000000000000
+      internalID: -4298355082390308956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_6_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d4e70ab984d76690800000000000000
+      internalID: -7608879357422476076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_6_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e15711369a0331090800000000000000
+      internalID: -8065049003620731618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_6_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 189b9859db9b09130800000000000000
+      internalID: 3571558728413591937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_6_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a84847e6a479f600800000000000000
+      internalID: 502561093622188198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_6_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7f2f63c349ae4350800000000000000
+      internalID: 6002921461838196603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_6_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cacbd8cb96212060800000000000000
+      internalID: 6926860152404167367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_6_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdd07f9fb19c71be0800000000000000
+      internalID: -1506514428337123876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_6_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a8482332457e9cb0800000000000000
+      internalID: -4855314421072246619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_6_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d171eb2ab7e1a450800000000000000
+      internalID: 6098410157222490577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_6_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b8b9309acb4956c0800000000000000
+      internalID: -4154205847897392974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_7_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23dffdd1338d51720800000000000000
+      internalID: 2816394856046263602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_7_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67368b8ab9cf6da30800000000000000
+      internalID: 4239853844696687478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_7_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6709275ba4af511f0800000000000000
+      internalID: -1074677737279287178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_7_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd1c406be8c3e53b0800000000000000
+      internalID: -5521909509472861732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_7_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d49085bc17a0ef800800000000000000
+      internalID: 647966880247056717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_7_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7f4a030ca58e2d50800000000000000
+      internalID: 6714451068287864703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_7_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 045d6f1b4d17f02a0800000000000000
+      internalID: -6769066556581817024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_7_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ac0e48c394286230800000000000000
+      internalID: 3632193316613655713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_7_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8cb286329ce732a0800000000000000
+      internalID: -6757672603122221938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_7_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5085943597f51320800000000000000
+      internalID: 2528198986042802267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_7_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f40a739ffcf4dcd0800000000000000
+      internalID: -2534122515681639184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_7_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8d5a7d550c58d6c0800000000000000
+      internalID: -4118440681117426294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_7_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7c0324fae59b3f80800000000000000
+      internalID: -8125736266309104514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_7_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a72d45f219485bd0800000000000000
+      internalID: -2641280835679082583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideIdle_7_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2295fb31b5463d50800000000000000
+      internalID: 6716632521787150894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      RideIdle_0: 9165842833448930240
+      RideIdle_0_0: -714224049555324896
+      RideIdle_0_1: 2784814125988989704
+      RideIdle_0_10: -5612089986184973448
+      RideIdle_0_11: 1553257243207479184
+      RideIdle_0_12: 5002650094386236157
+      RideIdle_0_13: -4154873991619796587
+      RideIdle_0_14: 581248724655788425
+      RideIdle_0_2: 7730699377532345135
+      RideIdle_0_3: -389291820281874934
+      RideIdle_0_4: -7532538758528206604
+      RideIdle_0_5: -8690618298389000573
+      RideIdle_0_6: 4657951643032853215
+      RideIdle_0_7: -2484827661005125133
+      RideIdle_0_8: -519196770764194553
+      RideIdle_0_9: -69311239065940686
+      RideIdle_1: -7275304954432966522
+      RideIdle_10: -8130849377278990894
+      RideIdle_100: -8779808924606736263
+      RideIdle_101: 8230766194173759506
+      RideIdle_102: -5064511840510948821
+      RideIdle_103: 200859016472839380
+      RideIdle_104: 4426870088401570745
+      RideIdle_105: -3106738629840989205
+      RideIdle_106: 5485750232678810984
+      RideIdle_107: -8587617761067422229
+      RideIdle_108: 3384160693713830404
+      RideIdle_109: 2818815333761093809
+      RideIdle_11: -8499216655643351536
+      RideIdle_110: -7739335234645843178
+      RideIdle_111: -6916114875088850848
+      RideIdle_12: 211003381240636722
+      RideIdle_13: 6070846463413544238
+      RideIdle_14: 5741318015523204898
+      RideIdle_15: 7600797802170697675
+      RideIdle_16: 1569051091092922059
+      RideIdle_17: 8514315675499940783
+      RideIdle_18: 3948697946629843325
+      RideIdle_19: -6559744662206079308
+      RideIdle_1_0: 3511390285233648931
+      RideIdle_1_1: -6843798433432489781
+      RideIdle_1_10: 547758011379078097
+      RideIdle_1_11: -3062638929769976647
+      RideIdle_1_12: 7468123277741180661
+      RideIdle_1_13: 4956963075956288937
+      RideIdle_1_14: -8805955890208508592
+      RideIdle_1_2: 3630389144595434472
+      RideIdle_1_3: -4518633438049197865
+      RideIdle_1_4: -3383857806156832603
+      RideIdle_1_5: -2275304205008702334
+      RideIdle_1_6: 7098539045000310796
+      RideIdle_1_7: -2934830746606407535
+      RideIdle_1_8: 2336660843176293933
+      RideIdle_1_9: -8613912120558772166
+      RideIdle_2: -7865505525790137456
+      RideIdle_20: 7046172968668048155
+      RideIdle_21: -1435360870240534406
+      RideIdle_22: -855059665653965580
+      RideIdle_23: 4237590852533009777
+      RideIdle_24: -933412346905271722
+      RideIdle_25: -1521976719437483325
+      RideIdle_26: -396399840339106838
+      RideIdle_27: 3756027990068344198
+      RideIdle_28: -4272016473096850292
+      RideIdle_29: -7902656539516927364
+      RideIdle_2_0: -4196714759632295072
+      RideIdle_2_1: -573280869393210444
+      RideIdle_2_10: 7105704135280598810
+      RideIdle_2_11: 4831997344376359933
+      RideIdle_2_12: -7431849183188536139
+      RideIdle_2_13: 4139583989154869119
+      RideIdle_2_14: 594835688241690466
+      RideIdle_2_2: 989267008982964362
+      RideIdle_2_3: 276768657764567938
+      RideIdle_2_4: 3260835464879129728
+      RideIdle_2_5: 5784410306140492199
+      RideIdle_2_6: 3885232908250952658
+      RideIdle_2_7: 3573546072661936465
+      RideIdle_2_8: 323576902626341570
+      RideIdle_2_9: 3682918896361478582
+      RideIdle_3: 657661231450762691
+      RideIdle_30: -4808705357867713920
+      RideIdle_31: -3877158424010381271
+      RideIdle_32: -1221506623759895017
+      RideIdle_33: -3675545562213816246
+      RideIdle_34: -3506559890066002694
+      RideIdle_35: 3050598746238682716
+      RideIdle_36: 221838752818708393
+      RideIdle_37: 3989257554053847542
+      RideIdle_38: 2602990555621650908
+      RideIdle_39: -8429546862147143113
+      RideIdle_3_0: -172546302128624646
+      RideIdle_3_1: 1752615834316114558
+      RideIdle_3_10: 7442132492009409265
+      RideIdle_3_11: 5519030685281976765
+      RideIdle_3_12: 4109013332831193008
+      RideIdle_3_13: 2978610056495095244
+      RideIdle_3_14: 527407543911786475
+      RideIdle_3_2: -1806665753399330599
+      RideIdle_3_3: 1930144230636939438
+      RideIdle_3_4: -1443689679501326629
+      RideIdle_3_5: 5634102112358497422
+      RideIdle_3_6: 2701650383407680860
+      RideIdle_3_7: 890902467498383281
+      RideIdle_3_8: -4962379024506680050
+      RideIdle_3_9: -4263285831796878255
+      RideIdle_4: -725912025451481809
+      RideIdle_40: 348659877915015230
+      RideIdle_41: 5102831825964538686
+      RideIdle_42: 8304191662568905038
+      RideIdle_43: -7617082098492727087
+      RideIdle_44: -4765370785402320140
+      RideIdle_45: 4363530899191953672
+      RideIdle_46: -294835661475853174
+      RideIdle_47: 1802189708050317857
+      RideIdle_48: 4393709533149340341
+      RideIdle_49: -6759337162710220573
+      RideIdle_4_0: 1770627219413559888
+      RideIdle_4_1: 1490588038128830514
+      RideIdle_4_10: 8500743505281495311
+      RideIdle_4_11: 846778320519534151
+      RideIdle_4_12: -6642296261982134761
+      RideIdle_4_13: -5043885624092925980
+      RideIdle_4_14: 5878698881500380933
+      RideIdle_4_2: -4737743627758426608
+      RideIdle_4_3: 4383620437420201017
+      RideIdle_4_4: 6392939019833582081
+      RideIdle_4_5: -372995445157587969
+      RideIdle_4_6: 7781116661740139774
+      RideIdle_4_7: 6502906150357472886
+      RideIdle_4_8: 7376892799159950875
+      RideIdle_4_9: -6274663259852896345
+      RideIdle_5: -7521435330466232100
+      RideIdle_50: 8545964423089231072
+      RideIdle_51: 4827009471883078170
+      RideIdle_52: 5345646790076428357
+      RideIdle_53: 6881948024721770944
+      RideIdle_54: 7402644575142840543
+      RideIdle_55: 2120618939869375671
+      RideIdle_56: 2113136246130428134
+      RideIdle_57: -4016878329858859413
+      RideIdle_58: -180244428315562851
+      RideIdle_59: -6985560527188708799
+      RideIdle_5_0: 8356658249349880067
+      RideIdle_5_1: 1198470374911863681
+      RideIdle_5_10: 4707773443919094677
+      RideIdle_5_11: 6363835992040159928
+      RideIdle_5_12: -6152743676135669939
+      RideIdle_5_13: -7281290609971185825
+      RideIdle_5_14: -8173742129185190384
+      RideIdle_5_2: -8333568380070281750
+      RideIdle_5_3: 1748154747625609585
+      RideIdle_5_4: 3422959173280823099
+      RideIdle_5_5: 4024048394202834421
+      RideIdle_5_6: -5658037044564865434
+      RideIdle_5_7: -5496242093484404547
+      RideIdle_5_8: -5097595109809702569
+      RideIdle_5_9: -8176083472301832270
+      RideIdle_6: 2266722003102797931
+      RideIdle_60: -3980879538728810023
+      RideIdle_61: 2077831404795486589
+      RideIdle_62: -2821091482867446600
+      RideIdle_63: 6740003664278673939
+      RideIdle_64: -7198892794182936819
+      RideIdle_65: -5227743404717089252
+      RideIdle_66: 7934110657120481317
+      RideIdle_67: -9066388343026573815
+      RideIdle_68: 7574821934451229591
+      RideIdle_69: 9024807751407203713
+      RideIdle_6_0: -8585800895756812820
+      RideIdle_6_1: 4473474477470926507
+      RideIdle_6_10: 6926860152404167367
+      RideIdle_6_11: -1506514428337123876
+      RideIdle_6_12: -4855314421072246619
+      RideIdle_6_13: 6098410157222490577
+      RideIdle_6_14: -4154205847897392974
+      RideIdle_6_2: 3016238856635164773
+      RideIdle_6_3: -5041128265151597430
+      RideIdle_6_4: -4298355082390308956
+      RideIdle_6_5: -7608879357422476076
+      RideIdle_6_6: -8065049003620731618
+      RideIdle_6_7: 3571558728413591937
+      RideIdle_6_8: 502561093622188198
+      RideIdle_6_9: 6002921461838196603
+      RideIdle_7: 1765535909701982088
+      RideIdle_70: -6331842820474849299
+      RideIdle_71: 3953767279452935682
+      RideIdle_72: 7522694839726042827
+      RideIdle_73: -8515540052159060353
+      RideIdle_74: 7171438461782085988
+      RideIdle_75: -186765662285978832
+      RideIdle_76: 1244121003055238423
+      RideIdle_77: -2721767055588380475
+      RideIdle_78: 1385863023725701115
+      RideIdle_79: 6417260879967293439
+      RideIdle_7_0: 2816394856046263602
+      RideIdle_7_1: 4239853844696687478
+      RideIdle_7_10: -2534122515681639184
+      RideIdle_7_11: -4118440681117426294
+      RideIdle_7_12: -8125736266309104514
+      RideIdle_7_13: -2641280835679082583
+      RideIdle_7_14: 6716632521787150894
+      RideIdle_7_2: -1074677737279287178
+      RideIdle_7_3: -5521909509472861732
+      RideIdle_7_4: 647966880247056717
+      RideIdle_7_5: 6714451068287864703
+      RideIdle_7_6: -6769066556581817024
+      RideIdle_7_7: 3632193316613655713
+      RideIdle_7_8: -6757672603122221938
+      RideIdle_7_9: 2528198986042802267
+      RideIdle_8: 8921612180817877108
+      RideIdle_80: 1616045677440195816
+      RideIdle_81: -2275859486058666749
+      RideIdle_82: -8615995934957238900
+      RideIdle_83: -2677017857042024060
+      RideIdle_84: 6779936202734686439
+      RideIdle_85: -8928286532051338583
+      RideIdle_86: -5618921427656688914
+      RideIdle_87: -5846221622252330050
+      RideIdle_88: 2181579899661247097
+      RideIdle_89: -496424056140122491
+      RideIdle_9: -7805541499483413587
+      RideIdle_90: -1673385215430155384
+      RideIdle_91: -4945343392547391406
+      RideIdle_92: 1181295742225299588
+      RideIdle_93: -7877262459958176930
+      RideIdle_94: 1971447615367645476
+      RideIdle_95: 7836551476519521482
+      RideIdle_96: -7548514282175266938
+      RideIdle_97: 8409905365114605582
+      RideIdle_98: 7299159754338886454
+      RideIdle_99: -8210774950701943578
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 336410
+  packageName: 2D Fantasy Tileset
+  packageVersion: 1.1.0
+  assetPath: Assets/SmallScaleInt/Fantasy kingdom Tileset/Animations/Equipment/Axe1Animation/RideIdle.png
+  uploadId: 853508

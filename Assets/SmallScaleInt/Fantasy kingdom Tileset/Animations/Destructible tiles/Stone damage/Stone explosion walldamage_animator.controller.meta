@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: c626e5e317abb9247a8d1e48a7f430f3
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 336410
+  packageName: 2D Fantasy Tileset
+  packageVersion: 1.1.0
+  assetPath: Assets/SmallScaleInt/Fantasy kingdom Tileset/Animations/Destructible
+    tiles/Stone damage/Stone explosion walldamage_animator.controller
+  uploadId: 853508

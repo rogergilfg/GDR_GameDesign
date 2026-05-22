@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: b6544e7d8d9737d438791ad8b6507b9f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 336410
+  packageName: 2D Fantasy Tileset
+  packageVersion: 1.1.0
+  assetPath: Assets/SmallScaleInt/Fantasy kingdom Tileset/Example scene/Scripts/AbilitySystem/Abilities
+    Passive/Debuffs/BleedDebuff.asset
+  uploadId: 853508

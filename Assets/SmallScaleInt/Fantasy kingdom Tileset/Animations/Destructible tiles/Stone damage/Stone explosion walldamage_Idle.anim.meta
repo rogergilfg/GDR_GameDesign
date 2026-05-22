@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 93bac57579de8f542a8e0821f1fa62a1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 336410
+  packageName: 2D Fantasy Tileset
+  packageVersion: 1.1.0
+  assetPath: Assets/SmallScaleInt/Fantasy kingdom Tileset/Animations/Destructible
+    tiles/Stone damage/Stone explosion walldamage_Idle.anim
+  uploadId: 853508

@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 870381164fd2c1443a840a4f61002b48, type: 3}
+  m_Name: Fire barrel I
+  m_EditorClassIdentifier: 
+  abilityId: 56a0c5a7-63e7-4872-9c2d-e261e55fd1e7
+  displayName: Fire barrel
+  description: 
+  icon: {fileID: 264488931, guid: 8b2279182b0282a458ef255246f6e8c7, type: 3}
+  manaCost: 30
+  cooldownSeconds: 25
+  maxCharges: 3
+  startingCharges: 3
+  requireIdleRunner: 1
+  activationRequirements: []
+  steps:
+  - rid: 522703874908225672
+  - rid: 522703874908225674
+  - rid: 522703874908225673
+  isPassive: 0
+  isDebuff: 0
+  passiveModifiers: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 522703874908225672
+      type: {class: WaitForTargetConfirmationStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 15
+        waitForCompletion: 1
+        cursorPrefab: {fileID: 5163064323484039664, guid: 2c0c18c37b55539499b071fbc21f4427, type: 3}
+        previewPrefab: {fileID: 5163064323484039664, guid: 2c0c18c37b55539499b071fbc21f4427, type: 3}
+        previewRadius: 0.5
+        previewColor: {r: 1, g: 1, b: 1, a: 0.5}
+        highlightEnemiesInPreview: 0
+        previewHighlightMask:
+          serializedVersion: 2
+          m_Bits: 4294967295
+        previewHighlightColor: {r: 0.35, g: 1, b: 0.35, a: 0.9}
+        previewHighlightScale: 1.1
+        previewHighlightBufferSize: 24
+        maxRange: 4
+        showRangeIndicator: 0
+        rangeIndicatorPrefab: {fileID: 0}
+        allowCancel: 1
+        confirmSound: {fileID: 0}
+        cancelSound: {fileID: 0}
+        blockedLayers:
+          serializedVersion: 2
+          m_Bits: 0
+        blockedCheckRadius: 0.2
+        invalidPreviewColor: {r: 1, g: 0.35, b: 0.35, a: 0.6}
+        invalidPositionMessage: Invalid Position
+    - rid: 522703874908225673
+      type: {class: SpawnPrefabStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 15
+        waitForCompletion: 0
+        prefab: {fileID: 4111654149124040813, guid: b5509873532961b44b96ba6f1aea36bc, type: 3}
+        anchor: 2
+        positionOffset: {x: 0, y: 0, z: 0}
+        parentToAnchor: 0
+        autoDestroyDelay: 25
+    - rid: 522703874908225674
+      type: {class: SpawnPrefabStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 15
+        waitForCompletion: 0
+        prefab: {fileID: 228510626905215035, guid: 28fdc5cb05208a4409165e9b12eb0f1d, type: 3}
+        anchor: 2
+        positionOffset: {x: 0, y: 0, z: 0}
+        parentToAnchor: 0
+        autoDestroyDelay: 2

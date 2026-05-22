@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: WindMill 2
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: 21300000, guid: f2ee751d4a403904dbc39e7f27411d4c, type: 3}
+  - {fileID: 21300000, guid: 6d943a7e5e7ed14438b40b6c9c44e8ea, type: 3}
+  - {fileID: 21300000, guid: 96cf9a39aab243041b7d18b3d3b41020, type: 3}
+  - {fileID: 21300000, guid: 112353c34aee522439312b142d0975a4, type: 3}
+  - {fileID: 21300000, guid: b9f89efc779aee0459094c32a933af07, type: 3}
+  - {fileID: 21300000, guid: 363fad65267caa247a6c2b94fe7349d9, type: 3}
+  - {fileID: 21300000, guid: c99a29c9e82123943ac7b9759462772a, type: 3}
+  - {fileID: 21300000, guid: c502ae0d9ae18a543b1c1e664f2b92b3, type: 3}
+  - {fileID: 21300000, guid: cf26f6d60486d1c40bc0816c1cd807c6, type: 3}
+  - {fileID: 21300000, guid: 18c6d2adc7ef677438962b245cba4f1b, type: 3}
+  - {fileID: 21300000, guid: 3c19d21be409be0499c04b13aa5200d2, type: 3}
+  - {fileID: 21300000, guid: f88117d240a479b45b3eec1bc5cf8e04, type: 3}
+  - {fileID: 21300000, guid: fe08d738f7634d54ab92552e9a16aca7, type: 3}
+  - {fileID: 21300000, guid: 93033451d463cbc4a9d2731f8b8315df, type: 3}
+  - {fileID: 21300000, guid: cdc5077c4041c2042a2a2a47f9c88dff, type: 3}
+  - {fileID: 21300000, guid: 2b7dd6a11dccb244c981b071c938971d, type: 3}
+  - {fileID: 21300000, guid: 3da7008b066221c4db40cf91e1e086c2, type: 3}
+  m_MinSpeed: 10
+  m_MaxSpeed: 10
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 0
+  m_TileAnimationFlags: 0

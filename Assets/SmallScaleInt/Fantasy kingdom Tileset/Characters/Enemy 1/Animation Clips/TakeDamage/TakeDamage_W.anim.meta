@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a7af4ca6337287d45bf968bbf108bf7f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 336410
+  packageName: 2D Fantasy Tileset
+  packageVersion: 1.1.0
+  assetPath: Assets/SmallScaleInt/Fantasy kingdom Tileset/Characters/Enemy 1/Animation
+    Clips/TakeDamage/TakeDamage_W.anim
+  uploadId: 853508

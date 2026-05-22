@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 3656935905125c44c98cf689177f07c7
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 336410
+  packageName: 2D Fantasy Tileset
+  packageVersion: 1.1.0
+  assetPath: Assets/SmallScaleInt/Fantasy kingdom Tileset/Characters/player1/Animation
+    Clips/Attack5/Attack5_SE.anim
+  uploadId: 853508

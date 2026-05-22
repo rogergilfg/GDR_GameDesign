@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: c323918ff894ce04f81cca4e606960c0
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 336410
+  packageName: 2D Fantasy Tileset
+  packageVersion: 1.1.0
+  assetPath: Assets/SmallScaleInt/Fantasy kingdom Tileset/Characters/player1/Animation
+    Clips/Walk/Walk_S.anim
+  uploadId: 853508

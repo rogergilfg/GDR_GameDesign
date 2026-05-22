@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: b7bb396c1350d3d45981245a8f26fb2f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 336410
+  packageName: 2D Fantasy Tileset
+  packageVersion: 1.1.0
+  assetPath: Assets/SmallScaleInt/Fantasy kingdom Tileset/Characters/player1/Animation
+    Clips/RideRun/RideRun_SW.anim
+  uploadId: 853508

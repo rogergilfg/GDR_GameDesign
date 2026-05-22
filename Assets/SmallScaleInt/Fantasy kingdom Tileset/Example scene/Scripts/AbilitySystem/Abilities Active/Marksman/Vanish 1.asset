@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 870381164fd2c1443a840a4f61002b48, type: 3}
+  m_Name: Vanish 1
+  m_EditorClassIdentifier: 
+  abilityId: 36f5475d-53e4-4795-8bf0-e47df5369132
+  displayName: Vanish I
+  description: You step into the shadows, becoming invisible.
+  icon: {fileID: 6467680837039536584, guid: 8b2279182b0282a458ef255246f6e8c7, type: 3}
+  manaCost: 0
+  cooldownSeconds: 1
+  maxCharges: 0
+  startingCharges: -1
+  requireIdleRunner: 1
+  activationRequirements: []
+  steps:
+  - rid: 6567839596826067018
+  isPassive: 0
+  isDebuff: 0
+  passiveModifiers: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 6567839596826067018
+      type: {class: InvisibilityStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 1
+        waitForCompletion: 0
+        duration: 10
+        activationPrefab: {fileID: 8400669862191740374, guid: b5444779e4dac104aa7f141da3462987, type: 3}
+        exitPrefab: {fileID: 8400669862191740374, guid: b5444779e4dac104aa7f141da3462987, type: 3}
+        parentActivationToOwner: 1
+        parentExitToOwner: 1
+        activationPrefabLifetime: 2
+        exitPrefabLifetime: 2
+        recastCancelsStealth: 1
+        breakOnDamageTaken: 1
+        breakOnDamageDealt: 1
+        clearThreatForFriendlyCasters: 1
+        playerSpeedMultiplier: 0.75
+        crouchWhileInvisible: 1
+        primarySprite: {fileID: 0}
+        additionalRenderers: []
+        includeChildRenderers: 1
+        includeInactiveChildren: 1
+        playerTint: {r: 0, g: 0, b: 0, a: 0.35}
+        neutralTint: {r: 1, g: 1, b: 1, a: 0.35}
+        enemyTint: {r: 1, g: 1, b: 1, a: 0}
+        unknownTint: {r: 1, g: 1, b: 1, a: 0.2}

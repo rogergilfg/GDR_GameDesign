@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 03ae92ac986790a488f44e40ef58abd0
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 336410
+  packageName: 2D Fantasy Tileset
+  packageVersion: 1.1.0
+  assetPath: Assets/SmallScaleInt/Fantasy kingdom Tileset/Animations/Destructible
+    tiles/Tree Green Explosion/Generic Tree Explosion_Destroy.anim
+  uploadId: 853508

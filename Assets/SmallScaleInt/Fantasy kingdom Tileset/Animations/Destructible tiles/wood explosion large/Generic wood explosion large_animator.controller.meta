@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 9b16a2f4541c62341a8cf3b20676fc26
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 336410
+  packageName: 2D Fantasy Tileset
+  packageVersion: 1.1.0
+  assetPath: Assets/SmallScaleInt/Fantasy kingdom Tileset/Animations/Destructible
+    tiles/wood explosion large/Generic wood explosion large_animator.controller
+  uploadId: 853508

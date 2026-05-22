@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: bdd404b01d076ef4d819c4c3d890553a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 336410
+  packageName: 2D Fantasy Tileset
+  packageVersion: 1.1.0
+  assetPath: Assets/SmallScaleInt/Fantasy kingdom Tileset/Characters/player1/Animation
+    Clips/Idle3/Idle3_NW.anim
+  uploadId: 853508

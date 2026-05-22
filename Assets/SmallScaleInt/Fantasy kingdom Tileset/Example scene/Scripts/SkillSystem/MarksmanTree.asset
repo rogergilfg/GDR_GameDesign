@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39017fc8f91b73f40b61a9e80aeefb22, type: 3}
+  m_Name: MarksmanTree
+  m_EditorClassIdentifier: 
+  treeId: 9ea9bb4a-31fc-492c-8a47-7dcab7f15b37
+  displayName: Marksman
+  skillTreeDescription: A swift ranged specialist who strikes from the shadows. Delivers
+    powerful AoE volleys and devastating single-target shots, relying on stealth
+    and mobility rather than durability.
+  icon: {fileID: -1188979270, guid: 8b2279182b0282a458ef255246f6e8c7, type: 3}
+  overrideLayout: 1
+  layoutCellSize: {x: 120, y: 120}
+  layoutSpacing: {x: 4.24, y: 5.5}
+  layoutPadding: {x: 16, y: 16, z: 16, w: 16}
+  requirePointsInTree: 1
+  pointsPerRow: 3
+  nodes:
+  - nodeId: b92f68ac-ba54-4666-928e-dca53c1d4cec
+    displayName: Speed I
+    grantedAbility: {fileID: 11400000, guid: 3c8aa060163361044ae8566219f3cdc2, type: 2}
+    additionalRankAbilities:
+    - {fileID: 11400000, guid: 04e10f017608a8c4098145930fd2b810, type: 2}
+    - {fileID: 11400000, guid: f5bb929ada35d3a4695939d1750beeec, type: 2}
+    - {fileID: 11400000, guid: d0dd50159150e144f901cde2fcb7a720, type: 2}
+    - {fileID: 11400000, guid: f0620371a747dfb449730a83ac73202d, type: 2}
+    requiredLevel: 1
+    requiredPointsInTree: 0
+    prerequisiteNodeIds: []
+    editorPosition: {x: 2, y: 1}
+    consumesSkillPoint: 1
+  - nodeId: 6c015e8f-49e3-4ab7-83b3-bb8df506dcbb
+    displayName: Experienced I
+    grantedAbility: {fileID: 11400000, guid: cbf6ca656ca593e47a74a25218edd2bb, type: 2}
+    additionalRankAbilities:
+    - {fileID: 11400000, guid: 468cc4628cbcfcd4a832f074ec80c52c, type: 2}
+    - {fileID: 11400000, guid: ad418c4b456c7b54c995e60457abb8e2, type: 2}
+    - {fileID: 11400000, guid: b15c5fc54c60aea4a8aadcbbffdc30d6, type: 2}
+    - {fileID: 11400000, guid: 89008ff434ee68d47bb0765020721cf4, type: 2}
+    requiredLevel: 1
+    requiredPointsInTree: 0
+    prerequisiteNodeIds: []
+    editorPosition: {x: 2, y: 0}
+    consumesSkillPoint: 1
+  - nodeId: eef2b43b-c7d6-4315-9d0e-be82a39e3902
+    displayName: Fire Barrel
+    grantedAbility: {fileID: 11400000, guid: afb958b042ebd924196677697ba78e9a, type: 2}
+    additionalRankAbilities: []
+    requiredLevel: 1
+    requiredPointsInTree: 0
+    prerequisiteNodeIds: []
+    editorPosition: {x: 1, y: 3}
+    consumesSkillPoint: 1
+  - nodeId: b6729334-d56a-420b-b48a-2a52521177ff
+    displayName: Arrow I
+    grantedAbility: {fileID: 11400000, guid: 8d6c39cfb736b0748b8267d0403a2c37, type: 2}
+    additionalRankAbilities:
+    - {fileID: 11400000, guid: 3c421c428509de64d8885ba8616d8722, type: 2}
+    - {fileID: 11400000, guid: 6abc55983c533f046b088d22c34ab025, type: 2}
+    requiredLevel: 1
+    requiredPointsInTree: 0
+    prerequisiteNodeIds: []
+    editorPosition: {x: 1, y: 1}
+    consumesSkillPoint: 1
+  - nodeId: 83ea2368-7f40-435e-a42a-f09d60c15085
+    displayName: Piercing Arrow I
+    grantedAbility: {fileID: 11400000, guid: e17c3af258ed68a4ab250dd611e14b3a, type: 2}
+    additionalRankAbilities: []
+    requiredLevel: 1
+    requiredPointsInTree: 0
+    prerequisiteNodeIds: []
+    editorPosition: {x: 1, y: 0}
+    consumesSkillPoint: 1
+  - nodeId: 294a2bcc-4670-43f7-a30a-2a2b41b428d7
+    displayName: Vanish I
+    grantedAbility: {fileID: 11400000, guid: ea12b4d70dc21bb41a017f51f4c21980, type: 2}
+    additionalRankAbilities: []
+    requiredLevel: 1
+    requiredPointsInTree: 0
+    prerequisiteNodeIds: []
+    editorPosition: {x: -0, y: 1}
+    consumesSkillPoint: 1
+  - nodeId: 2bcfb96c-463f-4b1b-a356-79dee18d6de8
+    displayName: Arrow turret
+    grantedAbility: {fileID: 11400000, guid: 8bf48bd85f3b14b4a88d2d3d791f78aa, type: 2}
+    additionalRankAbilities: []
+    requiredLevel: 1
+    requiredPointsInTree: 0
+    prerequisiteNodeIds: []
+    editorPosition: {x: 1, y: 4}
+    consumesSkillPoint: 1
+  - nodeId: 5aa8935c-28dd-4028-93b6-ab39e57564ad
+    displayName: Piercing Arrow I
+    grantedAbility: {fileID: 11400000, guid: 5a7cc110030310245817856328ebb816, type: 2}
+    additionalRankAbilities: []
+    requiredLevel: 1
+    requiredPointsInTree: 0
+    prerequisiteNodeIds: []
+    editorPosition: {x: 0, y: 2}
+    consumesSkillPoint: 1
+  - nodeId: c649c448-5a23-47ca-bdff-3667b8a43ff6
+    displayName: Explosive arrow
+    grantedAbility: {fileID: 11400000, guid: 134dce7421d74d440a80722685492746, type: 2}
+    additionalRankAbilities: []
+    requiredLevel: 1
+    requiredPointsInTree: 0
+    prerequisiteNodeIds: []
+    editorPosition: {x: 2, y: 2}
+    consumesSkillPoint: 1
+  - nodeId: 5b203293-ef3a-45a7-98da-2caaad032d3e
+    displayName: Poison arrow
+    grantedAbility: {fileID: 11400000, guid: 462aa1c5beb8d15408179db3d6a41424, type: 2}
+    additionalRankAbilities: []
+    requiredLevel: 1
+    requiredPointsInTree: 0
+    prerequisiteNodeIds: []
+    editorPosition: {x: 1, y: 2}
+    consumesSkillPoint: 1
+  - nodeId: 0ba08771-a8df-439a-a318-9550a18a5bdc
+    displayName: Chained shot
+    grantedAbility: {fileID: 11400000, guid: 3ea68918f8abb27419c65ade5fe9deb2, type: 2}
+    additionalRankAbilities: []
+    requiredLevel: 1
+    requiredPointsInTree: 0
+    prerequisiteNodeIds: []
+    editorPosition: {x: 2, y: 3}
+    consumesSkillPoint: 1
+  - nodeId: d086530c-8de2-4da1-8fd8-61df2224461c
+    displayName: Strenght Points I
+    grantedAbility: {fileID: 11400000, guid: 011cd7e3b53677c41a03a516496bc36e, type: 2}
+    additionalRankAbilities:
+    - {fileID: 11400000, guid: 9849a422f198a154c9ac7d44aa8351d6, type: 2}
+    - {fileID: 11400000, guid: d7cde9a28a3af334c85a5173d1e24508, type: 2}
+    - {fileID: 11400000, guid: 22b9a954863003248831b023304183d4, type: 2}
+    - {fileID: 11400000, guid: 7cd0335fc830200468f5d8b0da217e73, type: 2}
+    requiredLevel: 1
+    requiredPointsInTree: 0
+    prerequisiteNodeIds: []
+    editorPosition: {x: 0, y: 0}
+    consumesSkillPoint: 1

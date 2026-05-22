@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1ae2b4061b9b85489a8e25eb30fd5ba, type: 3}
+  m_Name: Iron
+  m_EditorClassIdentifier: 
+  id: b36d73d0-ed1d-4eb3-b494-d39d0877dddc
+  displayName: Iron
+  icon: {fileID: 4678059959327580316, guid: 3003e395e54b44644b47acfddadd467d, type: 3}
+  note: Used for crafting and building.
+  color: {r: 1, g: 1, b: 1, a: 1}
+  rarity: 2
+  maxStackSize: 100
+  experiencePerUnit: 30
+  isCurrency: 0
+  defaultPlayerBuyPricePerUnit: 100
+  defaultPlayerSellPricePerUnit: 35
+  isCraftable: 0
+  craftCategory: 0
+  craftingCost:
+    amounts: []
+  craftYield: 1

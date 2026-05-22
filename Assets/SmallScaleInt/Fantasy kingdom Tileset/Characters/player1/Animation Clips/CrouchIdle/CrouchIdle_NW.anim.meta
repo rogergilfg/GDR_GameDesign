@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a45ff586397f295409c0a8a06559250e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 336410
+  packageName: 2D Fantasy Tileset
+  packageVersion: 1.1.0
+  assetPath: Assets/SmallScaleInt/Fantasy kingdom Tileset/Characters/player1/Animation
+    Clips/CrouchIdle/CrouchIdle_NW.anim
+  uploadId: 853508

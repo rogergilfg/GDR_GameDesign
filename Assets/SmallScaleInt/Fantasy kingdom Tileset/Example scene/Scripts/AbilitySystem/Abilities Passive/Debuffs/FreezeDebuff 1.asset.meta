@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 09eb0a4e5d5de374483fee349a33af10
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 336410
+  packageName: 2D Fantasy Tileset
+  packageVersion: 1.1.0
+  assetPath: Assets/SmallScaleInt/Fantasy kingdom Tileset/Example scene/Scripts/AbilitySystem/Abilities
+    Passive/Debuffs/FreezeDebuff 1.asset
+  uploadId: 853508

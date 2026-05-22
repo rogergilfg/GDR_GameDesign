@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: aca157fb8d89d9a4bac5635ad05c4eaa
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 336410
+  packageName: 2D Fantasy Tileset
+  packageVersion: 1.1.0
+  assetPath: Assets/SmallScaleInt/Fantasy kingdom Tileset/Example scene/Scripts/Gear/README
+    - Gear scripts.md
+  uploadId: 853508

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: WaterRipples 10
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: 21300000, guid: d6c5fed964b713740bef49bf811928ab, type: 3}
+  - {fileID: 21300000, guid: 4f89d3bddbd4e994c94492bc8524dea8, type: 3}
+  - {fileID: 21300000, guid: 4d67added3fae7541810ed2387f3426c, type: 3}
+  - {fileID: 21300000, guid: 77426c7e5e5c51a4ca3814d382f1336c, type: 3}
+  - {fileID: 21300000, guid: 594b3b5054711bb4db0a5cf123c5286b, type: 3}
+  - {fileID: 21300000, guid: 25f2e7010ff9b4049bc5c9afe61b6413, type: 3}
+  - {fileID: 21300000, guid: 2929e7245d1b0f44593a56d2eca3da85, type: 3}
+  - {fileID: 21300000, guid: dc79d7773e57aa347b4c4825a614b26c, type: 3}
+  - {fileID: 21300000, guid: f3638c1e99461344a91ad06bb581b0b6, type: 3}
+  - {fileID: 21300000, guid: 4022c5b7ba4e4764e95c1ffb330fa53d, type: 3}
+  - {fileID: 21300000, guid: f92d367d908621242a96816c4a840f81, type: 3}
+  - {fileID: 21300000, guid: 98e396dda4ef5354cb3c0fca22659645, type: 3}
+  - {fileID: 21300000, guid: b7c8b8638caaa4141a19454aebaa87c4, type: 3}
+  - {fileID: 21300000, guid: 1ad308df7098f3545b94a066cabc52e9, type: 3}
+  - {fileID: 21300000, guid: 67f1ffb7a557e2d49bd89f5fe1f3456c, type: 3}
+  - {fileID: 21300000, guid: d2a490940adc2c84189a75b257ecaba7, type: 3}
+  m_MinSpeed: 5
+  m_MaxSpeed: 5
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 0
+  m_TileAnimationFlags: 0

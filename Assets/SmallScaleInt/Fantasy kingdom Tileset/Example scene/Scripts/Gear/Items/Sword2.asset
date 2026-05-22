@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a179a79f87cbde4c97577f1ffd5be3b, type: 3}
+  m_Name: Sword2
+  m_EditorClassIdentifier: 
+  gearId: 368d3903-81b4-4f46-bf89-bfc9e93f61f7
+  displayName: Copper Sword
+  gearType: 2
+  animatorController: {fileID: 9100000, guid: f90f76bdf9a7aae44a692f2420235cc5, type: 2}
+  icon: {fileID: -4363218903504728482, guid: 3003e395e54b44644b47acfddadd467d, type: 3}
+  worldIcon: {fileID: 0}
+  uiIconWorldScale: 0.15
+  canAppearInRandomDrops: 1
+  isCraftable: 1
+  requiredLevel: 0
+  spriteColor: {r: 0.654902, g: 0.36862746, b: 0.2, a: 1}
+  rarity: 1
+  strength: 4
+  defense: 2
+  health: 10
+  knowledge: 1
+  intelligence: 2
+  tileDamageBonus: 2
+  damage: 10
+  info: 
+  defaultPlayerBuyPrice: 0
+  defaultPlayerSellPrice: 0
+  salvageResourcesSet:
+    amounts:
+    - type: {fileID: 11400000, guid: fd324162f784b5e4aa4196c50f5f4e2e, type: 2}
+      amount: 0
+    - type: {fileID: 11400000, guid: 4b142209a1dbe58438df1965725b5dad, type: 2}
+      amount: 10
+    - type: {fileID: 11400000, guid: f5de209bb0c5ce44e994b27a5f91cbfd, type: 2}
+      amount: 10
+    - type: {fileID: 11400000, guid: 06c7c07063c945c46b7d66d0ce7b1911, type: 2}
+      amount: 2

@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 870381164fd2c1443a840a4f61002b48, type: 3}
+  m_Name: EnemyRevive
+  m_EditorClassIdentifier: 
+  abilityId: 81f8e4ac-a601-43c9-900b-2854743bbb43
+  displayName: Revive
+  description: Revives the target.
+  icon: {fileID: 109475091, guid: 8b2279182b0282a458ef255246f6e8c7, type: 3}
+  manaCost: 0
+  cooldownSeconds: 10
+  maxCharges: 1
+  startingCharges: -1
+  requireIdleRunner: 1
+  activationRequirements:
+  - rid: 6567839355355529354
+  steps:
+  - rid: 522703806694948987
+  isPassive: 0
+  isDebuff: 0
+  passiveModifiers: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 522703806694948987
+      type: {class: ReviveAlliesStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 15
+        waitForCompletion: 1
+        searchSettings:
+          allyMask:
+            serializedVersion: 2
+            m_Bits: 128
+          searchRadius: 8
+          minDistance: 0
+          maxDistance: 0
+          preference: 0
+          requireLineOfSight: 1
+          lineOfSightBlockers:
+            serializedVersion: 2
+            m_Bits: 256
+        avoidReservedTargets: 1
+        requireEngaged: 0
+        windupTime: 0.6
+        pauseAiDuringWindup: 1
+        windupTrigger: Special1
+        windupVfx: {fileID: 0}
+        windupVfxLifetime: 2
+        reviveHealth: 20
+        fullReactivation: 1
+        targetReviveTrigger: Revive
+        reviveVfx: {fileID: 0}
+        reviveVfxLifetime: 3
+        recoveryTime: 0.25
+        makeCasterKinematic: 1
+        zeroVelocityEachFrame: 1
+    - rid: 6567839355355529354
+      type: {class: EnemyEngagedRequirement, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 6
+        requireEnemyAi: 1
+        leashRadiusOverride: 0

@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 870381164fd2c1443a840a4f61002b48, type: 3}
+  m_Name: Heal Self
+  m_EditorClassIdentifier: 
+  abilityId: 72b8e72e-cdce-47dd-a5f4-b74ba8ce8a59
+  displayName: Heal self
+  description: You heal yourself for 25% of your total health.
+  icon: {fileID: 4011425112055135966, guid: 8b2279182b0282a458ef255246f6e8c7, type: 3}
+  manaCost: 10
+  cooldownSeconds: 10
+  maxCharges: 1
+  startingCharges: -1
+  requireIdleRunner: 1
+  activationRequirements:
+  - rid: 6567839355355529359
+  steps:
+  - rid: 522703806694948995
+  - rid: 522703806694948992
+  - rid: 522703806694948993
+  - rid: 522703806694948990
+  isPassive: 0
+  isDebuff: 0
+  passiveModifiers: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 522703806694948990
+      type: {class: HealSelfStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 15
+        waitForCompletion: 1
+        mode: 1
+        flatAmount: 0
+        percent: 0.3
+        minAmount: 0
+        maxAmount: 0
+        ignoreIfFullHealth: 1
+        allowNoHealthComponent: 1
+        healVfxPrefab: {fileID: 1866324480882511929, guid: cec4f864d5e609345b8e07c0c712d646, type: 3}
+        vfxCleanupDelay: 2
+        showCombatText: 1
+    - rid: 522703806694948992
+      type: {class: AnimatorTriggerStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 15
+        waitForCompletion: 1
+        command: 0
+        parameterName: Special1
+        movingParameterName: 
+        movementThresholdSqr: 0.01
+        postDelay: 0
+    - rid: 522703806694948993
+      type: {class: SpawnPrefabStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 15
+        waitForCompletion: 1
+        prefab: {fileID: 0}
+        anchor: 0
+        positionOffset: {x: 0, y: 0, z: 0}
+        parentToAnchor: 0
+        autoDestroyDelay: 2
+    - rid: 522703806694948995
+      type: {class: WaitStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 6
+        waitForCompletion: 1
+        duration: 0.25
+        randomVariance: {x: 0, y: 0}
+    - rid: 6567839355355529359
+      type: {class: EnemyEngagedRequirement, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 6
+        requireEnemyAi: 1
+        leashRadiusOverride: 0

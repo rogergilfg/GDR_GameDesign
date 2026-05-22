@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: da011d55a3677f74d8757985d90e188a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 336410
+  packageName: 2D Fantasy Tileset
+  packageVersion: 1.1.0
+  assetPath: Assets/SmallScaleInt/Fantasy kingdom Tileset/Animations/Equipment/Shield1Animation/Animation
+    Clips/RunBackwards/RunBackwards_NE.anim
+  uploadId: 853508

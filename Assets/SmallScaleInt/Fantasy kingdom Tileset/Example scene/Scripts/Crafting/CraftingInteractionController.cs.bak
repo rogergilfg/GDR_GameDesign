@@ -1,0 +1,285 @@
+using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.Tilemaps;
+#if ENABLE_INPUT_SYSTEM
+using UnityEngine.InputSystem;
+#endif
+
+/// <summary>
+/// Detects left-clicks on crafting stations placed on the objects tilemap and opens the crafting menu.
+/// </summary>
+public sealed class CraftingInteractionController : MonoBehaviour
+{
+    [Header("References")]
+    [SerializeField]
+    private Tilemap objectsTilemap;
+
+    [SerializeField]
+    private TilemapBuildController buildController;
+
+    [SerializeField]
+    private CraftingMenuController craftingMenu;
+
+    [SerializeField]
+    private Camera sceneCamera;
+
+    [Header("Trader Stations")]
+    [SerializeField, Tooltip("Trader component template used when interacting with trading post tiles.")]
+    private TraderComponent tradingPostTraderTemplate;
+
+    [SerializeField, Tooltip("Optional parent for instantiated trader templates. Defaults to this GameObject.")]
+    private Transform tradingPostTraderContainer;
+
+    [SerializeField, Tooltip("When enabled, regenerates the trader's stock each time the player interacts with a trading post.")]
+    private bool randomizeTraderStockOnEachOpen = true;
+
+    private TraderComponent cachedTradingPostTrader;
+
+    private void Awake()
+    {
+        if (sceneCamera == null)
+        {
+            sceneCamera = Camera.main;
+        }
+
+        InitializeTradingPostTrader();
+    }
+
+    private void Update()
+    {
+        if (!WasLeftClickPressed())
+        {
+            return;
+        }
+
+        if (BuildMenuController.IsAnyMenuOpen)
+        {
+            return; // ignore while building
+        }
+
+        if (IsPointerOverUiElement())
+        {
+            return; // ignore UI clicks
+        }
+
+        if (sceneCamera == null || objectsTilemap == null || buildController == null)
+        {
+            return;
+        }
+
+        if (!TryGetPointerWorldPositionOnTilemap(objectsTilemap, out Vector3 worldPosition))
+        {
+            return;
+        }
+
+        if (!buildController.TryGetPlacedDefinitionAtWorld(objectsTilemap, worldPosition, out DestructibleTileData definition) || definition == null)
+        {
+            return;
+        }
+
+        if (!definition.isCraftingStation)
+        {
+            return;
+        }
+
+        if (definition.craftingStationType == CraftingStationType.Trader)
+        {
+            HandleTraderStation(definition, worldPosition);
+            return;
+        }
+
+        if (craftingMenu == null)
+        {
+            Debug.LogWarning("Crafting station clicked but no CraftingMenuController is assigned.", this);
+            return;
+        }
+
+        craftingMenu.OpenForStation(definition.craftingStationType, worldPosition);
+    }
+
+    private void InitializeTradingPostTrader()
+    {
+        if (cachedTradingPostTrader != null)
+        {
+            return;
+        }
+
+        if (tradingPostTraderTemplate == null)
+        {
+            Debug.LogWarning("CraftingInteractionController has no trader template assigned. Trading post tiles will not function until one is provided.", this);
+            return;
+        }
+
+        Transform parent = tradingPostTraderContainer != null ? tradingPostTraderContainer : null;
+        TraderComponent instance = Instantiate(tradingPostTraderTemplate, parent);
+        if (instance == null)
+        {
+            return;
+        }
+
+        bool wasActive = instance.gameObject.activeSelf;
+        if (!wasActive)
+        {
+            instance.gameObject.SetActive(true);
+        }
+
+        instance.OpenOnClick = false;
+        instance.UseRandomStockGeneration = true;
+        instance.RebuildRandomStock();
+
+        if (!wasActive)
+        {
+            instance.gameObject.SetActive(false);
+        }
+
+        cachedTradingPostTrader = instance;
+    }
+
+    private void HandleTraderStation(DestructibleTileData definition, Vector3 worldPosition)
+    {
+        TraderPanelController panel = TraderPanelController.Instance;
+        if (panel == null)
+        {
+            Debug.LogWarning("Trading post clicked but no TraderPanelController is active in the scene.", this);
+            return;
+        }
+
+        TraderComponent trader = ResolveTradingPostTrader();
+        if (trader == null)
+        {
+            Debug.LogWarning("Trading post clicked but no trader template was assigned.", this);
+            return;
+        }
+
+        if (!string.IsNullOrWhiteSpace(definition?.BuildDisplayName))
+        {
+            trader.SetTraderName(definition.BuildDisplayName);
+        }
+
+        Vector3Int cell = objectsTilemap != null ? objectsTilemap.WorldToCell(worldPosition) : Vector3Int.zero;
+        Vector3 traderPosition = objectsTilemap != null ? objectsTilemap.GetCellCenterWorld(cell) : worldPosition;
+        trader.transform.position = traderPosition;
+
+        if (!trader.gameObject.activeSelf)
+        {
+            trader.gameObject.SetActive(true);
+        }
+
+        Debug.Log($"Opening trading post '{trader.TraderName}' at {traderPosition}", trader);
+
+        if (randomizeTraderStockOnEachOpen)
+        {
+            trader.RebuildRandomStock();
+        }
+        else if (!trader.UseRandomStockGeneration)
+        {
+            trader.UseRandomStockGeneration = true;
+        }
+
+        trader.OpenTraderPanel();
+    }
+
+    private TraderComponent ResolveTradingPostTrader()
+    {
+        if (cachedTradingPostTrader != null)
+        {
+            return cachedTradingPostTrader;
+        }
+
+        if (tradingPostTraderTemplate == null)
+        {
+            return null;
+        }
+
+        InitializeTradingPostTrader();
+        return cachedTradingPostTrader;
+    }
+
+    private bool TryGetPointerWorldPositionOnTilemap(Tilemap targetTilemap, out Vector3 worldPosition)
+    {
+        Camera targetCamera = sceneCamera != null ? sceneCamera : Camera.main;
+        if (targetCamera == null || targetTilemap == null)
+        {
+            worldPosition = Vector3.zero;
+            return false;
+        }
+
+        if (!TryGetPointerScreenPosition(out Vector2 screenPosition))
+        {
+            worldPosition = Vector3.zero;
+            return false;
+        }
+
+        Ray ray = targetCamera.ScreenPointToRay(screenPosition);
+        Vector3 planePoint = targetTilemap.transform.position;
+        Plane plane = new Plane(targetTilemap.transform.forward, planePoint);
+        if (!plane.Raycast(ray, out float distance))
+        {
+            plane = new Plane(-targetTilemap.transform.forward, planePoint);
+            if (!plane.Raycast(ray, out distance))
+            {
+                worldPosition = Vector3.zero;
+                return false;
+            }
+        }
+
+        worldPosition = ray.GetPoint(distance);
+        return true;
+    }
+
+    private static bool IsPointerOverUiElement()
+    {
+        EventSystem eventSystem = EventSystem.current;
+        if (eventSystem == null)
+        {
+            return false;
+        }
+
+        if (eventSystem.IsPointerOverGameObject())
+        {
+            return true;
+        }
+
+#if ENABLE_INPUT_SYSTEM
+        const int MousePointerId = -1;
+        if (eventSystem.IsPointerOverGameObject(MousePointerId))
+        {
+            return true;
+        }
+#endif
+
+        return eventSystem.IsPointerOverGameObject(PointerInputModule.kMouseLeftId);
+    }
+
+    private static bool WasLeftClickPressed()
+    {
+#if ENABLE_INPUT_SYSTEM
+        if (Mouse.current != null && Mouse.current.leftButton.wasPressedThisFrame)
+        {
+            return true;
+        }
+#endif
+        return Input.GetMouseButtonDown(0);
+    }
+
+    private static bool TryGetPointerScreenPosition(out Vector2 screenPosition)
+    {
+#if ENABLE_INPUT_SYSTEM
+        if (Mouse.current != null)
+        {
+            screenPosition = Mouse.current.position.ReadValue();
+            return true;
+        }
+#endif
+        if (Input.mousePresent)
+        {
+            Vector3 mousePosition = Input.mousePosition;
+            screenPosition = new Vector2(mousePosition.x, mousePosition.y);
+            return true;
+        }
+
+        screenPosition = Vector2.zero;
+        return false;
+    }
+}
+

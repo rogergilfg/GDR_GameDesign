@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 870381164fd2c1443a840a4f61002b48, type: 3}
+  m_Name: BleedingStrike
+  m_EditorClassIdentifier: 
+  abilityId: c835cb0a-2b2c-4734-9619-d37397669366
+  displayName: Bleeding strike
+  description: 'Deal 100 of melee damage and applies bleed to the target.  '
+  icon: {fileID: -1774035675, guid: 8b2279182b0282a458ef255246f6e8c7, type: 3}
+  manaCost: 10
+  cooldownSeconds: 3
+  maxCharges: 1
+  startingCharges: -1
+  requireIdleRunner: 1
+  activationRequirements:
+  - rid: 6567839355355529344
+  - rid: 6567839355355529345
+  steps:
+  - rid: 522703874908225660
+  - rid: 522703874908225670
+  - rid: 6567839757846970368
+  - rid: 522703874908225669
+  - rid: 522703874908225671
+  - rid: 6567839757846970369
+  isPassive: 0
+  isDebuff: 0
+  passiveModifiers: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 522703874908225660
+      type: {class: AnimatorTriggerStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 15
+        waitForCompletion: 0
+        command: 0
+        parameterName: Attack2
+        movingParameterName: AttackRun
+        movementThresholdSqr: 0.01
+        postDelay: 0.4
+    - rid: 522703874908225669
+      type: {class: DamageTargetStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 1
+        waitForCompletion: 0
+        targetingMode: 1
+        damage: 5
+        scaleWithOwnerDamage: 0
+        ownerDamageScale: 1
+        damageOwnerIfNoTarget: 0
+        useRelativeDirection: 1
+    - rid: 522703874908225670
+      type: {class: SpriteFlashStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 1
+        waitForCompletion: 1
+        targetMode: 0
+        customTarget: {fileID: 0}
+        includeInactiveChildren: 1
+        duration: 0.2
+        flashColor: {r: 1, g: 0.06855862, b: 0, a: 1}
+        flashMin: 0.2
+        flashMax: 0.85
+        flashFrequency: 6
+    - rid: 522703874908225671
+      type: {class: SpawnPrefabStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 15
+        waitForCompletion: 1
+        prefab: {fileID: 0}
+        anchor: 1
+        positionOffset: {x: 0, y: 0, z: 0}
+        parentToAnchor: 0
+        autoDestroyDelay: 2
+    - rid: 6567839355355529344
+      type: {class: DistanceRequirement, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 6
+        requireTarget: 1
+        minDistance: 0
+        maxDistance: 1
+        use2D: 1
+    - rid: 6567839355355529345
+      type: {class: EnemyEngagedRequirement, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 6
+        requireEnemyAi: 1
+        leashRadiusOverride: 0
+    - rid: 6567839757846970368
+      type: {class: ApplyAbilityStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 1
+        waitForCompletion: 1
+        abilitiesToApply:
+        - {fileID: 11400000, guid: b6544e7d8d9737d438791ad8b6507b9f, type: 2}
+        duration: 10
+        allowStacking: 0
+        targetingMode: 2
+        targetMask:
+          serializedVersion: 2
+          m_Bits: 128
+        radius: 5
+        coneAngleDeg: 60
+        maxTargets: 0
+        offset: {x: 0, y: 0}
+    - rid: 6567839757846970369
+      type: {class: ApplyAbilityStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 6
+        waitForCompletion: 1
+        abilitiesToApply:
+        - {fileID: 11400000, guid: b6544e7d8d9737d438791ad8b6507b9f, type: 2}
+        duration: 0
+        allowStacking: 0
+        targetingMode: 0
+        targetMask:
+          serializedVersion: 2
+          m_Bits: 2240
+        radius: 5
+        coneAngleDeg: 60
+        maxTargets: 0
+        offset: {x: 0, y: 0}

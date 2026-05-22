@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1ae2b4061b9b85489a8e25eb30fd5ba, type: 3}
+  m_Name: Coal
+  m_EditorClassIdentifier: 
+  id: 6672b3fc-2cdd-4ed6-a039-f5667a8ec9c1
+  displayName: Coal
+  icon: {fileID: 1938533570773468768, guid: 3003e395e54b44644b47acfddadd467d, type: 3}
+  note: Used for crafting and building.
+  color: {r: 1, g: 1, b: 1, a: 1}
+  rarity: 0
+  maxStackSize: 100
+  experiencePerUnit: 15
+  isCurrency: 0
+  defaultPlayerBuyPricePerUnit: 20
+  defaultPlayerSellPricePerUnit: 5
+  isCraftable: 1
+  craftCategory: 1
+  craftingCost:
+    amounts:
+    - type: {fileID: 11400000, guid: c81e490a0992b894aa571f11fcb20f97, type: 2}
+      amount: 2
+  craftYield: 1

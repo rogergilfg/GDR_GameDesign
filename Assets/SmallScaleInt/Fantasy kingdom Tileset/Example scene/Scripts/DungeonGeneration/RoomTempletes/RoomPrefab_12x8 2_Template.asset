@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11be0a2a6e2911f4d8e60a1ea72e2615, type: 3}
+  m_Name: RoomPrefab_12x8 2_Template
+  m_EditorClassIdentifier: 
+  tilemapPrefab: {fileID: 8556680197032672074, guid: 6898dae18ff5fd443bf93205a55e8def, type: 3}
+  computeInPlayMode: 1
+  decorationPrefab: {fileID: 0}
+  decorationOffset: {x: 0, y: 0, z: 0}
+  requireExactSize: 1

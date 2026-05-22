@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: b77f2559dc604d0458756f6c5dabe164
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 336410
+  packageName: 2D Fantasy Tileset
+  packageVersion: 1.1.0
+  assetPath: Assets/SmallScaleInt/Fantasy kingdom Tileset/Example scene/Scripts/AbilitySystem/Abilities
+    Passive/HealthPoints 1.asset
+  uploadId: 853508

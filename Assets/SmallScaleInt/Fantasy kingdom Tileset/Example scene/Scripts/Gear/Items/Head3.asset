@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a179a79f87cbde4c97577f1ffd5be3b, type: 3}
+  m_Name: Head3
+  m_EditorClassIdentifier: 
+  gearId: 5d5b52a8-6d28-44fd-9e4f-6a55570d0d1a
+  displayName: Steel Helm
+  gearType: 4
+  animatorController: {fileID: 9100000, guid: 5b41b5eabcdf15545b20404dd25ce618, type: 2}
+  icon: {fileID: -4021236378780138009, guid: 3003e395e54b44644b47acfddadd467d, type: 3}
+  worldIcon: {fileID: 0}
+  uiIconWorldScale: 0.15
+  canAppearInRandomDrops: 0
+  isCraftable: 1
+  requiredLevel: 0
+  spriteColor: {r: 1, g: 1, b: 1, a: 1}
+  rarity: 2
+  strength: 5
+  defense: 5
+  health: 20
+  knowledge: 3
+  intelligence: 6
+  tileDamageBonus: 0
+  damage: 0
+  info: 
+  defaultPlayerBuyPrice: 0
+  defaultPlayerSellPrice: 0
+  salvageResourcesSet:
+    amounts:
+    - type: {fileID: 11400000, guid: f2141246a46bd5645a988a6aab309737, type: 2}
+      amount: 0
+    - type: {fileID: 11400000, guid: fd324162f784b5e4aa4196c50f5f4e2e, type: 2}
+      amount: 7
+    - type: {fileID: 11400000, guid: 06c7c07063c945c46b7d66d0ce7b1911, type: 2}
+      amount: 12

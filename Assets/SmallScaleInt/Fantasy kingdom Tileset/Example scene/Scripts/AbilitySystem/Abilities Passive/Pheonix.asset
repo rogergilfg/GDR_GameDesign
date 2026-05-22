@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 870381164fd2c1443a840a4f61002b48, type: 3}
+  m_Name: Pheonix
+  m_EditorClassIdentifier: 
+  abilityId: 07a05552-5469-478e-aeb1-fd93a4af2f04
+  displayName: Pheonix rise
+  description: 'The player is ressuructed after taking a killing blow. '
+  icon: {fileID: -1684506068, guid: 8b2279182b0282a458ef255246f6e8c7, type: 3}
+  manaCost: 0
+  cooldownSeconds: 45
+  maxCharges: 0
+  startingCharges: -1
+  requireIdleRunner: 1
+  activationRequirements: []
+  steps: []
+  isPassive: 1
+  isDebuff: 0
+  passiveModifiers:
+  - rid: 6567839355355529324
+  - rid: 6567839355355529325
+  references:
+    version: 2
+    RefIds:
+    - rid: 6567839355355529324
+      type: {class: ProcTriggerModifier, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        enabled: 1
+        triggerType: 7
+        procChance: 1
+        duration: 2
+        maxStacks: 1
+        refreshDuration: 1
+        lowHealthThreshold: 0.3
+        minDamageThreshold: 0
+    - rid: 6567839355355529325
+      type: {class: ResurrectModifier, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        enabled: 1
+        healAmount: 0
+        healPercent: 0.25
+        spawnVfx: 1
+        resurrectVfxPrefab: {fileID: 8400669862191740374, guid: b5444779e4dac104aa7f141da3462987, type: 3}
+        vfxDuration: 2

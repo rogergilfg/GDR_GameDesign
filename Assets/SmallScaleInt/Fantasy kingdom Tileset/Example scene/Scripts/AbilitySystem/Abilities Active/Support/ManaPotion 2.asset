@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 870381164fd2c1443a840a4f61002b48, type: 3}
+  m_Name: ManaPotion 2
+  m_EditorClassIdentifier: 
+  abilityId: 5cc46788-7ce1-4d84-9688-62c994320249
+  displayName: Mana Potion II
+  description: The player regains 40% mana. 15 sec cooldown.
+  icon: {fileID: -1361286066, guid: 8b2279182b0282a458ef255246f6e8c7, type: 3}
+  manaCost: 0
+  cooldownSeconds: 15
+  maxCharges: 1
+  startingCharges: -1
+  requireIdleRunner: 1
+  activationRequirements: []
+  steps:
+  - rid: 6567839780720345406
+  - rid: 6567839780720345405
+  isPassive: 0
+  isDebuff: 0
+  passiveModifiers: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 6567839780720345405
+      type: {class: ModifyPlayerManaStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 1
+        waitForCompletion: 1
+        mode: 1
+        flatAmount: 20
+        percentOfMax: 0.4
+        duration: 0
+        tickInterval: 0.25
+        showCombatText: 1
+        manaVfxPrefab: {fileID: 5870659064488253120, guid: 706b9ec88c0f4254ab79d60ad1e8bb1c, type: 3}
+        vfxCleanupDelay: 1
+    - rid: 6567839780720345406
+      type: {class: AnimatorTriggerStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 15
+        waitForCompletion: 1
+        command: 0
+        parameterName: Taunt
+        movingParameterName: 
+        movementThresholdSqr: 0.01
+        postDelay: 0

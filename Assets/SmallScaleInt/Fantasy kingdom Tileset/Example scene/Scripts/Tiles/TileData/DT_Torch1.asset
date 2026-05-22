@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5524f2f2484dc04b948bb0695801763, type: 3}
+  m_Name: DT_Torch1
+  m_EditorClassIdentifier: 
+  sourceTile: {fileID: 11400000, guid: 1276f5b8badc4a64cac3ff065e775954, type: 2}
+  maxHP: 1
+  clearTile: 1
+  destroyedTile: {fileID: 0}
+  destroyVfxPrefab: {fileID: 0}
+  destroyVfxCleanup: 1
+  swapDelay: 1.2
+  placeDestroyedOnBrokenMap: 1
+  flashOnHit: 1
+  flashColor: {r: 0.49685526, g: 0.49685526, b: 0.49685526, a: 1}
+  flashHold: 0.05
+  flashFade: 0.1
+  stagedVfxPrefab: {fileID: 0}
+  stagedVfxCleanup: 0
+  lootPrefabs: []
+  lootDropChance: 1
+  lootScatter: {x: 0.25, y: 0.25}

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 0c9f5173b1f09184b9e2f52a262d4fdf
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 336410
+  packageName: 2D Fantasy Tileset
+  packageVersion: 1.1.0
+  assetPath: Assets/SmallScaleInt/Fantasy kingdom Tileset/Characters/NPC1/Animation
+    Clips/CrouchRun/CrouchRun_S.anim
+  uploadId: 853508

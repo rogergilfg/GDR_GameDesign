@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: fe7931018d06c9b41b32f435a593e0ac
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 336410
+  packageName: 2D Fantasy Tileset
+  packageVersion: 1.1.0
+  assetPath: Assets/SmallScaleInt/Fantasy kingdom Tileset/Example scene/Scripts/AbilitySystem/Abilities
+    Active/Support/Heal Self.asset
+  uploadId: 853508

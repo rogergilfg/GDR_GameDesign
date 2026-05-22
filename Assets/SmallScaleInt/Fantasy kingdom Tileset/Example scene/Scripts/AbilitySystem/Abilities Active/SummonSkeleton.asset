@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 870381164fd2c1443a840a4f61002b48, type: 3}
+  m_Name: SummonSkeleton
+  m_EditorClassIdentifier: 
+  abilityId: ea27ecc3-fdd0-4520-a236-22b9ff423c22
+  displayName: Summon skeleton
+  description: 'You summon a skeleton that will attack you. '
+  icon: {fileID: 1677534666, guid: 8b2279182b0282a458ef255246f6e8c7, type: 3}
+  manaCost: 0
+  cooldownSeconds: 10
+  maxCharges: 1
+  startingCharges: -1
+  requireIdleRunner: 1
+  activationRequirements:
+  - rid: 6567839355355529370
+  - rid: 6567839355355529371
+  steps:
+  - rid: 522703806694948959
+  - rid: 522703806694948960
+  - rid: 522703806694948955
+  - rid: 522703806694948961
+  isPassive: 0
+  isDebuff: 0
+  passiveModifiers: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 522703806694948955
+      type: {class: SummonStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 15
+        waitForCompletion: 1
+        summonPrefabs:
+        - {fileID: 2155867190609425466, guid: 10b4c61401b36ba4a81a7b6dca9fbc9e, type: 3}
+        - {fileID: 7753215223607232690, guid: d29185c2f4083af4d8cd300504345b12, type: 3}
+        - {fileID: 7753215223607232690, guid: d29185c2f4083af4d8cd300504345b12, type: 3}
+        - {fileID: 7753215223607232690, guid: d29185c2f4083af4d8cd300504345b12, type: 3}
+        - {fileID: 4773013009227804395, guid: 96fcb7228df7c514595952cd1b426f5b, type: 3}
+        spawnCountRange: {x: 1, y: 1}
+        allowPartialSummonsWhenCapped: 1
+        spawnSequentially: 1
+        delayBetweenSpawns: 0.25
+        maxActiveSummons: 2
+        totalSummonLimit: 0
+        replaceWhenFull: 0
+        anchor: 0
+        customAnchor: {fileID: 0}
+        manualOffset: {x: 0, y: 0}
+        minSpawnDistance: 0
+        maxSpawnDistance: 2.5
+        randomizeAngle: 1
+        preferredDirection: {x: 1, y: 0}
+        parentOverride: {fileID: 0}
+        spawnZOffset: 0
+        preventOverlap: 0
+        overlapRadius: 0.5
+        overlapMask:
+          serializedVersion: 2
+          m_Bits: 448
+        maxPlacementAttempts: 6
+        rotationMode: 0
+        fixedRotationZ: 0
+        logSpawnPositions: 0
+    - rid: 522703806694948959
+      type: {class: AnimatorTriggerStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 15
+        waitForCompletion: 1
+        command: 0
+        parameterName: Special1
+        movingParameterName: 
+        movementThresholdSqr: 0.01
+        postDelay: 1
+    - rid: 522703806694948960
+      type: {class: WaitStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 6
+        waitForCompletion: 1
+        duration: 0.35
+        randomVariance: {x: 0, y: 0}
+    - rid: 522703806694948961
+      type: {class: SpawnPrefabStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 15
+        waitForCompletion: 1
+        prefab: {fileID: 228510626905215035, guid: 28fdc5cb05208a4409165e9b12eb0f1d, type: 3}
+        anchor: 0
+        positionOffset: {x: 0, y: 0, z: 0}
+        parentToAnchor: 0
+        autoDestroyDelay: 2
+    - rid: 6567839355355529370
+      type: {class: EnemyEngagedRequirement, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 6
+        requireEnemyAi: 1
+        leashRadiusOverride: 0
+    - rid: 6567839355355529371
+      type: {class: DistanceRequirement, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 6
+        requireTarget: 1
+        minDistance: 0
+        maxDistance: 4
+        use2D: 1

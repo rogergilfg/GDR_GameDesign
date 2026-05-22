@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d54af7d484ee9bb4eaed37e877bf1d04
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 336410
+  packageName: 2D Fantasy Tileset
+  packageVersion: 1.1.0
+  assetPath: Assets/SmallScaleInt/Fantasy kingdom Tileset/Example scene/Prefabs/Destructible
+    tiles/Destructible Wall prop stone.prefab
+  uploadId: 853508

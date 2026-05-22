@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5524f2f2484dc04b948bb0695801763, type: 3}
+  m_Name: Stone A20_E
+  m_EditorClassIdentifier: 
+  sourceTile: {fileID: 11400000, guid: 89f5c3227b6be1341a77f2cafdd59683, type: 2}
+  buildPartId: Stone A20_E
+  buildDisplayName: Stone A20_E
+  buildCategory: 3
+  buildIcon: {fileID: 21300000, guid: 274e9cd2f7897cb48b1762841e281c81, type: 3}
+  buildInfoText: 
+  unlockResourceRequirement: {fileID: 0}
+  buildTileVariants:
+  - {fileID: 11400000, guid: 8e88fcd1e1042124d98da826bbdcb541, type: 2}
+  - {fileID: 11400000, guid: 89f5c3227b6be1341a77f2cafdd59683, type: 2}
+  - {fileID: 11400000, guid: 2582b9ef638ace445ade8630fa131c5b, type: 2}
+  - {fileID: 11400000, guid: 41834668af4ae4449a2414b25ac22252, type: 2}
+  isBuildable: 0
+  maxHP: 35
+  clearTile: 0
+  destroyedTile: {fileID: 11400000, guid: 994dc3df822e9264bb6a3b708b23c739, type: 2}
+  destroyVfxPrefab: {fileID: 763991201670197844, guid: efbd570120af3eb4f90cf8e6c9275fea, type: 3}
+  destroyVfxCleanup: 1.3
+  swapDelay: 1.2
+  placeDestroyedOnBrokenMap: 1
+  flashOnHit: 1
+  flashColor: {r: 0.61635214, g: 0.61635214, b: 0.61635214, a: 1}
+  flashHold: 0.05
+  flashFade: 0.1
+  shakeOnHit: 1
+  shakeDuration: 0.18
+  shakePosAmplitude: {x: 0.06, y: 0.06}
+  shakeRotAmplitude: 2.5
+  shakeFrequency: 22
+  shakeFalloff: 0.85
+  stagedVfxPrefab: {fileID: 0}
+  stagedVfxCleanup: 0
+  impactVfxPrefab: {fileID: 4398004784927620470, guid: e31f96ef394aa1645ba351c818aab612, type: 3}
+  impactVfxCleanup: 0
+  enableGearDrops: 0
+  gearDropChance: 0
+  gearDropChainMultiplier: 0.35
+  gearDropMaxCount: 1
+  lootPickupPrefab: {fileID: 7850679640750038245, guid: f3e6401d3f66d8c4b80e4c71873483f2, type: 3}
+  gearDropDatabase: {fileID: 11400000, guid: df31f232dbe3e1f439b4d8fec2c36278, type: 2}
+  useLocalGearPool: 0
+  guaranteedGearDrops: []
+  localRandomGearDrops: []
+  lootScatter: {x: 0.25, y: 0.25}
+  resourceDropsSet:
+    amounts:
+    - type: {fileID: 0}
+      amount: 0
+    - type: {fileID: 11400000, guid: 66ade32cf21dfb74d830522c8c94a0d4, type: 2}
+      amount: 2
+    - type: {fileID: 11400000, guid: 4ed861a77b6464b48bdce4aee7d6f897, type: 2}
+      amount: 0
+    - type: {fileID: 11400000, guid: 3a7330196a00fa446a07cc4e7d7c4284, type: 2}
+      amount: 0
+    - type: {fileID: 11400000, guid: c1e6ba2c63f86824eb93692c480b08f7, type: 2}
+      amount: 0
+    - type: {fileID: 11400000, guid: 0e295362f76c96a47974d210aed58f15, type: 2}
+      amount: 5
+    - type: {fileID: 11400000, guid: f70e718f0c53eaf4c90a0a4fd187e89f, type: 2}
+      amount: 0
+    - type: {fileID: 11400000, guid: d9edebdbc65bd7e48b60a72b5972a473, type: 2}
+      amount: 5
+  isCraftingStation: 0
+  craftingStationType: 0
+  experienceReward: 0

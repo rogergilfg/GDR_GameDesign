@@ -1,0 +1,3724 @@
+fileFormatVersion: 2
+guid: c9235e7817a62a04bb95983b61b50fd3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -465930137206192264
+    second: RideRun_0
+  - first:
+      213: -8955341120604352271
+    second: RideRun_1
+  - first:
+      213: -3593714517297259681
+    second: RideRun_2
+  - first:
+      213: -5194694264790353222
+    second: RideRun_3
+  - first:
+      213: 7442195259690875513
+    second: RideRun_4
+  - first:
+      213: -1256877869032639652
+    second: RideRun_5
+  - first:
+      213: 315208353627240661
+    second: RideRun_6
+  - first:
+      213: 732392856385075301
+    second: RideRun_7
+  - first:
+      213: 3161682846391853026
+    second: RideRun_8
+  - first:
+      213: -7145760945704336206
+    second: RideRun_9
+  - first:
+      213: 3471860122983428789
+    second: RideRun_10
+  - first:
+      213: 5738078903242029201
+    second: RideRun_11
+  - first:
+      213: -7879907502134279743
+    second: RideRun_12
+  - first:
+      213: -8906705731799594267
+    second: RideRun_13
+  - first:
+      213: -3402618524942940674
+    second: RideRun_14
+  - first:
+      213: -3929951274054751007
+    second: RideRun_15
+  - first:
+      213: -5576307382237951159
+    second: RideRun_16
+  - first:
+      213: 2367575268841495296
+    second: RideRun_17
+  - first:
+      213: 7390065703692952434
+    second: RideRun_18
+  - first:
+      213: -6060748490475053266
+    second: RideRun_19
+  - first:
+      213: 3981702210846560973
+    second: RideRun_20
+  - first:
+      213: 3563397557071823602
+    second: RideRun_21
+  - first:
+      213: 4679415349509047608
+    second: RideRun_22
+  - first:
+      213: 1151869523958867217
+    second: RideRun_23
+  - first:
+      213: -6554849109681645779
+    second: RideRun_24
+  - first:
+      213: 3723900569929003000
+    second: RideRun_25
+  - first:
+      213: -7198123653084797463
+    second: RideRun_26
+  - first:
+      213: 2372727016689402632
+    second: RideRun_27
+  - first:
+      213: 8970080619904307610
+    second: RideRun_28
+  - first:
+      213: -1533857176331196968
+    second: RideRun_29
+  - first:
+      213: -3960138296246675964
+    second: RideRun_30
+  - first:
+      213: -8737720763992876883
+    second: RideRun_31
+  - first:
+      213: -2148828877440384280
+    second: RideRun_32
+  - first:
+      213: -4540438485823916434
+    second: RideRun_33
+  - first:
+      213: 1210973677961093070
+    second: RideRun_34
+  - first:
+      213: 5110744173089483597
+    second: RideRun_35
+  - first:
+      213: 1759631114967985484
+    second: RideRun_36
+  - first:
+      213: -2191012355822565490
+    second: RideRun_37
+  - first:
+      213: 3390733000833888673
+    second: RideRun_38
+  - first:
+      213: -8801760944512641771
+    second: RideRun_39
+  - first:
+      213: -6832366123329979196
+    second: RideRun_40
+  - first:
+      213: 5183052578060298655
+    second: RideRun_41
+  - first:
+      213: 2582079238633114299
+    second: RideRun_42
+  - first:
+      213: -7553442453322078172
+    second: RideRun_43
+  - first:
+      213: -618202857367132189
+    second: RideRun_44
+  - first:
+      213: 2568571848249340908
+    second: RideRun_45
+  - first:
+      213: 4285360480961194744
+    second: RideRun_46
+  - first:
+      213: 3127993692780565659
+    second: RideRun_47
+  - first:
+      213: -1991575389430238658
+    second: RideRun_48
+  - first:
+      213: -5664843561347238430
+    second: RideRun_49
+  - first:
+      213: -3280480621198113476
+    second: RideRun_50
+  - first:
+      213: -1381192893770351337
+    second: RideRun_51
+  - first:
+      213: -2948506739887903741
+    second: RideRun_52
+  - first:
+      213: 4203172039309170725
+    second: RideRun_53
+  - first:
+      213: 6410685811025069670
+    second: RideRun_54
+  - first:
+      213: 7708231503506414902
+    second: RideRun_55
+  - first:
+      213: -1084021735968276362
+    second: RideRun_56
+  - first:
+      213: -4673627426127313557
+    second: RideRun_57
+  - first:
+      213: 2497076746232076404
+    second: RideRun_58
+  - first:
+      213: 1540816478075101632
+    second: RideRun_59
+  - first:
+      213: -9141780403147868370
+    second: RideRun_60
+  - first:
+      213: -2556582191580793448
+    second: RideRun_61
+  - first:
+      213: -7885973531482305692
+    second: RideRun_62
+  - first:
+      213: -7847681558896950594
+    second: RideRun_63
+  - first:
+      213: -3178214205130426523
+    second: RideRun_64
+  - first:
+      213: 3898569565568151198
+    second: RideRun_65
+  - first:
+      213: 6255382912390821435
+    second: RideRun_66
+  - first:
+      213: -7739632320189465070
+    second: RideRun_67
+  - first:
+      213: -1738129214585808496
+    second: RideRun_68
+  - first:
+      213: 8104297160194769717
+    second: RideRun_69
+  - first:
+      213: -6294772389027929770
+    second: RideRun_70
+  - first:
+      213: 6724951932753621879
+    second: RideRun_71
+  - first:
+      213: 516935313246635843
+    second: RideRun_72
+  - first:
+      213: -7983520684101863442
+    second: RideRun_73
+  - first:
+      213: 9141524195405238970
+    second: RideRun_74
+  - first:
+      213: -3050506498361246129
+    second: RideRun_75
+  - first:
+      213: -7640768252810998811
+    second: RideRun_76
+  - first:
+      213: -445686951693836059
+    second: RideRun_77
+  - first:
+      213: -8270901133829748692
+    second: RideRun_78
+  - first:
+      213: -1925087039596622042
+    second: RideRun_79
+  - first:
+      213: -4633469606385119075
+    second: RideRun_80
+  - first:
+      213: -8639571653813621838
+    second: RideRun_81
+  - first:
+      213: 3158658486841697563
+    second: RideRun_82
+  - first:
+      213: -2226602822854379853
+    second: RideRun_83
+  - first:
+      213: 5630299574977711476
+    second: RideRun_84
+  - first:
+      213: -2819231718242071086
+    second: RideRun_85
+  - first:
+      213: 2754623555352854264
+    second: RideRun_86
+  - first:
+      213: 3744108941275627452
+    second: RideRun_87
+  - first:
+      213: -258262900584150082
+    second: RideRun_88
+  - first:
+      213: 1053300376339530606
+    second: RideRun_89
+  - first:
+      213: 3923357705346543058
+    second: RideRun_90
+  - first:
+      213: 7576969501712809597
+    second: RideRun_91
+  - first:
+      213: 1753429116192388390
+    second: RideRun_92
+  - first:
+      213: -335886234979081973
+    second: RideRun_93
+  - first:
+      213: 6339932271059172038
+    second: RideRun_94
+  - first:
+      213: -979850193348950670
+    second: RideRun_95
+  - first:
+      213: 5350002278606681801
+    second: RideRun_96
+  - first:
+      213: -2610078009877441454
+    second: RideRun_97
+  - first:
+      213: 5366566535000564458
+    second: RideRun_98
+  - first:
+      213: 3899631986395901576
+    second: RideRun_99
+  - first:
+      213: 9193785264721329185
+    second: RideRun_100
+  - first:
+      213: -7602775216427293191
+    second: RideRun_101
+  - first:
+      213: 1374609026007651149
+    second: RideRun_102
+  - first:
+      213: 1748337324570914861
+    second: RideRun_103
+  - first:
+      213: 1436684307540123452
+    second: RideRun_104
+  - first:
+      213: -4481315917033950020
+    second: RideRun_105
+  - first:
+      213: 1110400194364235594
+    second: RideRun_106
+  - first:
+      213: 5698339006860518282
+    second: RideRun_107
+  - first:
+      213: -8950451234939496055
+    second: RideRun_108
+  - first:
+      213: -1926621360019763822
+    second: RideRun_109
+  - first:
+      213: -4092622532609423654
+    second: RideRun_110
+  - first:
+      213: 1891335384213761287
+    second: RideRun_111
+  - first:
+      213: -4467086059307926012
+    second: RideRun_112
+  - first:
+      213: 7212348792908215291
+    second: RideRun_113
+  - first:
+      213: 7676596501247975328
+    second: RideRun_114
+  - first:
+      213: -9222480153182852328
+    second: RideRun_115
+  - first:
+      213: -5539004490235362326
+    second: RideRun_116
+  - first:
+      213: -7027838476271605720
+    second: RideRun_117
+  - first:
+      213: 1865237707343298825
+    second: RideRun_118
+  - first:
+      213: 6321619656923642250
+    second: RideRun_119
+  - first:
+      213: 2163274288631861019
+    second: RideRun_0_0
+  - first:
+      213: 60061048104693197
+    second: RideRun_0_1
+  - first:
+      213: -1343684664572957903
+    second: RideRun_0_2
+  - first:
+      213: -8522429446781613378
+    second: RideRun_0_3
+  - first:
+      213: -771993029020227278
+    second: RideRun_0_4
+  - first:
+      213: -7119645465463625667
+    second: RideRun_0_5
+  - first:
+      213: 7455226382505269625
+    second: RideRun_0_6
+  - first:
+      213: -5007385443939641175
+    second: RideRun_0_7
+  - first:
+      213: -7818675427997584519
+    second: RideRun_0_8
+  - first:
+      213: -633490282428755785
+    second: RideRun_0_9
+  - first:
+      213: -1547503156497804906
+    second: RideRun_0_10
+  - first:
+      213: -1551801481470625271
+    second: RideRun_0_11
+  - first:
+      213: -7258004185844471649
+    second: RideRun_0_12
+  - first:
+      213: -6227707649100568174
+    second: RideRun_0_13
+  - first:
+      213: 8593114375411906764
+    second: RideRun_0_14
+  - first:
+      213: -4602065427140109723
+    second: RideRun_1_0
+  - first:
+      213: 8157481064803351045
+    second: RideRun_1_1
+  - first:
+      213: -6029586928445232810
+    second: RideRun_1_2
+  - first:
+      213: -5317825314711397041
+    second: RideRun_1_3
+  - first:
+      213: -3943938231317140786
+    second: RideRun_1_4
+  - first:
+      213: -5098396277146211596
+    second: RideRun_1_5
+  - first:
+      213: -7129127296681232436
+    second: RideRun_1_6
+  - first:
+      213: 8362882314853228024
+    second: RideRun_1_7
+  - first:
+      213: 4853817460987429935
+    second: RideRun_1_8
+  - first:
+      213: 1417338961019674511
+    second: RideRun_1_9
+  - first:
+      213: 5641197736903499447
+    second: RideRun_1_10
+  - first:
+      213: 2394597162758119435
+    second: RideRun_1_11
+  - first:
+      213: -3202362331587674471
+    second: RideRun_1_12
+  - first:
+      213: -3178820249653057047
+    second: RideRun_1_13
+  - first:
+      213: 977820757947950626
+    second: RideRun_1_14
+  - first:
+      213: 4416749925407971960
+    second: RideRun_2_0
+  - first:
+      213: 3767411250436837149
+    second: RideRun_2_1
+  - first:
+      213: 8125045557248753470
+    second: RideRun_2_2
+  - first:
+      213: -9204006545950098292
+    second: RideRun_2_3
+  - first:
+      213: -4565925007766348349
+    second: RideRun_2_4
+  - first:
+      213: 1860931235530480779
+    second: RideRun_2_5
+  - first:
+      213: 4032967274186800031
+    second: RideRun_2_6
+  - first:
+      213: 2898554278519584492
+    second: RideRun_2_7
+  - first:
+      213: 6379748077876627790
+    second: RideRun_2_8
+  - first:
+      213: -6713345998989709742
+    second: RideRun_2_9
+  - first:
+      213: 7928426092696745119
+    second: RideRun_2_10
+  - first:
+      213: -4580745865329006291
+    second: RideRun_2_11
+  - first:
+      213: -6956536533217865210
+    second: RideRun_2_12
+  - first:
+      213: -4313687391243865111
+    second: RideRun_2_13
+  - first:
+      213: -7258885610546822763
+    second: RideRun_2_14
+  - first:
+      213: -6695225500696621969
+    second: RideRun_3_0
+  - first:
+      213: 8964880400851506537
+    second: RideRun_3_1
+  - first:
+      213: 1750633989221910974
+    second: RideRun_3_2
+  - first:
+      213: 6935164885257650881
+    second: RideRun_3_3
+  - first:
+      213: -7420074269471755913
+    second: RideRun_3_4
+  - first:
+      213: -1748140468120605597
+    second: RideRun_3_5
+  - first:
+      213: -1519154972346213908
+    second: RideRun_3_6
+  - first:
+      213: -1857603357294929789
+    second: RideRun_3_7
+  - first:
+      213: -4582240486688307958
+    second: RideRun_3_8
+  - first:
+      213: -9151404548020334
+    second: RideRun_3_9
+  - first:
+      213: -8485050457372890268
+    second: RideRun_3_10
+  - first:
+      213: -5091834444016655225
+    second: RideRun_3_11
+  - first:
+      213: -1185263463919356377
+    second: RideRun_3_12
+  - first:
+      213: -4068158499088122043
+    second: RideRun_3_13
+  - first:
+      213: 8539213390665050661
+    second: RideRun_3_14
+  - first:
+      213: -3665034769266967993
+    second: RideRun_4_0
+  - first:
+      213: -1953153903267242510
+    second: RideRun_4_1
+  - first:
+      213: -482582611646414133
+    second: RideRun_4_2
+  - first:
+      213: -8043786791689468564
+    second: RideRun_4_3
+  - first:
+      213: 6015839214368309498
+    second: RideRun_4_4
+  - first:
+      213: 8414492854756259847
+    second: RideRun_4_5
+  - first:
+      213: -5062616549118311441
+    second: RideRun_4_6
+  - first:
+      213: -2394404447231945938
+    second: RideRun_4_7
+  - first:
+      213: -3525796367270500536
+    second: RideRun_4_8
+  - first:
+      213: 821591500980279388
+    second: RideRun_4_9
+  - first:
+      213: -3574462112418543330
+    second: RideRun_4_10
+  - first:
+      213: -7767745959649946414
+    second: RideRun_4_11
+  - first:
+      213: -6792722205323626606
+    second: RideRun_4_12
+  - first:
+      213: 977948304889117739
+    second: RideRun_4_13
+  - first:
+      213: -3302323482145857927
+    second: RideRun_4_14
+  - first:
+      213: -1511554612947716921
+    second: RideRun_5_0
+  - first:
+      213: 6468514547431275655
+    second: RideRun_5_1
+  - first:
+      213: 256113668831498423
+    second: RideRun_5_2
+  - first:
+      213: -5346049626751206133
+    second: RideRun_5_3
+  - first:
+      213: -1620271764927354425
+    second: RideRun_5_4
+  - first:
+      213: -4258345582395858366
+    second: RideRun_5_5
+  - first:
+      213: -9197942590299411018
+    second: RideRun_5_6
+  - first:
+      213: 4475411412567964677
+    second: RideRun_5_7
+  - first:
+      213: -442777105708315625
+    second: RideRun_5_8
+  - first:
+      213: 3031288379200425551
+    second: RideRun_5_9
+  - first:
+      213: 4596555391507697257
+    second: RideRun_5_10
+  - first:
+      213: 6126796926946462615
+    second: RideRun_5_11
+  - first:
+      213: 5995635394296845044
+    second: RideRun_5_12
+  - first:
+      213: -6749208569644886892
+    second: RideRun_5_13
+  - first:
+      213: 7542467419200508329
+    second: RideRun_5_14
+  - first:
+      213: -2564275900004126753
+    second: RideRun_6_0
+  - first:
+      213: 8256657767084422026
+    second: RideRun_6_1
+  - first:
+      213: -1702171040305468273
+    second: RideRun_6_2
+  - first:
+      213: 109300314960499907
+    second: RideRun_6_3
+  - first:
+      213: -2649631922328937689
+    second: RideRun_6_4
+  - first:
+      213: 6410607114806572136
+    second: RideRun_6_5
+  - first:
+      213: 796488577178899428
+    second: RideRun_6_6
+  - first:
+      213: -1357409239333849456
+    second: RideRun_6_7
+  - first:
+      213: 5198014774679058713
+    second: RideRun_6_8
+  - first:
+      213: -8961479748624754638
+    second: RideRun_6_9
+  - first:
+      213: 5369435437365957975
+    second: RideRun_6_10
+  - first:
+      213: -668259821100527033
+    second: RideRun_6_11
+  - first:
+      213: 4677095335542935651
+    second: RideRun_6_12
+  - first:
+      213: 6142300628706952808
+    second: RideRun_6_13
+  - first:
+      213: 4945218211560121166
+    second: RideRun_6_14
+  - first:
+      213: -4927994063292507402
+    second: RideRun_7_0
+  - first:
+      213: -266564171830200066
+    second: RideRun_7_1
+  - first:
+      213: 9114629416912349328
+    second: RideRun_7_2
+  - first:
+      213: -4736684106314963880
+    second: RideRun_7_3
+  - first:
+      213: 7042774487703457576
+    second: RideRun_7_4
+  - first:
+      213: 5317949952215519897
+    second: RideRun_7_5
+  - first:
+      213: -8728020129876042544
+    second: RideRun_7_6
+  - first:
+      213: 1467402504484029340
+    second: RideRun_7_7
+  - first:
+      213: -4931656025957497454
+    second: RideRun_7_8
+  - first:
+      213: 6084010103646209436
+    second: RideRun_7_9
+  - first:
+      213: 3773816883796030971
+    second: RideRun_7_10
+  - first:
+      213: -7800909372005523171
+    second: RideRun_7_11
+  - first:
+      213: -1859088970353340053
+    second: RideRun_7_12
+  - first:
+      213: -5416032577683498333
+    second: RideRun_7_13
+  - first:
+      213: -4478803665947295578
+    second: RideRun_7_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RideRun_0_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1f43a5018e750e10800000000000000
+      internalID: 2163274288631861019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_0_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcd2e1d743165d000800000000000000
+      internalID: 60061048104693197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_0_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13b2dfdaae54a5de0800000000000000
+      internalID: -1343684664572957903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_0_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebac049629f3ab980800000000000000
+      internalID: -8522429446781613378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_0_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 239eb282e645945f0800000000000000
+      internalID: -771993029020227278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_0_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d38e150bb20f13d90800000000000000
+      internalID: -7119645465463625667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_0_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 979d85935e8467760800000000000000
+      internalID: 7455226382505269625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_0_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a814801871328ab0800000000000000
+      internalID: -5007385443939641175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_0_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 973f0249f1c7e7390800000000000000
+      internalID: -7818675427997584519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_0_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b01c2bc1f36537f0800000000000000
+      internalID: -633490282428755785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_0_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6911724041a268ae0800000000000000
+      internalID: -1547503156497804906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_0_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90ab40f36c4e67ae0800000000000000
+      internalID: -1551801481470625271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_0_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f982174c5a3664b90800000000000000
+      internalID: -7258004185844471649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_0_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 299a06293ecb299a0800000000000000
+      internalID: -6227707649100568174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_0_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc8bab40fffd04770800000000000000
+      internalID: 8593114375411906764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56a153670ed2220c0800000000000000
+      internalID: -4602065427140109723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_1_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50a3499eec1353170800000000000000
+      internalID: 8157481064803351045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_1_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 659eeab72aa925ca0800000000000000
+      internalID: -6029586928445232810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_1_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4d1c032d0a4336b0800000000000000
+      internalID: -5317825314711397041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_1_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eca624213115449c0800000000000000
+      internalID: -3943938231317140786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_1_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4faa680399bde39b0800000000000000
+      internalID: -5098396277146211596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_1_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc736c2de70401d90800000000000000
+      internalID: -7129127296681232436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_1_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fd193b282dee0470800000000000000
+      internalID: 8362882314853228024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_1_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f248ebe93493c5340800000000000000
+      internalID: 4853817460987429935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_1_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8f16e196466ba310800000000000000
+      internalID: 1417338961019674511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_1_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bededf047f894e40800000000000000
+      internalID: 5641197736903499447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_1_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b002b52be615b3120800000000000000
+      internalID: 2394597162758119435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_1_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99eff9f1d6cee83d0800000000000000
+      internalID: -3202362331587674471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_1_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e96c9633df82e3d0800000000000000
+      internalID: -3178820249653057047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_1_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 226ad737ccae19d00800000000000000
+      internalID: 977820757947950626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87adcadf7a27b4d30800000000000000
+      internalID: 4416749925407971960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_2_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1f09195298884430800000000000000
+      internalID: 3767411250436837149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_2_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3f7dafc2e5f1c070800000000000000
+      internalID: 8125045557248753470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_2_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8c3646bfccc44080800000000000000
+      internalID: -9204006545950098292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_2_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cd9301956392a0c0800000000000000
+      internalID: -4565925007766348349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_2_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8c193d591b53d910800000000000000
+      internalID: 1860931235530480779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_2_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9bfda84e5af7f730800000000000000
+      internalID: 4032967274186800031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_2_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce6395552cbb93820800000000000000
+      internalID: 2898554278519584492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_2_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e494152531b698850800000000000000
+      internalID: 6379748077876627790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_2_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25eadebf16765d2a0800000000000000
+      internalID: -6713345998989709742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_2_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f94b023568d670e60800000000000000
+      internalID: 7928426092696745119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_2_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d29a9b2c7ebed60c0800000000000000
+      internalID: -4580745865329006291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_2_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 602958e51ea657f90800000000000000
+      internalID: -6956536533217865210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_2_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e3f3dc2c24b224c0800000000000000
+      internalID: -4313687391243865111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_2_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59189261ff1434b90800000000000000
+      internalID: -7258885610546822763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6c47d341e7c513a0800000000000000
+      internalID: -6695225500696621969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_3_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9659d920a37a96c70800000000000000
+      internalID: 8964880400851506537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_3_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb90c4386508b4810800000000000000
+      internalID: 1750633989221910974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_3_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c28b8418b7ae3060800000000000000
+      internalID: 6935164885257650881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_3_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 771be11e3c9960990800000000000000
+      internalID: -7420074269471755913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_3_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36caf2c918b5db7e0800000000000000
+      internalID: -1748140468120605597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_3_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce9198af990eaeae0800000000000000
+      internalID: -1519154972346213908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_3_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 388dcdaa6977836e0800000000000000
+      internalID: -1857603357294929789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_3_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a05c78b1e8c9860c0800000000000000
+      internalID: -4582240486688307958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_3_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29728b698dc7fdff0800000000000000
+      internalID: -9151404548020334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_3_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46be503909b0f3a80800000000000000
+      internalID: -8485050457372890268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_3_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 784e9450d8b2659b0800000000000000
+      internalID: -5091834444016655225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_3_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72676dbc8291d8fe0800000000000000
+      internalID: -1185263463919356377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_3_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54fbddb266ffa87c0800000000000000
+      internalID: -4068158499088122043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_3_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52a69db0651618670800000000000000
+      internalID: 8539213390665050661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_4_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74af268ab4e232dc0800000000000000
+      internalID: -3665034769266967993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_4_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fd961c8fd005e4e0800000000000000
+      internalID: -1953153903267242510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_4_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc2090aeba58d49f0800000000000000
+      internalID: -482582611646414133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_4_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c65ce50e78abe5090800000000000000
+      internalID: -8043786791689468564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_4_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af0c94664ed8c7350800000000000000
+      internalID: 6015839214368309498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_4_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7083fc46ba846c470800000000000000
+      internalID: 8414492854756259847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_4_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe30acb4219fdb9b0800000000000000
+      internalID: -5062616549118311441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_4_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e23df1267dd55ced0800000000000000
+      internalID: -2394404447231945938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_4_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 847aa7a62ead11fc0800000000000000
+      internalID: -3525796367270500536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_4_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c58d86efd11e66b00800000000000000
+      internalID: 821591500980279388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_4_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e194336a5a5f46ec0800000000000000
+      internalID: -3574462112418543330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_4_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d4d699743c633490800000000000000
+      internalID: -7767745959649946414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_4_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 297f6c5c4276bb1a0800000000000000
+      internalID: -6792722205323626606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_4_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2c7c994dce529d00800000000000000
+      internalID: 977948304889117739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_4_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97ed3491a4acb22d0800000000000000
+      internalID: -3302323482145857927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_5_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c4f5ac8611e50be0800000000000000
+      internalID: -1511554612947716921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_5_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78c761095b7c4c950800000000000000
+      internalID: 6468514547431275655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_5_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b0d2dc5606ed8300800000000000000
+      internalID: 256113668831498423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_5_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0d72e560340fc5b0800000000000000
+      internalID: -5346049626751206133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_5_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c9e8e31a63a389e0800000000000000
+      internalID: -1620271764927354425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_5_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 242e076214157e4c0800000000000000
+      internalID: -4258345582395858366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_5_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bd64c862f75a5080800000000000000
+      internalID: -9197942590299411018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_5_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50cb7ddc7fadb1e30800000000000000
+      internalID: 4475411412567964677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_5_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71c849b7190fad9f0800000000000000
+      internalID: -442777105708315625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_5_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4ec20e68bc411a20800000000000000
+      internalID: 3031288379200425551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_5_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96e093566ce3acf30800000000000000
+      internalID: 4596555391507697257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_5_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79b49990851c60550800000000000000
+      internalID: 6126796926946462615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_5_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f292d7ff96c43350800000000000000
+      internalID: 5995635394296845044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_5_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4945b43909ef552a0800000000000000
+      internalID: -6749208569644886892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_5_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a15763f72a3ca860800000000000000
+      internalID: 7542467419200508329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_6_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdfa822b7acd96cd0800000000000000
+      internalID: -2564275900004126753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_6_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8379075e7a859270800000000000000
+      internalID: 8256657767084422026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_6_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8ca2a3157ca068e0800000000000000
+      internalID: -1702171040305468273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_6_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c41f0fae00548100800000000000000
+      internalID: 109300314960499907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_6_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72b5c041ecd9a3bd0800000000000000
+      internalID: -2649631922328937689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_6_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86433a0c43d07f850800000000000000
+      internalID: 6410607114806572136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_6_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e397661422bd0b00800000000000000
+      internalID: 796488577178899428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_6_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0963caa1d73892de0800000000000000
+      internalID: -1357409239333849456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_6_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9193af5b5ee032840800000000000000
+      internalID: 5198014774679058713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_6_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2385d5906ad62a380800000000000000
+      internalID: -8961479748624754638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_6_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7559790f411148a40800000000000000
+      internalID: 5369435437365957975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_6_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74213a9bb3dd9b6f0800000000000000
+      internalID: -668259821100527033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_6_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3605ca76d6168e040800000000000000
+      internalID: 4677095335542935651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_6_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8668cb5e0e5dd3550800000000000000
+      internalID: 6142300628706952808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_6_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4365d433c1f0a440800000000000000
+      internalID: 4945218211560121166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_7_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fa5732528f3c9bb0800000000000000
+      internalID: -4927994063292507402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_7_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef8f63c4c49fc4cf0800000000000000
+      internalID: -266564171830200066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_7_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 098e26ec92bad7e70800000000000000
+      internalID: 9114629416912349328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_7_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 854abddb6eae34eb0800000000000000
+      internalID: -4736684106314963880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_7_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82f8fb41516fcb160800000000000000
+      internalID: 7042774487703457576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_7_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9929c1b4e472dc940800000000000000
+      internalID: 5317949952215519897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_7_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dc97465fe7dfd680800000000000000
+      internalID: -8728020129876042544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_7_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c930a4e9dc24d5410800000000000000
+      internalID: 1467402504484029340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_7_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 295836239fc3f8bb0800000000000000
+      internalID: -4931656025957497454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_7_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9548bd64febe6450800000000000000
+      internalID: 6084010103646209436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_7_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf5b806167a4f5430800000000000000
+      internalID: 3773816883796030971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_7_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d116894d14a9db390800000000000000
+      internalID: -7800909372005523171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_7_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b611e3c6e603336e0800000000000000
+      internalID: -1859088970353340053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_7_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aa5b33e01366d4b0800000000000000
+      internalID: -5416032577683498333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RideRun_7_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a08e78abc718d1c0800000000000000
+      internalID: -4478803665947295578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      RideRun_0: -465930137206192264
+      RideRun_0_0: 2163274288631861019
+      RideRun_0_1: 60061048104693197
+      RideRun_0_10: -1547503156497804906
+      RideRun_0_11: -1551801481470625271
+      RideRun_0_12: -7258004185844471649
+      RideRun_0_13: -6227707649100568174
+      RideRun_0_14: 8593114375411906764
+      RideRun_0_2: -1343684664572957903
+      RideRun_0_3: -8522429446781613378
+      RideRun_0_4: -771993029020227278
+      RideRun_0_5: -7119645465463625667
+      RideRun_0_6: 7455226382505269625
+      RideRun_0_7: -5007385443939641175
+      RideRun_0_8: -7818675427997584519
+      RideRun_0_9: -633490282428755785
+      RideRun_1: -8955341120604352271
+      RideRun_10: 3471860122983428789
+      RideRun_100: 9193785264721329185
+      RideRun_101: -7602775216427293191
+      RideRun_102: 1374609026007651149
+      RideRun_103: 1748337324570914861
+      RideRun_104: 1436684307540123452
+      RideRun_105: -4481315917033950020
+      RideRun_106: 1110400194364235594
+      RideRun_107: 5698339006860518282
+      RideRun_108: -8950451234939496055
+      RideRun_109: -1926621360019763822
+      RideRun_11: 5738078903242029201
+      RideRun_110: -4092622532609423654
+      RideRun_111: 1891335384213761287
+      RideRun_112: -4467086059307926012
+      RideRun_113: 7212348792908215291
+      RideRun_114: 7676596501247975328
+      RideRun_115: -9222480153182852328
+      RideRun_116: -5539004490235362326
+      RideRun_117: -7027838476271605720
+      RideRun_118: 1865237707343298825
+      RideRun_119: 6321619656923642250
+      RideRun_12: -7879907502134279743
+      RideRun_13: -8906705731799594267
+      RideRun_14: -3402618524942940674
+      RideRun_15: -3929951274054751007
+      RideRun_16: -5576307382237951159
+      RideRun_17: 2367575268841495296
+      RideRun_18: 7390065703692952434
+      RideRun_19: -6060748490475053266
+      RideRun_1_0: -4602065427140109723
+      RideRun_1_1: 8157481064803351045
+      RideRun_1_10: 5641197736903499447
+      RideRun_1_11: 2394597162758119435
+      RideRun_1_12: -3202362331587674471
+      RideRun_1_13: -3178820249653057047
+      RideRun_1_14: 977820757947950626
+      RideRun_1_2: -6029586928445232810
+      RideRun_1_3: -5317825314711397041
+      RideRun_1_4: -3943938231317140786
+      RideRun_1_5: -5098396277146211596
+      RideRun_1_6: -7129127296681232436
+      RideRun_1_7: 8362882314853228024
+      RideRun_1_8: 4853817460987429935
+      RideRun_1_9: 1417338961019674511
+      RideRun_2: -3593714517297259681
+      RideRun_20: 3981702210846560973
+      RideRun_21: 3563397557071823602
+      RideRun_22: 4679415349509047608
+      RideRun_23: 1151869523958867217
+      RideRun_24: -6554849109681645779
+      RideRun_25: 3723900569929003000
+      RideRun_26: -7198123653084797463
+      RideRun_27: 2372727016689402632
+      RideRun_28: 8970080619904307610
+      RideRun_29: -1533857176331196968
+      RideRun_2_0: 4416749925407971960
+      RideRun_2_1: 3767411250436837149
+      RideRun_2_10: 7928426092696745119
+      RideRun_2_11: -4580745865329006291
+      RideRun_2_12: -6956536533217865210
+      RideRun_2_13: -4313687391243865111
+      RideRun_2_14: -7258885610546822763
+      RideRun_2_2: 8125045557248753470
+      RideRun_2_3: -9204006545950098292
+      RideRun_2_4: -4565925007766348349
+      RideRun_2_5: 1860931235530480779
+      RideRun_2_6: 4032967274186800031
+      RideRun_2_7: 2898554278519584492
+      RideRun_2_8: 6379748077876627790
+      RideRun_2_9: -6713345998989709742
+      RideRun_3: -5194694264790353222
+      RideRun_30: -3960138296246675964
+      RideRun_31: -8737720763992876883
+      RideRun_32: -2148828877440384280
+      RideRun_33: -4540438485823916434
+      RideRun_34: 1210973677961093070
+      RideRun_35: 5110744173089483597
+      RideRun_36: 1759631114967985484
+      RideRun_37: -2191012355822565490
+      RideRun_38: 3390733000833888673
+      RideRun_39: -8801760944512641771
+      RideRun_3_0: -6695225500696621969
+      RideRun_3_1: 8964880400851506537
+      RideRun_3_10: -8485050457372890268
+      RideRun_3_11: -5091834444016655225
+      RideRun_3_12: -1185263463919356377
+      RideRun_3_13: -4068158499088122043
+      RideRun_3_14: 8539213390665050661
+      RideRun_3_2: 1750633989221910974
+      RideRun_3_3: 6935164885257650881
+      RideRun_3_4: -7420074269471755913
+      RideRun_3_5: -1748140468120605597
+      RideRun_3_6: -1519154972346213908
+      RideRun_3_7: -1857603357294929789
+      RideRun_3_8: -4582240486688307958
+      RideRun_3_9: -9151404548020334
+      RideRun_4: 7442195259690875513
+      RideRun_40: -6832366123329979196
+      RideRun_41: 5183052578060298655
+      RideRun_42: 2582079238633114299
+      RideRun_43: -7553442453322078172
+      RideRun_44: -618202857367132189
+      RideRun_45: 2568571848249340908
+      RideRun_46: 4285360480961194744
+      RideRun_47: 3127993692780565659
+      RideRun_48: -1991575389430238658
+      RideRun_49: -5664843561347238430
+      RideRun_4_0: -3665034769266967993
+      RideRun_4_1: -1953153903267242510
+      RideRun_4_10: -3574462112418543330
+      RideRun_4_11: -7767745959649946414
+      RideRun_4_12: -6792722205323626606
+      RideRun_4_13: 977948304889117739
+      RideRun_4_14: -3302323482145857927
+      RideRun_4_2: -482582611646414133
+      RideRun_4_3: -8043786791689468564
+      RideRun_4_4: 6015839214368309498
+      RideRun_4_5: 8414492854756259847
+      RideRun_4_6: -5062616549118311441
+      RideRun_4_7: -2394404447231945938
+      RideRun_4_8: -3525796367270500536
+      RideRun_4_9: 821591500980279388
+      RideRun_5: -1256877869032639652
+      RideRun_50: -3280480621198113476
+      RideRun_51: -1381192893770351337
+      RideRun_52: -2948506739887903741
+      RideRun_53: 4203172039309170725
+      RideRun_54: 6410685811025069670
+      RideRun_55: 7708231503506414902
+      RideRun_56: -1084021735968276362
+      RideRun_57: -4673627426127313557
+      RideRun_58: 2497076746232076404
+      RideRun_59: 1540816478075101632
+      RideRun_5_0: -1511554612947716921
+      RideRun_5_1: 6468514547431275655
+      RideRun_5_10: 4596555391507697257
+      RideRun_5_11: 6126796926946462615
+      RideRun_5_12: 5995635394296845044
+      RideRun_5_13: -6749208569644886892
+      RideRun_5_14: 7542467419200508329
+      RideRun_5_2: 256113668831498423
+      RideRun_5_3: -5346049626751206133
+      RideRun_5_4: -1620271764927354425
+      RideRun_5_5: -4258345582395858366
+      RideRun_5_6: -9197942590299411018
+      RideRun_5_7: 4475411412567964677
+      RideRun_5_8: -442777105708315625
+      RideRun_5_9: 3031288379200425551
+      RideRun_6: 315208353627240661
+      RideRun_60: -9141780403147868370
+      RideRun_61: -2556582191580793448
+      RideRun_62: -7885973531482305692
+      RideRun_63: -7847681558896950594
+      RideRun_64: -3178214205130426523
+      RideRun_65: 3898569565568151198
+      RideRun_66: 6255382912390821435
+      RideRun_67: -7739632320189465070
+      RideRun_68: -1738129214585808496
+      RideRun_69: 8104297160194769717
+      RideRun_6_0: -2564275900004126753
+      RideRun_6_1: 8256657767084422026
+      RideRun_6_10: 5369435437365957975
+      RideRun_6_11: -668259821100527033
+      RideRun_6_12: 4677095335542935651
+      RideRun_6_13: 6142300628706952808
+      RideRun_6_14: 4945218211560121166
+      RideRun_6_2: -1702171040305468273
+      RideRun_6_3: 109300314960499907
+      RideRun_6_4: -2649631922328937689
+      RideRun_6_5: 6410607114806572136
+      RideRun_6_6: 796488577178899428
+      RideRun_6_7: -1357409239333849456
+      RideRun_6_8: 5198014774679058713
+      RideRun_6_9: -8961479748624754638
+      RideRun_7: 732392856385075301
+      RideRun_70: -6294772389027929770
+      RideRun_71: 6724951932753621879
+      RideRun_72: 516935313246635843
+      RideRun_73: -7983520684101863442
+      RideRun_74: 9141524195405238970
+      RideRun_75: -3050506498361246129
+      RideRun_76: -7640768252810998811
+      RideRun_77: -445686951693836059
+      RideRun_78: -8270901133829748692
+      RideRun_79: -1925087039596622042
+      RideRun_7_0: -4927994063292507402
+      RideRun_7_1: -266564171830200066
+      RideRun_7_10: 3773816883796030971
+      RideRun_7_11: -7800909372005523171
+      RideRun_7_12: -1859088970353340053
+      RideRun_7_13: -5416032577683498333
+      RideRun_7_14: -4478803665947295578
+      RideRun_7_2: 9114629416912349328
+      RideRun_7_3: -4736684106314963880
+      RideRun_7_4: 7042774487703457576
+      RideRun_7_5: 5317949952215519897
+      RideRun_7_6: -8728020129876042544
+      RideRun_7_7: 1467402504484029340
+      RideRun_7_8: -4931656025957497454
+      RideRun_7_9: 6084010103646209436
+      RideRun_8: 3161682846391853026
+      RideRun_80: -4633469606385119075
+      RideRun_81: -8639571653813621838
+      RideRun_82: 3158658486841697563
+      RideRun_83: -2226602822854379853
+      RideRun_84: 5630299574977711476
+      RideRun_85: -2819231718242071086
+      RideRun_86: 2754623555352854264
+      RideRun_87: 3744108941275627452
+      RideRun_88: -258262900584150082
+      RideRun_89: 1053300376339530606
+      RideRun_9: -7145760945704336206
+      RideRun_90: 3923357705346543058
+      RideRun_91: 7576969501712809597
+      RideRun_92: 1753429116192388390
+      RideRun_93: -335886234979081973
+      RideRun_94: 6339932271059172038
+      RideRun_95: -979850193348950670
+      RideRun_96: 5350002278606681801
+      RideRun_97: -2610078009877441454
+      RideRun_98: 5366566535000564458
+      RideRun_99: 3899631986395901576
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 336410
+  packageName: 2D Fantasy Tileset
+  packageVersion: 1.1.0
+  assetPath: Assets/SmallScaleInt/Fantasy kingdom Tileset/Animations/Equipment/Head1Animation/RideRun.png
+  uploadId: 853508

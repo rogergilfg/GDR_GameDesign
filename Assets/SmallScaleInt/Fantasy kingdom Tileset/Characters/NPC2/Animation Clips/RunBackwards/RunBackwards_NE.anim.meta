@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 64cbf3d47d7161c4d9516786740521c7
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 336410
+  packageName: 2D Fantasy Tileset
+  packageVersion: 1.1.0
+  assetPath: Assets/SmallScaleInt/Fantasy kingdom Tileset/Characters/NPC2/Animation
+    Clips/RunBackwards/RunBackwards_NE.anim
+  uploadId: 853508

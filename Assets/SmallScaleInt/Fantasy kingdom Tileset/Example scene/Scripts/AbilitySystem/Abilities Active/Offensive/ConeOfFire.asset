@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 870381164fd2c1443a840a4f61002b48, type: 3}
+  m_Name: ConeOfFire
+  m_EditorClassIdentifier: 
+  abilityId: 5ca4ceb6-9dbf-4368-bf6c-40403058cf2d
+  displayName: Cone Of Fire
+  description: 
+  icon: {fileID: -414956841, guid: 8b2279182b0282a458ef255246f6e8c7, type: 3}
+  manaCost: 15
+  cooldownSeconds: 1
+  maxCharges: 1
+  startingCharges: 1
+  requireIdleRunner: 1
+  activationRequirements:
+  - rid: 6567839355355529348
+  - rid: 6567839355355529349
+  - rid: 6567839355355529350
+  steps:
+  - rid: 522703850577330249
+  - rid: 522703850577330248
+  - rid: 522703868514271305
+  isPassive: 0
+  isDebuff: 0
+  passiveModifiers: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 522703850577330248
+      type: {class: ConeDamageStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 1
+        waitForCompletion: 1
+        aimMode: 1
+        customDirection: {x: 1, y: 0}
+        preferMouseForPlayers: 1
+        radius: 2.8
+        coneAngleDeg: 25
+        coneOffset: {x: 0, y: 0}
+        baseDamage: 16
+        scaleWithOwnerDamage: 1
+        ownerDamageScale: 1
+        damageVariance: 0.08
+        critChance: 0.15
+        critMultiplier: 1.5
+        enemyMask:
+          serializedVersion: 2
+          m_Bits: 128
+        showCombatText: 1
+        combatTextOffset: {x: 0, y: 0.25}
+        sequentialDamage: 1
+        growDuration: 0.25
+        ringThickness: 0.35
+        samplesPerSecond: 90
+        allowMultipleHitsPerTarget: 0
+        damageTiles: 1
+        tileDamage: 45
+        animationPrefab: {fileID: 6001077964618229728, guid: c7d5fb46b25d44d449bd1992942ac806, type: 3}
+        particlePrefab: {fileID: 0}
+        vfxSpawnOffset: {x: 0, y: 0}
+        vfxExtraRotationDeg: 0
+        vfxCleanupDelay: 3
+    - rid: 522703850577330249
+      type: {class: AnimatorTriggerStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 15
+        waitForCompletion: 1
+        command: 0
+        parameterName: Attack4
+        movingParameterName: 
+        movementThresholdSqr: 0.01
+        postDelay: 0.5
+    - rid: 522703868514271305
+      type: {class: ConeDamageStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 6
+        waitForCompletion: 1
+        aimMode: 2
+        customDirection: {x: 1, y: 0}
+        preferMouseForPlayers: 0
+        radius: 2.8
+        coneAngleDeg: 45
+        coneOffset: {x: 0, y: 0}
+        baseDamage: 16
+        scaleWithOwnerDamage: 1
+        ownerDamageScale: 1
+        damageVariance: 0.08
+        critChance: 0.15
+        critMultiplier: 1.5
+        enemyMask:
+          serializedVersion: 2
+          m_Bits: 2240
+        showCombatText: 1
+        combatTextOffset: {x: 0, y: 0.25}
+        sequentialDamage: 1
+        growDuration: 0.25
+        ringThickness: 0.35
+        samplesPerSecond: 90
+        allowMultipleHitsPerTarget: 1
+        damageTiles: 1
+        tileDamage: 50
+        animationPrefab: {fileID: 6001077964618229728, guid: c7d5fb46b25d44d449bd1992942ac806, type: 3}
+        particlePrefab: {fileID: 0}
+        vfxSpawnOffset: {x: 0, y: 0}
+        vfxExtraRotationDeg: 0
+        vfxCleanupDelay: 3
+    - rid: 6567839355355529348
+      type: {class: DistanceRequirement, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 6
+        requireTarget: 1
+        minDistance: 1
+        maxDistance: 0
+        use2D: 1
+    - rid: 6567839355355529349
+      type: {class: EnemyEngagedRequirement, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 6
+        requireEnemyAi: 1
+        leashRadiusOverride: 0
+    - rid: 6567839355355529350
+      type: {class: FacingRequirement, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 6
+        forwardSource: 0
+        minimumDot: 0
+        requireTarget: 1

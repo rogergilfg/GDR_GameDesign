@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 870381164fd2c1443a840a4f61002b48, type: 3}
+  m_Name: Hamstring
+  m_EditorClassIdentifier: 
+  abilityId: 889b5d49-88cb-49c5-a90c-f3738ca86e78
+  displayName: Hamstring
+  description: Slows the movement speed of all targets infront of you by 50%.
+  icon: {fileID: 1448242344, guid: 8b2279182b0282a458ef255246f6e8c7, type: 3}
+  manaCost: 25
+  cooldownSeconds: 15
+  maxCharges: 1
+  startingCharges: 0
+  requireIdleRunner: 1
+  activationRequirements:
+  - rid: 6567839355355529357
+  - rid: 6567839355355529358
+  steps:
+  - rid: 522703874908225666
+  - rid: 6567839757846970442
+  - rid: 6567839757846970443
+  - rid: 522704072800993353
+  isPassive: 0
+  isDebuff: 0
+  passiveModifiers: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 522703874908225666
+      type: {class: AnimatorTriggerStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 15
+        waitForCompletion: 1
+        command: 0
+        parameterName: Attack1
+        movingParameterName: AttackRun
+        movementThresholdSqr: 0.01
+        postDelay: 0
+    - rid: 522704072800993353
+      type: {class: DamageTargetStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 1
+        waitForCompletion: 1
+        targetingMode: 1
+        damage: 10
+        scaleWithOwnerDamage: 1
+        ownerDamageScale: 1
+        damageOwnerIfNoTarget: 0
+        useRelativeDirection: 1
+    - rid: 6567839355355529357
+      type: {class: DistanceRequirement, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 6
+        requireTarget: 1
+        minDistance: 0
+        maxDistance: 0.3
+        use2D: 1
+    - rid: 6567839355355529358
+      type: {class: EnemyEngagedRequirement, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 6
+        requireEnemyAi: 1
+        leashRadiusOverride: 0
+    - rid: 6567839757846970442
+      type: {class: ApplyAbilityStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 1
+        waitForCompletion: 1
+        abilitiesToApply:
+        - {fileID: 11400000, guid: 7397e7f504e22ad4ba4d66734f2e7dfb, type: 2}
+        duration: 10
+        allowStacking: 0
+        targetingMode: 3
+        targetMask:
+          serializedVersion: 2
+          m_Bits: 4294967295
+        radius: 2
+        coneAngleDeg: 60
+        maxTargets: 0
+        offset: {x: 0, y: 0}
+    - rid: 6567839757846970443
+      type: {class: ApplyAbilityStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 6
+        waitForCompletion: 1
+        abilitiesToApply:
+        - {fileID: 11400000, guid: 7397e7f504e22ad4ba4d66734f2e7dfb, type: 2}
+        duration: 5
+        allowStacking: 0
+        targetingMode: 0
+        targetMask:
+          serializedVersion: 2
+          m_Bits: 2240
+        radius: 1
+        coneAngleDeg: 180
+        maxTargets: 0
+        offset: {x: 0, y: 0}

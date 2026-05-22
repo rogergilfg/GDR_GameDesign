@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: fe659e6a348e5fd4596a5aeb7b83a015
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 336410
+  packageName: 2D Fantasy Tileset
+  packageVersion: 1.1.0
+  assetPath: Assets/SmallScaleInt/Fantasy kingdom Tileset/Example scene/Scripts/AbilitySystem/Abilities
+    Active/EnemyRevive.asset
+  uploadId: 853508

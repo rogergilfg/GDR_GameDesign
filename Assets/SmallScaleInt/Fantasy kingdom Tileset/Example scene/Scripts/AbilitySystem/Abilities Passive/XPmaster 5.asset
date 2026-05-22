@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 870381164fd2c1443a840a4f61002b48, type: 3}
+  m_Name: XPmaster 5
+  m_EditorClassIdentifier: 
+  abilityId: cc88c476-f2d4-41ad-9e7e-1689a8d63781
+  displayName: Experienced V
+  description: Increases experience gained from all sources by 15%.
+  icon: {fileID: -543422990, guid: 8b2279182b0282a458ef255246f6e8c7, type: 3}
+  manaCost: 0
+  cooldownSeconds: 1
+  maxCharges: 0
+  startingCharges: -1
+  requireIdleRunner: 1
+  activationRequirements: []
+  steps: []
+  isPassive: 1
+  isDebuff: 0
+  passiveModifiers:
+  - rid: 6567839355355529318
+  references:
+    version: 2
+    RefIds:
+    - rid: 6567839355355529318
+      type: {class: ExperienceBoostModifier, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        enabled: 1
+        playerExperiencePercent: 0.15

@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 870381164fd2c1443a840a4f61002b48, type: 3}
+  m_Name: GasExplosion 1
+  m_EditorClassIdentifier: 
+  abilityId: 760e7abd-19bf-4aa6-87fe-e37b52076cc6
+  displayName: Gas Explosion
+  description: Drops a posion cloud at the target area, damaging enemies that walks
+    into it.
+  icon: {fileID: 1563604344, guid: 8b2279182b0282a458ef255246f6e8c7, type: 3}
+  manaCost: 20
+  cooldownSeconds: 1
+  maxCharges: 0
+  startingCharges: -1
+  requireIdleRunner: 1
+  activationRequirements:
+  - rid: 6567839355355529377
+  - rid: 6567839355355529378
+  steps:
+  - rid: 522703874908225628
+  - rid: 522703874908225614
+  - rid: 522703874908225612
+  - rid: 522703874908225627
+  - rid: 522703874908225629
+  - rid: 522703874908225630
+  isPassive: 0
+  isDebuff: 0
+  passiveModifiers: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 522703874908225612
+      type: {class: SpawnPrefabStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 6
+        waitForCompletion: 0
+        prefab: {fileID: 515053179987749248, guid: 12fe7311961242a4ca7c9d89dfda1b20, type: 3}
+        anchor: 2
+        positionOffset: {x: 0, y: 0, z: 0}
+        parentToAnchor: 0
+        autoDestroyDelay: 10
+    - rid: 522703874908225614
+      type: {class: AnimatorTriggerStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 15
+        waitForCompletion: 0
+        command: 0
+        parameterName: Special1
+        movingParameterName: 
+        movementThresholdSqr: 0.01
+        postDelay: 0.5
+    - rid: 522703874908225627
+      type: {class: SpawnPrefabStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 1
+        waitForCompletion: 0
+        prefab: {fileID: 515053179987749248, guid: 12fe7311961242a4ca7c9d89dfda1b20, type: 3}
+        anchor: 2
+        positionOffset: {x: 0, y: 0, z: 0}
+        parentToAnchor: 0
+        autoDestroyDelay: 10
+    - rid: 522703874908225628
+      type: {class: WaitForTargetConfirmationStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 1
+        waitForCompletion: 1
+        cursorPrefab: {fileID: 0}
+        previewPrefab: {fileID: 515053179987749248, guid: 12fe7311961242a4ca7c9d89dfda1b20, type: 3}
+        previewRadius: 0.5
+        previewColor: {r: 1, g: 0.6468565, b: 0, a: 0.3254902}
+        highlightEnemiesInPreview: 1
+        previewHighlightMask:
+          serializedVersion: 2
+          m_Bits: 4294967295
+        previewHighlightColor: {r: 0.35, g: 1, b: 0.35, a: 0.9}
+        previewHighlightScale: 1.1
+        previewHighlightBufferSize: 24
+        maxRange: 3
+        showRangeIndicator: 0
+        rangeIndicatorPrefab: {fileID: 0}
+        allowCancel: 1
+        confirmSound: {fileID: 0}
+        cancelSound: {fileID: 0}
+    - rid: 522703874908225629
+      type: {class: EffectAreaStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 1
+        waitForCompletion: 0
+        anchor: 2
+        radius: 0.5
+        duration: 10
+        offset: {x: 0, y: 0}
+        nonBlocking: 1
+        targetMask:
+          serializedVersion: 2
+          m_Bits: 2240
+        tickInterval: 0.5
+        effects: 1
+        damagePerTick: 1
+        scaleWithOwnerDamage: 1
+        ownerDamageScale: 0.05
+        suppressKnockback: 1
+        movementSpeedMultiplier: 0.5
+        damageMultiplier: 0.75
+        visualPrefab: {fileID: 0}
+        showDamageCombatText: 1
+    - rid: 522703874908225630
+      type: {class: EffectAreaStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 6
+        waitForCompletion: 0
+        anchor: 0
+        radius: 2
+        duration: 10
+        offset: {x: 0, y: 0}
+        nonBlocking: 1
+        targetMask:
+          serializedVersion: 2
+          m_Bits: 2112
+        tickInterval: 0.5
+        effects: 1
+        damagePerTick: 5
+        scaleWithOwnerDamage: 1
+        ownerDamageScale: 0.08
+        suppressKnockback: 1
+        movementSpeedMultiplier: 0.5
+        damageMultiplier: 0.75
+        visualPrefab: {fileID: 0}
+        showDamageCombatText: 1
+    - rid: 6567839355355529377
+      type: {class: EnemyEngagedRequirement, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 6
+        requireEnemyAi: 1
+        leashRadiusOverride: 0
+    - rid: 6567839355355529378
+      type: {class: LineOfSightRequirement, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 6
+        blockerMask:
+          serializedVersion: 2
+          m_Bits: 256
+        maxDistance: 0
+        ownerOffset: {x: 0, y: 0, z: 0}
+        targetOffset: {x: 0, y: 0, z: 0}
+        usePhysics2D: 1

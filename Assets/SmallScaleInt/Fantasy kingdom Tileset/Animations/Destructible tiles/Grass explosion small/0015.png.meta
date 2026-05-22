@@ -1,0 +1,316 @@
+fileFormatVersion: 2
+guid: a462beef6192ca047bdb13e1b8865655
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1734450685577689515
+    second: 0015_0
+  - first:
+      213: -2167995136129975658
+    second: 0015_1
+  - first:
+      213: -1621291537291641605
+    second: 0015_2
+  - first:
+      213: -1928753063199865977
+    second: 0015_3
+  - first:
+      213: -372979616668247030
+    second: 0015_4
+  - first:
+      213: -1591122249451089263
+    second: 0015_5
+  - first:
+      213: -5290565514229361672
+    second: 0015_6
+  - first:
+      213: 7310669918317374787
+    second: 0015_7
+  - first:
+      213: 5021783731900634165
+    second: 0015_8
+  - first:
+      213: 8435153114455312517
+    second: 0015_9
+  - first:
+      213: -239899151039465734
+    second: 0015_10
+  - first:
+      213: 2670130901775759659
+    second: 0015_11
+  - first:
+      213: -438634696331346495
+    second: 0015_12
+  - first:
+      213: 7054064589798171833
+    second: 0015_13
+  - first:
+      213: 8377325170731552160
+    second: 0015_14
+  - first:
+      213: 582779846472215497
+    second: 0015_15
+  - first:
+      213: 2993388025193081383
+    second: 0015_16
+  - first:
+      213: -9090329116984128123
+    second: 0015_17
+  - first:
+      213: 2683064683565325383
+    second: 0015_18
+  - first:
+      213: -2397179194430868254
+    second: 0015_19
+  - first:
+      213: -3700337638964078989
+    second: 0015_20
+  - first:
+      213: -3737555517902131579
+    second: 0015_21
+  - first:
+      213: -5551280162990409768
+    second: 0015_22
+  - first:
+      213: -8964036655183892672
+    second: 0015_23
+  - first:
+      213: -483658402948919847
+    second: 0015_24
+  - first:
+      213: 2945310032036191179
+    second: 0015_25
+  - first:
+      213: -5203136014651057455
+    second: 0015_26
+  - first:
+      213: -6883795796882765869
+    second: 0015_27
+  - first:
+      213: -984780852294598881
+    second: 0015_28
+  - first:
+      213: -6661872464976978101
+    second: 0015_29
+  - first:
+      213: -4785207012180439081
+    second: 0015_30
+  - first:
+      213: 4003294902170940784
+    second: 0015_31
+  - first:
+      213: -3797893463363628962
+    second: 0015_32
+  - first:
+      213: 1493839551132211406
+    second: 0015_33
+  - first:
+      213: -7495313023362778940
+    second: 0015_34
+  - first:
+      213: 6305908705736557295
+    second: 0015_35
+  - first:
+      213: 6155098108485903661
+    second: 0015_36
+  - first:
+      213: 7754464434155272447
+    second: 0015_37
+  - first:
+      213: -5941818144507200087
+    second: 0015_38
+  - first:
+      213: -5556562475746078756
+    second: 0015_39
+  - first:
+      213: -2109641373768545063
+    second: 0015_40
+  - first:
+      213: 2739584920443317919
+    second: 0015_41
+  - first:
+      213: 8408187943965711296
+    second: 0015_42
+  - first:
+      213: -2816486987478137946
+    second: 0015_43
+  - first:
+      213: 5916069947127600931
+    second: 0015_44
+  - first:
+      213: -8444408974549978119
+    second: 0015_45
+  - first:
+      213: -5615953628410491881
+    second: 0015_46
+  - first:
+      213: -621210291862981030
+    second: 0015_47
+  - first:
+      213: 6455414953664390872
+    second: 0015_48
+  - first:
+      213: 440671140942554770
+    second: 0015_49
+  - first:
+      213: -5037821967901917816
+    second: 0015_50
+  - first:
+      213: 1283950264270000749
+    second: 0015_51
+  - first:
+      213: -7397677450356160548
+    second: 0015_52
+  - first:
+      213: -6228300973393878006
+    second: 0015_53
+  - first:
+      213: 2759108760911053149
+    second: 0015_54
+  - first:
+      213: -4616588232835211528
+    second: 0015_55
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 0001_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.49729878, y: 0.19115788}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e02c84b33dcf495c0800000000000000
+      internalID: -4209461767521648114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 9790771820676c749ac90c54b751be4a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      0001_0: -4209461767521648114
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 336410
+  packageName: 2D Fantasy Tileset
+  packageVersion: 1.1.0
+  assetPath: Assets/SmallScaleInt/Fantasy kingdom Tileset/Animations/Destructible
+    tiles/Grass explosion small/0015.png
+  uploadId: 853508

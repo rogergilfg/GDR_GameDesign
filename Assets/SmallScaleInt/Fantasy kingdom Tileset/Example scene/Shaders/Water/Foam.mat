@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Foam
+  m_Shader: {fileID: 4800000, guid: 4be5e861ccf2c4445ad8a3fb2ed7c520, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailTex:
+        m_Texture: {fileID: 2800000, guid: 83a60fdf459a2c545baf5fe8013af18a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FoamTexA:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FoamTexB:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalA:
+        m_Texture: {fileID: 2800000, guid: 83a60fdf459a2c545baf5fe8013af18a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalB:
+        m_Texture: {fileID: 2800000, guid: 83a60fdf459a2c545baf5fe8013af18a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RimNoiseTex:
+        m_Texture: {fileID: 2800000, guid: 5bd3790d3c5f67347a644aadab30d866, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RippleTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaCutoff: 0.258
+    - _AlphaDepthStrength: -1
+    - _Contrast: 1.1
+    - _DepthBlendStrength: 0
+    - _DetailInfluence: 0.353
+    - _EdgeBand: 0.18
+    - _EdgeBoost: 0.6
+    - _EnableExternalAlpha: 0
+    - _FoamContrast: 1.389
+    - _Mix: 0.5
+    - _NormalScale: 0.96
+    - _NormalTilingMul: 1
+    - _Opacity: 0.9
+    - _OverallAlpha: 0.095
+    - _RimNoiseInfluence: 0.904
+    - _RimNoiseScale: 118.9
+    - _RimPulsePixels: 1.71
+    - _RimPulseSpeed: 2.4
+    - _RimSoftPixels: 1.49
+    - _RimWidthPixels: 7.86
+    - _RippleAmount: 0.0633
+    - _RippleTilingMul: 1
+    - _SheenSharpness: 2.44
+    - _SheenStrength: 0
+    - _ShrinkPixels: 0
+    - _UVScale: 0.25
+    - _UVScaleA: 0.6
+    - _UVScaleB: 1.1
+    - _UVWobbleAmount: 0.0335
+    - _UseExternalAlpha: 0
+    - _ZWrite: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DeepColor: {r: 0.02, g: 0.21999997, b: 0.39999998, a: 1}
+    - _DetailPan: {r: 0.005, g: 0.004, b: 0, a: 0}
+    - _FlowDirSpeed: {r: 0, g: 1, b: 0.15, a: 0}
+    - _FoamTint: {r: 1, g: 1, b: 1, a: 1}
+    - _PanA: {r: 0.035, g: 0.01, b: 0, a: 0}
+    - _PanB: {r: -0.015, g: 0.028, b: 0, a: 0}
+    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RipplePan: {r: 0.02, g: 0.015, b: 0, a: 0}
+    - _ShallowColor: {r: 0.67283726, g: 0.67692584, b: 0.6792453, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a8dd6fd70da57fe4ba6e1ee7da4b4c92
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 336410
+  packageName: 2D Fantasy Tileset
+  packageVersion: 1.1.0
+  assetPath: Assets/SmallScaleInt/Fantasy kingdom Tileset/Animations/Destructible
+    tiles/Wall Wood explosion Small/Wall B C Explo Wood Small_Destroy.anim
+  uploadId: 853508

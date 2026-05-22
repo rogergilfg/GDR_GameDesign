@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 870381164fd2c1443a840a4f61002b48, type: 3}
+  m_Name: Blink I
+  m_EditorClassIdentifier: 
+  abilityId: 9084eebf-f875-449c-bc10-2f70578c4601
+  displayName: Blink I
+  description: 
+  icon: {fileID: -9082540, guid: 8b2279182b0282a458ef255246f6e8c7, type: 3}
+  manaCost: 20
+  cooldownSeconds: 15
+  maxCharges: 1
+  startingCharges: -1
+  requireIdleRunner: 1
+  activationRequirements:
+  - rid: 6567839355355529346
+  - rid: 6567839355355529347
+  steps:
+  - rid: 522703874908225626
+  - rid: 522703874908225625
+  - rid: 522703874908225619
+  - rid: 522703874908225623
+  isPassive: 0
+  isDebuff: 0
+  passiveModifiers: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 522703874908225619
+      type: {class: TeleportStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 1
+        waitForCompletion: 0
+        mode: 0
+        requireLineOfSight: 0
+        validateDestination: 1
+        obstacleLayers:
+          serializedVersion: 2
+          m_Bits: 256
+        snapMousePositionToNearestValid: 1
+        mouseFallbackSearchRadius: 3
+        mouseFallbackRingSpacing: 0.35
+        mouseFallbackSamplesPerRing: 16
+        maxDistance: 4
+        minDistance: 0
+        randomRadius: 5
+        maxRandomAttempts: 10
+        keepYPosition: 1
+        targetDistance: 2
+        behindAngleOffset: 0
+        targetTransform: {fileID: 0}
+        transformOffset: {x: 0, y: 0, z: 0}
+        departureEffectPrefab: {fileID: 1866324480882511929, guid: cec4f864d5e609345b8e07c0c712d646, type: 3}
+        arrivalEffectPrefab: {fileID: 1866324480882511929, guid: cec4f864d5e609345b8e07c0c712d646, type: 3}
+        faceMovementDirection: 1
+        groundCheckRadius: 0.5
+        checkDestinationOccupied: 1
+        occupiedCheckRadius: 0.3
+    - rid: 522703874908225623
+      type: {class: TeleportStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 6
+        waitForCompletion: 0
+        mode: 1
+        requireLineOfSight: 0
+        validateDestination: 1
+        obstacleLayers:
+          serializedVersion: 2
+          m_Bits: 256
+        snapMousePositionToNearestValid: 1
+        mouseFallbackSearchRadius: 3
+        mouseFallbackRingSpacing: 0.35
+        mouseFallbackSamplesPerRing: 16
+        maxDistance: 4
+        minDistance: 1
+        randomRadius: 5
+        maxRandomAttempts: 10
+        keepYPosition: 1
+        targetDistance: 3
+        behindAngleOffset: 0
+        targetTransform: {fileID: 0}
+        transformOffset: {x: 0, y: 0, z: 0}
+        departureEffectPrefab: {fileID: 1866324480882511929, guid: cec4f864d5e609345b8e07c0c712d646, type: 3}
+        arrivalEffectPrefab: {fileID: 1866324480882511929, guid: cec4f864d5e609345b8e07c0c712d646, type: 3}
+        faceMovementDirection: 1
+        groundCheckRadius: 0.1
+        checkDestinationOccupied: 1
+        occupiedCheckRadius: 0.1
+    - rid: 522703874908225625
+      type: {class: SpawnPrefabStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 15
+        waitForCompletion: 0
+        prefab: {fileID: 0}
+        anchor: 0
+        positionOffset: {x: 0, y: 0, z: 0}
+        parentToAnchor: 0
+        autoDestroyDelay: 2
+    - rid: 522703874908225626
+      type: {class: ScaleOverTimeStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 1
+        waitForCompletion: 0
+        targetMode: 0
+        customTarget: {fileID: 0}
+        scaleMultiplier: {x: 0.2, y: 0.2, z: 1}
+        growDuration: 0.2
+        holdDuration: 0
+        shrinkDuration: 0.2
+        useSmoothStep: 1
+    - rid: 6567839355355529346
+      type: {class: DistanceRequirement, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 6
+        requireTarget: 1
+        minDistance: 0
+        maxDistance: 0.5
+        use2D: 1
+    - rid: 6567839355355529347
+      type: {class: EnemyEngagedRequirement, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 6
+        requireEnemyAi: 1
+        leashRadiusOverride: 0

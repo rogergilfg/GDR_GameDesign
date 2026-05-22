@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 870381164fd2c1443a840a4f61002b48, type: 3}
+  m_Name: Arrow Volley R2
+  m_EditorClassIdentifier: 
+  abilityId: e94e32f4-6e10-4fbb-9847-a58f7aecebf234
+  displayName: Volley II
+  description: Shoots a volley of 5 arrows in a cone.
+  icon: {fileID: -727432129, guid: 8b2279182b0282a458ef255246f6e8c7, type: 3}
+  manaCost: 15
+  cooldownSeconds: 5
+  maxCharges: 1
+  startingCharges: -1
+  requireIdleRunner: 1
+  activationRequirements:
+  - rid: 6567839355355529338
+  - rid: 6567839355355529339
+  - rid: 6567839355355529340
+  steps:
+  - rid: 522703806694949011
+  - rid: 522703806694949010
+  - rid: 522703850577330258
+  isPassive: 0
+  isDebuff: 0
+  passiveModifiers: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 522703806694949010
+      type: {class: ProjectileVolleyStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 1
+        waitForCompletion: 1
+        projectile:
+          prefabOverride: {fileID: -7599368248480473749, guid: e94d0d938a6fe814f9d79782975f9818, type: 3}
+          spawnOverride: {fileID: 0}
+          speedOverride: 4
+          damageOverride: 25
+          lifeOverride: -1
+          useCustomHitMask: 1
+          hitMaskOverride:
+            serializedVersion: 2
+            m_Bits: 4480
+          spriteOverrideColor: {r: 0.63522005, g: 0.41404814, b: 0.2097424, a: 1}
+          overrideSpriteColor: 1
+        projectileCount: 5
+        spreadMode: 1
+        coneAngleDegrees: 20
+        randomSeedOffset: 0
+        useMouseAimForPlayers: 1
+        fallbackDirection: {x: 1, y: 0}
+        muzzleLocalOffset: {x: 0.5, y: 0, z: 0}
+        spawnMuzzleVfx: 1
+        muzzleVfxPrefab: {fileID: 7403751070193087414, guid: edbca4b9600ca7547b638a8a8c323435, type: 3}
+        muzzleVfxLifetime: 2
+        muzzleVfxScale: 1
+        hitVfxPrefab: {fileID: 7403751070193087414, guid: edbca4b9600ca7547b638a8a8c323435, type: 3}
+        hitVfxLifetime: 2
+        hitVfxScale: 1
+        overrideProjectileLifetime: -1
+        pierceCount: 0
+    - rid: 522703806694949011
+      type: {class: AnimatorTriggerStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 15
+        waitForCompletion: 1
+        command: 0
+        parameterName: Attack3
+        movingParameterName: AttackRun2
+        movementThresholdSqr: 1
+        postDelay: 0.5
+    - rid: 522703850577330258
+      type: {class: ProjectileVolleyStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 6
+        waitForCompletion: 1
+        projectile:
+          prefabOverride: {fileID: -7599368248480473749, guid: e94d0d938a6fe814f9d79782975f9818, type: 3}
+          spawnOverride: {fileID: 0}
+          speedOverride: 12
+          damageOverride: 10
+          lifeOverride: -1
+          useCustomHitMask: 1
+          hitMaskOverride:
+            serializedVersion: 2
+            m_Bits: 2112
+          spriteOverrideColor: {r: 1, g: 1, b: 1, a: 1}
+          overrideSpriteColor: 0
+        projectileCount: 5
+        spreadMode: 1
+        coneAngleDegrees: 30
+        randomSeedOffset: 0
+        useMouseAimForPlayers: 1
+        fallbackDirection: {x: 1, y: 0}
+        muzzleLocalOffset: {x: 0.5, y: 0, z: 0}
+        spawnMuzzleVfx: 1
+        muzzleVfxPrefab: {fileID: 0}
+        muzzleVfxLifetime: 2
+        muzzleVfxScale: 1
+        hitVfxPrefab: {fileID: 0}
+        hitVfxLifetime: 2
+        hitVfxScale: 1
+        overrideProjectileLifetime: -1
+        pierceCount: 0
+    - rid: 6567839355355529338
+      type: {class: DistanceRequirement, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 6
+        requireTarget: 1
+        minDistance: 0
+        maxDistance: 2
+        use2D: 1
+    - rid: 6567839355355529339
+      type: {class: EnemyEngagedRequirement, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 6
+        requireEnemyAi: 1
+        leashRadiusOverride: 0
+    - rid: 6567839355355529340
+      type: {class: LineOfSightRequirement, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 6
+        blockerMask:
+          serializedVersion: 2
+          m_Bits: 256
+        maxDistance: 0
+        ownerOffset: {x: 0, y: 0, z: 0}
+        targetOffset: {x: 0, y: 0, z: 0}
+        usePhysics2D: 1

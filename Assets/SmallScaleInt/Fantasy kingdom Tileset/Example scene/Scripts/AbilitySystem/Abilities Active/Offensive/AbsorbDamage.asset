@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 870381164fd2c1443a840a4f61002b48, type: 3}
+  m_Name: AbsorbDamage
+  m_EditorClassIdentifier: 
+  abilityId: 16a2011f-3511-4a7f-b149-dee00ae16d65
+  displayName: Absorb
+  description: 'The caster absorbs a large amount of damage. Active for 20 sec or
+    until depleted. '
+  icon: {fileID: -1831894367, guid: 8b2279182b0282a458ef255246f6e8c7, type: 3}
+  manaCost: 20
+  cooldownSeconds: 25
+  maxCharges: 1
+  startingCharges: -1
+  requireIdleRunner: 1
+  activationRequirements:
+  - rid: 6567839757846970448
+  - rid: 6567839757846970452
+  steps:
+  - rid: 6567839596826067017
+  - rid: 6567839916826034251
+  - rid: 6567839596826067016
+  - rid: 6567839757846970450
+  isPassive: 0
+  isDebuff: 0
+  passiveModifiers: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 6567839596826067016
+      type: {class: ShieldStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 1
+        waitForCompletion: 0
+        targetMode: 0
+        allyMask:
+          serializedVersion: 2
+          m_Bits: 2112
+        allyRadius: 4
+        maxAllies: 0
+        includeOwnerInAllySearch: 1
+        amountMode: 1
+        flatAmount: 50
+        percentAmount: 0.5
+        lifetime: 15
+        shieldVfxPrefab: {fileID: 7869294526927818109, guid: eb93c8b15f12f6c4396714c96ceb9926, type: 3}
+        hitVfxPrefab: {fileID: 7403751070193087414, guid: edbca4b9600ca7547b638a8a8c323435, type: 3}
+        hitVfxLifetime: 1.5
+        hitVfxCooldown: 0.08
+        invulnerable: 0
+        replaceExistingShield: 1
+        clampToRecipientMaxHealth: 0
+        clampRecipientMultiplier: 1
+    - rid: 6567839596826067017
+      type: {class: AnimatorTriggerStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: -1
+        waitForCompletion: 0
+        command: 0
+        parameterName: Special1
+        movingParameterName: 
+        movementThresholdSqr: 0.01
+        postDelay: 0
+    - rid: 6567839757846970448
+      type: {class: EnemyEngagedRequirement, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 6
+        requireEnemyAi: 1
+        leashRadiusOverride: 0
+    - rid: 6567839757846970450
+      type: {class: ShieldStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 6
+        waitForCompletion: 0
+        targetMode: 0
+        allyMask:
+          serializedVersion: 2
+          m_Bits: 128
+        allyRadius: 4
+        maxAllies: 0
+        includeOwnerInAllySearch: 1
+        amountMode: 1
+        flatAmount: 0
+        percentAmount: 0.3
+        lifetime: 10
+        shieldVfxPrefab: {fileID: 7869294526927818109, guid: bc9ffb76078005149a75d937903afb29, type: 3}
+        hitVfxPrefab: {fileID: 7403751070193087414, guid: edbca4b9600ca7547b638a8a8c323435, type: 3}
+        hitVfxLifetime: 1.5
+        hitVfxCooldown: 0.08
+        invulnerable: 0
+        replaceExistingShield: 1
+        clampToRecipientMaxHealth: 0
+        clampRecipientMultiplier: 1
+    - rid: 6567839757846970452
+      type: {class: OwnerHealthRequirement, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 6
+        minHealthPercent: 0
+        maxHealthPercent: 0.7
+        requireHealthComponent: 1
+    - rid: 6567839916826034251
+      type: {class: SpawnPrefabStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 1
+        waitForCompletion: 0
+        prefab: {fileID: 1839043753403450437, guid: 68cc66fffe907344e9df65557d3b6f13, type: 3}
+        anchor: 0
+        positionOffset: {x: 0, y: 0, z: 0}
+        parentToAnchor: 0
+        autoDestroyDelay: 1

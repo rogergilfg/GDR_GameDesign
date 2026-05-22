@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8a076fa3f92135648a616185b8f7e0ec
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 336410
+  packageName: 2D Fantasy Tileset
+  packageVersion: 1.1.0
+  assetPath: Assets/SmallScaleInt/Fantasy kingdom Tileset/Example scene/Scripts/ResourceSystem/README
+    - ResourceSystem scripts.md
+  uploadId: 853508

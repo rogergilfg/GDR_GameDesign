@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: f1b22fbcf2e550e409fed55e8d78e04b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 336410
+  packageName: 2D Fantasy Tileset
+  packageVersion: 1.1.0
+  assetPath: Assets/SmallScaleInt/Fantasy kingdom Tileset/Animations/Destructible
+    tiles/stone explosion large/stone explosion large_Idle.anim
+  uploadId: 853508

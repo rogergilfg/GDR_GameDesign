@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 645b12a685f7f5a4ca9ba52aab9c3405
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 336410
+  packageName: 2D Fantasy Tileset
+  packageVersion: 1.1.0
+  assetPath: Assets/SmallScaleInt/Fantasy kingdom Tileset/Animations/Destructible
+    tiles/Wall Wood explotion Large/Generic Wall B C Explosion Stone_Destroy.anim
+  uploadId: 853508

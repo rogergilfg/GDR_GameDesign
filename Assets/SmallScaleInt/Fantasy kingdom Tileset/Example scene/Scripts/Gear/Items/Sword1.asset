@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a179a79f87cbde4c97577f1ffd5be3b, type: 3}
+  m_Name: Sword1
+  m_EditorClassIdentifier: 
+  gearId: 368d3903-81b4-4f46-bf89-bfc9e93f61f7
+  displayName: Wooden sword
+  gearType: 2
+  animatorController: {fileID: 9100000, guid: f90f76bdf9a7aae44a692f2420235cc5, type: 2}
+  icon: {fileID: -8028486867170346740, guid: 3003e395e54b44644b47acfddadd467d, type: 3}
+  worldIcon: {fileID: 0}
+  uiIconWorldScale: 0.15
+  canAppearInRandomDrops: 1
+  isCraftable: 1
+  requiredLevel: 0
+  spriteColor: {r: 0.5031446, g: 0.3484982, b: 0.17879035, a: 1}
+  rarity: 0
+  strength: 1
+  defense: 1
+  health: 0
+  knowledge: 0
+  intelligence: 0
+  tileDamageBonus: 1
+  damage: 4
+  info: Wooden sword, not very strong.
+  defaultPlayerBuyPrice: 0
+  defaultPlayerSellPrice: 0
+  salvageResourcesSet:
+    amounts:
+    - type: {fileID: 11400000, guid: c81e490a0992b894aa571f11fcb20f97, type: 2}
+      amount: 10

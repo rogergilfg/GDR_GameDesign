@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 870381164fd2c1443a840a4f61002b48, type: 3}
+  m_Name: SummonFighter 1
+  m_EditorClassIdentifier: 
+  abilityId: 0a29e611-b146-47d3-bdd9-147ce9982754
+  displayName: Summon Fighter
+  description: Summons a companion to fight by your side. Maximum 2 can be active
+    at the same time.
+  icon: {fileID: -942720988, guid: 8b2279182b0282a458ef255246f6e8c7, type: 3}
+  manaCost: 20
+  cooldownSeconds: 10
+  maxCharges: 0
+  startingCharges: -1
+  requireIdleRunner: 1
+  activationRequirements: []
+  steps:
+  - rid: 6567839355355529380
+  - rid: 6567839780720345399
+  - rid: 6567839355355529379
+  isPassive: 0
+  isDebuff: 0
+  passiveModifiers: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 6567839355355529379
+      type: {class: SummonStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 1
+        waitForCompletion: 1
+        summonPrefabs:
+        - {fileID: 4851552233076012610, guid: cd0342c1cc65be04a97c1146de2fa5a1, type: 3}
+        spawnCountRange: {x: 1, y: 1}
+        allowPartialSummonsWhenCapped: 1
+        spawnSequentially: 1
+        delayBetweenSpawns: 0.2
+        maxActiveSummons: 1
+        totalSummonLimit: 0
+        replaceWhenFull: 1
+        anchor: 3
+        customAnchor: {fileID: 0}
+        manualOffset: {x: 0, y: 0}
+        minSpawnDistance: 0
+        maxSpawnDistance: 2.5
+        randomizeAngle: 1
+        preferredDirection: {x: 0, y: 0}
+        parentOverride: {fileID: 0}
+        spawnZOffset: 0
+        spawnEffectPrefab: {fileID: 2647892075827020703, guid: 8997dbebf3caffc438bff03632649ff9, type: 3}
+        spawnEffectParent: {fileID: 0}
+        spawnEffectOffset: {x: 0, y: 0, z: 0}
+        spawnEffectMatchesSummonRotation: 0
+        spawnEffectLifetime: 3
+        preventOverlap: 0
+        overlapRadius: 0.1
+        overlapMask:
+          serializedVersion: 2
+          m_Bits: 256
+        maxPlacementAttempts: 6
+        rotationMode: 0
+        fixedRotationZ: 0
+        logSpawnPositions: 0
+    - rid: 6567839355355529380
+      type: {class: WaitForTargetConfirmationStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 1
+        waitForCompletion: 1
+        cursorPrefab: {fileID: 0}
+        previewPrefab: {fileID: 5163064323484039664, guid: 2c0c18c37b55539499b071fbc21f4427, type: 3}
+        previewRadius: 0.5
+        previewColor: {r: 1, g: 1, b: 1, a: 0.5}
+        highlightEnemiesInPreview: 0
+        previewHighlightMask:
+          serializedVersion: 2
+          m_Bits: 4294967295
+        previewHighlightColor: {r: 0.35, g: 1, b: 0.35, a: 0.9}
+        previewHighlightScale: 1.1
+        previewHighlightBufferSize: 24
+        maxRange: 2
+        showRangeIndicator: 0
+        rangeIndicatorPrefab: {fileID: 0}
+        allowCancel: 1
+        confirmSound: {fileID: 0}
+        cancelSound: {fileID: 0}
+        blockedLayers:
+          serializedVersion: 2
+          m_Bits: 256
+        blockedCheckRadius: 0.2
+        invalidPreviewColor: {r: 1, g: 0.35, b: 0.35, a: 0.6}
+        invalidPositionMessage: Invalid Position
+    - rid: 6567839780720345399
+      type: {class: CastTimeStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 1
+        waitForCompletion: 1
+        castDuration: 4
+        durationVariance: {x: 0, y: 0}
+        canCastWhileMoving: 0
+        interruptOnDamage: 1
+        cancelAbilityOnInterrupt: 1
+        showCastBar: 1
+        barSize: {x: 35, y: 5}
+        barOffset: {x: 0, y: 0.3}
+        barBackColor: {r: 0, g: 0, b: 0, a: 0.8}
+        barFillColor: {r: 1, g: 0.62352943, b: 0, a: 0.9490196}
+        castEffectPrefab: {fileID: 5870659064488253120, guid: 706b9ec88c0f4254ab79d60ad1e8bb1c, type: 3}
+        castEffectOffset: {x: 0, y: 0, z: 0}
+        parentCastEffectToOwner: 1
+        castEffectCleanupDelay: 0
+        castTriggerName: Special1
+        exitTriggerName: 
+        repeatCastTrigger: 1
+        castTriggerRefreshInterval: 0.3
+        castStateName: 
+        loopStartNormalizedTime: 0
+        loopEndNormalizedTime: 1
+        useLoopWindow: 0

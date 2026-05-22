@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5524f2f2484dc04b948bb0695801763, type: 3}
+  m_Name: DT_BrokenTree1
+  m_EditorClassIdentifier: 
+  sourceTile: {fileID: 11400000, guid: b5ac37095ca972c459a8f438201e38e6, type: 2}
+  buildPartId: BrokenTree1
+  buildDisplayName: BrokenTree1
+  buildCategory: 2
+  buildIcon: {fileID: -4209461767521648114, guid: b6dce7caa7181894da284d8fd7ae39d4, type: 3}
+  buildInfoText: 
+  unlockResourceRequirement: {fileID: 0}
+  buildTileVariants:
+  - {fileID: 11400000, guid: b5ac37095ca972c459a8f438201e38e6, type: 2}
+  isBuildable: 1
+  maxHP: 10
+  clearTile: 1
+  destroyedTile: {fileID: 0}
+  destroyVfxPrefab: {fileID: 8305217458672877177, guid: 93e831d20d29c594d9032570bf457745, type: 3}
+  destroyVfxCleanup: 1.3
+  swapDelay: 1.2
+  placeDestroyedOnBrokenMap: 1
+  flashOnHit: 1
+  flashColor: {r: 1, g: 0.25, b: 0.25, a: 1}
+  flashHold: 0.05
+  flashFade: 0.1
+  shakeOnHit: 1
+  shakeDuration: 0.18
+  shakePosAmplitude: {x: 0.06, y: 0.06}
+  shakeRotAmplitude: 2.5
+  shakeFrequency: 22
+  shakeFalloff: 0.85
+  stagedVfxPrefab: {fileID: 0}
+  stagedVfxCleanup: 0
+  impactVfxPrefab: {fileID: 0}
+  impactVfxCleanup: 0
+  enableGearDrops: 0
+  gearDropChance: 0
+  gearDropChainMultiplier: 0.35
+  gearDropMaxCount: 1
+  lootPickupPrefab: {fileID: 2210508894710154140, guid: f3e6401d3f66d8c4b80e4c71873483f2, type: 3}
+  gearDropDatabase: {fileID: 11400000, guid: df31f232dbe3e1f439b4d8fec2c36278, type: 2}
+  useLocalGearPool: 0
+  guaranteedGearDrops: []
+  localRandomGearDrops: []
+  lootScatter: {x: 0.25, y: 0.25}
+  resourceDropsSet:
+    amounts:
+    - type: {fileID: 11400000, guid: c81e490a0992b894aa571f11fcb20f97, type: 2}
+      amount: 1
+  isCraftingStation: 0
+  craftingStationType: 0
+  experienceReward: 0

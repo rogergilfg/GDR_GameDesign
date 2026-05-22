@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39017fc8f91b73f40b61a9e80aeefb22, type: 3}
+  m_Name: SupportTree
+  m_EditorClassIdentifier: 
+  treeId: 0cf75c47-d696-412b-bed5-f0c685a17c17
+  displayName: Support
+  skillTreeDescription: "A summoner\u2013healer who calls human companions to the
+    battlefield. Strong healing and buffs, with reliable damage from summoned allies."
+  icon: {fileID: -894931131, guid: 8b2279182b0282a458ef255246f6e8c7, type: 3}
+  overrideLayout: 1
+  layoutCellSize: {x: 120, y: 120}
+  layoutSpacing: {x: 4.24, y: 5.5}
+  layoutPadding: {x: 16, y: 16, z: 16, w: 16}
+  requirePointsInTree: 1
+  pointsPerRow: 3
+  nodes:
+  - nodeId: 334421eb-e46f-4310-bb53-7edd77360256
+    displayName: Heal self
+    grantedAbility: {fileID: 11400000, guid: fe7931018d06c9b41b32f435a593e0ac, type: 2}
+    additionalRankAbilities: []
+    requiredLevel: 1
+    requiredPointsInTree: 0
+    prerequisiteNodeIds: []
+    editorPosition: {x: 1, y: 0}
+    consumesSkillPoint: 1
+  - nodeId: 83991d83-50a7-46d2-8648-a8ae41d2f50e
+    displayName: Pheonix rise
+    grantedAbility: {fileID: 11400000, guid: b4258c616f9f765479713f7ae4c5070b, type: 2}
+    additionalRankAbilities: []
+    requiredLevel: 3
+    requiredPointsInTree: 0
+    prerequisiteNodeIds: []
+    editorPosition: {x: 1, y: 4}
+    consumesSkillPoint: 1
+  - nodeId: e47ad885-37b0-42ee-98f0-f9a7b3fabbe2
+    displayName: Heal Allies
+    grantedAbility: {fileID: 11400000, guid: 9054b1d35f01f6a4e8839303e2741905, type: 2}
+    additionalRankAbilities: []
+    requiredLevel: 1
+    requiredPointsInTree: 0
+    prerequisiteNodeIds: []
+    editorPosition: {x: 1, y: 1}
+    consumesSkillPoint: 1
+  - nodeId: e7da836a-3976-45eb-9615-4e7a3b302b72
+    displayName: Reflect
+    grantedAbility: {fileID: 11400000, guid: 970d2534e8f3cea44a033e5402c1df30, type: 2}
+    additionalRankAbilities:
+    - {fileID: 11400000, guid: ff78ec65bb8d2cc429dc172255f0b6ad, type: 2}
+    - {fileID: 11400000, guid: 66ca4a7c6e117cb49a93c42c40d86774, type: 2}
+    - {fileID: 11400000, guid: 3e2441ba7d68ca44dab319d12132343a, type: 2}
+    - {fileID: 11400000, guid: 5ec52496e9c5a6647ac5ab8ff12a43c7, type: 2}
+    requiredLevel: 1
+    requiredPointsInTree: 0
+    prerequisiteNodeIds: []
+    editorPosition: {x: 0, y: 1}
+    consumesSkillPoint: 1
+  - nodeId: 5da6eac7-5546-4118-b5d0-bfab7bc5c740
+    displayName: SummonCompanion
+    grantedAbility: {fileID: 11400000, guid: c1ef4448f48152a439ad24e20e931f92, type: 2}
+    additionalRankAbilities:
+    - {fileID: 11400000, guid: 4404aaea9825b6344b87ce6758946875, type: 2}
+    - {fileID: 11400000, guid: 67e875758025c1c49879525e7b812dce, type: 2}
+    - {fileID: 11400000, guid: 07817474ef82f034a8c3c2d387ecfd04, type: 2}
+    requiredLevel: 1
+    requiredPointsInTree: 0
+    prerequisiteNodeIds: []
+    editorPosition: {x: 2, y: 0}
+    consumesSkillPoint: 1
+  - nodeId: 35a38eff-9fcf-49ef-bf64-909b12ec07ec
+    displayName: Summon Mage
+    grantedAbility: {fileID: 11400000, guid: 32593ac020b580d4986324236cceaff0, type: 2}
+    additionalRankAbilities: []
+    requiredLevel: 1
+    requiredPointsInTree: 0
+    prerequisiteNodeIds: []
+    editorPosition: {x: 1, y: 3}
+    consumesSkillPoint: 1
+  - nodeId: 154c90f4-42be-494e-b732-ae8f6798c438
+    displayName: Blink I
+    grantedAbility: {fileID: 11400000, guid: 8ca3af274b080954bab171c0b707cb3a, type: 2}
+    additionalRankAbilities: []
+    requiredLevel: 1
+    requiredPointsInTree: 0
+    prerequisiteNodeIds: []
+    editorPosition: {x: 2, y: 2}
+    consumesSkillPoint: 1
+  - nodeId: 00663226-0bfc-4546-8a58-fa0b028fd9b1
+    displayName: Defense 1
+    grantedAbility: {fileID: 11400000, guid: fa69c0ed49ea8c14baae133e6d71ce2e, type: 2}
+    additionalRankAbilities:
+    - {fileID: 11400000, guid: ea0f6ad2d17297d4cafb7a555942acd6, type: 2}
+    - {fileID: 11400000, guid: 546d19f891c78cd4584d443a84137755, type: 2}
+    - {fileID: 11400000, guid: e9a0c41970c1bf54699fa20c72e42888, type: 2}
+    - {fileID: 11400000, guid: eb9a58ab82141a2459a9c7aad1a480fc, type: 2}
+    requiredLevel: 1
+    requiredPointsInTree: 0
+    prerequisiteNodeIds: []
+    editorPosition: {x: 0, y: 0}
+    consumesSkillPoint: 1
+  - nodeId: d54185c8-13dd-49a8-9598-3f7302999367
+    displayName: Power I
+    grantedAbility: {fileID: 11400000, guid: a30bfe13ba37bdf4baf236b6f549f90b, type: 2}
+    additionalRankAbilities:
+    - {fileID: 11400000, guid: a4658722cb317114c92a853f5ea2136a, type: 2}
+    - {fileID: 11400000, guid: cd5cea6464543da45b941a50a5312c9d, type: 2}
+    - {fileID: 11400000, guid: d6a9d69bfb453de4d9ceade113cd27c1, type: 2}
+    - {fileID: 11400000, guid: 271ba61f79fa51b40811060ee2da28bc, type: 2}
+    requiredLevel: 1
+    requiredPointsInTree: 0
+    prerequisiteNodeIds: []
+    editorPosition: {x: 2, y: 1}
+    consumesSkillPoint: 1
+  - nodeId: 7ef0853a-a553-4349-ac85-3b8f1245c447
+    displayName: Mana Potion I
+    grantedAbility: {fileID: 11400000, guid: c13abc5b5dc68e24e985600e09d04d8f, type: 2}
+    additionalRankAbilities:
+    - {fileID: 11400000, guid: 0085aa0d78661954f927c16a26e76413, type: 2}
+    requiredLevel: 1
+    requiredPointsInTree: 0
+    prerequisiteNodeIds: []
+    editorPosition: {x: 1, y: 2}
+    consumesSkillPoint: 1

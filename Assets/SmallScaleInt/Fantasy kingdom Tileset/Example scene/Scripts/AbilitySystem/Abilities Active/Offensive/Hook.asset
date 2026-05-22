@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 870381164fd2c1443a840a4f61002b48, type: 3}
+  m_Name: Hook
+  m_EditorClassIdentifier: 
+  abilityId: 3ecb67d2-680b-4713-b166-f4339d6d3c63
+  displayName: Hook
+  description: You through out your grappling hook and reel in your target.
+  icon: {fileID: 1162918240, guid: 8b2279182b0282a458ef255246f6e8c7, type: 3}
+  manaCost: 10
+  cooldownSeconds: 1
+  maxCharges: 1
+  startingCharges: -1
+  requireIdleRunner: 1
+  activationRequirements:
+  - rid: 6567839355355529363
+  - rid: 6567839355355529364
+  - rid: 6567839355355529366
+  steps:
+  - rid: 522703850577330250
+  - rid: 522703850577330251
+  isPassive: 0
+  isDebuff: 0
+  passiveModifiers: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 522703850577330250
+      type: {class: HookStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 1
+        waitForCompletion: 1
+        aimMode: 1
+        customDirection: {x: 1, y: 0}
+        preferMouseForPlayers: 1
+        extendSpeed: 7
+        retractSpeed: 7
+        maxDistance: 3
+        pullSpeed: 10
+        stopPullDistance: 0.6
+        pullTarget: 1
+        enemyMask:
+          serializedVersion: 2
+          m_Bits: 128
+        hitProbeRadius: 0.2
+        dealDamageOnHit: 0
+        baseDamage: 10
+        damageVariance: 0.1
+        critChance: 0.15
+        critMultiplier: 1.5
+        showCombatText: 1
+        combatTextOffset: {x: 0, y: 0.25}
+        castTrigger: Attack5
+        lockControllerDuringHook: 1
+        lockLatchedTargetController: 1
+        hookBodyPrefab: {fileID: 7702842564366247014, guid: bec0d20a0c176af41ae2cff05f099c6f, type: 3}
+        hookHeadPrefab: {fileID: 0}
+        bodyExtraRotationDeg: 0
+        enableLine: 1
+        lineMaterial: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
+        lineStartColor: {r: 0.46540874, g: 0.34205735, b: 0.17416236, a: 1}
+        lineEndColor: {r: 1, g: 1, b: 1, a: 0}
+        lineStartWidth: 0.1
+        lineEndWidth: 0.1
+    - rid: 522703850577330251
+      type: {class: HookStep, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 6
+        waitForCompletion: 1
+        aimMode: 0
+        customDirection: {x: 1, y: 0}
+        preferMouseForPlayers: 1
+        extendSpeed: 7
+        retractSpeed: 7
+        maxDistance: 3
+        pullSpeed: 15
+        stopPullDistance: 0.6
+        pullTarget: 1
+        enemyMask:
+          serializedVersion: 2
+          m_Bits: 64
+        hitProbeRadius: 0.2
+        dealDamageOnHit: 0
+        baseDamage: 10
+        damageVariance: 0.1
+        critChance: 0.15
+        critMultiplier: 1.5
+        showCombatText: 1
+        combatTextOffset: {x: 0, y: 0.25}
+        castTrigger: Special1
+        lockControllerDuringHook: 1
+        lockLatchedTargetController: 1
+        hookBodyPrefab: {fileID: 7702842564366247014, guid: bec0d20a0c176af41ae2cff05f099c6f, type: 3}
+        hookHeadPrefab: {fileID: 0}
+        bodyExtraRotationDeg: 0
+        enableLine: 1
+        lineMaterial: {fileID: 0}
+        lineStartColor: {r: 0.49056602, g: 0.15889394, b: 0.3969018, a: 1}
+        lineEndColor: {r: 0.34307113, g: 0.1709188, b: 0.36477977, a: 1}
+        lineStartWidth: 0.05
+        lineEndWidth: 0.05
+    - rid: 6567839355355529363
+      type: {class: DistanceRequirement, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 6
+        requireTarget: 1
+        minDistance: 0.5
+        maxDistance: 2
+        use2D: 1
+    - rid: 6567839355355529364
+      type: {class: EnemyEngagedRequirement, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 6
+        requireEnemyAi: 1
+        leashRadiusOverride: 0
+    - rid: 6567839355355529366
+      type: {class: LineOfSightRequirement, ns: SmallScale.FantasyKingdomTileset.AbilitySystem, asm: Assembly-CSharp}
+      data:
+        ownerFilter: 6
+        blockerMask:
+          serializedVersion: 2
+          m_Bits: 256
+        maxDistance: 0
+        ownerOffset: {x: 0, y: 0, z: 0}
+        targetOffset: {x: 0, y: 0, z: 0}
+        usePhysics2D: 1

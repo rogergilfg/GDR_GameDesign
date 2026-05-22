@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 0c704796b97d6fc43900c5c0115d8947
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 336410
+  packageName: 2D Fantasy Tileset
+  packageVersion: 1.1.0
+  assetPath: Assets/SmallScaleInt/Fantasy kingdom Tileset/Animations/Equipment/Shield1Animation/Animation
+    Clips/CrouchIdle/CrouchIdle_E.anim
+  uploadId: 853508

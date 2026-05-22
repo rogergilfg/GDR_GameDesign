@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d6aeb296bb372784bb0fc8d746b00523
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 336410
+  packageName: 2D Fantasy Tileset
+  packageVersion: 1.1.0
+  assetPath: Assets/SmallScaleInt/Fantasy kingdom Tileset/Example scene/Scripts/DungeonGeneration/DungeonGenerationProfile.asset
+  uploadId: 853508

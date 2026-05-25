@@ -456,13 +456,13 @@ namespace SmallScaleInc.CharacterCreatorFantasy
                 if (isMoving)
                 {
                     // Alternate running attacks
-                    trig = useAttackRun1Next ? "AttackRun" : "Attack2";
+                    trig = useAttackRun1Next ? "AttackRun" : "" ;
                     useAttackRun1Next = !useAttackRun1Next;
                 }
                 else
                 {
                     // Alternate standing attacks
-                    trig = useAttack1Next ? "Attack1" : "Attack2";
+                    trig = useAttack1Next ? "Attack1" : "" ;
                     useAttack1Next = !useAttack1Next;
                 }
 

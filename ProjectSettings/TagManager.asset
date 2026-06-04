@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 3
   tags:
   - Arbol
+  - Piedra
+  - Cobre
+  - Metal
+  - Madera
+  - Carbon
   layers:
   - Default
   - TransparentFX

@@ -71,4 +71,79 @@ public class Inventario : MonoBehaviour
             }
         }
     }
+
+    public bool HasIngredients(Recipe.Ingredient[] ingredients)
+    {
+        foreach (var ingredient in ingredients)
+        {
+            int totalQuantity = 0;
+            foreach (var slot in inventorySlots)
+            {
+                if (slot.item == ingredient.item)
+                {
+                    totalQuantity += slot.quantity;
+                }
+            }
+            if (totalQuantity < ingredient.quantity)
+            {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    public void RemoveIngredients(Recipe.Ingredient[] ingredients)
+    {
+        foreach (var ingredient in ingredients)
+        {
+            int quantityToRemove = ingredient.quantity;
+            for (int i = 0; i < inventorySlots.Length; i++)
+            {
+                if (inventorySlots[i].item == ingredient.item)
+                {
+                    if (inventorySlots[i].quantity >= quantityToRemove)
+                    {
+                        inventorySlots[i].quantity -= quantityToRemove;
+                        break;
+                    }
+                    else
+                    {
+                        quantityToRemove -= inventorySlots[i].quantity;
+                        inventorySlots[i].quantity = 0;
+                        inventorySlots[i].item = null;
+                    }
+                }
+            }
+        }
+        UpdateUI();
+    }
+
+    public bool HasItem(Item item)
+    {
+        foreach (var slot in inventorySlots)
+        {
+            if (slot.item == item)
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public void SwapItems(int indexA, int indexB)
+    {
+        InventorySlot temp = inventorySlots[indexA];
+        inventorySlots[indexA] = inventorySlots[indexB];
+        inventorySlots[indexB] = temp;
+        UpdateUI();
+    }
+
+    public Sprite GetItemSprite(int index)
+    {
+        if (index >= 0 && index < inventorySlots.Length && inventorySlots[index].item != null)
+        {
+            return inventorySlots[index].item.objectImage;
+        }
+        return null;
+    }
 }

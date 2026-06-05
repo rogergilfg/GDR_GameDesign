@@ -7,6 +7,7 @@ public class Item : ScriptableObject
 
     public Sprite objectImage;
     public ObjectType objectType;
+    public string itemName;
     public float value;
     public int maxStack;
 

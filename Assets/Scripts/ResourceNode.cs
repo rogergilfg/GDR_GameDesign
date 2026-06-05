@@ -3,6 +3,7 @@ using UnityEngine;
 public class ResourceNode : MonoBehaviour
 {
     [SerializeField] private Item item;
+    [SerializeField] private Item requieredItem;
     [SerializeField] private int quantity;
     
     private Inventario inventario;
@@ -19,7 +20,12 @@ public class ResourceNode : MonoBehaviour
     {
         if(playerInRange && Input.GetKeyDown(KeyCode.E))
         {
-            if(inventario.AddItem(item, quantity))
+            if(requieredItem != null && !inventario.HasItem(requieredItem))
+            {
+                Debug.Log("Necesitas " + requieredItem.itemName + " para recolectar este recurso.");
+                return;
+            }
+            if (inventario.AddItem(item, quantity))
             {
                 Destroy(gameObject);
             }
